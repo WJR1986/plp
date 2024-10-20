@@ -8,7 +8,12 @@
         "Engage with IAG at least once before release for a smooth return to work.",
         "Schedule an IAG meeting before release to discuss post-release employment opportunities.",
         "Book an appointment with IAG to discuss next steps for employment after release.",
-        "Meet with IAG pre-release to plan for a successful re-entry into the workforce."
+        "Meet with IAG pre-release to plan for a successful re-entry into the workforce.",
+        "Attend a workshop offered by IAG to better understand job prospects post-release.",
+        "Follow up with IAG after initial meeting to ensure all employment steps are on track.",
+        "Develop a clear action plan with IAG to secure employment immediately after release.",
+        "Request specific career advice from IAG based on job interests and skills.",
+        "Schedule regular meetings with IAG to stay on track for post-release employment."
       ]
     },
     {
@@ -141,51 +146,76 @@
       {
         "goal": "GYM",
         "options": [
-          "Attend gym weekly to maintain fitness or lose weight.",
-          "Exercise weekly in the gym to stay fit or reduce weight.",
-          "Maintain a regular gym schedule to improve fitness or reach weight goals.",
-          "Go to the gym once a week to stay in shape or lose weight.",
-          "Commit to weekly gym sessions to support fitness or weight loss goals."
+            "Attend gym weekly to maintain fitness or lose weight.",
+            "Exercise weekly in the gym to stay fit or reduce weight.",
+            "Maintain a regular gym schedule to improve fitness or reach weight goals.",
+            "Go to the gym once a week to stay in shape or lose weight.",
+            "Commit to weekly gym sessions to support fitness or weight loss goals.",
+            "Attend the gym regularly to improve fitness or reduce weight.",
+            "Work out weekly in the gym to enhance fitness or lose weight.",
+            "Go to the gym every week for better health and fitness.",
+            "Keep a consistent gym routine to stay in shape or lose weight.",
+            "Take part in weekly gym sessions to reach fitness or weight loss targets."
         ]
       },
       {
         "goal": "STOP / REDUCE VAPING",
         "options": [
-          "Reduce or stop vaping in 3-6 months to save money and improve health.",
-          "Cut back on vaping over 3-6 months to save money and boost my health.",
-          "Stop vaping within the next 3-6 months to improve overall health and finances.",
-          "Reduce my vaping habits over the next few months to improve health and save money.",
-          "Gradually quit vaping in the next 3-6 months for health benefits and financial savings."
+            "Reduce or stop vaping in 3-6 months to save money and improve health.",
+            "Cut back on vaping over 3-6 months to save money and boost my health.",
+            "Stop vaping within the next 3-6 months to improve overall health and finances.",
+            "Reduce my vaping habits over the next few months to improve health and save money.",
+            "Gradually quit vaping in the next 3-6 months for health benefits and financial savings.",
+            "Stop vaping entirely within the next few months to improve health and save money.",
+            "Cut down my vaping habit within 3-6 months for better health and to save money.",
+            "Reduce vaping progressively over the next 3-6 months to enhance my health.",
+            "Quit vaping entirely by the end of 3-6 months for improved wellbeing.",
+            "Stop using vapes within 3-6 months and enjoy the health and financial benefits."
         ]
       },
       {
         "goal": "FAMILY VISITS",
         "options": [
-          "Arrange one visit monthly to stay connected with family or friends.",
-          "Set up monthly family visits to stay in touch and maintain relationships.",
-          "Schedule one family visit each month to keep connected with loved ones.",
-          "Make sure to visit family once a month to strengthen relationships and stay connected.",
-          "Organise monthly visits with family to maintain strong relationships."
+            "Arrange one visit monthly to stay connected with family or friends.",
+            "Set up monthly family visits to stay in touch and maintain relationships.",
+            "Schedule one family visit each month to keep connected with loved ones.",
+            "Make sure to visit family once a month to strengthen relationships and stay connected.",
+            "Organise monthly visits with family to maintain strong relationships.",
+            "Arrange a visit to family every month to remain close and stay connected.",
+            "Ensure that at least one family visit occurs monthly to stay connected.",
+            "Plan monthly visits with family to maintain positive relationships.",
+            "Stay connected with family through monthly visits for relationship building.",
+            "Maintain monthly visits with family to keep strong emotional ties."
         ]
       },
       {
         "goal": "WING TIME",
         "options": [
-          "Try dominoes, pool, cards, or other activities to pass time productively.",
-          "Engage in activities like dominoes, pool, or cards to make productive use of time.",
-          "Use free time for activities like dominoes, pool, or cards to stay engaged.",
-          "Pass time productively with activities like dominoes, pool, or cards.",
-          "Take part in wing activities such as cards, pool, or dominoes to stay occupied."
+            "Try dominoes, pool, cards, or other activities to pass time productively.",
+            "Engage in activities like dominoes, pool, or cards to make productive use of time.",
+            "Use free time for activities like dominoes, pool, or cards to stay engaged.",
+            "Pass time productively with activities like dominoes, pool, or cards.",
+            "Take part in wing activities such as cards, pool, or dominoes to stay occupied.",
+            "Make use of free time with activities like pool, cards, or dominoes.",
+            "Stay engaged in productive wing activities like dominoes, cards, or pool.",
+            "Take part in various activities like dominoes, cards, and pool to fill time.",
+            "Keep busy with activities like cards, pool, or dominoes during free time.",
+            "Engage in time-passing activities like dominoes, cards, or pool to stay focused."
         ]
       },
       {
         "goal": "LIBRARY",
         "options": [
-          "Join the library and read one book monthly to improve reading skills.",
-          "Become a library member and read one book each month to enhance reading skills.",
-          "Use the library to read a book every month, improving my reading ability.",
-          "Join the library and read at least one book each month to boost literacy.",
-          "Start reading one book per month from the library to improve reading skills."
+        "Join the library and read one book monthly to improve reading skills.",
+        "Become a library member and read one book each month to enhance reading skills.",
+        "Use the library to read a book every month, improving my reading ability.",
+        "Join the library and read at least one book each month to boost literacy.",
+        "Start reading one book per month from the library to improve reading skills.",
+        "Sign up for library membership and read one book monthly for personal development.",
+        "Read a new book each month from the library to improve my reading and vocabulary.",
+        "Join the library and read regularly to improve literacy skills and knowledge.",
+        "Engage with the library and commit to reading at least one book monthly.",
+        "Use the library’s resources to read regularly, aiming for one book each month."
         ]
       }
     ],
@@ -193,51 +223,76 @@
       {
         "goal": "ENHANCED STATUS",
         "options": [
-          "Achieve and maintain IEP Enhanced status within the next 3-6 months.",
-          "Work towards IEP Enhanced status and maintain it for 3-6 months.",
-          "Aim for and sustain IEP Enhanced status within the next 6 months.",
-          "Achieve IEP Enhanced status and keep it for the next 3-6 months.",
-          "Strive to maintain IEP Enhanced status for 3-6 months."
+            "Achieve and maintain IEP Enhanced status within the next 3-6 months.",
+            "Work towards IEP Enhanced status and maintain it for 3-6 months.",
+            "Aim for and sustain IEP Enhanced status within the next 6 months.",
+            "Achieve IEP Enhanced status and keep it for the next 3-6 months.",
+            "Strive to maintain IEP Enhanced status for 3-6 months.",
+            "Qualify for and retain IEP Enhanced status within 3-6 months.",
+            "Work towards enhanced IEP status and hold it for 3-6 months.",
+            "Ensure I maintain IEP Enhanced status for the next few months.",
+            "Achieve and keep IEP Enhanced status for 3-6 months.",
+            "Secure IEP Enhanced status and keep it within the next 6 months."
         ]
       },
       {
         "goal": "DART SUPPORT",
         "options": [
-          "Get help from the DART team for managing drug/alcohol issues.",
-          "Seek support from DART for drug/alcohol issues and recovery.",
-          "Access DART services to manage drug/alcohol problems and work on recovery.",
-          "Connect with the DART team for support with drug/alcohol issues.",
-          "Utilise DART services to address drug/alcohol issues and begin recovery."
+            "Get help from the DART team for managing drug/alcohol issues.",
+            "Seek support from DART for drug/alcohol issues and recovery.",
+            "Access DART services to manage drug/alcohol problems and work on recovery.",
+            "Connect with the DART team for support with drug/alcohol issues.",
+            "Utilise DART services to address drug/alcohol issues and begin recovery.",
+            "Reach out to DART for help with managing substance use and addiction.",
+            "Join DART support to deal with drug/alcohol challenges and support recovery.",
+            "Work with DART services for guidance in managing addiction and recovery.",
+            "Contact DART to gain support in overcoming drug/alcohol dependence.",
+            "Engage with DART to help manage drug or alcohol problems and achieve recovery."
         ]
       },
       {
         "goal": "SELF DEVELOPMENT",
         "options": [
-          "Complete a self-development course or workshop to prepare for reintegration.",
-          "Take part in a self-development workshop to help with reintegration into society.",
-          "Engage in a self-development course to prepare for reintegration post-release.",
-          "Complete a self-development programme to support successful reintegration.",
-          "Attend a self-development course to equip myself for reintegration."
+            "Complete a self-development course or workshop to prepare for reintegration.",
+            "Take part in a self-development workshop to help with reintegration into society.",
+            "Engage in a self-development course to prepare for reintegration post-release.",
+            "Complete the self-development programme to support successful reintegration.",
+            "Attend a self-development course to equip myself for reintegration.",
+            "Finish a self-development workshop to help me adjust after release.",
+            "Participate in a self-development course to support my reintegration back into society.",
+            "Work on self-development to help prepare for successful reintegration.",
+            "Take part in self-improvement workshops to ensure a smoother reintegration.",
+            "Enhance personal development through courses to facilitate a successful reentry."
         ]
       },
       {
         "goal": "MATHS AND ENGLISH",
         "options": [
-          "Complete functional skills Maths and English course before release.",
-          "Finish a functional skills Maths and English course to be ready for release.",
-          "Complete the Maths and English functional skills course to improve employability.",
-          "Pass a functional skills Maths and English course before release.",
-          "Finish Maths and English functional skills to increase job prospects after release."
+            "Complete functional skills Maths and English course before release.",
+            "Finish a functional skills Maths and English course to be ready for release.",
+            "Complete the Maths and English functional skills course to improve employability.",
+            "Pass a functional skills Maths and English course before release.",
+            "Finish Maths and English functional skills to increase job prospects after release.",
+            "Complete the Maths and English functional skills qualification before release.",
+            "Work on passing Maths and English functional skills to aid in employment after release.",
+            "Finish the necessary Maths and English qualifications before my release.",
+            "Achieve Maths and English functional skills to help with post-release employment.",
+            "Take and complete Maths and English functional skills qualifications before release."
         ]
       },
       {
         "goal": "PROBATION PREPARATION",
         "options": [
-          "Ensure I am prepared for a smooth transition onto probation post-release.",
-          "Prepare for probation, setting up meetings to ensure a smooth transition.",
-          "Get ready for probation by reviewing requirements and making necessary arrangements.",
-          "Prepare for probation by meeting with the probation officer for a smooth transition.",
-          "Work with the probation team to ensure a smooth transition post-release."
+  "Ensure I am prepared for a smooth transition onto probation post-release.",
+        "Prepare for probation, setting up meetings to ensure a smooth transition.",
+        "Get ready for probation by reviewing requirements and making necessary arrangements.",
+        "Prepare for probation by meeting with the probation officer for a smooth transition.",
+        "Work with the probation team to ensure a smooth transition post-release.",
+        "Complete the required steps for a smooth probation transition after release.",
+        "Ensure probation meetings are set up before release for a seamless transition.",
+        "Be ready for probation, ensuring all steps are taken before release.",
+        "Get organised and prepared for probation post-release to avoid complications.",
+        "Prepare in advance for probation to ensure a smooth transition back into society."
         ]
       }
     ],
@@ -250,7 +305,12 @@
             "Ensure that accommodation is arranged through support services prior to release.",
             "Collaborate with support services to arrange a place to live on release.",
             "Work with relevant services to secure housing arrangements for when I am released.",
-            "Secure accommodation with the help of support services before my release date."
+            "Secure accommodation with the help of support services before my release date.",
+            "Coordinate with agencies to secure housing prior to my release.",
+            "Arrange accommodation through local housing services before my release date.",
+            "Partner with services to ensure stable housing is secured before release.",
+            "Work closely with housing agencies to ensure accommodation is confirmed for release.",
+            "Ensure housing is arranged well before release by liaising with support services."
           ]
         },
         {
@@ -260,7 +320,12 @@
             "Seek help from financial support services to manage any debts and improve financial management.",
             "Work with debt management services to address and resolve any financial issues.",
             "Access debt support services to assist with finances both in and outside of prison.",
-            "Get advice on how to manage debts and finances to ensure stability after release."
+            "Get advice on how to manage debts and finances to ensure stability after release.",
+            "Seek guidance on managing debts and financial challenges both in and out of prison.",
+            "Access services to help reduce and manage debts effectively during my sentence and after release.",
+            "Get professional advice on debt management to improve my financial situation post-release.",
+            "Collaborate with financial advisors to eliminate debts and regain financial stability.",
+            "Participate in financial education programs to resolve debts and improve money management."
           ]
         },
         {
@@ -270,7 +335,12 @@
             "Enroll in relevant courses or training programmes to develop skills for a future job.",
             "Invest in learning new skills to prepare for work after release.",
             "Take part in training or educational courses that will help me gain employment after release.",
-            "Focus on improving my qualifications and skills through education or training for future job opportunities."
+            "Focus on improving my qualifications and skills through education or training for future job opportunities.",
+            "Attend courses or workshops to improve employability skills before my release.",
+            "Pursue educational opportunities to boost my chances of securing work upon release.",
+            "Complete courses aimed at enhancing my qualifications and work-readiness for post-release life.",
+            "Engage in skills training to increase my employability once released from prison.",
+            "Take educational courses that help to develop key skills for future employment."
           ]
         },
         {
@@ -280,7 +350,12 @@
             "Work with my POM/OMU to ensure my sentence plan is finished in the next 6-9 months.",
             "Complete the required steps of my sentence plan with the help of my POM/OMU within 6-9 months.",
             "Ensure that my sentence plan is finalized in the next 6-9 months with the assistance of POM/OMU.",
-            "Work closely with POM/OMU to finalize my sentence plan within 6-9 months."
+            "Work closely with POM/OMU to finalize my sentence plan within 6-9 months.",
+            "Ensure my sentence plan is in place with help from POM/OMU within the next 6-9 months.",
+            "Work alongside POM/OMU to finalize my sentence plan as per the required timeline.",
+            "Complete all necessary tasks and actions in collaboration with POM/OMU for my sentence plan.",
+            "Follow through with the actions outlined in my sentence plan within the next 6-9 months.",
+            "Consult with POM/OMU to ensure my sentence plan is completed on time and meets all necessary criteria."
           ]
         },
         {
@@ -290,7 +365,12 @@
             "Engage in and finish behaviour programmes such as Thinking Skills to enhance personal development.",
             "Complete behaviour change programmes such as Thinking Skills to address behavioural issues.",
             "Take part in programmes like Thinking Skills to work on improving my behaviour.",
-            "Finish behaviour improvement programmes like Thinking Skills to prepare for life after release."
+            "Finish behaviour improvement programmes like Thinking Skills to prepare for life after release.",
+            "Engage in cognitive behavioural therapy programs to improve decision-making and self-control.",
+            "Complete personal development programmes aimed at enhancing positive behaviours.",
+            "Take part in behaviour management courses to help reduce offending behaviour.",
+            "Work through structured programmes designed to improve personal behaviour and attitudes.",
+            "Complete rehabilitation programmes to reduce re-offending risk and improve behaviour."
           ]
         },
         {
@@ -300,7 +380,12 @@
             "Work towards achieving CAT D status by completing necessary actions within 6 months.",
             "Ensure that I complete all necessary actions for CAT D status within 6 months.",
             "Take the necessary steps to qualify for CAT D status in the next 6 months.",
-            "Complete the required actions and processes to be eligible for CAT D status in 6 months."
+            "Complete the required actions and processes to be eligible for CAT D status in 6 months.",
+            "Fulfil all necessary requirements for CAT D qualification within the next 6 months.",
+            "Work with staff to ensure I meet all criteria for CAT D status in a timely manner.",
+            "Complete the steps required for CAT D classification within the next 6 months.",
+            "Ensure all pre-requisite actions for CAT D status are completed within the next 6 months.",
+            "Focus on meeting all requirements for CAT D status by completing the necessary actions."
           ]
         },
         {
@@ -310,7 +395,12 @@
             "Work towards parole by exhibiting good behaviour and engaging with staff.",
             "Follow the steps necessary for parole by maintaining positive behaviour and cooperating with staff.",
             "Achieve parole by consistently displaying positive behaviour and working closely with staff.",
-            "Work with staff to meet parole conditions and ensure positive behaviour throughout."
+            "Work with staff to meet parole conditions and ensure positive behaviour throughout.",
+            "Demonstrate good behaviour and cooperation with staff to increase chances of parole.",
+            "Follow all parole guidelines to ensure a smooth parole application process.",
+            "Show ongoing positive behaviour to successfully meet parole requirements.",
+            "Take the necessary steps to maintain positive behaviour for parole eligibility.",
+            "Engage actively in the process to meet parole conditions and work towards early release."
           ]
         },
         {
@@ -320,7 +410,12 @@
             "Enroll in and finish Open University courses within 9-12 months to improve education.",
             "Start and complete Open University courses over the next 9-12 months to build on education.",
             "Apply for Open University courses and complete them in the next 9-12 months for further learning.",
-            "Work towards completing Open University courses within 9-12 months to enhance education."
+            "Work towards completing Open University courses within 9-12 months to enhance education.",
+            "Register for Open University courses and complete at least one over the next 9-12 months.",
+            "Pursue Open University courses and successfully complete them within the next year.",
+            "Begin studying Open University courses and work towards completing them within 9-12 months.",
+            "Undertake and finish Open University courses to further develop my education and qualifications.",
+            "Enroll in and complete Open University courses in the next 9-12 months to boost my learning."
           ]
         },
         {
@@ -330,7 +425,12 @@
             "Complete training and education to secure full-time employment after release.",
             "Look for full-time employment after release and work on gaining the qualifications required.",
             "Gain relevant qualifications and work experience to secure full-time employment after release.",
-            "Work towards securing full-time employment after release by completing training and gaining certifications."
+            "Work towards securing full-time employment after release by focusing on training and skill development.",
+            "Focus on securing full-time work after release by improving my qualifications and skills.",
+            "Gain experience and qualifications needed to land a full-time role after release.",
+            "Complete vocational training to improve my chances of securing full-time employment.",
+            "Develop key work-related skills and qualifications to find full-time work post-release.",
+            "Search for full-time employment opportunities post-release while continuing to enhance my qualifications."
           ]
         },
         {
@@ -340,77 +440,12 @@
             "Gather information and create a plan for starting a business after release.",
             "Begin planning for a business startup post-release by researching the industry.",
             "Work on researching and planning a business venture to start after release.",
-            "Research business opportunities and create a startup plan for when I am released."
-          ]
-        },
-        {
-          "goal": "FAMILY REINTEGRATION",
-          "options": [
-            "Rebuild relationships with family through consistent communication and visits.",
-            "Work on re-establishing family relationships by staying in touch and attending visits.",
-            "Reconnect with family through regular communication and engagement after release.",
-            "Establish stronger relationships with family by maintaining regular communication and visits.",
-            "Rebuild family ties through consistent communication and visits during the time in prison and post-release."
-          ]
-        },
-        {
-          "goal": "VOLUNTEERING",
-          "options": [
-            "Find volunteering opportunities after release to gain experience and build my CV.",
-            "Look for volunteering roles post-release to help with skill development and improve my CV.",
-            "Search for volunteer positions after release to gain experience and add to my CV.",
-            "Explore volunteering opportunities after release to gain valuable experience and enhance my CV.",
-            "Engage in volunteer work after release to build skills and fill gaps in my CV."
-          ]
-        },
-        {
-          "goal": "CREDIT REPAIR",
-          "options": [
-            "Get professional advice on repairing my credit and managing finances after release.",
-            "Work with credit repair services to improve my financial situation after release.",
-            "Seek advice on credit repair and learn to manage finances post-release.",
-            "Receive guidance on rebuilding credit and improving financial management after release.",
-            "Take steps to repair my credit and improve financial management after release."
-          ]
-        },
-        {
-          "goal": "TRADE CERTIFICATION",
-          "options": [
-            "Gain certification in a trade like plumbing through in-prison training.",
-            "Complete trade certification in plumbing or other skills through in-prison courses.",
-            "Work towards gaining a trade qualification in plumbing or another field during my sentence.",
-            "Earn certification in trades like plumbing through available training in prison.",
-            "Complete in-prison training and gain certification in a trade like plumbing."
-          ]
-        },
-        {
-          "goal": "PROBATION COMPLIANCE",
-          "options": [
-            "Comply with all probation requirements and build a positive relationship with my officer.",
-            "Maintain compliance with probation and ensure a good relationship with my probation officer.",
-            "Follow all probation conditions and maintain a positive relationship with my probation officer.",
-            "Work on complying with probation requirements and fostering a positive relationship with my officer.",
-            "Comply with all probation conditions and engage positively with my probation officer."
-          ]
-        },
-        {
-          "goal": "WORKPLACE INDEPENDENCE",
-          "options": [
-            "Complete tasks independently at work without supervision for 3 months to show readiness for responsibility.",
-            "Work independently at my job for 3 months without supervision to demonstrate my capabilities.",
-            "Demonstrate workplace independence by completing tasks for 3 months without supervision.",
-            "Complete at least 3 months of independent work without supervision to show readiness for future roles.",
-            "Show independence in the workplace by performing tasks without supervision for 3 months."
-          ]
-        },
-        {
-          "goal": "CAREER PATH RESEARCH",
-          "options": [
-            "Research two career paths over the next 3 months and document findings to inform future decisions.",
-            "Identify and document findings on two career paths in the next 3 months to explore future options.",
-            "Explore and document two potential career paths over the next 3 months to guide future choices.",
-            "Spend the next 3 months researching two career paths and documenting the key insights.",
-            "Research two career paths within 3 months and write up the findings to aid future decisions."
+            "Research business opportunities and create a startup plan for when I am released.",
+            "Investigate business ideas and create a strategy for launching my own business post-release.",
+            "Develop a detailed plan for starting a business upon my release from prison.",
+            "Look into potential markets and startup costs to prepare for business creation after release.",
+            "Identify business opportunities and plan for a self-employment venture after release.",
+            "Start researching possible business ideas and create an actionable plan for post-release."
           ]
         }
       ]
