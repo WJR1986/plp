@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Editor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        input,
+        textarea,
+        select {
+            width: 100%;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Edit JSON Goals</h1>
+
+    <label for="jsonFile">Upload JSON File:</label>
+    <input type="file" id="jsonFile" accept=".json">
+
+    <h2>Add New Category or Goal</h2>
+    <label for="categorySelect">Select Existing Category or Add New:</label>
+    <select id="categorySelect">
+        <option value="">-- Select a category --</option>
+    </select>
+    <input type="text" id="newCategory" placeholder="New category (if not listed)">
+
+    <label for="goal">Goal:</label>
+    <input type="text" id="goal">
+
+    <label for="options">Options (comma separated):</label>
+    <textarea id="options" rows="4"></textarea>
+
+    <button id="addGoal">Add Goal</button>
+    <button id="saveJSON">Save JSON</button>
+
+    <h2>Current JSON Structure</h2>
+    <pre id="jsonOutput"></pre>
+
+    <script>
+        let jsonData = {};
+
+        document.getElementById('jsonFile').addEventListener('change', function (event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    try {
+                        jsonData = JSON.parse(e.target.result);
+                        document.getElementById('jsonOutput').textContent = JSON.stringify(jsonData, null, 2);
+                        populateCategorySelect();
+                    } catch (error) {
+                        alert('Invalid JSON file');
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        function populateCategorySelect() {
+            const categorySelect = document.getElementById('categorySelect');
+            categorySelect.innerHTML = '<option value="">-- Select a category --</option>'; // Reset options
+            for (const category in jsonData) {
+                const option = document.createElement('option');
+                option.value = category;
+                option.textContent = category;
+                categorySelect.appendChild(option);
+            }
+        }
+
+        document.getElementById('addGoal').addEventListener('click', function () {
+            const categorySelect = document.getElementById('categorySelect');
+            const newCategory = document.getElementById('newCategory').value.trim();
+            const selectedCategory = categorySelect.value;
+            const goal = document.getElementById('goal').value;
+            const options = document.getElementById('options').value.split(',').map(opt => opt.trim());
+
+            const category = newCategory || selectedCategory;
+
+            if (!category) {
+                alert('Please select or enter a category.');
+                return;
+            }
+
+            if (!jsonData[category]) {
+                jsonData[category] = [];
+            }
+            jsonData[category].push({ goal, options });
+
+            document.getElementById('jsonOutput').textContent = JSON.stringify(jsonData, null, 2);
+            document.getElementById('goal').value = '';
+            document.getElementById('options').value = '';
+            document.getElementById('newCategory').value = ''; // Reset new category input
+            categorySelect.value = ''; // Reset category selection
+        });
+
+        document.getElementById('saveJSON').addEventListener('click', function () {
+            const blob = new Blob([JSON.stringify(jsonData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'updated_goals.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+        });
+    </script>
+</body>
+
+</html>

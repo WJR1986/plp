@@ -9,19 +9,59 @@
     <!-- custom css -->
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* Custom styles for dark mode */
+        body {
+            background-color: #343a40;
+            /* Dark background */
+        }
 
+        .card {
+            background-color: #495057;
+            /* Dark card background */
+            border: 1px solid #6c757d;
+            /* Darker border for cards */
+        }
+
+        .btn-link {
+            color: #ffffff;
+            /* Link color for buttons */
+        }
+
+        .btn-link:hover {
+            color: #adb5bd;
+            /* Lighter on hover */
+        }
+
+        /* Style for the results section */
+        #selected-goals-list {
+            list-style-type: none;
+            /* Remove bullet points */
+            padding: 0;
+            /* Remove default padding */
+        }
+
+        #selected-goals-list li {
+            background-color: #495057;
+            /* Background for list items */
+            padding: 10px;
+            /* Spacing inside list items */
+            margin: 5px 0;
+            /* Spacing between list items */
+            border-radius: 5px;
+            /* Rounded corners */
+        }
     </style>
 </head>
 
-<body>
+<body class="bg-dark text-white">
     <div class="container mt-5">
-        <h1 class="text-center" id="">Note Keeper</h1>
+        <h1 class="text-center">Note Keeper</h1>
 
         <div id="accordion">
             <!-- Employment Goals -->
             <div class="card mt-3">
-                <div class="card-header" id="headingEmployment">
-                    <h5 class="mb-0">
+                <div class="card-header bg-dark text-white" id="headingEmployment">
+                    <h5 class="mb-0 ">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                             data-target="#collapseEmployment" aria-expanded="false" aria-controls="collapseEmployment">
                             Employment Goals
@@ -31,7 +71,7 @@
                 <div id="collapseEmployment" class="collapse" aria-labelledby="headingEmployment"
                     data-parent="#accordion">
                     <div class="card-body">
-                        <div id="employment-accordion">
+                        <div id="employment-accordion ">
                             <div class="card">
                                 <div class="card-header" id="headingWithJob">
                                     <h6 class="mb-0">
@@ -87,7 +127,7 @@
 
             <!-- Short-Term Goals -->
             <div class="card mt-3">
-                <div class="card-header" id="headingShortTerm">
+                <div class="card-header bg-dark text-white" id="headingShortTerm">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                             data-target="#collapseShortTerm" aria-expanded="false" aria-controls="collapseShortTerm">
@@ -103,7 +143,7 @@
 
             <!-- Personal Goals -->
             <div class="card mt-3">
-                <div class="card-header" id="headingPersonal">
+                <div class="card-header bg-dark text-white" id="headingPersonal">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                             data-target="#collapsePersonal" aria-expanded="false" aria-controls="collapsePersonal">
@@ -118,7 +158,7 @@
 
             <!-- Long-Term Goals -->
             <div class="card mt-3">
-                <div class="card-header" id="headingLongTerm">
+                <div class="card-header bg-dark text-white" id="headingLongTerm">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
                             data-target="#collapseLongTerm" aria-expanded="false" aria-controls="collapseLongTerm">
@@ -135,14 +175,10 @@
         <!-- Results Header -->
         <div class="mt-5 text-center">
             <h4>Results:</h4>
-
         </div>
+
         <div class="mt-5 text-center">
             <button class="btn btn-primary" onclick="downloadSelectedGoals()">Download Selected Goals</button>
-
-        </div>
-        <div class="mt-5 text-center">
-            <button class="btn btn-primary" onclick="location.href='add_goals.html'">Modify JSON Data</button>
         </div>
 
         <!-- Display Selected Goals -->
