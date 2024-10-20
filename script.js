@@ -20,12 +20,52 @@ function updateGoalSelectionUI() {
   Object.keys(selectedGoals).forEach((category) => {
     if (selectedGoals[category].length > 0) {
       selectedGoals[category].forEach((goal) => {
-        const li = document.createElement("li");
-        li.textContent = `${category}: ${goal}`;
-        selectedGoalsList.appendChild(li);
+        const goalDiv = document.createElement("div");
+        goalDiv.style.marginBottom = "10px"; // Add spacing between goals
+        goalDiv.style.border = "1px solid #ddd"; // Visual indication of goal block
+        goalDiv.style.padding = "10px"; // Add padding for better visibility
+
+        // Create title and description elements
+        const title = document.createElement("h5");
+        title.textContent = `${category}: ${goal.title}`;
+        goalDiv.appendChild(title);
+
+        const description = document.createElement("p");
+        description.textContent = goal.description;
+        goalDiv.appendChild(description);
+
+        selectedGoalsList.appendChild(goalDiv);
       });
     }
   });
+}
+
+// Function to download selected goals
+function downloadSelectedGoals() {
+  const goalsArray = [];
+  // Collect all selected goals
+  Object.keys(selectedGoals).forEach((category) => {
+    selectedGoals[category].forEach((goal) => {
+      goalsArray.push(`${category}: ${goal.title}\n${goal.description}\n`);
+    });
+  });
+
+  // Create a blob from the goals array
+  const blob = new Blob([goalsArray.join("\n")], { type: "text/plain" });
+  const url = URL.createObjectURL(blob);
+
+  // Create a link element to trigger the download
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "selected_goals.txt";
+  document.body.appendChild(a);
+  a.click();
+
+  // Clean up
+  setTimeout(() => {
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }, 0);
 }
 
 // Fetch JSON from external file and populate goals
@@ -63,6 +103,7 @@ function populateEmploymentGoals(goals) {
   const unsureCareerContainer = document.getElementById(
     "unsure-career-direction"
   );
+  const sickOrRetiredContainer = document.getElementById("sick-or-retired"); // New container for Sick/Retired
 
   populateSubCategoryGoals(
     goals.WithJobWaiting,
@@ -75,6 +116,12 @@ function populateEmploymentGoals(goals) {
     unsureCareerContainer,
     "Employment Goals",
     "Unsure Career Direction"
+  );
+  populateSubCategoryGoals(
+    goals.SickOrRetired,
+    sickOrRetiredContainer,
+    "Employment Goals",
+    "Sick/Retired"
   );
 }
 
@@ -131,7 +178,10 @@ function populateSubCategoryGoals(
           }
 
           if (employmentGoalCount < maxEmploymentGoals) {
-            selectedGoals[category].push(`${goalData.goal}: ${select.value}`);
+            selectedGoals[category].push({
+              title: goalData.goal,
+              description: `${select.value}`, // Updated to only use the selected value
+            });
             employmentGoalCount++;
             employmentCategorySelected = subCategory;
             isGoalSelected = true;
@@ -142,7 +192,10 @@ function populateSubCategoryGoals(
             alert("You can only select up to 3 Employment Goals.");
           }
         } else if (selectedGoals[category].length < maxOtherGoals) {
-          selectedGoals[category].push(`${goalData.goal}: ${select.value}`);
+          selectedGoals[category].push({
+            title: goalData.goal,
+            description: `${select.value}`, // Updated to only use the selected value
+          });
           isGoalSelected = true;
           actionButton.textContent = "Remove";
           formGroup.style.backgroundColor = "#e6ffe6"; // Highlight the selected goal
@@ -152,8 +205,8 @@ function populateSubCategoryGoals(
         }
       } else {
         // Remove the goal
-        const index = selectedGoals[category].findIndex((goal) =>
-          goal.includes(goalData.goal)
+        const index = selectedGoals[category].findIndex(
+          (goal) => goal.title === goalData.goal
         );
         if (index !== -1) {
           selectedGoals[category].splice(index, 1);

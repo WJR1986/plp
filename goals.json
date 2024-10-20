@@ -1,110 +1,142 @@
 {
-    "EmploymentGoals": {
-      "WithJobWaiting": [
-        {
-          "goal": "Engage with IAG",
-          "options": [
-            "Meet with IAG before release to ensure smooth transition back into work within 3 months.",
-            "Engage with IAG at least once before release for a smooth return to work.",
-            "Schedule an IAG meeting before release to discuss post-release employment opportunities.",
-            "Book an appointment with IAG to discuss next steps for employment after release.",
-            "Meet with IAG pre-release to plan for a successful re-entry into the workforce."
-          ]
-        },
-        {
-          "goal": "Skills Review",
-          "options": [
-            "Identify job-related skills to refresh or improve in prison through workshops or personal study.",
-            "Assess and improve skills relevant to future job roles through prison workshops.",
-            "Review and enhance job skills through available training and workshops.",
-            "Identify and refresh key skills needed for future work roles during time in prison.",
-            "Work on improving job-related skills through study or workshops while in prison."
-          ]
-        },
-        {
-          "goal": "Reinforce Time Management",
-          "options": [
-            "Develop time management skills through daily tasks in prison to meet the demands of my saved job.",
-            "Practice time management regularly to prepare for the workload in my saved job.",
-            "Improve time management skills by sticking to a routine and managing daily tasks.",
-            "Focus on daily task completion and time management to prepare for the job post-release.",
-            "Build stronger time management habits to help transition into my job after release."
-          ]
-        },
-        {
-          "goal": "Stay Updated",
-          "options": [
-            "Read industry updates and news to stay current with any changes in my field within the next 6 months.",
-            "Keep up with industry news regularly to stay informed about changes in my field.",
-            "Stay informed by reading relevant updates and news on my industry every month.",
-            "Read industry updates to stay ahead of trends in my profession before release.",
-            "Make sure to follow updates in my field to be prepared for any changes post-release."
-          ]
-        },
-        {
-          "goal": "Mock Interviews",
-          "options": [
-            "Complete at least one mock interview to boost confidence in returning to work within 3 months.",
-            "Take part in mock interviews to build confidence and improve my job application skills.",
-            "Participate in at least one mock interview to get ready for the job search after release.",
-            "Complete a mock interview before release to practice handling job interviews.",
-            "Prepare for interviews by completing at least one mock interview to boost confidence."
-          ]
-        }
-      ],
-      "UnsureCareerDirection": [
-        {
-          "goal": "Try Multiple Roles",
-          "options": [
-            "Take up 3 different jobs over the next 12 months to identify strengths and interests.",
-            "Try out 3 different roles in the next year to explore my career interests.",
-            "Explore at least 3 job roles over 12 months to find out what suits me best.",
-            "Gain experience in 3 different jobs over the next year to help decide on a career path.",
-            "Test different job roles in the coming year to discover what aligns with my skills."
-          ]
-        },
-        {
-          "goal": "Gain General Work Experience",
-          "options": [
-            "Secure a general work role (e.g., kitchens, laundry) to gain transferable skills for future jobs.",
-            "Start a general work role to build skills that are useful for a range of future jobs.",
-            "Look for a general work position to develop transferable skills for future employment.",
-            "Gain basic work experience in a general role to improve skills for future opportunities.",
-            "Take on general work duties to build a foundation of transferable skills for my future career."
-          ]
-        },
-        {
-          "goal": "Explore Prison Industries",
-          "options": [
-            "Join Prison Industries to develop hands-on experience, learning different trades over 6 months.",
-            "Get involved in Prison Industries to gain practical experience in a variety of trades.",
-            "Explore different trades through Prison Industries over the next 6 months for hands-on experience.",
-            "Gain hands-on experience in Prison Industries to learn new skills over the next 6 months.",
-            "Take part in Prison Industries to acquire practical skills and explore various trades."
-          ]
-        },
-        {
-          "goal": "Job Shadowing",
-          "options": [
-            "Spend time shadowing workers in different prison roles to explore future job possibilities.",
-            "Arrange job shadowing with different roles in prison to discover possible future jobs.",
-            "Observe workers in different prison roles to explore career paths for after release.",
-            "Shadow workers in different roles in prison to get an idea of future job opportunities.",
-            "Take the opportunity to shadow workers in various prison roles for future job insight."
-          ]
-        },
-        {
-          "goal": "Reflect on Strengths",
-          "options": [
-            "Regularly review job roles completed in prison to help define possible long-term career paths.",
-            "Reflect on past job roles in prison to gain clarity on potential future career options.",
-            "Review previous job roles completed in prison to assess strengths and career paths.",
-            "Take time to reflect on prison work to identify strengths and career possibilities.",
-            "Look back on work done in prison to identify strengths and career directions for the future."
-          ]
-        }
+"EmploymentGoals": {
+  "WithJobWaiting": [
+    {
+      "goal": "Engage with IAG",
+      "options": [
+        "Meet with IAG before release to ensure smooth transition back into work within 3 months.",
+        "Engage with IAG at least once before release for a smooth return to work.",
+        "Schedule an IAG meeting before release to discuss post-release employment opportunities.",
+        "Book an appointment with IAG to discuss next steps for employment after release.",
+        "Meet with IAG pre-release to plan for a successful re-entry into the workforce."
       ]
     },
+    {
+      "goal": "Skills Review",
+      "options": [
+        "Identify job-related skills to refresh or improve in prison through workshops or personal study.",
+        "Assess and improve skills relevant to future job roles through prison workshops.",
+        "Review and enhance job skills through available training and workshops.",
+        "Identify and refresh key skills needed for future work roles during time in prison.",
+        "Work on improving job-related skills through study or workshops while in prison."
+      ]
+    },
+    {
+      "goal": "Reinforce Time Management",
+      "options": [
+        "Develop time management skills through daily tasks in prison to meet the demands of my saved job.",
+        "Practice time management regularly to prepare for the workload in my saved job.",
+        "Improve time management skills by sticking to a routine and managing daily tasks.",
+        "Focus on daily task completion and time management to prepare for the job post-release.",
+        "Build stronger time management habits to help transition into my job after release."
+      ]
+    },
+    {
+      "goal": "Stay Updated",
+      "options": [
+        "Read industry updates and news to stay current with any changes in my field within the next 6 months.",
+        "Keep up with industry news regularly to stay informed about changes in my field.",
+        "Stay informed by reading relevant updates and news on my industry every month.",
+        "Read industry updates to stay ahead of trends in my profession before release.",
+        "Make sure to follow updates in my field to be prepared for any changes post-release."
+      ]
+    },
+    {
+      "goal": "Mock Interviews",
+      "options": [
+        "Complete at least one mock interview to boost confidence in returning to work within 3 months.",
+        "Take part in mock interviews to build confidence and improve my job application skills.",
+        "Participate in at least one mock interview to get ready for the job search after release.",
+        "Complete a mock interview before release to practice handling job interviews.",
+        "Prepare for interviews by completing at least one mock interview to boost confidence."
+      ]
+    }
+  ],
+  "UnsureCareerDirection": [
+    {
+      "goal": "Try Multiple Roles",
+      "options": [
+        "Take up 3 different jobs over the next 12 months to identify strengths and interests.",
+        "Try out 3 different roles in the next year to explore my career interests.",
+        "Explore at least 3 job roles over 12 months to find out what suits me best.",
+        "Gain experience in 3 different jobs over the next year to help decide on a career path.",
+        "Test different job roles in the coming year to discover what aligns with my skills."
+      ]
+    },
+    {
+      "goal": "Gain General Work Experience",
+      "options": [
+        "Secure a general work role (e.g., kitchens, laundry) to gain transferable skills for future jobs.",
+        "Start a general work role to build skills that are useful for a range of future jobs.",
+        "Look for a general work position to develop transferable skills for future employment.",
+        "Gain basic work experience in a general role to improve skills for future opportunities.",
+        "Take on general work duties to build a foundation of transferable skills for my future career."
+      ]
+    },
+    {
+      "goal": "Explore Prison Industries",
+      "options": [
+        "Join Prison Industries to develop hands-on experience, learning different trades over 6 months.",
+        "Get involved in Prison Industries to gain practical experience in a variety of trades.",
+        "Explore different trades through Prison Industries over the next 6 months for hands-on experience.",
+        "Gain hands-on experience in Prison Industries to learn new skills over the next 6 months.",
+        "Take part in Prison Industries to acquire practical skills and explore various trades."
+      ]
+    },
+    {
+      "goal": "Job Shadowing",
+      "options": [
+        "Spend time shadowing workers in different prison roles to explore future job possibilities.",
+        "Arrange job shadowing with different roles in prison to discover possible future jobs.",
+        "Observe workers in different prison roles to explore career paths for after release.",
+        "Shadow workers in different roles in prison to get an idea of future job opportunities.",
+        "Take the opportunity to shadow workers in various prison roles for future job insight."
+      ]
+    },
+    {
+      "goal": "Reflect on Strengths",
+      "options": [
+        "Regularly review job roles completed in prison to help define possible long-term career paths.",
+        "Reflect on past job roles in prison to gain clarity on potential future career options.",
+        "Review previous job roles completed in prison to assess strengths and career paths.",
+        "Take time to reflect on prison work to identify strengths and career possibilities.",
+        "Look back on work done in prison to identify strengths and career directions for the future."
+      ]
+    }
+  ],
+  "SickOrRetired": [
+    {
+      "goal": "Focus on Health",
+      "options": [
+        "Attend regular health check-ups to maintain well-being during retirement or due to sickness.",
+        "Focus on mental and physical health improvement by following prescribed care routines.",
+        "Prioritize personal health by adhering to medical guidelines for a healthier post-release life.",
+        "Follow health care plans diligently to improve overall well-being and manage chronic conditions.",
+        "Work with health professionals to maintain or improve well-being while adjusting to retired life."
+      ]
+    },
+    {
+      "goal": "Plan for Retirement",
+      "options": [
+        "Research retirement benefits and entitlements with a focus on financial stability post-release.",
+        "Meet with advisors to plan retirement living, focusing on housing and financial management.",
+        "Develop a post-release financial plan to sustain a comfortable retirement lifestyle.",
+        "Prepare for retirement by discussing options for pension and financial aid post-release.",
+        "Set up meetings with support services to understand benefits available during retirement."
+      ]
+    },
+    {
+      "goal": "Engage in Hobbies",
+      "options": [
+        "Identify hobbies to stay active and engaged, with a focus on personal satisfaction during retirement.",
+        "Take part in hobby-related workshops or personal development sessions to enhance skills.",
+        "Choose hobbies or interests that provide a sense of fulfillment and relaxation in retired life.",
+        "Focus on hobbies that improve mental and emotional well-being during post-release retirement.",
+        "Explore new hobbies and interests to keep the mind active and improve quality of life."
+      ]
+    }
+  ]
+},
     "PersonalGoals": [
       {
         "goal": "GYM",

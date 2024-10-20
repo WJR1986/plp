@@ -1,0 +1,36 @@
+/* Ensuring accordion buttons are more tappable on mobile */
+.btn-link {
+  text-align: left;
+  width: 100%;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.container {
+  padding: 15px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 10px 15px;
+  }
+
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+}
