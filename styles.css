@@ -1,3 +1,7 @@
+.category-header {
+  color: white !important;
+}
+
 /* Ensuring accordion buttons are more tappable on mobile */
 .btn-link {
   text-align: left;
