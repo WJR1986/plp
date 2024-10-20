@@ -26,7 +26,14 @@
                 </div>
                 <div id="collapseEmployment" class="collapse show" aria-labelledby="headingEmployment"
                     data-parent="#accordion">
-                    <div class="card-body" id="employment-goals-container"></div>
+                    <div class="card-body">
+                        <div id="employment-goals-container">
+                            <h4>With Job Waiting</h4>
+                            <div id="with-job-waiting"></div>
+                            <h4 class="mt-4">Unsure Career Direction</h4>
+                            <div id="unsure-career-direction"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -79,13 +86,11 @@
             </div>
         </div>
 
-        <!-- Button to View Selected Goals -->
-        <div class="mt-5">
-            <button class="btn btn-primary" onclick="showSelectedGoals()">View Selected Goals</button>
-        </div>
-
         <!-- Display Selected Goals -->
-        <div class="mt-3" id="selected-goals"></div>
+        <div class="mt-5">
+            <h4>Selected Goals</h4>
+            <ul id="selected-goals-list"></ul>
+        </div>
     </div>
 
     <!-- External Script -->
