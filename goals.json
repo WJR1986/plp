@@ -1,0 +1,388 @@
+{
+    "EmploymentGoals": {
+      "WithJobWaiting": [
+        {
+          "goal": "Engage with IAG",
+          "options": [
+            "Meet with IAG before release to ensure smooth transition back into work within 3 months.",
+            "Engage with IAG at least once before release for a smooth return to work.",
+            "Schedule an IAG meeting before release to discuss post-release employment opportunities.",
+            "Book an appointment with IAG to discuss next steps for employment after release.",
+            "Meet with IAG pre-release to plan for a successful re-entry into the workforce."
+          ]
+        },
+        {
+          "goal": "Skills Review",
+          "options": [
+            "Identify job-related skills to refresh or improve in prison through workshops or personal study.",
+            "Assess and improve skills relevant to future job roles through prison workshops.",
+            "Review and enhance job skills through available training and workshops.",
+            "Identify and refresh key skills needed for future work roles during time in prison.",
+            "Work on improving job-related skills through study or workshops while in prison."
+          ]
+        },
+        {
+          "goal": "Reinforce Time Management",
+          "options": [
+            "Develop time management skills through daily tasks in prison to meet the demands of my saved job.",
+            "Practice time management regularly to prepare for the workload in my saved job.",
+            "Improve time management skills by sticking to a routine and managing daily tasks.",
+            "Focus on daily task completion and time management to prepare for the job post-release.",
+            "Build stronger time management habits to help transition into my job after release."
+          ]
+        },
+        {
+          "goal": "Stay Updated",
+          "options": [
+            "Read industry updates and news to stay current with any changes in my field within the next 6 months.",
+            "Keep up with industry news regularly to stay informed about changes in my field.",
+            "Stay informed by reading relevant updates and news on my industry every month.",
+            "Read industry updates to stay ahead of trends in my profession before release.",
+            "Make sure to follow updates in my field to be prepared for any changes post-release."
+          ]
+        },
+        {
+          "goal": "Mock Interviews",
+          "options": [
+            "Complete at least one mock interview to boost confidence in returning to work within 3 months.",
+            "Take part in mock interviews to build confidence and improve my job application skills.",
+            "Participate in at least one mock interview to get ready for the job search after release.",
+            "Complete a mock interview before release to practice handling job interviews.",
+            "Prepare for interviews by completing at least one mock interview to boost confidence."
+          ]
+        }
+      ],
+      "UnsureCareerDirection": [
+        {
+          "goal": "Try Multiple Roles",
+          "options": [
+            "Take up 3 different jobs over the next 12 months to identify strengths and interests.",
+            "Try out 3 different roles in the next year to explore my career interests.",
+            "Explore at least 3 job roles over 12 months to find out what suits me best.",
+            "Gain experience in 3 different jobs over the next year to help decide on a career path.",
+            "Test different job roles in the coming year to discover what aligns with my skills."
+          ]
+        },
+        {
+          "goal": "Gain General Work Experience",
+          "options": [
+            "Secure a general work role (e.g., kitchens, laundry) to gain transferable skills for future jobs.",
+            "Start a general work role to build skills that are useful for a range of future jobs.",
+            "Look for a general work position to develop transferable skills for future employment.",
+            "Gain basic work experience in a general role to improve skills for future opportunities.",
+            "Take on general work duties to build a foundation of transferable skills for my future career."
+          ]
+        },
+        {
+          "goal": "Explore Prison Industries",
+          "options": [
+            "Join Prison Industries to develop hands-on experience, learning different trades over 6 months.",
+            "Get involved in Prison Industries to gain practical experience in a variety of trades.",
+            "Explore different trades through Prison Industries over the next 6 months for hands-on experience.",
+            "Gain hands-on experience in Prison Industries to learn new skills over the next 6 months.",
+            "Take part in Prison Industries to acquire practical skills and explore various trades."
+          ]
+        },
+        {
+          "goal": "Job Shadowing",
+          "options": [
+            "Spend time shadowing workers in different prison roles to explore future job possibilities.",
+            "Arrange job shadowing with different roles in prison to discover possible future jobs.",
+            "Observe workers in different prison roles to explore career paths for after release.",
+            "Shadow workers in different roles in prison to get an idea of future job opportunities.",
+            "Take the opportunity to shadow workers in various prison roles for future job insight."
+          ]
+        },
+        {
+          "goal": "Reflect on Strengths",
+          "options": [
+            "Regularly review job roles completed in prison to help define possible long-term career paths.",
+            "Reflect on past job roles in prison to gain clarity on potential future career options.",
+            "Review previous job roles completed in prison to assess strengths and career paths.",
+            "Take time to reflect on prison work to identify strengths and career possibilities.",
+            "Look back on work done in prison to identify strengths and career directions for the future."
+          ]
+        }
+      ]
+    },
+    "PersonalGoals": [
+      {
+        "goal": "GYM",
+        "options": [
+          "Attend gym weekly to maintain fitness or lose weight.",
+          "Exercise weekly in the gym to stay fit or reduce weight.",
+          "Maintain a regular gym schedule to improve fitness or reach weight goals.",
+          "Go to the gym once a week to stay in shape or lose weight.",
+          "Commit to weekly gym sessions to support fitness or weight loss goals."
+        ]
+      },
+      {
+        "goal": "STOP / REDUCE VAPING",
+        "options": [
+          "Reduce or stop vaping in 3-6 months to save money and improve health.",
+          "Cut back on vaping over 3-6 months to save money and boost my health.",
+          "Stop vaping within the next 3-6 months to improve overall health and finances.",
+          "Reduce my vaping habits over the next few months to improve health and save money.",
+          "Gradually quit vaping in the next 3-6 months for health benefits and financial savings."
+        ]
+      },
+      {
+        "goal": "FAMILY VISITS",
+        "options": [
+          "Arrange one visit monthly to stay connected with family or friends.",
+          "Set up monthly family visits to stay in touch and maintain relationships.",
+          "Schedule one family visit each month to keep connected with loved ones.",
+          "Make sure to visit family once a month to strengthen relationships and stay connected.",
+          "Organise monthly visits with family to maintain strong relationships."
+        ]
+      },
+      {
+        "goal": "WING TIME",
+        "options": [
+          "Try dominoes, pool, cards, or other activities to pass time productively.",
+          "Engage in activities like dominoes, pool, or cards to make productive use of time.",
+          "Use free time for activities like dominoes, pool, or cards to stay engaged.",
+          "Pass time productively with activities like dominoes, pool, or cards.",
+          "Take part in wing activities such as cards, pool, or dominoes to stay occupied."
+        ]
+      },
+      {
+        "goal": "LIBRARY",
+        "options": [
+          "Join the library and read one book monthly to improve reading skills.",
+          "Become a library member and read one book each month to enhance reading skills.",
+          "Use the library to read a book every month, improving my reading ability.",
+          "Join the library and read at least one book each month to boost literacy.",
+          "Start reading one book per month from the library to improve reading skills."
+        ]
+      }
+    ],
+    "ShortTermGoals": [
+      {
+        "goal": "ENHANCED STATUS",
+        "options": [
+          "Achieve and maintain IEP Enhanced status within the next 3-6 months.",
+          "Work towards IEP Enhanced status and maintain it for 3-6 months.",
+          "Aim for and sustain IEP Enhanced status within the next 6 months.",
+          "Achieve IEP Enhanced status and keep it for the next 3-6 months.",
+          "Strive to maintain IEP Enhanced status for 3-6 months."
+        ]
+      },
+      {
+        "goal": "DART SUPPORT",
+        "options": [
+          "Get help from the DART team for managing drug/alcohol issues.",
+          "Seek support from DART for drug/alcohol issues and recovery.",
+          "Access DART services to manage drug/alcohol problems and work on recovery.",
+          "Connect with the DART team for support with drug/alcohol issues.",
+          "Utilise DART services to address drug/alcohol issues and begin recovery."
+        ]
+      },
+      {
+        "goal": "SELF DEVELOPMENT",
+        "options": [
+          "Complete a self-development course or workshop to prepare for reintegration.",
+          "Take part in a self-development workshop to help with reintegration into society.",
+          "Engage in a self-development course to prepare for reintegration post-release.",
+          "Complete a self-development programme to support successful reintegration.",
+          "Attend a self-development course to equip myself for reintegration."
+        ]
+      },
+      {
+        "goal": "MATHS AND ENGLISH",
+        "options": [
+          "Complete functional skills Maths and English course before release.",
+          "Finish a functional skills Maths and English course to be ready for release.",
+          "Complete the Maths and English functional skills course to improve employability.",
+          "Pass a functional skills Maths and English course before release.",
+          "Finish Maths and English functional skills to increase job prospects after release."
+        ]
+      },
+      {
+        "goal": "PROBATION PREPARATION",
+        "options": [
+          "Ensure I am prepared for a smooth transition onto probation post-release.",
+          "Prepare for probation, setting up meetings to ensure a smooth transition.",
+          "Get ready for probation by reviewing requirements and making necessary arrangements.",
+          "Prepare for probation by meeting with the probation officer for a smooth transition.",
+          "Work with the probation team to ensure a smooth transition post-release."
+        ]
+      }
+    ],
+    
+    "LongTermGoals": [
+        {
+          "goal": "RELEASE ACCOMMODATION",
+          "options": [
+            "Work with services to secure accommodation before release.",
+            "Ensure that accommodation is arranged through support services prior to release.",
+            "Collaborate with support services to arrange a place to live on release.",
+            "Work with relevant services to secure housing arrangements for when I am released.",
+            "Secure accommodation with the help of support services before my release date."
+          ]
+        },
+        {
+          "goal": "DEBT/FINANCE HELP",
+          "options": [
+            "Get financial advice to manage debts both inside and outside of prison.",
+            "Seek help from financial support services to manage any debts and improve financial management.",
+            "Work with debt management services to address and resolve any financial issues.",
+            "Access debt support services to assist with finances both in and outside of prison.",
+            "Get advice on how to manage debts and finances to ensure stability after release."
+          ]
+        },
+        {
+          "goal": "EDUCATION/TRAINING",
+          "options": [
+            "Complete training or education courses to improve my skills for post-release employment.",
+            "Enroll in relevant courses or training programmes to develop skills for a future job.",
+            "Invest in learning new skills to prepare for work after release.",
+            "Take part in training or educational courses that will help me gain employment after release.",
+            "Focus on improving my qualifications and skills through education or training for future job opportunities."
+          ]
+        },
+        {
+          "goal": "SENTENCE PLAN",
+          "options": [
+            "Collaborate with POM/OMU to ensure my sentence plan is completed within the next 6-9 months.",
+            "Work with my POM/OMU to ensure my sentence plan is finished in the next 6-9 months.",
+            "Complete the required steps of my sentence plan with the help of my POM/OMU within 6-9 months.",
+            "Ensure that my sentence plan is finalized in the next 6-9 months with the assistance of POM/OMU.",
+            "Work closely with POM/OMU to finalize my sentence plan within 6-9 months."
+          ]
+        },
+        {
+          "goal": "BEHAVIOUR PROGRAMMES",
+          "options": [
+            "Participate in and complete behaviour programmes like Thinking Skills to improve behaviour.",
+            "Engage in and finish behaviour programmes such as Thinking Skills to enhance personal development.",
+            "Complete behaviour change programmes such as Thinking Skills to address behavioural issues.",
+            "Take part in programmes like Thinking Skills to work on improving my behaviour.",
+            "Finish behaviour improvement programmes like Thinking Skills to prepare for life after release."
+          ]
+        },
+        {
+          "goal": "CAT D",
+          "options": [
+            "Complete all actions required for CAT D status within the next 6 months.",
+            "Work towards achieving CAT D status by completing necessary actions within 6 months.",
+            "Ensure that I complete all necessary actions for CAT D status within 6 months.",
+            "Take the necessary steps to qualify for CAT D status in the next 6 months.",
+            "Complete the required actions and processes to be eligible for CAT D status in 6 months."
+          ]
+        },
+        {
+          "goal": "PAROLE",
+          "options": [
+            "Achieve parole by demonstrating positive behaviour and working with staff.",
+            "Work towards parole by exhibiting good behaviour and engaging with staff.",
+            "Follow the steps necessary for parole by maintaining positive behaviour and cooperating with staff.",
+            "Achieve parole by consistently displaying positive behaviour and working closely with staff.",
+            "Work with staff to meet parole conditions and ensure positive behaviour throughout."
+          ]
+        },
+        {
+          "goal": "OPEN UNIVERSITY",
+          "options": [
+            "Apply for Open University courses and complete at least one course over the next 9-12 months.",
+            "Enroll in and finish Open University courses within 9-12 months to improve education.",
+            "Start and complete Open University courses over the next 9-12 months to build on education.",
+            "Apply for Open University courses and complete them in the next 9-12 months for further learning.",
+            "Work towards completing Open University courses within 9-12 months to enhance education."
+          ]
+        },
+        {
+          "goal": "FULLTIME EMPLOYMENT",
+          "options": [
+            "Secure full-time employment after release through relevant courses and qualifications.",
+            "Complete training and education to secure full-time employment after release.",
+            "Look for full-time employment after release and work on gaining the qualifications required.",
+            "Gain relevant qualifications and work experience to secure full-time employment after release.",
+            "Work towards securing full-time employment after release by completing training and gaining certifications."
+          ]
+        },
+        {
+          "goal": "BUSINESS STARTUP",
+          "options": [
+            "Research and plan for starting my own business once I am released.",
+            "Gather information and create a plan for starting a business after release.",
+            "Begin planning for a business startup post-release by researching the industry.",
+            "Work on researching and planning a business venture to start after release.",
+            "Research business opportunities and create a startup plan for when I am released."
+          ]
+        },
+        {
+          "goal": "FAMILY REINTEGRATION",
+          "options": [
+            "Rebuild relationships with family through consistent communication and visits.",
+            "Work on re-establishing family relationships by staying in touch and attending visits.",
+            "Reconnect with family through regular communication and engagement after release.",
+            "Establish stronger relationships with family by maintaining regular communication and visits.",
+            "Rebuild family ties through consistent communication and visits during the time in prison and post-release."
+          ]
+        },
+        {
+          "goal": "VOLUNTEERING",
+          "options": [
+            "Find volunteering opportunities after release to gain experience and build my CV.",
+            "Look for volunteering roles post-release to help with skill development and improve my CV.",
+            "Search for volunteer positions after release to gain experience and add to my CV.",
+            "Explore volunteering opportunities after release to gain valuable experience and enhance my CV.",
+            "Engage in volunteer work after release to build skills and fill gaps in my CV."
+          ]
+        },
+        {
+          "goal": "CREDIT REPAIR",
+          "options": [
+            "Get professional advice on repairing my credit and managing finances after release.",
+            "Work with credit repair services to improve my financial situation after release.",
+            "Seek advice on credit repair and learn to manage finances post-release.",
+            "Receive guidance on rebuilding credit and improving financial management after release.",
+            "Take steps to repair my credit and improve financial management after release."
+          ]
+        },
+        {
+          "goal": "TRADE CERTIFICATION",
+          "options": [
+            "Gain certification in a trade like plumbing through in-prison training.",
+            "Complete trade certification in plumbing or other skills through in-prison courses.",
+            "Work towards gaining a trade qualification in plumbing or another field during my sentence.",
+            "Earn certification in trades like plumbing through available training in prison.",
+            "Complete in-prison training and gain certification in a trade like plumbing."
+          ]
+        },
+        {
+          "goal": "PROBATION COMPLIANCE",
+          "options": [
+            "Comply with all probation requirements and build a positive relationship with my officer.",
+            "Maintain compliance with probation and ensure a good relationship with my probation officer.",
+            "Follow all probation conditions and maintain a positive relationship with my probation officer.",
+            "Work on complying with probation requirements and fostering a positive relationship with my officer.",
+            "Comply with all probation conditions and engage positively with my probation officer."
+          ]
+        },
+        {
+          "goal": "WORKPLACE INDEPENDENCE",
+          "options": [
+            "Complete tasks independently at work without supervision for 3 months to show readiness for responsibility.",
+            "Work independently at my job for 3 months without supervision to demonstrate my capabilities.",
+            "Demonstrate workplace independence by completing tasks for 3 months without supervision.",
+            "Complete at least 3 months of independent work without supervision to show readiness for future roles.",
+            "Show independence in the workplace by performing tasks without supervision for 3 months."
+          ]
+        },
+        {
+          "goal": "CAREER PATH RESEARCH",
+          "options": [
+            "Research two career paths over the next 3 months and document findings to inform future decisions.",
+            "Identify and document findings on two career paths in the next 3 months to explore future options.",
+            "Explore and document two potential career paths over the next 3 months to guide future choices.",
+            "Spend the next 3 months researching two career paths and documenting the key insights.",
+            "Research two career paths within 3 months and write up the findings to aid future decisions."
+          ]
+        }
+      ]
+  }
+
+  
+  
