@@ -12,6 +12,7 @@ let employmentGoalCount = 0;
 const maxEmploymentGoals = 3;
 const maxOtherGoals = 2;
 
+// Function to update goal selection UI
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
   selectedGoalsList.className = "pl-0";
@@ -24,14 +25,13 @@ function updateGoalSelectionUI() {
         const goalDiv = document.createElement("div");
         goalDiv.className = "mb-3 border border-light p-3 bg-dark text-light"; // Bootstrap classes for styling
 
-        // Create title and description elements
         const title = document.createElement("h5");
-        title.className = "mb-1"; // Margin-bottom for title
+        title.className = "mb-1";
         title.textContent = `${category}: ${goal.title}`;
         goalDiv.appendChild(title);
 
         const description = document.createElement("p");
-        description.className = "mb-0"; // No bottom margin for description
+        description.className = "mb-0";
         description.textContent = goal.description;
         goalDiv.appendChild(description);
 
@@ -39,23 +39,39 @@ function updateGoalSelectionUI() {
       });
     }
   });
+
+  // Enable or disable the "Remove All Goals" button based on selection
+  const removeAllButton = document.getElementById("remove-all-goals");
+  removeAllButton.disabled = Object.values(selectedGoals).every(
+    (goals) => goals.length === 0
+  );
+
+  // Update the download button state
+  updateDownloadButton();
+}
+
+// Function to update the download button state
+function updateDownloadButton() {
+  const downloadButton = document.getElementById("downloadButton");
+
+  // Enable button if there are goals added, otherwise disable it
+  downloadButton.disabled = Object.values(selectedGoals).every(
+    (goals) => goals.length === 0
+  );
 }
 
 // Function to download selected goals
 function downloadSelectedGoals() {
   const goalsArray = [];
-  // Collect all selected goals
   Object.keys(selectedGoals).forEach((category) => {
     selectedGoals[category].forEach((goal) => {
       goalsArray.push(`${category}: ${goal.title}\n${goal.description}\n`);
     });
   });
 
-  // Create a blob from the goals array
   const blob = new Blob([goalsArray.join("\n")], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
 
-  // Create a link element to trigger the download
   const a = document.createElement("a");
   a.href = url;
   a.download = "selected_goals.txt";
@@ -71,48 +87,39 @@ function downloadSelectedGoals() {
 
 // Remove all goals function
 function removeAllGoals() {
-  // Ask for confirmation
-  const confirmation = confirm(
-    "Are you sure you want to remove all selected goals?"
-  );
-  if (confirmation) {
-    // Clear the selected goals
-    selectedGoals = {
-      "Employment Goals": [],
-      "Short-Term Goals": [],
-      "Personal Goals": [],
-      "Long-Term Goals": [],
-    };
-    employmentCategorySelected = null;
-    employmentGoalCount = 0;
-
-    // Update the UI
-    updateGoalSelectionUI();
-  }
+  $("#confirmationModal").modal("show");
 }
+
+// Event listener for the "Remove All" button in the modal
+document.getElementById("confirmRemoval").addEventListener("click", () => {
+  selectedGoals = {
+    "Employment Goals": [],
+    "Short-Term Goals": [],
+    "Personal Goals": [],
+    "Long-Term Goals": [],
+  };
+  employmentCategorySelected = null;
+  employmentGoalCount = 0;
+
+  updateGoalSelectionUI();
+  $("#confirmationModal").modal("hide");
+});
 
 // Fetch JSON from external file and populate goals
 fetch("goals.json")
   .then((response) => response.json())
   .then((data) => {
-    // Populate Employment Goals
     populateEmploymentGoals(data.EmploymentGoals);
-
-    // Populate Short-Term Goals
     populateGoals(
       data.ShortTermGoals,
       "short-term-goals-container",
       "Short-Term Goals"
     );
-
-    // Populate Personal Goals
     populateGoals(
       data.PersonalGoals,
       "personal-goals-container",
       "Personal Goals"
     );
-
-    // Populate Long-Term Goals
     populateGoals(
       data.LongTermGoals,
       "long-term-goals-container",
@@ -129,7 +136,6 @@ function populateEmploymentGoals(goals) {
   const sickContainer = document.getElementById("sick-goals");
   const retiredContainer = document.getElementById("retired-goals");
 
-  // Populate subcategories
   populateSubCategoryGoals(
     goals.WithJobWaiting || [],
     withJobContainer,
@@ -156,7 +162,6 @@ function populateEmploymentGoals(goals) {
   );
 }
 
-// Populate the goals dynamically with a single button that toggles between Add/Remove
 function populateSubCategoryGoals(
   goals,
   container,
@@ -167,13 +172,11 @@ function populateSubCategoryGoals(
     const formGroup = document.createElement("div");
     formGroup.classList.add("form-group", "p-2", "bg-dark", "text-light");
 
-    // Create label for each goal
     const label = document.createElement("label");
     label.textContent = goalData.goal;
     label.className = "text-light";
     formGroup.appendChild(label);
 
-    // Create select dropdown for options
     const select = document.createElement("select");
     select.classList.add(
       "form-control",
@@ -189,25 +192,20 @@ function populateSubCategoryGoals(
     });
     formGroup.appendChild(select);
 
-    // Create a single button that toggles between Add/Remove
     const actionButton = document.createElement("button");
     actionButton.classList.add("btn", "btn-light", "mt-2", "ml-0");
     actionButton.textContent = "Add";
     formGroup.appendChild(actionButton);
 
-    // Create a random button
     const randomButton = document.createElement("button");
     randomButton.classList.add("btn", "btn-warning", "mt-2", "ml-2");
     randomButton.textContent = "Select Random";
     formGroup.appendChild(randomButton);
 
-    // Track if the goal has been selected
     let isGoalSelected = false;
 
-    // Add event listener for the Add/Remove button
     actionButton.addEventListener("click", () => {
       if (!isGoalSelected) {
-        // Logic for adding the goal
         if (category === "Employment Goals") {
           if (
             employmentCategorySelected &&
@@ -228,8 +226,8 @@ function populateSubCategoryGoals(
             isGoalSelected = true;
             actionButton.textContent = "Remove";
             label.classList.add("active-goal");
-            randomButton.disabled = true; // Disable random button after goal is added
-            updateGoalSelectionUI();
+            randomButton.disabled = true;
+            updateGoalSelectionUI(); // Update UI after adding goal
           } else {
             alert("You can only select up to 3 Employment Goals.");
           }
@@ -241,13 +239,12 @@ function populateSubCategoryGoals(
           isGoalSelected = true;
           actionButton.textContent = "Remove";
           label.classList.add("active-goal");
-          randomButton.disabled = true; // Disable random button after goal is added
-          updateGoalSelectionUI();
+          randomButton.disabled = true;
+          updateGoalSelectionUI(); // Update UI after adding goal
         } else {
           alert(`You can only select up to 2 goals in ${category}.`);
         }
       } else {
-        // Logic for removing the goal
         const index = selectedGoals[category].findIndex(
           (goal) => goal.title === goalData.goal
         );
@@ -262,32 +259,27 @@ function populateSubCategoryGoals(
           isGoalSelected = false;
           actionButton.textContent = "Add";
           label.classList.remove("active-goal");
-          randomButton.disabled = false; // Re-enable random button after goal is removed
-          updateGoalSelectionUI();
+          randomButton.disabled = false;
+          updateGoalSelectionUI(); // Update UI after removing goal
         }
       }
     });
 
-    // Add event listener for the Select Random button
     randomButton.addEventListener("click", () => {
       const options = Array.from(select.options);
-      if (options.length === 0) return; // No options to select from
+      if (options.length === 0) return;
 
       const randomIndex = Math.floor(Math.random() * options.length);
       const randomOption = options[randomIndex].textContent;
-
-      // Set the dropdown to the randomly selected option
       select.value = randomOption;
 
-      // Try to add the goal with the randomly selected option
-      actionButton.click(); // Trigger the existing logic to add the goal
+      actionButton.click();
     });
 
     container.appendChild(formGroup);
   });
 }
 
-// Populate general goals for categories other than Employment
 function populateGoals(goals, containerId, category) {
   const container = document.getElementById(containerId);
   populateSubCategoryGoals(goals, container, category);
@@ -310,20 +302,18 @@ function toggleScrollButton() {
   const resultsDiv = document.getElementById("results");
   const scrollToResultsButton = document.getElementById("scrollToResults");
 
-  if (isElementInViewport(resultsDiv)) {
-    scrollToResultsButton.style.display = "none"; // Hide button if in viewport
-  } else {
-    scrollToResultsButton.style.display = "block"; // Show button if not in viewport
-  }
+  scrollToResultsButton.style.display = isElementInViewport(resultsDiv)
+    ? "none"
+    : "block";
 }
 
 // Attach the scroll event listener
 window.addEventListener("scroll", toggleScrollButton);
 
-// Add an event listener for accordion expansion
-const accordions = document.querySelectorAll(".accordion");
-accordions.forEach((accordion) => {
-  accordion.addEventListener("shown.bs.collapse", () => {
-    toggleScrollButton(); // Check the button visibility after accordion expands
-  });
+// Smooth scroll to results section
+document.getElementById("scrollToResults").addEventListener("click", () => {
+  document.getElementById("results").scrollIntoView({ behavior: "smooth" });
 });
+
+// Initialize the UI
+updateGoalSelectionUI();

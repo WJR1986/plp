@@ -37,6 +37,39 @@ body {
   background-color: #0056b3; /* Darker shade on hover */
 }
 
+/* Disable hover effect for disabled buttons */
+.btn-primary:disabled {
+  background-color: #007bff; /* Keep the original background color */
+  border-color: #007bff; /* Keep the original border color */
+  opacity: 0.65; /* Optional: Make the button appear more muted */
+  cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+}
+
+.btn-primary:disabled:hover {
+  background-color: #007bff; /* Prevent hover effect */
+  border-color: #007bff; /* Prevent hover effect */
+}
+
+/* Disable hover effect for disabled buttons */
+.btn-danger:disabled {
+  background-color: #dc3545; /* Keep the original danger background color */
+  border-color: #dc3545; /* Keep the original danger border color */
+  opacity: 0.65; /* Optional: Make the button appear more muted */
+  cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+}
+
+/* Prevent hover effect for #remove-all-goals when disabled */
+#remove-all-goals:disabled:hover {
+  background-color: #dc3545; /* Keep the danger background color */
+  border-color: #dc3545; /* Keep the danger border color */
+}
+
+/* Styles for the #remove-all-goals button when disabled */
+#remove-all-goals:disabled {
+  opacity: 0.65; /* Optional: Make the button appear more muted */
+  cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+}
+
 .card-header.btn-link {
   color: #fff;
 }
