@@ -143,12 +143,12 @@ function populateSubCategoryGoals(
 ) {
   goals.forEach((goalData) => {
     const formGroup = document.createElement("div");
-    formGroup.classList.add("form-group", "p-2", "bg-dark", "text-light"); // Dark theme classes
+    formGroup.classList.add("form-group", "p-2", "bg-dark", "text-light");
 
     // Create label for each goal
     const label = document.createElement("label");
     label.textContent = goalData.goal;
-    label.className = "text-light"; // Light text for label
+    label.className = "text-light";
     formGroup.appendChild(label);
 
     // Create select dropdown for options
@@ -173,13 +173,19 @@ function populateSubCategoryGoals(
     actionButton.textContent = "Add";
     formGroup.appendChild(actionButton);
 
+    // Create a random button
+    const randomButton = document.createElement("button");
+    randomButton.classList.add("btn", "btn-warning", "mt-2", "ml-2");
+    randomButton.textContent = "Select Random";
+    formGroup.appendChild(randomButton);
+
     // Track if the goal has been selected
     let isGoalSelected = false;
 
-    // Add event listener for the button
+    // Add event listener for the Add/Remove button
     actionButton.addEventListener("click", () => {
       if (!isGoalSelected) {
-        // Try to add the goal
+        // Logic for adding the goal
         if (category === "Employment Goals") {
           if (
             employmentCategorySelected &&
@@ -190,7 +196,6 @@ function populateSubCategoryGoals(
             );
             return;
           }
-
           if (employmentGoalCount < maxEmploymentGoals) {
             selectedGoals[category].push({
               title: goalData.goal,
@@ -200,9 +205,8 @@ function populateSubCategoryGoals(
             employmentCategorySelected = subCategory;
             isGoalSelected = true;
             actionButton.textContent = "Remove";
-
-            // Change text color to green
-            label.classList.add("active-goal"); // Add active class to label
+            label.classList.add("active-goal");
+            randomButton.disabled = true; // Disable random button after goal is added
             updateGoalSelectionUI();
           } else {
             alert("You can only select up to 3 Employment Goals.");
@@ -214,15 +218,14 @@ function populateSubCategoryGoals(
           });
           isGoalSelected = true;
           actionButton.textContent = "Remove";
-
-          // Change text color to green
-          label.classList.add("active-goal"); // Add active class to label
+          label.classList.add("active-goal");
+          randomButton.disabled = true; // Disable random button after goal is added
           updateGoalSelectionUI();
         } else {
           alert(`You can only select up to 2 goals in ${category}.`);
         }
       } else {
-        // Remove the goal
+        // Logic for removing the goal
         const index = selectedGoals[category].findIndex(
           (goal) => goal.title === goalData.goal
         );
@@ -236,12 +239,26 @@ function populateSubCategoryGoals(
           }
           isGoalSelected = false;
           actionButton.textContent = "Add";
-
-          // Revert text color to original
-          label.classList.remove("active-goal"); // Remove active class from label
+          label.classList.remove("active-goal");
+          randomButton.disabled = false; // Re-enable random button after goal is removed
           updateGoalSelectionUI();
         }
       }
+    });
+
+    // Add event listener for the Select Random button
+    randomButton.addEventListener("click", () => {
+      const options = Array.from(select.options);
+      if (options.length === 0) return; // No options to select from
+
+      const randomIndex = Math.floor(Math.random() * options.length);
+      const randomOption = options[randomIndex].textContent;
+
+      // Set the dropdown to the randomly selected option
+      select.value = randomOption;
+
+      // Try to add the goal with the randomly selected option
+      actionButton.click(); // Trigger the existing logic to add the goal
     });
 
     container.appendChild(formGroup);
