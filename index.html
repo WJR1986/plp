@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PLP Goal Selector</title>
+    <title>Personal Learning Plan Goals</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="styles.css">
@@ -174,15 +174,16 @@
         <div class="mt-5 text-left">
             <h4 class="text-white">Results:</h4>
         </div>
-        <div class="mt-5 text-left">
-            <button class="btn btn-primary" onclick="downloadSelectedGoals()">Download Selected Goals</button>
-            <button class="btn btn-danger ml-2" onclick="removeAllGoals()">Remove All Goals</button>
-        </div>
-
         <!-- Display Selected Goals -->
         <div class="mt-3">
             <ul id="selected-goals-list"></ul>
         </div>
+        <div class="mt-5 text-left mb-5">
+            <button class="btn btn-primary" onclick="downloadSelectedGoals()">Download Selected Goals</button>
+            <button class="btn btn-danger ml-2" onclick="removeAllGoals()">Remove All Goals</button>
+        </div>
+
+
     </div>
 
     <script src="script.js"></script>
