@@ -1,40 +1,62 @@
-.category-header {
-  color: white !important;
+body {
+  background-color: #343a40; /* Dark background for body */
 }
 
-/* Ensuring accordion buttons are more tappable on mobile */
-.btn-link {
-  text-align: left;
-  width: 100%;
-  padding: 15px 10px;
-  font-size: 1.1rem;
+#main-title {
+  color: #fff !important;
+}
+
+.card {
+  background-color: #495057; /* Dark card background */
+  border: none; /* Remove border for a cleaner look */
+}
+
+.card-header {
+  background-color: #6c757d; /* Darker header background for contrast */
+}
+
+.card-header .btn-link {
+  color: white; /* White text for the button */
+}
+
+.card-header .btn-link.collapsed {
+  color: #fff; /* Light grey for collapsed state */
 }
 
 .card-body {
-  padding: 15px;
+  background-color: #495057; /* Match card body to header */
+  color: white; /* Ensure text is visible */
 }
 
-.container {
-  padding: 15px;
+.btn-primary {
+  background-color: #007bff; /* Customize primary button color */
+  border-color: #007bff; /* Button border color */
 }
 
-@media (max-width: 576px) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  .btn {
-    font-size: 0.9rem;
-    padding: 10px 15px;
-  }
-
-  .card {
-    margin-bottom: 10px;
-  }
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  h1 {
-    font-size: 1.75rem;
-  }
+.card-header.btn-link {
+  color: #fff;
+}
+
+/* Ensure hover and focus styles are visible */
+.btn-link:hover,
+.btn-link:focus {
+  text-decoration: underline; /* Underline on hover for better UX */
+}
+
+label.text-light.active-goal {
+  color: #aef7ae !important; /* Use !important to ensure it overrides other styles */
+  text-decoration: underline !important;
+}
+
+/* Google Fonts */
+.open-sans-heading {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }

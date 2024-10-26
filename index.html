@@ -2,20 +2,26 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PLP Goal Selector</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- custom css -->
     <link rel="stylesheet" href="styles.css">
-    <style>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Tangerine:wght@400;700&display=swap"
+        rel="stylesheet">
 
-    </style>
 </head>
 
-<body>
+<body class="bg-dark">
     <div class="container mt-5">
-        <h1 class="text-center" id="">Note Keeper</h1>
+        <h1 class="text-left open-sans-heading  pb-2" id="main-title">Personal Learning Plan Goals</h1>
+        <!-- <h5 class="text-left open-sans-heading border-bottom pb-2 font-italic" id="main-title">By Will</h5> -->
 
         <div id="accordion">
             <!-- Employment Goals -->
@@ -44,7 +50,9 @@
                                 </div>
                                 <div id="collapseWithJob" class="collapse" aria-labelledby="headingWithJob"
                                     data-parent="#employment-accordion">
-                                    <div class="card-body" id="with-job-waiting"></div>
+                                    <div class="card-body" id="with-job-waiting">
+                                        <!-- Content for 'With Job Waiting' will be appended here -->
+                                    </div>
                                 </div>
                             </div>
 
@@ -60,27 +68,68 @@
                                 </div>
                                 <div id="collapseUnsureCareer" class="collapse" aria-labelledby="headingUnsureCareer"
                                     data-parent="#employment-accordion">
-                                    <div class="card-body" id="unsure-career-direction"></div>
+                                    <div class="card-body" id="unsure-career-direction">
+                                        <!-- Content for 'Unsure Career Direction' will be appended here -->
+                                    </div>
                                 </div>
                             </div>
 
-                            <!-- New Sick/Retired Subcategory -->
+                            <!-- New Sick Subcategory -->
                             <div class="card">
-                                <div class="card-header" id="headingSickRetired">
+                                <div class="card-header" id="headingSick">
                                     <h6 class="mb-0">
                                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                            data-target="#collapseSickRetired" aria-expanded="false"
-                                            aria-controls="collapseSickRetired">
-                                            Sick/Retired
+                                            data-target="#collapseSick" aria-expanded="false"
+                                            aria-controls="collapseSick">
+                                            Sick
                                         </button>
                                     </h6>
                                 </div>
-                                <div id="collapseSickRetired" class="collapse" aria-labelledby="headingSickRetired"
+                                <div id="collapseSick" class="collapse" aria-labelledby="headingSick"
                                     data-parent="#employment-accordion">
-                                    <div class="card-body" id="sick-or-retired"></div>
+                                    <div class="card-body" id="sick-goals">
+                                        <!-- Content for 'Sick' will be appended here -->
+                                    </div>
                                 </div>
                             </div>
+
+                            <!-- New Retired Subcategory -->
+                            <div class="card">
+                                <div class="card-header" id="headingRetired">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseRetired" aria-expanded="false"
+                                            aria-controls="collapseRetired">
+                                            Retired
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseRetired" class="collapse" aria-labelledby="headingRetired"
+                                    data-parent="#employment-accordion">
+                                    <div class="card-body" id="retired-goals">
+                                        <!-- Content for 'Retired' will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Goals -->
+            <div class="card mt-3">
+                <div class="card-header" id="headingPersonal">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapsePersonal" aria-expanded="false" aria-controls="collapsePersonal">
+                            Personal Goals
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapsePersonal" class="collapse" aria-labelledby="headingPersonal" data-parent="#accordion">
+                    <div class="card-body" id="personal-goals-container">
+                        <!-- Content for Personal Goals will be appended here -->
                     </div>
                 </div>
             </div>
@@ -97,22 +146,9 @@
                 </div>
                 <div id="collapseShortTerm" class="collapse" aria-labelledby="headingShortTerm"
                     data-parent="#accordion">
-                    <div class="card-body" id="short-term-goals-container"></div>
-                </div>
-            </div>
-
-            <!-- Personal Goals -->
-            <div class="card mt-3">
-                <div class="card-header" id="headingPersonal">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapsePersonal" aria-expanded="false" aria-controls="collapsePersonal">
-                            Personal Goals
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapsePersonal" class="collapse" aria-labelledby="headingPersonal" data-parent="#accordion">
-                    <div class="card-body" id="personal-goals-container"></div>
+                    <div class="card-body" id="short-term-goals-container">
+                        <!-- Content for Short-Term Goals will be appended here -->
+                    </div>
                 </div>
             </div>
 
@@ -127,23 +163,20 @@
                     </h5>
                 </div>
                 <div id="collapseLongTerm" class="collapse" aria-labelledby="headingLongTerm" data-parent="#accordion">
-                    <div class="card-body" id="long-term-goals-container"></div>
+                    <div class="card-body" id="long-term-goals-container">
+                        <!-- Content for Long-Term Goals will be appended here -->
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Results Header -->
-        <div class="mt-5 text-center">
-            <h4>Results:</h4>
-
+        <div class="mt-5 text-left">
+            <h4 class="text-white">Results:</h4>
         </div>
-        <div class="mt-5 text-center">
+        <div class="mt-5 text-left">
             <button class="btn btn-primary" onclick="downloadSelectedGoals()">Download Selected Goals</button>
-
         </div>
-        <!-- <div class="mt-5 text-center">
-            <button class="btn btn-primary" onclick="location.href='add_goals.html'">Modify JSON Data</button>
-        </div> -->
 
         <!-- Display Selected Goals -->
         <div class="mt-3">

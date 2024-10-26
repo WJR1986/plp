@@ -14,6 +14,7 @@ const maxOtherGoals = 2;
 
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
+  selectedGoalsList.className = "pl-0";
   selectedGoalsList.innerHTML = "";
 
   // Render selected goals
@@ -21,16 +22,16 @@ function updateGoalSelectionUI() {
     if (selectedGoals[category].length > 0) {
       selectedGoals[category].forEach((goal) => {
         const goalDiv = document.createElement("div");
-        goalDiv.style.marginBottom = "10px"; // Add spacing between goals
-        goalDiv.style.border = "1px solid #ddd"; // Visual indication of goal block
-        goalDiv.style.padding = "10px"; // Add padding for better visibility
+        goalDiv.className = "mb-3 border border-light p-3 bg-dark text-light"; // Bootstrap classes for styling
 
         // Create title and description elements
         const title = document.createElement("h5");
+        title.className = "mb-1"; // Margin-bottom for title
         title.textContent = `${category}: ${goal.title}`;
         goalDiv.appendChild(title);
 
         const description = document.createElement("p");
+        description.className = "mb-0"; // No bottom margin for description
         description.textContent = goal.description;
         goalDiv.appendChild(description);
 
@@ -103,25 +104,33 @@ function populateEmploymentGoals(goals) {
   const unsureCareerContainer = document.getElementById(
     "unsure-career-direction"
   );
-  const sickOrRetiredContainer = document.getElementById("sick-or-retired"); // New container for Sick/Retired
+  const sickContainer = document.getElementById("sick-goals");
+  const retiredContainer = document.getElementById("retired-goals");
 
+  // Populate subcategories
   populateSubCategoryGoals(
-    goals.WithJobWaiting,
+    goals.WithJobWaiting || [],
     withJobContainer,
     "Employment Goals",
     "With Job Waiting"
   );
   populateSubCategoryGoals(
-    goals.UnsureCareerDirection,
+    goals.UnsureCareerDirection || [],
     unsureCareerContainer,
     "Employment Goals",
     "Unsure Career Direction"
   );
   populateSubCategoryGoals(
-    goals.SickOrRetired,
-    sickOrRetiredContainer,
+    goals.Sick || [],
+    sickContainer,
     "Employment Goals",
-    "Sick/Retired"
+    "Sick"
+  );
+  populateSubCategoryGoals(
+    goals.Retired || [],
+    retiredContainer,
+    "Employment Goals",
+    "Retired"
   );
 }
 
@@ -134,17 +143,22 @@ function populateSubCategoryGoals(
 ) {
   goals.forEach((goalData) => {
     const formGroup = document.createElement("div");
-    formGroup.classList.add("form-group", "p-2");
-    formGroup.style.border = "1px solid #ddd"; // Visual indication of goal block
+    formGroup.classList.add("form-group", "p-2", "bg-dark", "text-light"); // Dark theme classes
 
     // Create label for each goal
     const label = document.createElement("label");
     label.textContent = goalData.goal;
+    label.className = "text-light"; // Light text for label
     formGroup.appendChild(label);
 
     // Create select dropdown for options
     const select = document.createElement("select");
-    select.classList.add("form-control");
+    select.classList.add(
+      "form-control",
+      "bg-dark",
+      "text-light",
+      "border-light"
+    );
 
     goalData.options.forEach((option) => {
       const optionElement = document.createElement("option");
@@ -155,7 +169,7 @@ function populateSubCategoryGoals(
 
     // Create a single button that toggles between Add/Remove
     const actionButton = document.createElement("button");
-    actionButton.classList.add("btn", "ml-2");
+    actionButton.classList.add("btn", "btn-light", "mt-2", "ml-0");
     actionButton.textContent = "Add";
     formGroup.appendChild(actionButton);
 
@@ -180,13 +194,15 @@ function populateSubCategoryGoals(
           if (employmentGoalCount < maxEmploymentGoals) {
             selectedGoals[category].push({
               title: goalData.goal,
-              description: `${select.value}`, // Updated to only use the selected value
+              description: `${select.value}`,
             });
             employmentGoalCount++;
             employmentCategorySelected = subCategory;
             isGoalSelected = true;
             actionButton.textContent = "Remove";
-            formGroup.style.backgroundColor = "#e6ffe6"; // Highlight the selected goal
+
+            // Change text color to green
+            label.classList.add("active-goal"); // Add active class to label
             updateGoalSelectionUI();
           } else {
             alert("You can only select up to 3 Employment Goals.");
@@ -194,11 +210,13 @@ function populateSubCategoryGoals(
         } else if (selectedGoals[category].length < maxOtherGoals) {
           selectedGoals[category].push({
             title: goalData.goal,
-            description: `${select.value}`, // Updated to only use the selected value
+            description: `${select.value}`,
           });
           isGoalSelected = true;
           actionButton.textContent = "Remove";
-          formGroup.style.backgroundColor = "#e6ffe6"; // Highlight the selected goal
+
+          // Change text color to green
+          label.classList.add("active-goal"); // Add active class to label
           updateGoalSelectionUI();
         } else {
           alert(`You can only select up to 2 goals in ${category}.`);
@@ -218,7 +236,9 @@ function populateSubCategoryGoals(
           }
           isGoalSelected = false;
           actionButton.textContent = "Add";
-          formGroup.style.backgroundColor = ""; // Remove the highlight
+
+          // Revert text color to original
+          label.classList.remove("active-goal"); // Remove active class from label
           updateGoalSelectionUI();
         }
       }
