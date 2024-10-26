@@ -69,6 +69,28 @@ function downloadSelectedGoals() {
   }, 0);
 }
 
+// Remove all goals function
+function removeAllGoals() {
+  // Ask for confirmation
+  const confirmation = confirm(
+    "Are you sure you want to remove all selected goals?"
+  );
+  if (confirmation) {
+    // Clear the selected goals
+    selectedGoals = {
+      "Employment Goals": [],
+      "Short-Term Goals": [],
+      "Personal Goals": [],
+      "Long-Term Goals": [],
+    };
+    employmentCategorySelected = null;
+    employmentGoalCount = 0;
+
+    // Update the UI
+    updateGoalSelectionUI();
+  }
+}
+
 // Fetch JSON from external file and populate goals
 fetch("goals.json")
   .then((response) => response.json())
