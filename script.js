@@ -292,3 +292,38 @@ function populateGoals(goals, containerId, category) {
   const container = document.getElementById(containerId);
   populateSubCategoryGoals(goals, container, category);
 }
+
+// Function to check if the results div is in the viewport
+function isElementInViewport(el) {
+  const rect = el.getBoundingClientRect();
+  return (
+    rect.top >= 0 &&
+    rect.left >= 0 &&
+    rect.bottom <=
+      (window.innerHeight || document.documentElement.clientHeight) &&
+    rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+  );
+}
+
+// Show or hide the floating button based on scroll position
+function toggleScrollButton() {
+  const resultsDiv = document.getElementById("results");
+  const scrollToResultsButton = document.getElementById("scrollToResults");
+
+  if (isElementInViewport(resultsDiv)) {
+    scrollToResultsButton.style.display = "none"; // Hide button if in viewport
+  } else {
+    scrollToResultsButton.style.display = "block"; // Show button if not in viewport
+  }
+}
+
+// Attach the scroll event listener
+window.addEventListener("scroll", toggleScrollButton);
+
+// Add an event listener for accordion expansion
+const accordions = document.querySelectorAll(".accordion");
+accordions.forEach((accordion) => {
+  accordion.addEventListener("shown.bs.collapse", () => {
+    toggleScrollButton(); // Check the button visibility after accordion expands
+  });
+});

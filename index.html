@@ -20,10 +20,10 @@
 
 <body class="bg-dark">
     <div class="container mt-5">
-        <h1 class="text-left open-sans-heading  pb-2" id="main-title">Personal Learning Plan Goals</h1>
-        <!-- <h5 class="text-left open-sans-heading border-bottom pb-2 font-italic" id="main-title">By Will</h5> -->
+        <h1 class="text-left open-sans-heading border-bottom p-2" id="main-title">Personal Learning Plan Goals</h1>
+        <!-- <h5 class="text-left open-sans-heading  pb-2 font-italic" id="main-title">By Will</h5> -->
 
-        <div id="accordion">
+        <div id="accordion" class="pt-2">
             <!-- Employment Goals -->
             <div class="card mt-3">
                 <div class="card-header" id="headingEmployment">
@@ -171,20 +171,30 @@
         </div>
 
         <!-- Results Header -->
-        <div class="mt-5 text-left">
+        <div id="results" class="mt-5 text-left">
             <h4 class="text-white">Results:</h4>
         </div>
+
         <!-- Display Selected Goals -->
         <div class="mt-3">
             <ul id="selected-goals-list"></ul>
         </div>
-        <div class="mt-5 text-left mb-5">
-            <button class="btn btn-primary" onclick="downloadSelectedGoals()">Download Selected Goals</button>
-            <button class="btn btn-danger ml-2" onclick="removeAllGoals()">Remove All Goals</button>
+        <div class="mt-5 text-left mb-3">
+            <button class="btn btn-primary" onclick="downloadSelectedGoals()">Download Selected
+                Goals</button>
+
+        </div>
+        <div class="mt-1 text-left mb-5">
+
+            <button class="btn btn-danger" onclick="removeAllGoals()">Remove All
+                Goals</button>
         </div>
 
 
     </div>
+    <!-- Floating Button -->
+    <a href="#results" id="scrollToResults" class="btn btn-warning"
+        style="position: fixed; bottom: 20px; right: 20px; display: none;">Go to Results</a>
 
     <script src="script.js"></script>
 
