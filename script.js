@@ -3,7 +3,7 @@ let selectedGoals = {
   "Short-Term Goals": [],
   "Personal Goals": [],
   "Long-Term Goals": [],
-  "IAG Goals": [],
+  "IAG Stamp": [],
 };
 
 let employmentCategorySelected = null;
@@ -42,7 +42,7 @@ function updateGoalSelectionUI() {
         // Create formatted text for the goal
         const goalText = document.createElement("span");
 
-        if (category === "IAG Goals") {
+        if (category === "IAG Stamp") {
           goalText.innerHTML = `<strong>${goal.title}</strong><br>Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
         } else {
           goalText.innerHTML = `<strong>${goal.title}</strong><br>${goal.description}`; // Format with a line break
@@ -67,7 +67,7 @@ function updateGoalSelectionUI() {
         copyButton.addEventListener("click", () => {
           let textToCopy;
 
-          if (category === "IAG Goals") {
+          if (category === "IAG Stamp") {
             // Format the text to include both title and date
             textToCopy = `${goal.title}: Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
           } else {
@@ -194,7 +194,7 @@ function populateSubCategoryGoals(
               `You can only select up to ${maxEmploymentGoals} goals in ${category}.`
             );
           }
-        } else if (category === "IAG Goals") {
+        } else if (category === "IAG Stamp") {
           const currentDate = new Date().toLocaleDateString("en-GB"); // Get the current date
           selectedGoals[category].push({
             title: goalData.goal,
@@ -262,7 +262,7 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
     "Short-Term Goals": [],
     "Personal Goals": [],
     "Long-Term Goals": [],
-    "IAG Goals": [],
+    "IAG Stamp": [],
   };
   employmentCategorySelected = null;
   employmentGoalCount = 0;
@@ -311,7 +311,7 @@ fetch("goals.json")
       "long-term-goals-container",
       "Long-Term Goals"
     );
-    populateGoals(data.IAGGoals, "IAG-goals-container", "IAG Goals");
+    populateGoals(data.IAGGoals, "IAG-goals-container", "IAG Stamp");
   })
   .catch((error) => console.error("Error loading JSON:", error));
 
@@ -395,7 +395,7 @@ function downloadSelectedGoals() {
     if (selectedGoals[category].length > 0) {
       textContent += `${category}:\n`;
       selectedGoals[category].forEach((goal) => {
-        if (category === "IAG Goals") {
+        if (category === "IAG Stamp") {
           // Ensure the date is formatted correctly as DD/MM/YYYY
           textContent += `${goal.title}: Personal Learning Plan created at HMP Northumberland on ${goal.date}.\n`;
         } else {
