@@ -304,22 +304,22 @@ function isElementInViewport(el) {
 }
 
 // Show or hide the floating button based on scroll position
-function toggleScrollButton() {
-  const resultsDiv = document.getElementById("results");
-  const scrollToResultsButton = document.getElementById("scrollToResults");
+// function toggleScrollButton() {
+//   const resultsDiv = document.getElementById("results");
+//   const scrollToResultsButton = document.getElementById("scrollToResults");
 
-  scrollToResultsButton.style.display = isElementInViewport(resultsDiv)
-    ? "none"
-    : "block";
-}
+//   scrollToResultsButton.style.display = isElementInViewport(resultsDiv)
+//     ? "none"
+//     : "block";
+// }
 
 // Attach the scroll event listener
-window.addEventListener("scroll", toggleScrollButton);
+// window.addEventListener("scroll", toggleScrollButton);
 
 // Smooth scroll to results section
-document.getElementById("scrollToResults").addEventListener("click", () => {
-  document.getElementById("results").scrollIntoView({ behavior: "smooth" });
-});
+// document.getElementById("scrollToResults").addEventListener("click", () => {
+//   document.getElementById("results").scrollIntoView({ behavior: "smooth" });
+// });
 
 // Initialize the UI
 updateGoalSelectionUI();
