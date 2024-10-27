@@ -74,6 +74,79 @@
           "Engage in peer interviews with 2 fellow inmates; track improvement in communication & interview skills over 3 months. Review in 3 months.",
           "Use feedback from 1 mock interview to improve CV content; review CV effectiveness & updates in 3 months. Review in 3 months."
         ]
+      },
+      {
+        "goal": "Gain Work Experience",
+        "options": [
+          "Volunteer for a prison job role to develop experience; review skills gained every month.",
+          "Participate in prison industries to learn work protocols; assess readiness for release in 3 months.",
+          "Complete 2 in-prison tasks to understand job expectations; review feedback received in 2 months.",
+          "Shadow a peer in a prison job for a week; document observations and lessons learned."
+        ]
+      },
+      {
+        "goal": "Develop Interpersonal Skills",
+        "options": [
+          "Engage in daily conversations with peers to build confidence; track improvements over 3 months. Review in 3 months.",
+          "Join a peer support group to practise active listening; assess personal growth after 3 months. Review in 3 months.",
+          "Collaborate with others on a shared project in prison; evaluate teamwork effectiveness in 3 months.",
+          "Participate in role-play scenarios to enhance conflict resolution skills; review outcomes monthly. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Create own Personal Development Plan",
+        "options": [
+          "Outline short-term and long-term goals for personal growth; review and adjust every month.",
+          "Identify 3 personal strengths and weaknesses; develop a plan to improve weaknesses in 3 months.",
+          "Set monthly personal challenges to build confidence; review achievements and setbacks at month’s end.",
+          "Develop a visual progress chart to track goal achievements; evaluate effectiveness every month."
+        ]
+      },
+      {
+        "goal": "Improve Financial Literacy",
+        "options": [
+          "Create a personal budget using prison earnings; review and adjust spending monthly.",
+          "Learn about saving and investing basics by reading available materials; assess knowledge in 3 months.",
+          "Track monthly spending in a journal to identify patterns; evaluate financial habits every 3 months.",
+          "Discuss financial management strategies with peers or staff; review learnings after 1 month."
+        ]
+      },
+      {
+        "goal": "Digital Literacy Improvement",
+        "options": [
+          "Enrol in a basic IT skills course; complete 2 assessments to demonstrate competency within 3 months.",
+          "Practice using essential software (e.g., word processing, spreadsheets) twice weekly; evaluate progress monthly."
+        ]
+      },
+      {
+        "goal": "Goal-Setting Workshop",
+        "options": [
+          "Attend a workshop on setting SMART goals; create a personal action plan for post-release success.",
+          "Write down 3 personal goals to achieve in the next year; review and adjust them every 3 months."
+        ]
+      },
+      {
+        "goal": "Health and Wellbeing Education",
+        "options": [
+          "Join a workshop on nutrition and healthy living; implement one new habit and track changes in well-being.",
+          "Create a weekly fitness routine and commit to exercising 3 times per week for 3 monthsn"
+        ]
+      },
+      {
+        "goal": "Job Shadowing Opportunities",
+        "options": [
+          "Arrange to shadow a professional in a desired field for 1 day; reflect on the experience and career suitability.",
+          "Participate in 1 job shadowing opportunity each month to explore different career paths."
+        ]
+      },
+      {
+        "goal": "Enhance Literacy Skills",
+        "options": [
+          "Read 1 book per month; summarise and discuss key themes with a peer or staff member.",
+          "Write a weekly journal to practise writing skills; review improvements every month.",
+          "Participate in group discussions about books or articles to enhance comprehension; assess participation monthly.",
+          "Set a goal to learn 10 new words each week; use them in sentences and track progress every month."
+        ]
       }
     ],
     "UnsureCareerDirection": [
@@ -90,6 +163,13 @@
           "Join 2 internships to assess fit for future employment in 12 months. Review in 3 months. Review in 3 months.",
           "Work with agencies to find 3 varied job placements during transition. Review in 3 months. Review in 3 months.",
           "Participate in 3 flexible programs to explore career options. Review in 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Self-Employment Exploration",
+        "options": [
+          "Research 2 self-employment options and create a business plan outline within 3 months.",
+          "Attend 1 workshop on entrepreneurship; assess feasibility of starting a small business upon release."
         ]
       },
       {
@@ -150,6 +230,50 @@
           "Use reflection to recognise transferable skills & areas to develop. Review in 3 months. Review in 3 months.",
           "Track progress in different roles to understand strengths & areas to improve. Review in 3 months. Review in 3 months.",
           "Seek development opportunities aligned with identified strengths. Review in 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Participate in Skills Assessments",
+        "options": [
+          "Complete a self-assessment to identify skills and interests; review results and plan next steps in 3 months.",
+          "Request feedback from staff on existing skills to identify areas for improvement; review findings in 3 months.",
+          "Use an assessment tool (if accessible) to pinpoint key skills relevant to future job opportunities; review findings in 3 months.",
+          "Collaborate with peers to identify complementary skills; document insights and review in 3 months.",
+          "Record personal skills and experiences in a journal to track development; review progress every month.",
+          "Seek advice from staff on how to improve skills for future employment; implement changes and review in 3 months.",
+          "Reflect on past jobs to create a list of transferable skills; assess applicability to desired careers in 3 months.",
+          "Use reflection to recognise transferable skills & areas to develop. Review in 3 months. Review in 3 months.",
+          "Participate in informal discussions with peers about skills and interests; review insights gathered in 3 months."
+        ]
+      },
+      {
+        "goal": "Research Career Options",
+        "options": [
+          "Spend 30 minutes weekly researching potential careers using available resources; review findings every month.",
+          "Write a report on 3 careers of interest, outlining necessary skills and pathways; assess understanding in 3 months.",
+          "Create a list of job roles that align with personal interests and skills; review and refine the list every month.",
+          "Explore library materials to learn about job requirements in various fields; summarise findings in 3 months.",
+          "Conduct interviews with staff or mentors to gain insights into various career paths; review information gathered in 3 months.",
+          "Look into local community job opportunities to understand the market; assess viability in 3 months.",
+          "Develop a career exploration plan that includes at least 3 fields of interest; review and adjust after 3 months.",
+          "Track changes in the job market relevant to interests; summarise findings every month.",
+          "Explore apprenticeship opportunities through IAG or external resources; review possibilities in 3 months.",
+          "Create a vision board depicting desired career paths and goals; evaluate motivation and clarity in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop a Networking Strategy",
+        "options": [
+          "Identify and connect with 2 peers for mutual support and knowledge sharing; review progress every month.",
+          "Participate in prison-led networking activities to meet others interested in similar careers; assess connections made in 3 months.",
+          "Establish relationships with staff who can provide career guidance; evaluate support received in 3 months.",
+          "Create a contact list of individuals in fields of interest; reach out for informal discussions and review insights in 3 months.",
+          "Collaborate with 2 inmates on a project to enhance teamwork and communication skills; review effectiveness in 3 months.",
+          "Join or form a study group with peers to explore career interests; evaluate contributions and insights every month.",
+          "Attend available career workshops to meet industry professionals and peers; assess connections made in 3 months.",
+          "Use prison resources to learn networking skills; implement techniques and review effectiveness in 3 months.",
+          "Seek opportunities to connect with family members who can provide career insights; review support in 3 months.",
+          "Document all networking efforts and reflect on the outcomes monthly to identify successful strategies."
         ]
       }
     ],
@@ -274,6 +398,39 @@
           "Look for 2 healthcare systems tailored for retirees after release. Review in 3 months.",
           "Research health services to manage your health in retirement this month. Review in 3 months.",
           "Identify 3 resources that cater to retirees in your community. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Explore Lifelong Learning",
+        "options": [
+          "Read 2 books on personal development or hobbies in the next 3 months. Review in 3 months.",
+          "Join a reading group to discuss books and share insights within 3 months. Review in 3 months.",
+          "Set a goal to learn a new language using resources available. Review in 3 months.",
+        "Engage in a monthly knowledge-sharing session with peers on various topics. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Strengthen Social Connections",
+        "options": [
+          "Reconnect with 3 old friends or family members through letters or phone calls. Review in 3 months.",
+          "Join/start a club or group related to personal interests for social interaction. Review in 3 months.",
+          "Engage in regular communication with family members to maintain relationships. Review in 3 months.",
+          "Set up a monthly lunch or coffee date with peers to stay socially active. Review in 3 months.",
+          "Initiate discussions with fellow retirees about common interests in the next month. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop a Personal Well-Being Plan",
+        "options": [
+         "Create a daily routine that incorporates self-care practices. Review in 3 months.",
+         "Set aside time weekly for mindfulness or relaxation techniques. Review in 3 months.",
+          "Identify 3 positive affirmations to practice daily for mental well-being. Review in 3 months.",
+          "Establish a gratitude journal to record positive experiences regularly. Review in 3 months.",
+          "Schedule time for a hobby or passion project each week to foster enjoyment. Review in 3 months.",
+          "Develop a meal plan focusing on healthy eating to support physical health. Review in 3 months.",
+         "Take 15 minutes each day for outdoor activities to improve mood and health. Review in 3 months.",
+          "Engage in weekly check-ins with peers for mutual support and motivation. Review in 3 months.",
+          "Implement a self-care checklist to ensure a balanced lifestyle. Review in 3 months."
         ]
       }
     ]
@@ -469,7 +626,67 @@
         "Commit to 7 hours of restful sleep nightly for 2 months to improve well-being. Review in 3 months.",
         "Develop a bedtime routine to achieve quality sleep for 6 weeks. Review in 3 months."
       ]
-    }
+    },
+    {
+      "goal": "EXPLORE NEW HOBBIES",
+      "options": [
+        "Try a new hobby this month to enhance personal growth. Review in 3 months.",
+        "Engage in a creative activity weekly for 6 weeks to discover new interests. Review in 3 months.",
+        "Experiment with 2 new hobbies within the next 3 months to boost enjoyment. Review in 3 months.",
+        "Join a class or workshop related to a new hobby within 2 months. Review in 3 months.",
+        "Dedicate 2 hours weekly to a new hobby for personal development. Review in 3 months.",
+        "Research and select 3 hobbies to explore this month for enrichment. Review in 3 months.",
+        "Spend time on a new hobby for at least 1 hour each week for the next month. Review in 3 months.",
+        "Commit to learning a new skill or hobby within the next 2 months. Review in 3 months.",
+        "Participate in a hobby group to connect with others interested in similar activities. Review in 3 months.",
+        "Set aside time each week to practice a new hobby over the next 6 weeks. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "DEVELOP A DAILY ROUTINE",
+      "options": [
+        "Establish a daily routine to improve structure in life over the next month. Review in 3 months.",
+        "Create a balanced daily schedule incorporating work, leisure, and health activities for 4 weeks. Review in 3 months.",
+        "Aim to follow a consistent daily routine for the next 6 weeks to promote stability. Review in 3 months.",
+        "Identify and incorporate 3 daily habits to improve well-being for the next month. Review in 3 months.",
+        "Develop a morning routine to set a positive tone for the day for 4 weeks. Review in 3 months.",
+        "Commit to a daily evening routine to prepare for restful sleep over the next month. Review in 3 months.",
+        "Integrate mindfulness practices into a daily routine for 4 weeks to enhance well-being. Review in 3 months.",
+        "Establish a routine that includes exercise, reading, and relaxation for the next 6 weeks. Review in 3 months.",
+        "Create a checklist to follow daily for better organisation over the next month. Review in 3 months.",
+        "Set specific times for daily activities to promote consistency and productivity. Review in 3 months."
+      ]
+    },    
+    {
+      "goal": "ENHANCE SOCIAL CONNECTIONS",
+      "options": [
+        "Reconnect with an old friend or family member once a month for 3 months. Review in 3 months.",
+        "Join a social club or group to meet new people within the next month. Review in 3 months.",
+        "Attend community events bi-weekly to build social ties over the next 3 months. Review in 3 months.",
+        "Make an effort to reach out to someone new each week for the next 6 weeks. Review in 3 months.",
+        "Volunteer in community projects to meet new people and strengthen social bonds. Review in 3 months.",
+        "Invite someone for a coffee or chat once a month to foster connections. Review in 3 months.",
+        "Engage in group activities at least twice a month to expand your social circle. Review in 3 months.",
+        "Set a goal to interact with different people daily for 2 weeks to enhance social skills. Review in 3 months.",
+        "Participate in local workshops or classes to connect with others over the next month. Review in 3 months.",
+        "Join an online community related to your interests for social engagement. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "PRACTICE SELF-REFLECTION",
+      "options": [
+        "Dedicate 10 minutes each day to self-reflection for personal growth over the next month. Review in 3 months.",
+        "Keep a journal to document thoughts and feelings weekly for the next 3 months. Review in 3 months.",
+        "Engage in monthly self-assessments to review progress and set new goals. Review in 3 months.",
+        "Practice gratitude by noting 3 things to be grateful for each day for 4 weeks. Review in 3 months.",
+        "Reflect on personal experiences weekly to identify learning opportunities for the next month. Review in 3 months.",
+        "Schedule time for self-reflection once a week to enhance self-awareness. Review in 3 months.",
+        "Set monthly themes for self-reflection to focus on different areas of personal growth. Review in 3 months.",
+        "Review achievements and challenges at the end of each week to foster growth. Review in 3 months.",
+        "Use prompts to guide self-reflection sessions weekly for deeper insights. Review in 3 months.",
+        "Create a vision board based on self-reflection to clarify personal goals. Review in 3 months."
+      ]
+    }    
   ],
   "ShortTermGoals": [
     {
@@ -621,6 +838,41 @@
         "Reflect on my personal development plan after 6 months to assess my achievements & future goals. Review in 3 months.",
         "Use feedback from staff to refine my personal development plan for optimal progress. Review in 3 months."
       ]
+    },
+    {
+        "goal": "LIFELONG LEARNING",
+        "options": [
+            "Identify and pursue a new area of interest or skill to develop through independent study. Review in 3 months.",
+            "Commit to reading a set number of books on personal development within the next 3 months. Review in 3 months."
+        ]
+    },
+    {
+        "goal": "COMMUNITY ENGAGEMENT",
+        "options": [
+            "Participate in community service or prison outreach programs to develop empathy and social responsibility. Review in 3 months.",
+            "Engage in group activities that promote teamwork and build social skills within the prison environment. Review in 3 months."
+        ]
+    },
+    {
+        "goal": "FINANCIAL PLANNING",
+        "options": [
+            "Create a personal budget plan to manage finances effectively upon release. Review in 3 months.",
+            "Attend a workshop on financial literacy to prepare for managing finances after release. Review in 3 months."
+        ]
+    },
+    {
+        "goal": "POSITIVE RELATIONSHIP BUILDING",
+        "options": [
+            "Work on improving relationships with family through regular communication and support. Review in 3 months.",
+            "Participate in conflict resolution workshops to develop skills in managing relationships positively. Review in 3 months."
+        ]
+    },
+    {
+        "goal": "SPIRITUAL DEVELOPMENT",
+        "options": [
+            "Engage in spiritual practices or meditation to enhance personal well-being and reflection. Review in 3 months.",
+            "Explore different philosophies or belief systems to broaden understanding and personal growth. Review in 3 months."
+        ]
     }
   ],
 
@@ -863,6 +1115,54 @@
         "Document my personal development journey regularly for reflection & ongoing growth. Review in 3 months.",
         "Explore mindfulness practices to enhance my overall wellbeing & self-care routine. Review in 3 months.",
         "Create a structured personal development plan with specific milestones for achievement. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "SUPPORT NETWORK BUILDING",
+      "options": [
+        "Identify and connect with individuals who can provide support during and after my transition. Review in 3 months.",
+        "Attend community events to build a network of supportive relationships. Review in 3 months.",
+        "Develop a list of potential mentors or supporters I can reach out to post-release. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "COMMUNITY INVOLVEMENT",
+      "options": [
+        "Research local community groups or organisations to join upon release. Review in 3 months.",
+        "Volunteer for community service projects to develop connections and skills. Review in 3 months.",
+        "Engage in activities that promote positive community engagement to aid reintegration. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "LIFE SKILLS TRAINING",
+      "options": [
+        "Attend workshops focused on essential life skills such as cooking, budgeting, and communication. Review in 3 months.",
+        "Participate in training sessions that teach practical skills for daily living post-release. Review in 3 months.",
+        "Work on developing time management and organisational skills for better daily functioning. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "HOBBY DEVELOPMENT",
+      "options": [
+        "Identify and pursue hobbies that can provide positive outlets and enhance well-being. Review in 3 months.",
+        "Engage in creative activities to explore interests and relieve stress. Review in 3 months.",
+        "Participate in group activities or clubs focused on shared interests to build connections. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "DIGITAL LITERACY",
+      "options": [
+        "Take courses to improve computer skills, including basic software and internet usage. Review in 3 months.",
+        "Learn about online job search techniques and digital communication tools. Review in 3 months.",
+        "Engage in workshops to enhance understanding of social media and its professional applications. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "MINDFULNESS PRACTICES",
+      "options": [
+        "Participate in mindfulness workshops to develop techniques for stress reduction. Review in 3 months.",
+        "Incorporate daily mindfulness exercises to improve mental well-being. Review in 3 months.",
+        "Explore meditation and relaxation techniques to support emotional health. Review in 3 months."
       ]
     }
   ]
