@@ -216,71 +216,97 @@
       }
     ],
     "Retired": [
-  {
-    "goal": "Plan Post-Release Activities",
-    "options": [
-      "Explore 3 local volunteer roles this month for engagement in retirement. Review in 3 months. Review in 3 months.",
-      "Identify 2 hobbies to pursue for enhanced well-being post-release. Review in 3 months. Review in 3 months.",
-      "Look into 2 local volunteer opportunities to remain active this month. Review in 3 months. Review in 3 months.",
-      "Find 3 activities that support well-being in your retirement. Review in 3 months. Review in 3 months.",
-      "Connect with a support group to discuss life after release this week. Review in 3 months. Review in 3 months.",
-      "Join a retirement network to share experiences within 2 months. Review in 3 months. Review in 3 months.",
-      "Engage with 2 local services to discover activities post-release. Review in 3 months. Review in 3 months.",
-      "Research 3 volunteering options to get involved in your community. Review in 3 months. Review in 3 months.",
-      "Participate in community groups to connect with others this month. Review in 3 months. Review in 3 months.",
-      "Seek out 2 clubs focused on activities for retirees after release. Review in 3 months. Review in 3 months."
+      {
+        "goal": "Plan Post-Release Activities",
+        "options": [
+          "Explore 3 local volunteer roles this month for engagement in retirement. Review in 3 months. Review in 3 months.",
+          "Identify 2 hobbies to pursue for enhanced well-being post-release. Review in 3 months. Review in 3 months.",
+          "Look into 2 local volunteer opportunities to remain active this month. Review in 3 months. Review in 3 months.",
+          "Find 3 activities that support well-being in your retirement. Review in 3 months. Review in 3 months.",
+          "Connect with a support group to discuss life after release this week. Review in 3 months. Review in 3 months.",
+          "Join a retirement network to share experiences within 2 months. Review in 3 months. Review in 3 months.",
+          "Engage with 2 local services to discover activities post-release. Review in 3 months. Review in 3 months.",
+          "Research 3 volunteering options to get involved in your community. Review in 3 months. Review in 3 months.",
+          "Participate in community groups to connect with others this month. Review in 3 months. Review in 3 months.",
+          "Seek out 2 clubs focused on activities for retirees after release. Review in 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Manage Finances",
+        "options": [
+          "Meet with a financial advisor to draft your retirement budget this month. Review in 3 months. Review in 3 months.",
+          "Plan essential expenses on limited income during your retirement. Review in 3 months. Review in 3 months.",
+          "Consult a financial professional to create your budget this week. Review in 3 months. Review in 3 months.",
+          "Prepare a budget plan to manage necessary costs with your income. Review in 3 months. Review in 3 months.",
+          "Identify benefits available for retirees to access this month. Review in 3 months. Review in 3 months.",
+          "Research 3 financial supports for retirees after your release. Review in 3 months. Review in 3 months.",
+          "Discover benefits you might qualify for as a retiree after release. Review in 3 months. Review in 3 months.",
+          "Look into financial assistance options that may help in retirement. Review in 3 months. Review in 3 months.",
+          "Check benefits you qualify for as a retiree upon release this month. Review in 3 months. Review in 3 months.",
+          "Explore 3 resources available for retirees once released. Review in 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Stay Physically Active",
+        "options": [
+          "Create a regular exercise routine to maintain your health this month. Review in 3 months.",
+          "Attend 2 wellness workshops to enhance health during retirement. Review in 3 months.",
+          "Establish a workout schedule to support health goals this month. Review in 3 months.",
+          "Participate in health workshops for fitness & activity this month. Review in 3 months.",
+          "Engage in 2 group activities for improved physical well-being. Review in 3 months.",
+          "Join community fitness groups to boost your health this month. Review in 3 months.",
+          "Get involved in exercise classes to improve health this week. Review in 3 months.",
+          "Take part in group sessions to foster health & community ties. Review in 3 months.",
+          "Create a fitness plan that includes 2 social activities monthly. Review in 3 months.",
+          "Develop a schedule for 2 physical activities that involve socialising. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Access Healthcare Services",
+        "options": [
+          "Identify 3 healthcare resources for retirees post-release this month. Review in 3 months.",
+          "Schedule regular health check-ups to manage your health monthly. Review in 3 months.",
+          "Find accessible healthcare services for retirees after release this month. Review in 3 months.",
+          "Plan routine medical appointments to manage health effectively. Review in 3 months.",
+          "Connect with healthcare services for ongoing support this month. Review in 3 months.",
+          "Establish a relationship with healthcare providers for support. Review in 3 months.",
+          "Seek out medical services available for retirees post-release this month. Review in 3 months.",
+          "Look for 2 healthcare systems tailored for retirees after release. Review in 3 months.",
+          "Research health services to manage your health in retirement this month. Review in 3 months.",
+          "Identify 3 resources that cater to retirees in your community. Review in 3 months."
+        ]
+      }
     ]
-  },
-  {
-    "goal": "Manage Finances",
-    "options": [
-      "Meet with a financial advisor to draft your retirement budget this month. Review in 3 months. Review in 3 months.",
-      "Plan essential expenses on limited income during your retirement. Review in 3 months. Review in 3 months.",
-      "Consult a financial professional to create your budget this week. Review in 3 months. Review in 3 months.",
-      "Prepare a budget plan to manage necessary costs with your income. Review in 3 months. Review in 3 months.",
-      "Identify benefits available for retirees to access this month. Review in 3 months. Review in 3 months.",
-      "Research 3 financial supports for retirees after your release. Review in 3 months. Review in 3 months.",
-      "Discover benefits you might qualify for as a retiree after release. Review in 3 months. Review in 3 months.",
-      "Look into financial assistance options that may help in retirement. Review in 3 months. Review in 3 months.",
-      "Check benefits you qualify for as a retiree upon release this month. Review in 3 months. Review in 3 months.",
-      "Explore 3 resources available for retirees once released. Review in 3 months. Review in 3 months."
-    ]
-  },
-  {
-    "goal": "Stay Physically Active",
-    "options": [
-      "Create a regular exercise routine to maintain your health this month. Review in 3 months.",
-      "Attend 2 wellness workshops to enhance health during retirement. Review in 3 months.",
-      "Establish a workout schedule to support health goals this month. Review in 3 months.",
-      "Participate in health workshops for fitness & activity this month. Review in 3 months.",
-      "Engage in 2 group activities for improved physical well-being. Review in 3 months.",
-      "Join community fitness groups to boost your health this month. Review in 3 months.",
-      "Get involved in exercise classes to improve health this week. Review in 3 months.",
-      "Take part in group sessions to foster health & community ties. Review in 3 months.",
-      "Create a fitness plan that includes 2 social activities monthly. Review in 3 months.",
-      "Develop a schedule for 2 physical activities that involve socialising. Review in 3 months."
-    ]
-  },
-  {
-    "goal": "Access Healthcare Services",
-    "options": [
-      "Identify 3 healthcare resources for retirees post-release this month. Review in 3 months.",
-      "Schedule regular health check-ups to manage your health monthly. Review in 3 months.",
-      "Find accessible healthcare services for retirees after release this month. Review in 3 months.",
-      "Plan routine medical appointments to manage health effectively. Review in 3 months.",
-      "Connect with healthcare services for ongoing support this month. Review in 3 months.",
-      "Establish a relationship with healthcare providers for support. Review in 3 months.",
-      "Seek out medical services available for retirees post-release this month. Review in 3 months.",
-      "Look for 2 healthcare systems tailored for retirees after release. Review in 3 months.",
-      "Research health services to manage your health in retirement this month. Review in 3 months.",
-      "Identify 3 resources that cater to retirees in your community. Review in 3 months."
-    ]
-  }
-  ]
-},
+  },  
+  "IAGGoals": [
+    {
+      "goal": "PLP Created",
+      "options": [
+        "Personal Learning Plan created on",
+        "Personal Learning Plan created on",
+        "Personal Learning Plan created on",
+        "Personal Learning Plan created on"
+      ]
+    }
+  ],
   "PersonalGoals": [
     {
-      "goal": "GYM",
+      "goal": "JOIN GYM",
+      "options": [
+        "Attend the gym weekly for 3 months to boost fitness & reach weight goals. Review in 3 months.",
+        "Exercise at the gym once a week for 3 months to improve health & lose 5 kg. Review in 3 months.",
+        "Commit to weekly gym visits for 2 months to support weight loss. Review in 3 months.",
+        "Go to the gym once a week for 8 weeks to achieve a specific weight target. Review in 3 months.",
+        "Participate in gym sessions weekly for 6 weeks to improve fitness. Review in 3 months.",
+        "Maintain a weekly gym routine for 3 months to enhance well-being. Review in 3 months.",
+        "Engage in gym workouts once a week for 4 weeks to meet fitness goals. Review in 3 months.",
+        "Attend the gym every week for 12 weeks to improve health & fitness. Review in 3 months.",
+        "Keep a consistent gym schedule for 2 months to support weight loss. Review in 3 months.",
+        "Work out at the gym weekly for 6 weeks to enhance overall fitness. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "ATTEND GYM",
       "options": [
         "Attend the gym at least once p/w for 3 months to improve fitness & achieve weight goals. Review in 3 months.",
         "Exercise at the gym weekly for the next 3 months to enhance health & lose 5 pounds. Review in 3 months.",
@@ -295,20 +321,35 @@
       ]
     },
     {
-      "goal": "STOP / REDUCE VAPING",
+      "goal": "REDUCE VAPING",
       "options": [
+        "Cut back on vaping to 3 times a week within 3 months for better health. Review in 3 months.",
         "Reduce vaping by 50% within 3 months to save money & improve health. Review in 3 months.",
-        "Cut back on vaping to 3 times p/w within 3 months for better health. Review in 3 months.",
-        "Stop vaping completely within 3 months to enhance health & save £100. Review in 3 months.",
-        "Reduce vaping habits to 2 times p/w over the next 2 months for health improvements. Review in 3 months.",
-        "Gradually quit vaping over 3 months, aiming for no use by the end. Review in 3 months.",
-        "Eliminate vaping entirely within 3 months for significant health benefits. Review in 3 months.",
-        "Cut down on vaping to 2 sessions p/w over the next 3 months for better well-being. Review in 3 months.",
-        "Progressively reduce vaping to only on weekends over the next 3 months for health. Review in 3 months.",
-        "Quit vaping completely by the end of 3 months to improve overall health. Review in 3 months.",
-        "Stop using vapes within 3 months to save money & improve my health. Review in 3 months."
+        "Decrease vaping to 2 sessions per week over the next 2 months for health. Review in 3 months.",
+        "Lower vaping frequency to once a day over 3 months to enhance well-being. Review in 3 months.",
+        "Gradually reduce vaping to weekends only in 3 months for health benefits. Review in 3 months.",
+        "Limit vaping to 2 times a week for 2 months to support health. Review in 3 months.",
+        "Reduce daily vaping to once every two days in 3 months for health. Review in 3 months.",
+        "Cut down on vaping sessions to 5 per week within 3 months for better health. Review in 3 months.",
+        "Aim to reduce vaping by 50% in the next 2 months for better health. Review in 3 months.",
+        "Limit vaping to just 2 times a week for 3 months to save money. Review in 3 months."
       ]
-    },
+    },      
+    {
+      "goal": "STOP VAPING",
+      "options": [
+        "Quit vaping entirely within 3 months for improved health & to save £100. Review in 3 months.",
+        "Stop using vapes completely by the end of 3 months to enhance my health. Review in 3 months.",
+        "Eliminate vaping completely within 3 months for significant health benefits. Review in 3 months.",
+        "Completely quit vaping within 3 months to boost overall health. Review in 3 months.",
+        "End all vaping habits by 3 months for better health & to save money. Review in 3 months.",
+        "Stop all vaping within 3 months to improve health & well-being. Review in 3 months.",
+        "Achieve total cessation of vaping within 3 months for health gains. Review in 3 months.",
+        "Quit vaping by the end of 3 months for major health improvements. Review in 3 months.",
+        "Stop using vapes entirely in 3 months to enhance my health. Review in 3 months.",
+        "Abandon vaping completely within 3 months for better health outcomes. Review in 3 months."
+      ]
+    },  
     {
       "goal": "FAMILY VISITS",
       "options": [
@@ -429,8 +470,7 @@
         "Develop a bedtime routine to achieve quality sleep for 6 weeks. Review in 3 months."
       ]
     }
-  ]
-  ,
+  ],
   "ShortTermGoals": [
     {
       "goal": "ENHANCED STATUS",
@@ -585,246 +625,245 @@
   ],
 
   "LongTermGoals": [
-      {
-        "goal": "RELEASE ACCOMMODATION",
-        "options": [
-          "Work with support services to secure stable accommodation before my release date. Review in 3 months.",
-          "Confirm housing arrangements with support services before my release is scheduled. Review in 3 months.",
-          "Coordinate with agencies to ensure stable accommodation is secured before my release. Review in 3 months.",
-          "Collaborate with housing support to guarantee a place to live before my release date. Review in 3 months.",
-          "Partner with support services to confirm stable housing arrangements before my release. Review in 3 months.",
-          "Engage with housing agencies to ensure I have accommodation lined up for my release. Review in 3 months.",
-          "Seek assistance from housing support to confirm living conditions after my release. Review in 3 months.",
-          "Utilise resources to finalise housing arrangements before I leave the prison. Review in 3 months.",
-          "Work with housing services to secure a stable living environment after my release. Review in 3 months.",
-          "Consult with agencies to ensure my housing is in place before I leave the facility. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "DEBT/FINANCE HELP",
-        "options": [
-          "Access financial support to effectively manage debts both inside & outside prison. Review in 3 months.",
-          "Seek advice on financial management to address my debts during & after my sentence. Review in 3 months.",
-          "Collaborate with debt services to find practical solutions to my financial challenges. Review in 3 months.",
-          "Engage with support services to improve my financial situation & tackle outstanding debts. Review in 3 months.",
-          "Participate in financial education programmes to enhance my debt management skills. Review in 3 months.",
-          "Work with financial advisors to develop a comprehensive plan for effective debt management. Review in 3 months.",
-          "Utilise available resources to improve my financial literacy & effectively tackle debt issues. Review in 3 months.",
-          "Consult with finance support services for comprehensive assistance in debt management. Review in 3 months.",
-          "Research tools & strategies for better financial management during my time in prison. Review in 3 months.",
-          "Engage in debt resolution programmes to support my financial recovery after release. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "EDUCATION/TRAINING",
-        "options": [
-          "Learn valuable new skills through education & training for post-release employment. Review in 3 months.",
-          "Enroll in courses to enhance my qualifications & open future job opportunities. Review in 3 months.",
-          "Participate in vocational training to better prepare for work after my release from prison. Review in 3 months.",
-          "Focus on developing practical skills through educational courses offered before release. Review in 3 months.",
-          "Attend workshops to build essential employability skills for life after my release. Review in 3 months.",
-          "Complete training sessions aimed at improving my job readiness & career prospects. Review in 3 months.",
-          "Engage in educational opportunities to boost my chances of securing employment post-release. Review in 3 months.",
-          "Work on obtaining relevant certifications that will significantly enhance my employability. Review in 3 months.",
-          "Seek courses that align with my career interests to improve my job prospects after release. Review in 3 months.",
-          "Participate in skill-building training to improve my qualifications for the job market. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "SENTENCE PLAN",
-        "options": [
-          "Collaborate with my POM/OMU to complete my sentence plan within the next 6-9 months. Review in 3 months.",
-          "Ensure all steps of my sentence plan are fulfilled with consistent support from POM/OMU. Review in 3 months.",
-          "Follow through with the required actions outlined in my sentence plan over the next months. Review in 3 months.",
-          "Regularly consult with my POM/OMU to track progress & address challenges in my sentence plan. Review in 3 months.",
-          "Complete necessary actions in partnership with my POM/OMU while staying on schedule. Review in 3 months.",
-          "Participate actively in planning sessions to achieve my objectives outlined in the sentence plan. Review in 3 months.",
-          "Document progress & adjust my plans in collaboration with my POM/OMU for better outcomes. Review in 3 months.",
-          "Engage fully in my sentence plan to ensure timely completion & adherence to requirements. Review in 3 months.",
-          "Work closely with my case manager to finish my sentence plan efficiently before release. Review in 3 months.",
-          "Ensure I understand all requirements of my sentence plan & actively seek support when needed. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "BEHAVIOUR PROGRAMMES",
-        "options": [
-          "Participate in behaviour programmes like Thinking Skills to improve personal development. Review in 3 months.",
-          "Engage in initiatives aimed at modifying behaviours for positive change & growth. Review in 3 months.",
-          "Complete structured programmes designed to effectively address harmful behaviours. Review in 3 months.",
-          "Participate in therapy sessions to enhance my self-control & decision-making skills. Review in 3 months.",
-          "Finish behaviour improvement programmes to prepare for my life after my release from prison. Review in 3 months.",
-          "Work on personal development through behaviour management courses & workshops. Review in 3 months.",
-          "Engage in therapeutic programmes that focus on positive behaviour change & growth. Review in 3 months.",
-          "Complete rehabilitation courses aimed at significantly reducing re-offending risk. Review in 3 months.",
-          "Participate in programmes that develop coping strategies & emotional intelligence skills. Review in 3 months.",
-          "Collaborate with facilitators to improve my understanding of behaviour change & self-regulation. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CAT D",
-        "options": [
-          "Complete all necessary actions needed to achieve CAT D status within the next 6 months. Review in 3 months.",
-          "Work towards achieving CAT D classification by meeting all outlined requirements on time. Review in 3 months.",
-          "Ensure all actions required for CAT D eligibility are completed according to schedule. Review in 3 months.",
-          "Focus on fulfilling the specific criteria required for CAT D status over the next 6 months. Review in 3 months.",
-          "Consult with staff to clarify all steps needed for CAT D classification & progression. Review in 3 months.",
-          "Participate in programmes that support my progression to CAT D status efficiently. Review in 3 months.",
-          "Take initiative to complete all tasks required for CAT D eligibility as soon as possible. Review in 3 months.",
-          "Stay informed about the requirements for CAT D status & act accordingly to meet them. Review in 3 months.",
-          "Collaborate with my support team to meet & exceed expectations for CAT D eligibility. Review in 3 months.",
-          "Document my progress & address any gaps in meeting the criteria for CAT D classification. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "PAROLE",
-        "options": [
-          "Work with staff to achieve parole through consistent good behaviour & compliance. Review in 3 months.",
-          "Demonstrate exemplary good behaviour to increase my chances of parole eligibility. Review in 3 months.",
-          "Engage actively with staff to understand & meet all parole requirements for success. Review in 3 months.",
-          "Follow guidelines to prepare thoroughly for a successful parole application process. Review in 3 months.",
-          "Maintain a positive attitude & behaviour to qualify for parole consideration. Review in 3 months.",
-          "Work collaboratively with my parole officer to ensure compliance with all conditions. Review in 3 months.",
-          "Participate in programmes that actively support my application for parole approval. Review in 3 months.",
-          "Track my progress & adhere to conditions set for parole eligibility consistently. Review in 3 months.",
-          "Engage positively with staff to enhance my parole prospects & strengthen my case. Review in 3 months.",
-          "Prepare for parole hearings by documenting my behaviour, progress, & achievements. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "OPEN UNIVERSITY",
-        "options": [
-          "Apply for & successfully complete Open University courses over the next 9-12 months. Review in 3 months.",
-          "Enroll in Open University courses to further my education & enhance my skills set. Review in 3 months.",
-          "Begin studying Open University courses to significantly enhance my qualifications & prospects. Review in 3 months.",
-          "Work towards completing multiple Open University courses within a year to improve my CV. Review in 3 months.",
-          "Participate in Open University programmes to develop my academic & vocational skills. Review in 3 months.",
-          "Focus on completing 1 or more Open University courses that align with my career goals. Review in 3 months.",
-          "Seek guidance on course selection to align with my educational & career objectives. Review in 3 months.",
-          "Engage actively in Open University studies to maximise my learning & skill acquisition. Review in 3 months.",
-          "Document my progress in Open University courses to track my educational achievements. Review in 3 months.",
-          "Utilise Open University resources to enhance my career opportunities & employment prospects. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "FULL-TIME EMPLOYMENT",
-        "options": [
-          "Secure full-time work post-release through relevant courses & professional qualifications. Review in 3 months.",
-          "Focus on obtaining full-time employment by enhancing my skills & practical training. Review in 3 months.",
-          "Network with potential employers to explore various full-time job opportunities available. Review in 3 months.",
-          "Work towards gaining relevant qualifications needed for full-time job roles in my field. Review in 3 months.",
-          "Utilise job search resources to identify suitable full-time positions after my release. Review in 3 months.",
-          "Attend job fairs to connect with employers actively seeking full-time staff & talent. Review in 3 months.",
-          "Develop a comprehensive strategy for securing a full-time job after my release from prison. Review in 3 months.",
-          "Complete vocational training aligned with current job market demands for full-time work. Review in 3 months.",
-          "Research industries offering full-time employment opportunities post-release for myself. Review in 3 months.",
-          "Prepare a targeted job search plan to successfully secure full-time employment opportunities. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "BUSINESS STARTUP",
-        "options": [
-          "Research & plan effectively for starting a business after my release from prison. Review in 3 months.",
-          "Develop a strategic plan for launching my own business post-release from prison. Review in 3 months.",
-          "Investigate industry trends & create a comprehensive business plan for my venture. Review in 3 months.",
-          "Work on identifying potential business opportunities & necessary startup resources. Review in 3 months.",
-          "Create a detailed business proposal to prepare for my post-release entrepreneurial venture. Review in 3 months.",
-          "Engage in workshops about entrepreneurship to enhance my knowledge & skillset. Review in 3 months.",
-          "Explore funding options available for new businesses & startups after my release. Review in 3 months.",
-          "Network with successful entrepreneurs for insights & advice on starting a business. Review in 3 months.",
-          "Seek mentorship in business planning & management for my startup ideas & goals. Review in 3 months.",
-          "Document my research & ideas to create a comprehensive & effective business plan. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "FAMILY REINTEGRATION",
-        "options": [
-          "Rebuild important relationships with my family through regular communication & visits. Review in 3 months.",
-          "Engage in family therapy or support groups to strengthen & improve family ties. Review in 3 months.",
-          "Plan regular family visits to maintain strong connections during my prison sentence. Review in 3 months.",
-          "Utilise resources available to improve family relationships effectively after my release. Review in 3 months.",
-          "Establish a solid communication plan with family members to stay closely connected. Review in 3 months.",
-          "Work on personal development to enhance family interactions & relationships positively. Review in 3 months.",
-          "Seek guidance on navigating complex family dynamics after my eventual release. Review in 3 months.",
-          "Focus on rebuilding trust with family through positive actions & consistent efforts. Review in 3 months.",
-          "Create opportunities for family bonding during visits to strengthen our relationships. Review in 3 months.",
-          "Document my efforts to improve family connections & track progress over time. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "EMPLOYMENT READINESS",
-        "options": [
-          "Complete workshops that prepare me for successful employment after my release. Review in 3 months.",
-          "Engage in training focused on interview skills & job readiness for future success. Review in 3 months.",
-          "Participate in mock interviews to build confidence & readiness for job applications. Review in 3 months.",
-          "Work on enhancing my CV & cover letter writing skills for better job prospects. Review in 3 months.",
-          "Utilise resources to improve my job application skills & increase my chances of success. Review in 3 months.",
-          "Develop strong networking skills to connect with potential employers effectively. Review in 3 months.",
-          "Practice effective communication techniques for interviews & workplace interactions. Review in 3 months.",
-          "Seek mentorship on employment readiness to ensure I'm prepared for post-release work. Review in 3 months.",
-          "Document my job search progress to track my readiness for future employment opportunities. Review in 3 months.",
-          "Focus on developing a positive mindset to improve my overall employment readiness. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CREDIT REPAIR",
-        "options": [
-          "Engage in credit repair workshops to understand & improve my credit score effectively. Review in 3 months.",
-          "Participate in financial education sessions focused on restoring my credit history. Review in 3 months.",
-          "Utilise resources to learn how to manage & rebuild my credit after release. Review in 3 months.",
-          "Research organisations that offer assistance in repairing & managing credit issues. Review in 3 months.",
-          "Create a strategic plan to improve my credit score gradually over time & efforts. Review in 3 months.",
-          "Collaborate with support services to address outstanding credit issues effectively. Review in 3 months.",
-          "Track my financial progress regularly & adjust strategies for credit repair as needed. Review in 3 months.",
-          "Engage in financial workshops to enhance my understanding of credit & debt management. Review in 3 months.",
-          "Explore tools & methods for managing debt & restoring my creditworthiness successfully. Review in 3 months.",
-          "Seek guidance from professionals in credit repair for effective restoration strategies. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "HEALTH & WELLBEING",
-        "options": [
-          "Participate in health & wellbeing programmes to enhance my physical & mental health. Review in 3 months.",
-          "Engage in activities that promote personal wellness & overall development effectively. Review in 3 months.",
-          "Utilise available resources to address health concerns post-release for better wellbeing. Review in 3 months.",
-          "Focus on improving my mental health through support services & counselling offered. Review in 3 months.",
-          "Establish a sustainable self-care routine to maintain health after my eventual release. Review in 3 months.",
-          "Seek guidance on nutrition & fitness to enhance my physical & mental wellbeing. Review in 3 months.",
-          "Work with wellness coaches to develop positive health habits for a healthier lifestyle. Review in 3 months.",
-          "Document my health goals & progress for accountability & self-improvement. Review in 3 months.",
-          "Explore mindfulness practices that support my mental health journey effectively. Review in 3 months.",
-          "Create a comprehensive plan to maintain my health & wellbeing consistently post-release. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "NEW SKILLS",
-        "options": [
-          "Identify & learn new skills that align with my career interests & future goals. Review in 3 months.",
-          "Engage in skill development workshops to significantly enhance my employability prospects. Review in 3 months.",
-          "Participate in training sessions to acquire practical skills relevant to the job market. Review in 3 months.",
-          "Utilise online resources to independently learn new skills & broaden my knowledge base. Review in 3 months.",
-          "Focus on developing transferable skills applicable to various job roles effectively. Review in 3 months.",
-          "Set specific goals for skill development to enhance my qualifications for better jobs. Review in 3 months.",
-          "Collaborate with peers to share knowledge & learn from each other’s experiences. Review in 3 months.",
-          "Seek mentorship opportunities to gain valuable insights into acquiring new skills. Review in 3 months.",
-          "Document my learning process to track my skill development progress consistently. Review in 3 months.",
-          "Concentrate on mastering 1 new skill at a time for improved retention & application. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "PERSONAL DEVELOPMENT",
-        "options": [
-          "Engage in personal development activities to enhance my self-awareness & growth. Review in 3 months.",
-          "Participate in workshops aimed at improving personal growth & emotional intelligence. Review in 3 months.",
-          "Set clear personal development goals that focus on resilience & personal growth. Review in 3 months.",
-          "Utilise available resources to develop coping strategies for overcoming life challenges. Review in 3 months.",
-          "Work on building self-confidence through targeted self-improvement exercises consistently. Review in 3 months.",
-          "Seek guidance from mentors to support my journey towards personal growth effectively. Review in 3 months.",
-          "Participate in group activities that foster teamwork & improve collaboration skills. Review in 3 months.",
-          "Document my personal development journey regularly for reflection & ongoing growth. Review in 3 months.",
-          "Explore mindfulness practices to enhance my overall wellbeing & self-care routine. Review in 3 months.",
-          "Create a structured personal development plan with specific milestones for achievement. Review in 3 months."
-        ]
-      }
+    {
+      "goal": "RELEASE ACCOMMODATION",
+      "options": [
+        "Work with support services to secure stable accommodation before my release date. Review in 3 months.",
+        "Confirm housing arrangements with support services before my release is scheduled. Review in 3 months.",
+        "Coordinate with agencies to ensure stable accommodation is secured before my release. Review in 3 months.",
+        "Collaborate with housing support to guarantee a place to live before my release date. Review in 3 months.",
+        "Partner with support services to confirm stable housing arrangements before my release. Review in 3 months.",
+        "Engage with housing agencies to ensure I have accommodation lined up for my release. Review in 3 months.",
+        "Seek assistance from housing support to confirm living conditions after my release. Review in 3 months.",
+        "Utilise resources to finalise housing arrangements before I leave the prison. Review in 3 months.",
+        "Work with housing services to secure a stable living environment after my release. Review in 3 months.",
+        "Consult with agencies to ensure my housing is in place before I leave the facility. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "DEBT/FINANCE HELP",
+      "options": [
+        "Access financial support to effectively manage debts both inside & outside prison. Review in 3 months.",
+        "Seek advice on financial management to address my debts during & after my sentence. Review in 3 months.",
+        "Collaborate with debt services to find practical solutions to my financial challenges. Review in 3 months.",
+        "Engage with support services to improve my financial situation & tackle outstanding debts. Review in 3 months.",
+        "Participate in financial education programmes to enhance my debt management skills. Review in 3 months.",
+        "Work with financial advisors to develop a comprehensive plan for effective debt management. Review in 3 months.",
+        "Utilise available resources to improve my financial literacy & effectively tackle debt issues. Review in 3 months.",
+        "Consult with finance support services for comprehensive assistance in debt management. Review in 3 months.",
+        "Research tools & strategies for better financial management during my time in prison. Review in 3 months.",
+        "Engage in debt resolution programmes to support my financial recovery after release. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "EDUCATION/TRAINING",
+      "options": [
+        "Learn valuable new skills through education & training for post-release employment. Review in 3 months.",
+        "Enroll in courses to enhance my qualifications & open future job opportunities. Review in 3 months.",
+        "Participate in vocational training to better prepare for work after my release from prison. Review in 3 months.",
+        "Focus on developing practical skills through educational courses offered before release. Review in 3 months.",
+        "Attend workshops to build essential employability skills for life after my release. Review in 3 months.",
+        "Complete training sessions aimed at improving my job readiness & career prospects. Review in 3 months.",
+        "Engage in educational opportunities to boost my chances of securing employment post-release. Review in 3 months.",
+        "Work on obtaining relevant certifications that will significantly enhance my employability. Review in 3 months.",
+        "Seek courses that align with my career interests to improve my job prospects after release. Review in 3 months.",
+        "Participate in skill-building training to improve my qualifications for the job market. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "SENTENCE PLAN",
+      "options": [
+        "Collaborate with my POM/OMU to complete my sentence plan within the next 6-9 months. Review in 3 months.",
+        "Ensure all steps of my sentence plan are fulfilled with consistent support from POM/OMU. Review in 3 months.",
+        "Follow through with the required actions outlined in my sentence plan over the next months. Review in 3 months.",
+        "Regularly consult with my POM/OMU to track progress & address challenges in my sentence plan. Review in 3 months.",
+        "Complete necessary actions in partnership with my POM/OMU while staying on schedule. Review in 3 months.",
+        "Participate actively in planning sessions to achieve my objectives outlined in the sentence plan. Review in 3 months.",
+        "Document progress & adjust my plans in collaboration with my POM/OMU for better outcomes. Review in 3 months.",
+        "Engage fully in my sentence plan to ensure timely completion & adherence to requirements. Review in 3 months.",
+        "Work closely with my case manager to finish my sentence plan efficiently before release. Review in 3 months.",
+        "Ensure I understand all requirements of my sentence plan & actively seek support when needed. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "BEHAVIOUR PROGRAMMES",
+      "options": [
+        "Participate in behaviour programmes like Thinking Skills to improve personal development. Review in 3 months.",
+        "Engage in initiatives aimed at modifying behaviours for positive change & growth. Review in 3 months.",
+        "Complete structured programmes designed to effectively address harmful behaviours. Review in 3 months.",
+        "Participate in therapy sessions to enhance my self-control & decision-making skills. Review in 3 months.",
+        "Finish behaviour improvement programmes to prepare for my life after my release from prison. Review in 3 months.",
+        "Work on personal development through behaviour management courses & workshops. Review in 3 months.",
+        "Engage in therapeutic programmes that focus on positive behaviour change & growth. Review in 3 months.",
+        "Complete rehabilitation courses aimed at significantly reducing re-offending risk. Review in 3 months.",
+        "Participate in programmes that develop coping strategies & emotional intelligence skills. Review in 3 months.",
+        "Collaborate with facilitators to improve my understanding of behaviour change & self-regulation. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "CAT D",
+      "options": [
+        "Complete all necessary actions needed to achieve CAT D status within the next 6 months. Review in 3 months.",
+        "Work towards achieving CAT D classification by meeting all outlined requirements on time. Review in 3 months.",
+        "Ensure all actions required for CAT D eligibility are completed according to schedule. Review in 3 months.",
+        "Focus on fulfilling the specific criteria required for CAT D status over the next 6 months. Review in 3 months.",
+        "Consult with staff to clarify all steps needed for CAT D classification & progression. Review in 3 months.",
+        "Participate in programmes that support my progression to CAT D status efficiently. Review in 3 months.",
+        "Take initiative to complete all tasks required for CAT D eligibility as soon as possible. Review in 3 months.",
+        "Stay informed about the requirements for CAT D status & act accordingly to meet them. Review in 3 months.",
+        "Collaborate with my support team to meet & exceed expectations for CAT D eligibility. Review in 3 months.",
+        "Document my progress & address any gaps in meeting the criteria for CAT D classification. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "PAROLE",
+      "options": [
+        "Work with staff to achieve parole through consistent good behaviour & compliance. Review in 3 months.",
+        "Demonstrate exemplary good behaviour to increase my chances of parole eligibility. Review in 3 months.",
+        "Engage actively with staff to understand & meet all parole requirements for success. Review in 3 months.",
+        "Follow guidelines to prepare thoroughly for a successful parole application process. Review in 3 months.",
+        "Maintain a positive attitude & behaviour to qualify for parole consideration. Review in 3 months.",
+        "Work collaboratively with my parole officer to ensure compliance with all conditions. Review in 3 months.",
+        "Participate in programmes that actively support my application for parole approval. Review in 3 months.",
+        "Track my progress & adhere to conditions set for parole eligibility consistently. Review in 3 months.",
+        "Engage positively with staff to enhance my parole prospects & strengthen my case. Review in 3 months.",
+        "Prepare for parole hearings by documenting my behaviour, progress, & achievements. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "OPEN UNIVERSITY",
+      "options": [
+        "Apply for & successfully complete Open University courses over the next 9-12 months. Review in 3 months.",
+        "Enroll in Open University courses to further my education & enhance my skills set. Review in 3 months.",
+        "Begin studying Open University courses to significantly enhance my qualifications & prospects. Review in 3 months.",
+        "Work towards completing multiple Open University courses within a year to improve my CV. Review in 3 months.",
+        "Participate in Open University programmes to develop my academic & vocational skills. Review in 3 months.",
+        "Focus on completing 1 or more Open University courses that align with my career goals. Review in 3 months.",
+        "Seek guidance on course selection to align with my educational & career objectives. Review in 3 months.",
+        "Engage actively in Open University studies to maximise my learning & skill acquisition. Review in 3 months.",
+        "Document my progress in Open University courses to track my educational achievements. Review in 3 months.",
+        "Utilise Open University resources to enhance my career opportunities & employment prospects. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "FULL-TIME EMPLOYMENT",
+      "options": [
+        "Secure full-time work post-release through relevant courses & professional qualifications. Review in 3 months.",
+        "Focus on obtaining full-time employment by enhancing my skills & practical training. Review in 3 months.",
+        "Network with potential employers to explore various full-time job opportunities available. Review in 3 months.",
+        "Work towards gaining relevant qualifications needed for full-time job roles in my field. Review in 3 months.",
+        "Utilise job search resources to identify suitable full-time positions after my release. Review in 3 months.",
+        "Attend job fairs to connect with employers actively seeking full-time staff & talent. Review in 3 months.",
+        "Develop a comprehensive strategy for securing a full-time job after my release from prison. Review in 3 months.",
+        "Complete vocational training aligned with current job market demands for full-time work. Review in 3 months.",
+        "Research industries offering full-time employment opportunities post-release for myself. Review in 3 months.",
+        "Prepare a targeted job search plan to successfully secure full-time employment opportunities. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "BUSINESS STARTUP",
+      "options": [
+        "Research & plan effectively for starting a business after my release from prison. Review in 3 months.",
+        "Develop a strategic plan for launching my own business post-release from prison. Review in 3 months.",
+        "Investigate industry trends & create a comprehensive business plan for my venture. Review in 3 months.",
+        "Work on identifying potential business opportunities & necessary startup resources. Review in 3 months.",
+        "Create a detailed business proposal to prepare for my post-release entrepreneurial venture. Review in 3 months.",
+        "Engage in workshops about entrepreneurship to enhance my knowledge & skillset. Review in 3 months.",
+        "Explore funding options available for new businesses & startups after my release. Review in 3 months.",
+        "Network with successful entrepreneurs for insights & advice on starting a business. Review in 3 months.",
+        "Seek mentorship in business planning & management for my startup ideas & goals. Review in 3 months.",
+        "Document my research & ideas to create a comprehensive & effective business plan. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "FAMILY REINTEGRATION",
+      "options": [
+        "Rebuild important relationships with my family through regular communication & visits. Review in 3 months.",
+        "Engage in family therapy or support groups to strengthen & improve family ties. Review in 3 months.",
+        "Plan regular family visits to maintain strong connections during my prison sentence. Review in 3 months.",
+        "Utilise resources available to improve family relationships effectively after my release. Review in 3 months.",
+        "Establish a solid communication plan with family members to stay closely connected. Review in 3 months.",
+        "Work on personal development to enhance family interactions & relationships positively. Review in 3 months.",
+        "Seek guidance on navigating complex family dynamics after my eventual release. Review in 3 months.",
+        "Focus on rebuilding trust with family through positive actions & consistent efforts. Review in 3 months.",
+        "Create opportunities for family bonding during visits to strengthen our relationships. Review in 3 months.",
+        "Document my efforts to improve family connections & track progress over time. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "EMPLOYMENT READINESS",
+      "options": [
+        "Complete workshops that prepare me for successful employment after my release. Review in 3 months.",
+        "Engage in training focused on interview skills & job readiness for future success. Review in 3 months.",
+        "Participate in mock interviews to build confidence & readiness for job applications. Review in 3 months.",
+        "Work on enhancing my CV & cover letter writing skills for better job prospects. Review in 3 months.",
+        "Utilise resources to improve my job application skills & increase my chances of success. Review in 3 months.",
+        "Develop strong networking skills to connect with potential employers effectively. Review in 3 months.",
+        "Practice effective communication techniques for interviews & workplace interactions. Review in 3 months.",
+        "Seek mentorship on employment readiness to ensure I'm prepared for post-release work. Review in 3 months.",
+        "Document my job search progress to track my readiness for future employment opportunities. Review in 3 months.",
+        "Focus on developing a positive mindset to improve my overall employment readiness. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "CREDIT REPAIR",
+      "options": [
+        "Engage in credit repair workshops to understand & improve my credit score effectively. Review in 3 months.",
+        "Participate in financial education sessions focused on restoring my credit history. Review in 3 months.",
+        "Utilise resources to learn how to manage & rebuild my credit after release. Review in 3 months.",
+        "Research organisations that offer assistance in repairing & managing credit issues. Review in 3 months.",
+        "Create a strategic plan to improve my credit score gradually over time & efforts. Review in 3 months.",
+        "Collaborate with support services to address outstanding credit issues effectively. Review in 3 months.",
+        "Track my financial progress regularly & adjust strategies for credit repair as needed. Review in 3 months.",
+        "Engage in financial workshops to enhance my understanding of credit & debt management. Review in 3 months.",
+        "Explore tools & methods for managing debt & restoring my creditworthiness successfully. Review in 3 months.",
+        "Seek guidance from professionals in credit repair for effective restoration strategies. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "HEALTH & WELLBEING",
+      "options": [
+        "Participate in health & wellbeing programmes to enhance my physical & mental health. Review in 3 months.",
+        "Engage in activities that promote personal wellness & overall development effectively. Review in 3 months.",
+        "Utilise available resources to address health concerns post-release for better wellbeing. Review in 3 months.",
+        "Focus on improving my mental health through support services & counselling offered. Review in 3 months.",
+        "Establish a sustainable self-care routine to maintain health after my eventual release. Review in 3 months.",
+        "Seek guidance on nutrition & fitness to enhance my physical & mental wellbeing. Review in 3 months.",
+        "Work with wellness coaches to develop positive health habits for a healthier lifestyle. Review in 3 months.",
+        "Document my health goals & progress for accountability & self-improvement. Review in 3 months.",
+        "Explore mindfulness practices that support my mental health journey effectively. Review in 3 months.",
+        "Create a comprehensive plan to maintain my health & wellbeing consistently post-release. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "NEW SKILLS",
+      "options": [
+        "Identify & learn new skills that align with my career interests & future goals. Review in 3 months.",
+        "Engage in skill development workshops to significantly enhance my employability prospects. Review in 3 months.",
+        "Participate in training sessions to acquire practical skills relevant to the job market. Review in 3 months.",
+        "Utilise online resources to independently learn new skills & broaden my knowledge base. Review in 3 months.",
+        "Focus on developing transferable skills applicable to various job roles effectively. Review in 3 months.",
+        "Set specific goals for skill development to enhance my qualifications for better jobs. Review in 3 months.",
+        "Collaborate with peers to share knowledge & learn from each other’s experiences. Review in 3 months.",
+        "Seek mentorship opportunities to gain valuable insights into acquiring new skills. Review in 3 months.",
+        "Document my learning process to track my skill development progress consistently. Review in 3 months.",
+        "Concentrate on mastering 1 new skill at a time for improved retention & application. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "PERSONAL DEVELOPMENT",
+      "options": [
+        "Engage in personal development activities to enhance my self-awareness & growth. Review in 3 months.",
+        "Participate in workshops aimed at improving personal growth & emotional intelligence. Review in 3 months.",
+        "Set clear personal development goals that focus on resilience & personal growth. Review in 3 months.",
+        "Utilise available resources to develop coping strategies for overcoming life challenges. Review in 3 months.",
+        "Work on building self-confidence through targeted self-improvement exercises consistently. Review in 3 months.",
+        "Seek guidance from mentors to support my journey towards personal growth effectively. Review in 3 months.",
+        "Participate in group activities that foster teamwork & improve collaboration skills. Review in 3 months.",
+        "Document my personal development journey regularly for reflection & ongoing growth. Review in 3 months.",
+        "Explore mindfulness practices to enhance my overall wellbeing & self-care routine. Review in 3 months.",
+        "Create a structured personal development plan with specific milestones for achievement. Review in 3 months."
+      ]
+    }
   ]
-
 }

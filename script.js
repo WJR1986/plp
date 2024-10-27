@@ -3,6 +3,7 @@ let selectedGoals = {
   "Short-Term Goals": [],
   "Personal Goals": [],
   "Long-Term Goals": [],
+  "IAG Goals": [],
 };
 
 let employmentCategorySelected = null;
@@ -97,6 +98,7 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
     "Short-Term Goals": [],
     "Personal Goals": [],
     "Long-Term Goals": [],
+    "IAG Goals": [],
   };
   employmentCategorySelected = null;
   employmentGoalCount = 0;
@@ -125,6 +127,7 @@ fetch("goals.json")
       "long-term-goals-container",
       "Long-Term Goals"
     );
+    populateGoals(data.IAGGoals, "IAG-goals-container", "IAG Goals");
   })
   .catch((error) => console.error("Error loading JSON:", error));
 
