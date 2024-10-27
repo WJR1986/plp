@@ -194,7 +194,7 @@ function populateSubCategoryGoals(
             );
           }
         } else if (category === "IAG Goals") {
-          const currentDate = new Date().toLocaleDateString(); // Get the current date
+          const currentDate = new Date().toLocaleDateString("en-GB"); // Get the current date
           selectedGoals[category].push({
             title: goalData.goal,
             description: select.value,

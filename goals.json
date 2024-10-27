@@ -20,7 +20,7 @@
         "goal": "Skills Review",
         "options": [
           "Identify 3 skills to improve via workshops; review progress & updates with IAG in 3 months' time. Review in 3 months.",
-          "Assess & improve 2 job-related skills through training; track development monthly, review in 3 months. Review in 3 months.",
+          "Assess & improve 2 job-related skills through training; track development monthly, review in 3 months.",
           "Complete 2 workshops to enhance job skills; evaluate application of skills & relevance in 3 months. Review in 3 months.",
           "Identify 3 key skills for future roles; review progress with IAG p/m for 3 months' duration. Review in 3 months.",
           "Improve 2 job-related skills through educational programs; assess readiness for job applications in 3 months. Review in 3 months.",
@@ -406,7 +406,7 @@
           "Read 2 books on personal development or hobbies in the next 3 months. Review in 3 months.",
           "Join a reading group to discuss books and share insights within 3 months. Review in 3 months.",
           "Set a goal to learn a new language using resources available. Review in 3 months.",
-        "Engage in a monthly knowledge-sharing session with peers on various topics. Review in 3 months."
+          "Engage in a monthly knowledge-sharing session with peers on various topics. Review in 3 months."
         ]
       },
       {
@@ -422,19 +422,19 @@
       {
         "goal": "Develop a Personal Well-Being Plan",
         "options": [
-         "Create a daily routine that incorporates self-care practices. Review in 3 months.",
-         "Set aside time weekly for mindfulness or relaxation techniques. Review in 3 months.",
+          "Create a daily routine that incorporates self-care practices. Review in 3 months.",
+          "Set aside time weekly for mindfulness or relaxation techniques. Review in 3 months.",
           "Identify 3 positive affirmations to practice daily for mental well-being. Review in 3 months.",
           "Establish a gratitude journal to record positive experiences regularly. Review in 3 months.",
           "Schedule time for a hobby or passion project each week to foster enjoyment. Review in 3 months.",
           "Develop a meal plan focusing on healthy eating to support physical health. Review in 3 months.",
-         "Take 15 minutes each day for outdoor activities to improve mood and health. Review in 3 months.",
+          "Take 15 minutes each day for outdoor activities to improve mood and health. Review in 3 months.",
           "Engage in weekly check-ins with peers for mutual support and motivation. Review in 3 months.",
           "Implement a self-care checklist to ensure a balanced lifestyle. Review in 3 months."
         ]
       }
     ]
-  },  
+  },
   "IAGGoals": [
     {
       "goal": "PLP Created",
@@ -491,7 +491,7 @@
         "Aim to reduce vaping by 50% in the next 2 months for better health. Review in 3 months.",
         "Limit vaping to just 2 times a week for 3 months to save money. Review in 3 months."
       ]
-    },      
+    },
     {
       "goal": "STOP VAPING",
       "options": [
@@ -506,7 +506,7 @@
         "Stop using vapes entirely in 3 months to enhance my health. Review in 3 months.",
         "Abandon vaping completely within 3 months for better health outcomes. Review in 3 months."
       ]
-    },  
+    },
     {
       "goal": "FAMILY VISITS",
       "options": [
@@ -656,7 +656,7 @@
         "Create a checklist to follow daily for better organisation over the next month. Review in 3 months.",
         "Set specific times for daily activities to promote consistency and productivity. Review in 3 months."
       ]
-    },    
+    },
     {
       "goal": "ENHANCE SOCIAL CONNECTIONS",
       "options": [
@@ -686,7 +686,7 @@
         "Use prompts to guide self-reflection sessions weekly for deeper insights. Review in 3 months.",
         "Create a vision board based on self-reflection to clarify personal goals. Review in 3 months."
       ]
-    }    
+    }
   ],
   "ShortTermGoals": [
     {
@@ -840,39 +840,39 @@
       ]
     },
     {
-        "goal": "LIFELONG LEARNING",
-        "options": [
-            "Identify and pursue a new area of interest or skill to develop through independent study. Review in 3 months.",
-            "Commit to reading a set number of books on personal development within the next 3 months. Review in 3 months."
-        ]
+      "goal": "LIFELONG LEARNING",
+      "options": [
+        "Identify and pursue a new area of interest or skill to develop through independent study. Review in 3 months.",
+        "Commit to reading a set number of books on personal development within the next 3 months. Review in 3 months."
+      ]
     },
     {
-        "goal": "COMMUNITY ENGAGEMENT",
-        "options": [
-            "Participate in community service or prison outreach programs to develop empathy and social responsibility. Review in 3 months.",
-            "Engage in group activities that promote teamwork and build social skills within the prison environment. Review in 3 months."
-        ]
+      "goal": "COMMUNITY ENGAGEMENT",
+      "options": [
+        "Participate in community service or prison outreach programs to develop empathy and social responsibility. Review in 3 months.",
+        "Engage in group activities that promote teamwork and build social skills within the prison environment. Review in 3 months."
+      ]
     },
     {
-        "goal": "FINANCIAL PLANNING",
-        "options": [
-            "Create a personal budget plan to manage finances effectively upon release. Review in 3 months.",
-            "Attend a workshop on financial literacy to prepare for managing finances after release. Review in 3 months."
-        ]
+      "goal": "FINANCIAL PLANNING",
+      "options": [
+        "Create a personal budget plan to manage finances effectively upon release. Review in 3 months.",
+        "Attend a workshop on financial literacy to prepare for managing finances after release. Review in 3 months."
+      ]
     },
     {
-        "goal": "POSITIVE RELATIONSHIP BUILDING",
-        "options": [
-            "Work on improving relationships with family through regular communication and support. Review in 3 months.",
-            "Participate in conflict resolution workshops to develop skills in managing relationships positively. Review in 3 months."
-        ]
+      "goal": "POSITIVE RELATIONSHIP BUILDING",
+      "options": [
+        "Work on improving relationships with family through regular communication and support. Review in 3 months.",
+        "Participate in conflict resolution workshops to develop skills in managing relationships positively. Review in 3 months."
+      ]
     },
     {
-        "goal": "SPIRITUAL DEVELOPMENT",
-        "options": [
-            "Engage in spiritual practices or meditation to enhance personal well-being and reflection. Review in 3 months.",
-            "Explore different philosophies or belief systems to broaden understanding and personal growth. Review in 3 months."
-        ]
+      "goal": "SPIRITUAL DEVELOPMENT",
+      "options": [
+        "Engage in spiritual practices or meditation to enhance personal well-being and reflection. Review in 3 months.",
+        "Explore different philosophies or belief systems to broaden understanding and personal growth. Review in 3 months."
+      ]
     }
   ],
 
