@@ -16,6 +16,7 @@ const maxOtherGoals = 2;
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
   selectedGoalsList.innerHTML = ""; // Clear previous entries
+  selectedGoalsList.style.paddingLeft = "0"; // Remove left padding
 
   // Render selected goals
   Object.keys(selectedGoals).forEach((category) => {
