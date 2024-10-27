@@ -24,7 +24,7 @@ function updateGoalSelectionUI() {
     if (selectedGoals[category].length > 0) {
       selectedGoals[category].forEach((goal) => {
         const goalDiv = document.createElement("div");
-        goalDiv.className = "mb-3 border border-light p-3 bg-dark text-light"; // Bootstrap classes for styling
+        goalDiv.className = "mb-3 border border-light p-3 bg-dark text-light";
 
         const title = document.createElement("h5");
         title.className = "mb-1";
@@ -33,9 +33,15 @@ function updateGoalSelectionUI() {
 
         const description = document.createElement("p");
         description.className = "mb-0";
-        description.textContent = goal.description;
-        goalDiv.appendChild(description);
 
+        // Correctly format the description for IAG Goals
+        if (category === "IAG Goals") {
+          description.textContent = `Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
+        } else {
+          description.textContent = goal.description;
+        }
+
+        goalDiv.appendChild(description);
         selectedGoalsList.appendChild(goalDiv);
       });
     }
@@ -54,36 +60,9 @@ function updateGoalSelectionUI() {
 // Function to update the download button state
 function updateDownloadButton() {
   const downloadButton = document.getElementById("downloadButton");
-
-  // Enable button if there are goals added, otherwise disable it
   downloadButton.disabled = Object.values(selectedGoals).every(
     (goals) => goals.length === 0
   );
-}
-
-// Function to download selected goals
-function downloadSelectedGoals() {
-  const goalsArray = [];
-  Object.keys(selectedGoals).forEach((category) => {
-    selectedGoals[category].forEach((goal) => {
-      goalsArray.push(`${category}: ${goal.title}\n${goal.description}\n`);
-    });
-  });
-
-  const blob = new Blob([goalsArray.join("\n")], { type: "text/plain" });
-  const url = URL.createObjectURL(blob);
-
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "selected_goals.txt";
-  document.body.appendChild(a);
-  a.click();
-
-  // Clean up
-  setTimeout(() => {
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  }, 0);
 }
 
 // Remove all goals function
@@ -91,8 +70,130 @@ function removeAllGoals() {
   $("#confirmationModal").modal("show");
 }
 
+function populateSubCategoryGoals(
+  goals,
+  container,
+  category,
+  subCategory = null
+) {
+  goals.forEach((goalData) => {
+    const formGroup = document.createElement("div");
+    formGroup.classList.add("form-group", "p-2", "bg-dark", "text-light");
+
+    const label = document.createElement("label");
+    label.textContent = goalData.goal;
+    label.className = "text-light";
+    formGroup.appendChild(label);
+
+    const select = document.createElement("select");
+    select.classList.add(
+      "form-control",
+      "bg-dark",
+      "text-light",
+      "border-light"
+    );
+
+    goalData.options.forEach((option) => {
+      const optionElement = document.createElement("option");
+      optionElement.textContent = option;
+      select.appendChild(optionElement);
+    });
+    formGroup.appendChild(select);
+
+    const actionButton = document.createElement("button");
+    actionButton.classList.add("btn", "btn-light", "mt-2", "ml-0");
+    actionButton.textContent = "Add";
+    formGroup.appendChild(actionButton);
+
+    const randomButton = document.createElement("button");
+    randomButton.classList.add("btn", "btn-warning", "mt-2", "ml-2");
+    randomButton.textContent = "Select Random";
+    formGroup.appendChild(randomButton);
+
+    // Track local state for this specific goal using data attribute
+    actionButton.dataset.isGoalSelected = false;
+
+    actionButton.addEventListener("click", () => {
+      if (actionButton.dataset.isGoalSelected === "false") {
+        // Handle adding goals
+        if (category === "Employment Goals") {
+          if (
+            employmentCategorySelected &&
+            employmentCategorySelected !== subCategory
+          ) {
+            alert(
+              "You can only select from one subcategory in Employment Goals."
+            );
+            return;
+          }
+          if (employmentGoalCount < maxEmploymentGoals) {
+            selectedGoals[category].push({
+              title: goalData.goal,
+              description: select.value,
+            });
+            employmentGoalCount++;
+            employmentCategorySelected = subCategory;
+            actionButton.dataset.isGoalSelected = "true";
+            actionButton.textContent = "Remove";
+            label.classList.add("active-goal");
+            randomButton.disabled = true;
+            updateGoalSelectionUI();
+          } else {
+            alert(
+              `You can only select up to ${maxEmploymentGoals} goals in ${category}.`
+            );
+          }
+        } else if (selectedGoals[category].length < maxOtherGoals) {
+          selectedGoals[category].push({
+            title: goalData.goal,
+            description: select.value,
+          });
+          actionButton.dataset.isGoalSelected = "true";
+          actionButton.textContent = "Remove";
+          label.classList.add("active-goal");
+          randomButton.disabled = true;
+          updateGoalSelectionUI();
+        } else {
+          alert(
+            `You can only select up to ${maxOtherGoals} goals in ${category}.`
+          );
+        }
+      } else {
+        // Handle removing goals
+        const index = selectedGoals[category].findIndex(
+          (goal) => goal.title === goalData.goal
+        );
+        if (index !== -1) {
+          selectedGoals[category].splice(index, 1);
+          if (category === "Employment Goals") {
+            employmentGoalCount--;
+            if (employmentGoalCount === 0) {
+              employmentCategorySelected = null;
+            }
+          }
+          actionButton.dataset.isGoalSelected = "false"; // Reset local state
+          actionButton.textContent = "Add";
+          label.classList.remove("active-goal");
+          randomButton.disabled = false;
+          updateGoalSelectionUI();
+        }
+      }
+    });
+
+    randomButton.addEventListener("click", () => {
+      const options = Array.from(select.options);
+      const randomIndex = Math.floor(Math.random() * options.length);
+      select.value = options[randomIndex].textContent;
+      actionButton.click();
+    });
+
+    container.appendChild(formGroup);
+  });
+}
+
 // Event listener for the "Remove All" button in the modal
 document.getElementById("confirmRemoval").addEventListener("click", () => {
+  // Reset the selected goals and counters
   selectedGoals = {
     "Employment Goals": [],
     "Short-Term Goals": [],
@@ -103,7 +204,27 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
   employmentCategorySelected = null;
   employmentGoalCount = 0;
 
+  // Reset UI state for each goal option and their selection status
+  document.querySelectorAll(".form-group").forEach((formGroup) => {
+    const actionButton = formGroup.querySelector("button");
+    const label = formGroup.querySelector("label");
+    const randomButton = formGroup.querySelector(".btn-warning");
+    const select = formGroup.querySelector("select");
+
+    // Reset button state
+    actionButton.textContent = "Add"; // Reset button text
+    actionButton.dataset.isGoalSelected = "false"; // Reset selection state
+    select.selectedIndex = 0; // Reset select to the first option
+
+    // Remove highlight class from label and re-enable random button
+    label.classList.remove("active-goal");
+    randomButton.disabled = false; // Enable random button
+  });
+
+  // Update the goal selection UI after reset
   updateGoalSelectionUI();
+
+  // Close modal
   $("#confirmationModal").modal("hide");
 });
 
@@ -163,124 +284,6 @@ function populateEmploymentGoals(goals) {
     "Employment Goals",
     "Retired"
   );
-}
-
-function populateSubCategoryGoals(
-  goals,
-  container,
-  category,
-  subCategory = null
-) {
-  goals.forEach((goalData) => {
-    const formGroup = document.createElement("div");
-    formGroup.classList.add("form-group", "p-2", "bg-dark", "text-light");
-
-    const label = document.createElement("label");
-    label.textContent = goalData.goal;
-    label.className = "text-light";
-    formGroup.appendChild(label);
-
-    const select = document.createElement("select");
-    select.classList.add(
-      "form-control",
-      "bg-dark",
-      "text-light",
-      "border-light"
-    );
-
-    goalData.options.forEach((option) => {
-      const optionElement = document.createElement("option");
-      optionElement.textContent = option;
-      select.appendChild(optionElement);
-    });
-    formGroup.appendChild(select);
-
-    const actionButton = document.createElement("button");
-    actionButton.classList.add("btn", "btn-light", "mt-2", "ml-0");
-    actionButton.textContent = "Add";
-    formGroup.appendChild(actionButton);
-
-    const randomButton = document.createElement("button");
-    randomButton.classList.add("btn", "btn-warning", "mt-2", "ml-2");
-    randomButton.textContent = "Select Random";
-    formGroup.appendChild(randomButton);
-
-    let isGoalSelected = false;
-
-    actionButton.addEventListener("click", () => {
-      if (!isGoalSelected) {
-        if (category === "Employment Goals") {
-          if (
-            employmentCategorySelected &&
-            employmentCategorySelected !== subCategory
-          ) {
-            alert(
-              "You can only select from one subcategory in Employment Goals."
-            );
-            return;
-          }
-          if (employmentGoalCount < maxEmploymentGoals) {
-            selectedGoals[category].push({
-              title: goalData.goal,
-              description: `${select.value}`,
-            });
-            employmentGoalCount++;
-            employmentCategorySelected = subCategory;
-            isGoalSelected = true;
-            actionButton.textContent = "Remove";
-            label.classList.add("active-goal");
-            randomButton.disabled = true;
-            updateGoalSelectionUI(); // Update UI after adding goal
-          } else {
-            alert("You can only select up to 3 Employment Goals.");
-          }
-        } else if (selectedGoals[category].length < maxOtherGoals) {
-          selectedGoals[category].push({
-            title: goalData.goal,
-            description: `${select.value}`,
-          });
-          isGoalSelected = true;
-          actionButton.textContent = "Remove";
-          label.classList.add("active-goal");
-          randomButton.disabled = true;
-          updateGoalSelectionUI(); // Update UI after adding goal
-        } else {
-          alert(`You can only select up to 2 goals in ${category}.`);
-        }
-      } else {
-        const index = selectedGoals[category].findIndex(
-          (goal) => goal.title === goalData.goal
-        );
-        if (index !== -1) {
-          selectedGoals[category].splice(index, 1);
-          if (category === "Employment Goals") {
-            employmentGoalCount--;
-            if (employmentGoalCount === 0) {
-              employmentCategorySelected = null;
-            }
-          }
-          isGoalSelected = false;
-          actionButton.textContent = "Add";
-          label.classList.remove("active-goal");
-          randomButton.disabled = false;
-          updateGoalSelectionUI(); // Update UI after removing goal
-        }
-      }
-    });
-
-    randomButton.addEventListener("click", () => {
-      const options = Array.from(select.options);
-      if (options.length === 0) return;
-
-      const randomIndex = Math.floor(Math.random() * options.length);
-      const randomOption = options[randomIndex].textContent;
-      select.value = randomOption;
-
-      actionButton.click();
-    });
-
-    container.appendChild(formGroup);
-  });
 }
 
 function populateGoals(goals, containerId, category) {
