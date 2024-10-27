@@ -323,3 +323,33 @@ document.getElementById("scrollToResults").addEventListener("click", () => {
 
 // Initialize the UI
 updateGoalSelectionUI();
+
+function downloadSelectedGoals() {
+  let textContent = "";
+
+  Object.keys(selectedGoals).forEach((category) => {
+    if (selectedGoals[category].length > 0) {
+      textContent += `${category}:\n`;
+      selectedGoals[category].forEach((goal) => {
+        textContent += `${goal.title}: ${goal.description}\n`;
+      });
+      textContent += "\n"; // Add an extra line for separation
+    }
+  });
+
+  const blob = new Blob([textContent], { type: "text/plain" });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "selected_goals.txt"; // Name of the downloaded file
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url); // Clean up the URL object
+}
+
+// Add event listener for the download button
+document
+  .getElementById("downloadButton")
+  .addEventListener("click", downloadSelectedGoals);
