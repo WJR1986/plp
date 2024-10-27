@@ -93,3 +93,74 @@ label.text-light.active-goal {
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
+
+/* footer */
+footer {
+  color: white;
+  /* fill: white; */
+}
+
+footer a {
+  color: white !important;
+}
+
+footer a:hover {
+  color: #aef7ae !important;
+}
+
+.fa-cat {
+  color: white; /* Change to your desired color */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+.fa-cat:hover {
+  color: #aef7ae; /* Change to your desired color */
+  animation: pop-wobble 0.6s ease; /* Trigger the wobble animation on hover */
+}
+
+@keyframes pop-wobble {
+  0% {
+    transform: scale(1); /* Normal size */
+  }
+  25% {
+    transform: scale(1.1); /* Scale up to 110% */
+  }
+  50% {
+    transform: scale(1); /* Back to normal size */
+  }
+  75% {
+    transform: scale(1.05); /* Scale slightly smaller */
+  }
+  100% {
+    transform: scale(1); /* Back to normal size */
+  }
+}
+
+footer p {
+  position: relative;
+  display: inline-block; /* Needed for the sliding effect */
+  padding-bottom: 5px; /* Space between text and underline */
+  color: white; /* Ensure text color is set */
+  transition: color 1.5s ease; /* Smooth transition for color change */
+}
+
+footer p::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Center it initially */
+  bottom: 0; /* Position it below the text */
+  height: 2px; /* Thickness of the underline */
+  width: 50%; /* Full width of the text */
+  background: #aef7ae; /* Color of the underline */
+  transform: translate(-350%, 0) translateX(-100%); /* Initially hide it off-screen to the left */
+  transition: transform 0.9s ease; /* Transition for sliding effect */
+}
+
+footer p:hover {
+  font-weight: 500; /* Make the text bold on hover */
+  color: #aef7ae; /* Change text color on hover */
+}
+
+footer p:hover::after {
+  transform: translate(-50%, 0) translateX(0); /* Slide in the underline to its position */
+}

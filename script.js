@@ -10,40 +10,89 @@ let employmentCategorySelected = null;
 let employmentGoalCount = 0;
 
 // Max limits for selections
-const maxEmploymentGoals = 3;
+const maxEmploymentGoals = 2;
 const maxOtherGoals = 2;
 
-// Function to update goal selection UI
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
-  selectedGoalsList.className = "pl-0";
-  selectedGoalsList.innerHTML = "";
+  selectedGoalsList.innerHTML = ""; // Clear previous entries
 
   // Render selected goals
   Object.keys(selectedGoals).forEach((category) => {
     if (selectedGoals[category].length > 0) {
+      // Create a container for the category
+      const categoryContainer = document.createElement("div");
+      categoryContainer.className = "goal-category"; // Custom class for styling
+      categoryContainer.style.border = "1px solid white"; // Set white border for the category
+      categoryContainer.style.padding = "10px"; // Add padding
+      categoryContainer.style.marginBottom = "15px"; // Spacing between categories
+
+      // Create category title element
+      const categoryTitle = document.createElement("h5");
+      categoryTitle.style.color = "white"; // Set category title color
+      categoryTitle.textContent = category; // Set category title text
+      categoryContainer.appendChild(categoryTitle);
+
       selectedGoals[category].forEach((goal) => {
-        const goalDiv = document.createElement("div");
-        goalDiv.className = "mb-3 border border-light p-3 bg-dark text-light";
+        const goalItem = document.createElement("div");
+        goalItem.style.color = "white"; // Set text color to white
+        goalItem.style.marginBottom = "5px"; // Spacing between goals
 
-        const title = document.createElement("h5");
-        title.className = "mb-1";
-        title.textContent = `${category}: ${goal.title}`;
-        goalDiv.appendChild(title);
+        // Create formatted text for the goal
+        const goalText = document.createElement("span");
 
-        const description = document.createElement("p");
-        description.className = "mb-0";
-
-        // Correctly format the description for IAG Goals
         if (category === "IAG Goals") {
-          description.textContent = `Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
+          goalText.innerHTML = `<strong>${goal.title}</strong><br>Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
         } else {
-          description.textContent = goal.description;
+          goalText.innerHTML = `<strong>${goal.title}</strong><br>${goal.description}`; // Format with a line break
         }
 
-        goalDiv.appendChild(description);
-        selectedGoalsList.appendChild(goalDiv);
+        goalItem.appendChild(goalText);
+
+        // Create a copy button
+        const copyButton = document.createElement("button");
+        copyButton.className = "btn btn-light btn-sm ml-2"; // Styling for the button
+        copyButton.textContent = "Copy";
+
+        // Create a span for the success message
+        const copySuccessMessage = document.createElement("span");
+        copySuccessMessage.className = "copy-success"; // Class for styling
+        copySuccessMessage.style.color = "#aef7ae"; // Set the color to green
+        copySuccessMessage.style.marginLeft = "10px"; // Space between button and message
+        copySuccessMessage.style.display = "none"; // Initially hidden
+        copySuccessMessage.innerHTML = `Copied! ✅`; // Success message
+
+        // Add event listener to copy the goal description
+        copyButton.addEventListener("click", () => {
+          let textToCopy;
+
+          if (category === "IAG Goals") {
+            // Format the text to include both title and date
+            textToCopy = `${goal.title}: Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
+          } else {
+            textToCopy = goal.description; // Just the description for other categories
+          }
+
+          navigator.clipboard
+            .writeText(textToCopy)
+            .then(() => {
+              // Show success message
+              copySuccessMessage.style.display = "inline"; // Show the message
+              setTimeout(() => {
+                copySuccessMessage.style.display = "none"; // Hide after 2 seconds
+              }, 2000); // Adjust the time as necessary
+            })
+            .catch((err) => {
+              console.error("Error copying text: ", err);
+            });
+        });
+
+        goalItem.appendChild(copyButton); // Append copy button to the goal item
+        goalItem.appendChild(copySuccessMessage); // Append success message to the goal item
+        categoryContainer.appendChild(goalItem); // Append goal item to category container
       });
+
+      selectedGoalsList.appendChild(categoryContainer); // Append category container to the main list
     }
   });
 
@@ -67,6 +116,7 @@ function updateDownloadButton() {
 
 // Remove all goals function
 function removeAllGoals() {
+  // Show confirmation modal
   $("#confirmationModal").modal("show");
 }
 
@@ -143,6 +193,18 @@ function populateSubCategoryGoals(
               `You can only select up to ${maxEmploymentGoals} goals in ${category}.`
             );
           }
+        } else if (category === "IAG Goals") {
+          const currentDate = new Date().toLocaleDateString(); // Get the current date
+          selectedGoals[category].push({
+            title: goalData.goal,
+            description: select.value,
+            date: currentDate, // Include the date here
+          });
+          actionButton.dataset.isGoalSelected = "true";
+          actionButton.textContent = "Remove";
+          label.classList.add("active-goal");
+          randomButton.disabled = true;
+          updateGoalSelectionUI();
         } else if (selectedGoals[category].length < maxOtherGoals) {
           selectedGoals[category].push({
             title: goalData.goal,
@@ -324,6 +386,7 @@ function isElementInViewport(el) {
 // Initialize the UI
 updateGoalSelectionUI();
 
+// Download logic
 function downloadSelectedGoals() {
   let textContent = "";
 
@@ -331,11 +394,21 @@ function downloadSelectedGoals() {
     if (selectedGoals[category].length > 0) {
       textContent += `${category}:\n`;
       selectedGoals[category].forEach((goal) => {
-        textContent += `${goal.title}: ${goal.description}\n`;
+        if (category === "IAG Goals") {
+          // Ensure the date is formatted correctly as DD/MM/YYYY
+          textContent += `${goal.title}: Personal Learning Plan created at HMP Northumberland on ${goal.date}.\n`;
+        } else {
+          textContent += `${goal.title}:\n${goal.description}\n`; // Ensure description is on a new line
+        }
       });
       textContent += "\n"; // Add an extra line for separation
     }
   });
+
+  if (textContent.trim() === "") {
+    alert("No goals selected for download.");
+    return; // Early exit if there's no content
+  }
 
   const blob = new Blob([textContent], { type: "text/plain" });
   const url = URL.createObjectURL(blob);
@@ -346,6 +419,8 @@ function downloadSelectedGoals() {
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
+
+  // Clean up
   URL.revokeObjectURL(url); // Clean up the URL object
 }
 
