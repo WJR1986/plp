@@ -4,6 +4,9 @@ let selectedGoals = {
   "Personal Goals": [],
   "Long-Term Goals": [],
   "IAG Stamp": [],
+  "EMP Goals": [],
+  "Short Goals": [], // New category
+  "Long Goals": [], // New category
 };
 
 let employmentCategorySelected = null;
@@ -11,7 +14,7 @@ let employmentGoalCount = 0;
 
 // Max limits for selections
 const maxEmploymentGoals = 2;
-const maxOtherGoals = 2;
+const maxOtherGoals = 3;
 
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
@@ -263,6 +266,9 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
     "Personal Goals": [],
     "Long-Term Goals": [],
     "IAG Stamp": [],
+    "EMP Goals": [],
+    "Short Goals": [],
+    "Long Goals": [],
   };
   employmentCategorySelected = null;
   employmentGoalCount = 0;
@@ -295,7 +301,7 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
 fetch("goals.json")
   .then((response) => response.json())
   .then((data) => {
-    populateEmploymentGoals(data.EmploymentGoals);
+    populateEmploymentGoals(data.EmploymentGoals2);
     populateGoals(
       data.ShortTermGoals,
       "short-term-goals-container",
@@ -312,6 +318,13 @@ fetch("goals.json")
       "Long-Term Goals"
     );
     populateGoals(data.IAGGoals, "IAG-goals-container", "IAG Stamp");
+    populateGoals(
+      data.EmploymentGoals,
+      "employment-goals-container",
+      "EMP Goals"
+    );
+    populateGoals(data.Short, "short-goals-container", "Short Goals"); // New Short Goals
+    populateGoals(data.Long, "long-goals-container", "Long Goals"); // New Long Goals
   })
   .catch((error) => console.error("Error loading JSON:", error));
 

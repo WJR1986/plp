@@ -1,5 +1,5 @@
 {
-  "EmploymentGoals": {
+  "EmploymentGoals2": {
     "WithJobWaiting": [
       {
         "goal": "Skills Review",
@@ -358,6 +358,236 @@
       ]
     }
   ],
+  "EmploymentGoals": [
+    {
+      "goal": "GAIN PRISON EMPLOYMENT 🏢",
+      "options": [
+        "Start work in PATHWAY to build job skills for release. Review progress in 3 months.",
+        "Obtain work in PATHWAY to increase job readiness post-release. Review status in 3 months.",
+        "Gain employment in PATHWAY to improve employability chances on release. Review 3months.",
+        "Gain role in PATHWAY to enhance skills for employability after release. Review within 3 months.",
+        "Achieve employment in PATHWAY to strengthen job prospects post-release. Review after 3 months.",
+        "Secure work in PATHWAY to boost employability upon release. Review progress in 3 months."
+      ]
+    },
+    {
+      "goal": "IMPROVE FUNCTIONAL SKILLS 🎓",
+      "options": [
+        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
+        "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
+        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
+        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
+        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
+        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+      ]
+    },
+    {
+      "goal": "PREFERRED ROLE ON RELEASE 👷",
+      "options": [
+        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
+        "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
+        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
+        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
+        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
+        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+      ]
+    },
+    {
+      "goal": "ASSESS PIP/UC ELIGIBILITY 🏥",
+      "options": [
+        "Meet support worker to assess PIP/UC eligibility; review outcome in 3 months.",
+        "Complete PIP/UC assessment for eligibility; review outcome in 3 months.",
+        "Gather documents for PIP/UC eligibility; review application in 3 months.",
+        "Prepare for eligibility check by completing paperwork this week; review in 3 months."
+      ]
+    },
+    {
+      "goal": "APPLY FOR BENEFITS 🏥",
+      "options": [
+        "Complete PIP/UC application with support this month; review in 3 months.",
+        "Submit all forms for PIP/UC application; review status with IAG in 3 months.",
+        "Work with IAG to finalise PIP/UC documents this week; review in 3 months.",
+        "File PIP/UC application with needed documents; review in 3 months."
+      ]
+    },
+    {
+      "goal": "UNDERSTAND BENEFIT RULES 🏥",
+      "options": [
+        "Attend benefits workshop; document key points, review in 3 months.",
+        "Meet advisor on PIP/UC obligations; review understanding in 3 months.",
+        "Study PIP/UC reporting guidelines; assess knowledge in 3 months.",
+        "Read PIP/UC income guidelines for clarity; evaluate understanding in 3 months."
+      ]
+    },
+    {
+      "goal": "PLAN FOR INCOME CHANGES 🏥",
+      "options": [
+        "Develop post-release budget with PIP/UC; review progress in 3 months.",
+        "Create savings plan for costs outside PIP/UC; review feasibility in 3 months.",
+        "Identify support programs to supplement PIP/UC; evaluate plan in 3 months."
+      ]
+    },
+    {
+      "goal": "PLP STAMP 🔨",
+      "options": [
+        "Personal Learning Plan created at HMP Northumberland on",
+        "Personal Learning Plan created at HMP Northumberland on",
+        "Personal Learning Plan created at HMP Northumberland on",
+        "Personal Learning Plan created at HMP Northumberland on"
+      ]
+    }
+  ],  
+  "Short": [
+    {
+      "goal": "AGREED RAISE ENGLISH & MATHS LEVELS",
+      "options": [
+        "Raise Eng LVL & Math LVL to Eng LVL & Math LVL to boost employability upon release. Ongoing",
+        "Raise Eng LVL & Math LVL to Eng LVL & Math LVL for better employability on release. Ongoing.",
+        "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to aid job prospects after release. Ongoing.",
+        "Improve Eng LVL & Math LVL to Eng LVL & Math LVL to support employment chances. Ongoing.",
+        "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to enhance employability post-release. Ongoing.",
+        "Increase Eng LVL & Math LVL to Eng LVL & Math LVL to strengthen employability. Ongoing."
+      ]
+    },
+    {
+      "goal": "DECLINED RAISE ENGLISH & MATHS LEVELS",
+      "options": [
+        "Advised to raise Eng LVL & Math LVL levels to Eng LVL & Math LVL, declined. Review 3months.",
+        "Opted against increasing Eng LVL & Math LVL to Eng LVL & Math LVL. Review after 3 months.",
+        "Suggested raising Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months.",
+        "Declined advice to raise Eng LVL & Math LVL to Eng LVL & Math LVL. Revisit in 3 months.",
+        "Recommendation to improve Eng LVL & Math LVL to Eng LVL & Math LVL declined. Review 3months.",
+        "Advised to increase Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "JOIN LIBRARY",
+      "options": [
+        "Join the library & read 1 book per month for 6 months to improve reading skills. Review in 3 months.",
+        "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
+        "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
+        "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
+        "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
+        "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
+        "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
+        "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
+        "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
+        "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "VISIT LIBRARY",
+      "options": [
+        "Visit the library & read 1 book p/m for 6 months to improve reading skills. Review in 3 months.",
+        "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
+        "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
+        "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
+        "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
+        "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
+        "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
+        "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
+        "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
+        "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "IMPROVE FUNCTIONAL SKILLS",
+      "options": [
+        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
+        "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
+        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
+        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
+        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
+        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+      ]
+    },
+    {
+      "goal": "GAIN ENHANCED",
+      "options": [
+        "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
+        "Secure IEP Enhanced status in 6 months through positive engagement. Review in 3 months.",
+        "Achieve IEP Enhanced status for 3 months via consistent positive actions. Review in 3 months.",
+        "Qualify for IEP Enhanced status in 3 months by demonstrating good conduct. Review in 3 months.",
+        "Aim for IEP Enhanced status in 6 months with responsibility and good behaviour. Review in 3 months.",
+        "Secure IEP Enhanced status for 3 months by engaging with support services. Review in 3 months.",
+        "Achieve IEP Enhanced status for 3 months through self-reflection. Review in 3 months.",
+        "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "MAINTAIN ENHANCED",
+      "options": [
+        "Maintain IEP Enhanced status with regular check-ins. Review in 3 months.",
+        "Maintain IEP Enhanced status by participating in prison programs. Review in 3 months.",
+        "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "HEALTH CHECK UPS (NOT ABLE TO WORK)",
+      "options": [
+        "Attend health check-ups to manage physical health concerns over 6 months. Review in 3 months.",
+        "Schedule appointments with the health clinic to monitor my well-being. Review in 3 months.",
+        "Participate in health screenings to address medical needs and stay informed. Review in 3 months.",
+        "Engage with health services by attending check-ups for ongoing management. Review in 3 months.",
+        "Utilise prison health services to monitor health and ensure preventive care. Review in 3 months.",
+        "Commit to regular visits with healthcare professionals for specific concerns. Review in 3 months.",
+        "Stay proactive in health management by tracking appointments and outcomes. Review in 3 months.",
+        "Work with healthcare providers to establish a health plan for improvement. Review in 3 months.",
+        "Use available health resources to enhance my physical and mental well-being. Review in 3 months.",
+        "Maintain awareness of health by attending check-ups and wellness activities. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "DART SUPPORT",
+      "options": [
+        "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
+        "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
+        "Engage with DART to address addiction issues for 3 months of support. Review in 3 months.",
+        "Connect with DART for help with substance use and commit to recovery. Review in 3 months.",
+        "Utilise DART resources for substance issues and attend meetings for 6 months. Review in 3 months.",
+        "Reach out to DART for addiction management over the next 3 months. Review in 3 months.",
+        "Participate in DART sessions to manage substance use for lasting change. Review in 3 months.",
+        "Join DART support to tackle addiction issues and develop a recovery plan. Review in 3 months.",
+        "Engage with DART for ongoing assistance with substance dependence for 6 months. Review in 3 months.",
+        "Contact DART for help with addiction management and participate for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "MENTAL HEALTH SUPPORT",
+      "options": [
+        "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
+        "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
+        "Participate in mental health support sessions to develop coping strategies for 6 months. Review in 3 months.",
+        "Collaborate with Mental Health Team to tackle challenges and improve well-being. Review in 3 months.",
+        "Seek ongoing support from mental health professionals for my conditions for 3 months. Review in 3 months.",
+        "Access mental health services to address ADHD, ASD, and related concerns. Review in 3 months.",
+        "Utilise Mental Health Team resources to enhance coping skills for 6 months. Review in 3 months.",
+        "Join mental health workshops to improve overall well-being and resilience. Review in 3 months.",
+        "Connect with mental health professionals for strategies to manage challenges. Review in 3 months.",
+        "Work with mental health experts to develop effective support strategies. Review in 3 months."
+      ]
+    }
+  ],
+  "Long": [
+    {
+      "goal": "Long Goals",
+      "options": [
+        "Long Goal examples",
+        "Long Goal examples",
+        "Long Goal examples",
+        "Long Goal examples"
+      ]
+    },
+    {
+      "goal": "Long GoalsExtra",
+      "options": [
+        "Long Goal examples",
+        "Long Goal examples",
+        "Long Goal examples",
+        "Long Goal examples"
+      ]
+    }
+  ],
   "PersonalGoals": [
     {
       "goal": "JOIN GYM",
@@ -419,7 +649,7 @@
       ]
     },
     {
-      "goal": "FAMILY VISITS",
+      "goal": "FAMILY/FRIEND VISITS",
       "options": [
         "Arrange 1 family visit per month for 6 months to maintain connections. Review in 3 months.",
         "Set up monthly visits for 3 months to stay in touch with family. Review in 3 months.",
@@ -434,52 +664,7 @@
       ]
     },
     {
-      "goal": "WING TIME",
-      "options": [
-        "Engage in activities like dominoes or cards for 3 hours weekly. Review in 3 months.",
-        "Participate in games like pool or reading for 2 hours weekly. Review in 3 months.",
-        "Use free time for activities like matchstick modelling at least 2 times weekly. Review in 3 months.",
-        "Pass time with games like cards or dominoes for 2 hours weekly. Review in 3 months.",
-        "Take part in wing activities like pool or cards once a week for 2 months. Review in 3 months.",
-        "Make use of free time by undertaking in cell activities for 3 hours weekly. Review in 3 months.",
-        "Stay engaged in wing activities at least 2 times weekly for a month. Review in 3 months.",
-        "Join in activities like cards, pool or dominoes for at least 4 hours monthly. Review in 3 months.",
-        "Keep busy with activities like pool or cards for 1 hour every other day. Review in 3 months.",
-        "Participate in time-passing games for 2 hours weekly. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "JOIN LIBRARY",
-      "options": [
-        "Join the library & read 1 book per month for 6 months to improve reading skills. Review in 3 months.",
-        "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
-        "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
-        "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
-        "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
-        "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
-        "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
-        "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
-        "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
-        "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "VISIT LIBRARY",
-      "options": [
-        "Visit the library & read 1 book p/m for 6 months to improve reading skills. Review in 3 months.",
-        "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
-        "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
-        "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
-        "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
-        "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
-        "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
-        "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
-        "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
-        "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "MENTOR",
+      "goal": "MENTORSHIP",
       "options": [
         "Become a mentor with Shannon Trust within 1 month to support others in literacy. Review in 3 months.",
         "Join Shannon Trust mentoring program next month to assist fellow prisoners. Review in 3 months.",
@@ -490,7 +675,7 @@
         "Participate in Shannon Trust mentorship programme over the next 3 months. Review in 3 months.",
         "Become a mentor with Shannon Trust to guide peers in literacy for the next year. Review in 3 months.",
         "Engage in Shannon Trust to provide English & Maths support within 1 month. Review in 3 months.",
-        "Assist others by mentoring (Shannon Trust) for personal growth for 6 months. Review in 3 months."
+        "Assist others by mentoring (Shannon Trust) for personal growth for 6 months. Review in 3 months." 
       ]
     },
     {
@@ -509,7 +694,37 @@
       ]
     },
     {
-      "goal": "HEALTHY EATING",
+      "goal": "DART SUPPORT 💊",
+      "options": [
+        "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
+        "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
+        "Engage with DART to address addiction issues for 3 months of support. Review in 3 months.",
+        "Connect with DART for help with substance use and commit to recovery. Review in 3 months.",
+        "Utilise DART resources for substance issues and attend meetings for 6 months. Review in 3 months.",
+        "Reach out to DART for addiction management over the next 3 months. Review in 3 months.",
+        "Participate in DART sessions to manage substance use for lasting change. Review in 3 months.",
+        "Join DART support to tackle addiction issues and develop a recovery plan. Review in 3 months.",
+        "Engage with DART for ongoing assistance with substance dependence for 6 months. Review in 3 months.",
+        "Contact DART for help with addiction management and participate for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "MENTAL HEALTH SUPPORT 🧠",
+      "options": [
+        "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
+        "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
+        "Participate in mental health support sessions to develop coping strategies for 6 months. Review in 3 months.",
+        "Collaborate with Mental Health Team to tackle challenges and improve well-being. Review in 3 months.",
+        "Seek ongoing support from mental health professionals for my conditions for 3 months. Review in 3 months.",
+        "Access mental health services to address ADHD, ASD, and related concerns. Review in 3 months.",
+        "Utilise Mental Health Team resources to enhance coping skills for 6 months. Review in 3 months.",
+        "Join mental health workshops to improve overall well-being and resilience. Review in 3 months.",
+        "Connect with mental health professionals for strategies to manage challenges. Review in 3 months.",
+        "Work with mental health experts to develop effective support strategies. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "HEALTHY EATING 🥗",
       "options": [
         "Focus on a balanced diet for 6 weeks to support well-being. Review in 3 months.",
         "Develop a healthy eating plan for 4 weeks to enhance fitness. Review in 3 months.",
@@ -582,18 +797,6 @@
       ]
     },
     {
-      "goal": "ENHANCE SOCIAL CONNECTIONS",
-      "options": [
-        "Reconnect with a friend or family member monthly for 3 months. Review in 3 months.",
-        "Join a social club or group to meet new people this month. Review in 3 months.",
-        "Attend community events twice a month(where available) to build social ties. Review in 3 months.",
-        "Reach out to someone new weekly for 6 weeks. Review in 3 months.",
-        "Invite someone for coffee once a month to foster connections. Review in 3 months.",
-        "Engage in group activities twice a month(where available) to expand your circle. Review in 3 months.",
-        "Interact with different people daily for 2 weeks to enhance social skills. Review in 3 months."
-      ]
-    },
-    {
       "goal": "PRACTICE SELF-REFLECTION",
       "options": [
         "Dedicate 10 minutes daily to self-reflection for personal growth over the month. Review in 3 months.",
@@ -611,96 +814,91 @@
   ],
   "ShortTermGoals": [
     {
-      "goal": "ENHANCED STATUS",
+      "goal": "AGREED RAISE MATHS & ENGLISH ✅",
+      "options": [
+        "Raise Eng LVL & Math LVL to Eng LVL & Math LVL to boost employability upon release. Ongoing",
+        "Raise Eng LVL & Math LVL to Eng LVL & Math LVL for better employability on release. Ongoing.",
+        "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to aid job prospects after release. Ongoing.",
+        "Improve Eng LVL & Math LVL to Eng LVL & Math LVL to support employment chances. Ongoing.",
+        "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to enhance employability post-release. Ongoing.",
+        "Increase Eng LVL & Math LVL to Eng LVL & Math LVL to strengthen employability. Ongoing."
+      ]
+    },
+    {
+      "goal": "DECLINED RAISE MATHS & ENGLISH ❌",
+      "options": [
+        "Advised to raise Eng LVL & Math LVL levels to Eng LVL & Math LVL, declined. Review 3months.",
+        "Opted against increasing Eng LVL & Math LVL to Eng LVL & Math LVL. Review after 3 months.",
+        "Suggested raising Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months.",
+        "Declined advice to raise Eng LVL & Math LVL to Eng LVL & Math LVL. Revisit in 3 months.",
+        "Recommendation to improve Eng LVL & Math LVL to Eng LVL & Math LVL declined. Review 3months.",
+        "Advised to increase Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "JOIN LIBRARY 🖊️📖",
+      "options": [
+        "Join the library & read 1 book per month for 6 months to improve reading skills. Review in 3 months.",
+        "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
+        "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
+        "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
+        "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
+        "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
+        "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
+        "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
+        "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
+        "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "VISIT LIBRARY 👉📖",
+      "options": [
+        "Visit the library & read 1 book p/m for 6 months to improve reading skills. Review in 3 months.",
+        "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
+        "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
+        "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
+        "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
+        "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
+        "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
+        "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
+        "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
+        "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "Improve Functional Skills 📈⚙️",
+      "options": [
+        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
+        "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
+        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
+        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
+        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
+        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+      ]
+    },
+    {
+      "goal": "GAIN ENHANCED 📛",
       "options": [
         "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
         "Secure IEP Enhanced status in 6 months through positive engagement. Review in 3 months.",
-        "Maintain IEP Enhanced status for 6 months with regular check-ins. Review in 3 months.",
         "Achieve IEP Enhanced status for 3 months via consistent positive actions. Review in 3 months.",
         "Qualify for IEP Enhanced status in 3 months by demonstrating good conduct. Review in 3 months.",
         "Aim for IEP Enhanced status in 6 months with responsibility and good behaviour. Review in 3 months.",
-        "Maintain IEP Enhanced status for 6 months by participating in prison programs. Review in 3 months.",
         "Secure IEP Enhanced status for 3 months by engaging with support services. Review in 3 months.",
         "Achieve IEP Enhanced status for 3 months through self-reflection. Review in 3 months.",
         "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
       ]
     },
     {
-      "goal": "DART SUPPORT",
+      "goal": "MAINTAIN ENHANCED 🎖️",
       "options": [
-        "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
-        "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
-        "Engage with DART to address addiction issues for 3 months of support. Review in 3 months.",
-        "Connect with DART for help with substance use and commit to recovery. Review in 3 months.",
-        "Utilise DART resources for substance issues and attend meetings for 6 months. Review in 3 months.",
-        "Reach out to DART for addiction management over the next 3 months. Review in 3 months.",
-        "Participate in DART sessions to manage substance use for lasting change. Review in 3 months.",
-        "Join DART support to tackle addiction issues and develop a recovery plan. Review in 3 months.",
-        "Engage with DART for ongoing assistance with substance dependence for 6 months. Review in 3 months.",
-        "Contact DART for help with addiction management and participate for 3 months. Review in 3 months."
+        "Maintain IEP Enhanced status with regular check-ins. Review in 3 months.",
+        "Maintain IEP Enhanced status by participating in prison programs. Review in 3 months.",
+        "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
       ]
     },
     {
-      "goal": "MENTAL HEALTH SUPPORT",
-      "options": [
-        "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
-        "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
-        "Participate in mental health support sessions to develop coping strategies for 6 months. Review in 3 months.",
-        "Collaborate with Mental Health Team to tackle challenges and improve well-being. Review in 3 months.",
-        "Seek ongoing support from mental health professionals for my conditions for 3 months. Review in 3 months.",
-        "Access mental health services to address ADHD, ASD, and related concerns. Review in 3 months.",
-        "Utilise Mental Health Team resources to enhance coping skills for 6 months. Review in 3 months.",
-        "Join mental health workshops to improve overall well-being and resilience. Review in 3 months.",
-        "Connect with mental health professionals for strategies to manage challenges. Review in 3 months.",
-        "Work with mental health experts to develop effective support strategies. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "EARLY RELEASE SCHEME",
-      "options": [
-        "Work with OMU/Parole to qualify for early release, meeting all requirements in 6 months. Review in 3 months.",
-        "Engage with OMU to understand early release and prepare documentation. Review in 3 months.",
-        "Participate in Parole meetings to discuss eligibility for early release in 3 months. Review in 3 months.",
-        "Collaborate with OMU to meet criteria for early release and develop a plan. Review in 3 months.",
-        "Follow OMU guidelines closely to enhance chances of qualifying for early release. Review in 3 months.",
-        "Seek guidance from Parole on early release application for proper preparation. Review in 3 months.",
-        "Complete necessary assessments for Early Release Scheme while maintaining conduct. Review in 3 months.",
-        "Attend workshops on preparing for early release and community reintegration. Review in 3 months.",
-        "Participate in sessions to improve understanding of early release process and criteria. Review in 3 months.",
-        "Maintain exemplary conduct to strengthen my case for early release eligibility. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "EMPLOYMENT",
-      "options": [
-        "Secure a prison job to earn money and develop essential skills for release. Review in 3 months.",
-        "Obtain a prison job that enhances skill development and relevant work experience. Review in 3 months.",
-        "Apply for prison job opportunities to gain experience and references. Review in 3 months.",
-        "Engage in prison work to build employability skills and independence. Review in 3 months.",
-        "Explore job roles in prison to find a suitable fit for my interests. Review in 3 months.",
-        "Commit to a prison job that supports financial goals and skill development. Review in 3 months.",
-        "Network with prison staff to uncover job openings that match my skills. Review in 3 months.",
-        "Aim to gain strong references from my prison job for future opportunities. Review in 3 months.",
-        "Participate in work-related training to enhance employability upon release. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "VOCATIONAL SKILLS",
-      "options": [
-        "Attend vocational workshops to acquire practical skills for reintegration after release. Review in 3 months.",
-        "Participate in vocational training to improve job readiness and career prospects. Review in 3 months.",
-        "Engage in skills workshops focused on employment to develop practical abilities. Review in 3 months.",
-        "Enroll in vocational programmes to enhance qualifications and marketability. Review in 3 months.",
-        "Complete skill training to prepare for successful reintegration into the community. Review in 3 months.",
-        "Join vocational classes to learn skills relevant to my career interests. Review in 3 months.",
-        "Seek workshops aligned with career aspirations to build essential skills. Review in 3 months.",
-        "Develop valuable skills through vocational training opportunities in prison. Review in 3 months.",
-        "Attend training sessions to learn new trades that improve job prospects. Review in 3 months.",
-        "Commit to acquiring vocational skills to support transition to employment after release. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "HEALTH CLINIC",
+      "goal": "HEALTH CHECK UPS (NOT ABLE TO WORK) 🧑🏽‍⚕️",
       "options": [
         "Attend health check-ups to manage physical health concerns over 6 months. Review in 3 months.",
         "Schedule appointments with the health clinic to monitor my well-being. Review in 3 months.",
@@ -713,119 +911,7 @@
         "Use available health resources to enhance my physical and mental well-being. Review in 3 months.",
         "Maintain awareness of health by attending check-ups and wellness activities. Review in 3 months."
       ]
-    },
-    {
-      "goal": "ENGLISH & MATHS COURSES",
-      "options": [
-        "Enroll in English and Maths courses to improve literacy and numeracy skills. Review in 3 months.",
-        "Participate actively in English and Maths classes to enhance my capabilities. Review in 3 months.",
-        "Complete coursework in English and Maths to boost my employability prospects. Review in 3 months.",
-        "Seek tutoring in English and Maths to prepare for release and job searches. Review in 3 months.",
-        "Engage in classes to improve literacy and numeracy for better opportunities. Review in 3 months.",
-        "Utilise resources to excel in English and Maths, ensuring course completion. Review in 3 months.",
-        "Finish English and Maths courses before release to gain vital qualifications. Review in 3 months.",
-        "Aim for recognised qualifications in English and Maths for future career options. Review in 3 months.",
-        "Attend workshops to develop English and Maths skills for better success chances. Review in 3 months.",
-        "Dedicate time to practice English and Maths regularly to build confidence. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "RAISE MATHS LEVELS",
-      "options": [
-        "Study to improve Maths levels, aiming for level increase. Review progress in 3 months.",
-        "Complete Maths tests to assess level gains and readiness. Review in 3 months.",
-        "Attend classes regularly to raise my Maths to the next level. Check progress in 3 months.",
-        "Aim to advance one level in Maths for better job options. Review progress in 3 months.",
-        "Practise Maths weekly to ensure level improvement. Review gains in 3 months.",
-        "Meet set targets in Maths to raise my skill levels. Progress check in 3 months.",
-        "Complete required assessments to show Maths level growth. Review in 3 months.",
-        "Work on exercises to improve levels in Maths. Track results in 3 months.",
-        "Achieve level goals in Maths for improved job prospects. Review in 3 months.",
-        "Prepare to raise Maths levels to meet job requirements. Check progress in 3 months."
-      ]
-    },
-    {
-      "goal": "RAISE ENGLISH LEVELS",
-      "options": [
-        "Study to improve English levels, aiming for level increase. Review progress in 3 months.",
-        "Complete English tests to assess level gains and readiness. Review in 3 months.",
-        "Attend classes regularly to raise my English to the next level. Check progress in 3 months.",
-        "Aim to advance one level in English for better job options. Review progress in 3 months.",
-        "Practise English weekly to ensure level improvement. Review gains in 3 months.",
-        "Meet set targets in English to raise my skill levels. Progress check in 3 months.",
-        "Complete required assessments to show English level growth. Review in 3 months.",
-        "Work on exercises to improve levels in English. Track results in 3 months.",
-        "Achieve level goals in English for improved job prospects. Review in 3 months.",
-        "Prepare to raise English levels to meet job requirements. Check progress in 3 months."
-      ]
-    },
-    {
-      "goal": "PRISON INDUSTRIES JOB",
-      "options": [
-        "Secure a position in Prison Industries to gain relevant work experience. Review in 3 months.",
-        "Apply for roles in Prison Industries that match my skills for job readiness. Review in 3 months.",
-        "Participate in training provided by Prison Industries to enhance my employability. Review in 3 months.",
-        "Engage in work assignments in Prison Industries to build references and experience. Review in 3 months.",
-        "Work towards a position in Prison Industries for skill development and earning. Review in 3 months.",
-        "Explore career paths within Prison Industries to align with my interests. Review in 3 months.",
-        "Gain experience in Prison Industries to improve my job applications for employment. Review in 3 months.",
-        "Participate actively in Prison Industries to enhance work-related competencies. Review in 3 months.",
-        "Build skills through Prison Industries work to prepare for reintegration. Review in 3 months.",
-        "Contribute to Prison Industries to develop skills useful for my future career. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "PERSONAL DEVELOPMENT PLAN",
-      "options": [
-        "Adhere to my development plan & review progress in detail after 3 months. Review in 3 months.",
-        "Follow my plan closely & evaluate my growth monthly for accountability. Review in 3 months.",
-        "Complete the objectives in my development plan within 6 months. Review in 3 months.",
-        "Review my development plan monthly to track progress & adjust as needed. Review in 3 months.",
-        "Engage with staff to discuss my plan & seek feedback for improvement. Review in 3 months.",
-        "Adjust my plan based on regular evaluations & personal reflections. Review in 3 months.",
-        "Focus on achieving specific objectives in my plan to foster growth. Review in 3 months.",
-        "Seek support to ensure successful implementation of my development plan. Review in 3 months.",
-        "Reflect on my development plan after 6 months to assess achievements & goals. Review in 3 months.",
-        "Use feedback from staff to refine my plan for optimal progress. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "LIFELONG LEARNING",
-      "options": [
-        "Identify and pursue a new skill through study within 3 months. Review in 3 months.",
-        "Read 3 books on personal development within 3 months. Review progress in 3 months.",
-        "Learn a new hobby by practising weekly for 3 months. Review skill growth in 3 months.",
-        "Research a career area of interest for personal development. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "FINANCIAL PLANNING",
-      "options": [
-        "Create a budget plan to manage finances before release. Review in 3 months.",
-        "Attend a financial workshop to prepare for managing finances after release. Review in 3 months.",
-        "Set up a savings goal for release expenses in 3 months. Review savings progress.",
-        "Track weekly expenses to build budgeting skills before release. Review in 3 months.",
-        "Develop a plan for affordable housing upon release. Review progress in 3 months."
-      ]
-    },
-    {
-      "goal": "POSITIVE RELATIONSHIP BUILDING",
-      "options": [
-        "Improve family relationships through regular communication in 3 months. Review in 3 months.",
-        "Write letters weekly to improve communication with family. Review connections in 3 months.",
-        "Attend peer support groups to strengthen positive relationship skills. Review in 3 months.",
-        "Develop active listening skills to improve relationships. Review progress in 3 months."
-      ]
-    },
-    {
-      "goal": "SPIRITUAL DEVELOPMENT",
-      "options": [
-        "Engage in spiritual practices to enhance well-being over 3 months. Review in 3 months.",
-        "Explore different philosophies for personal growth within 3 months. Review in 3 months.",
-        "Read 3 books on spiritual topics for personal insight. Review progress in 3 months.",
-        "Write in a gratitude journal daily to enhance spirituality. Review impact in 3 months."
-      ]
-    }   
+    }
   ],
 
   "LongTermGoals": [
@@ -888,21 +974,6 @@
       ]
     },
     {
-      "goal": "BEHAVIOUR PROGRAMMES",
-      "options": [
-        "Participate in behaviour programmes like Thinking Skills for personal growth. Review in 3 months.",
-        "Engage in initiatives aimed at modifying behaviours for positive change. Review in 3 months.",
-        "Complete structured programmes to address harmful behaviours effectively. Review in 3 months.",
-        "Participate in therapy to enhance self-control and decision-making skills. Review in 3 months.",
-        "Finish programmes to prepare for life after my release from prison. Review in 3 months.",
-        "Work on personal development through behaviour management courses. Review in 3 months.",
-        "Engage in therapeutic programmes for positive behaviour change. Review in 3 months.",
-        "Complete rehabilitation courses aimed at reducing re-offending risk. Review in 3 months.",
-        "Participate in programmes that develop coping strategies and emotional skills. Review in 3 months.",
-        "Collaborate with facilitators to improve understanding of behaviour change. Review in 3 months."
-      ]
-    },
-    {
       "goal": "CAT D",
       "options": [
         "Complete all actions needed for CAT D status before release. Review in 3 months.",
@@ -950,16 +1021,16 @@
     {
       "goal": "PET COURSES",
       "options": [
-        "Apply for PET courses within 3 months. Review in 3 months.",
-        "Enroll in PET courses to further my education. Review in 3 months.",
-        "Begin studying PET courses to enhance qualifications. Review in 3 months.",
-        "Work towards completing PET courses within a year. Review in 3 months.",
-        "Participate in PET courses to develop skills. Review in 3 months.",
-        "Focus on completing PET courses aligned with my goals. Review in 3 months.",
-        "Seek guidance on course selection for my career objectives. Review in 3 months.",
-        "Engage actively in PET studies to maximise learning. Review in 3 months.",
-        "Document my progress in PET courses. Review in 3 months.",
-        "Utilise PET course resources to enhance career opportunities. Review in 3 months."
+        "Apply for a post release job-relevant PET course before release. Review progress in 3 months.",
+        "Complete enrolment in a PET course to build skills before release. Review in 3 months.",
+        "Start PET course study to gain qualifications before release. Review progress in 3 months.",
+        "Commit to finishing PET courses before release for my career goals. Review in 3 months.",
+        "Begin a PET course to build specific career skills. Track progress monthly.",
+        "Finish a PET course focused on my career plan before release. Review in 3 months.",
+        "Get career-specific advice and choose a PET course before release. Review in 3 months.",
+        "Complete all set PET course tasks to improve knowledge before release. Review in 3 months.",
+        "Record and reflect on PET course achievements weekly. Review in 3 months.",
+        "Use PET course resources to expand career options before release. Review in 3 months."
       ]
     },
     {
@@ -1000,7 +1071,7 @@
         "Set a goal to volunteer weekly for 3 months after release. Document experiences and impact.",
         "Seek mentorship from 1 volunteer coordinator to prepare for post-release roles. Review in 3 months.",
         "Discuss with peers 3 potential volunteer projects to join after release. Review in 3 months.",
-        "Commit to applying for 3 volunteer roles that inspire me within 3 months of release."
+        "Commit to applying for 3 volunteer roles that inspire me before release of release."
       ]
     },    
     {
@@ -1012,7 +1083,7 @@
         "Utilise resources to improve family relationships with 3 steps post-release.",
         "Establish a communication plan with family, connecting bi-weekly during my sentence.",
         "Complete 3 personal development exercises to enhance family interactions.",
-        "Seek guidance from a mentor on family dynamics post-release within 3 months.",
+        "Seek guidance from a mentor on family dynamics post-release before release.",
         "Rebuild trust with family through 5 positive actions over the next 3 months.",
         "Create opportunities for bonding during 3 family visits in 3 months.",
         "Document efforts to improve family connections and track progress weekly."
