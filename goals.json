@@ -371,25 +371,25 @@
       ]
     },
     {
-      "goal": "IMPROVE FUNCTIONAL SKILLS 🎓",
+      "goal": "PREFERRED ROLE ON RELEASE 👷",
       "options": [
-        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
-        "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
-        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
-        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
-        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
-        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+        "Secure JOBROLE work within 3 months post-release for stable income. Review quarterly.",
+        "Gain JOBROLE position within 6 months of release for financial security. Review in 6 months.",
+        "Find employment in JOBROLE within 3 months to build financial independence. Ongoing review.",
+        "Enter JOBROLE post-release within 3 months for income stability. Review progress monthly.",
+        "Achieve a role in JOBROLE within 6 months of release to support goals. Quarterly review.",
+        "Obtain JOBROLE work within 3 months for steady income and financial growth. Ongoing."
       ]
     },
     {
-      "goal": "PREFERRED ROLE ON RELEASE 👷",
+      "goal": "RETURN TO PREVIOUS EMPLOYER 🏢",
       "options": [
-        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
-        "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
-        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
-        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
-        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
-        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+        "Contact previous employer within 1 month of release to discuss job availability. Review quarterly.",
+        "Secure interview with former employer within 3 months post-release. Quarterly review.",
+        "Update CV within 1 month of release to present to previous employer. Quarterly review.",
+        "Obtain references within 3 months to support return to former employer. Review quarterly.",
+        "Confirm job offer with former employer within 6 months post-release. Quarterly review.",
+        "Complete training required by employer within 3 months to ensure readiness. Review quarterly."
       ]
     },
     {
@@ -425,6 +425,36 @@
         "Develop post-release budget with PIP/UC; review progress in 3 months.",
         "Create savings plan for costs outside PIP/UC; review feasibility in 3 months.",
         "Identify support programs to supplement PIP/UC; evaluate plan in 3 months."
+      ]
+    },
+    {
+      "goal": "DART SUPPORT 💊",
+      "options": [
+        "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
+        "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
+        "Engage with DART to address addiction issues for 3 months of support. Review in 3 months.",
+        "Connect with DART for help with substance use and commit to recovery. Review in 3 months.",
+        "Utilise DART resources for substance issues and attend meetings for 6 months. Review in 3 months.",
+        "Reach out to DART for addiction management over the next 3 months. Review in 3 months.",
+        "Participate in DART sessions to manage substance use for lasting change. Review in 3 months.",
+        "Join DART support to tackle addiction issues and develop a recovery plan. Review in 3 months.",
+        "Engage with DART for ongoing assistance with substance dependence for 6 months. Review in 3 months.",
+        "Contact DART for help with addiction management and participate for 3 months. Review in 3 months."
+      ]
+    },
+    {
+      "goal": "MENTAL HEALTH SUPPORT 🧠",
+      "options": [
+        "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
+        "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
+        "Participate in mental health support sessions to develop coping strategies for 6 months. Review in 3 months.",
+        "Collaborate with Mental Health Team to tackle challenges and improve well-being. Review in 3 months.",
+        "Seek ongoing support from mental health professionals for my conditions for 3 months. Review in 3 months.",
+        "Access mental health services to address ADHD, ASD, and related concerns. Review in 3 months.",
+        "Utilise Mental Health Team resources to enhance coping skills for 6 months. Review in 3 months.",
+        "Join mental health workshops to improve overall well-being and resilience. Review in 3 months.",
+        "Connect with mental health professionals for strategies to manage challenges. Review in 3 months.",
+        "Work with mental health experts to develop effective support strategies. Review in 3 months."
       ]
     },
     {
@@ -491,14 +521,14 @@
       ]
     },
     {
-      "goal": "IMPROVE FUNCTIONAL SKILLS",
+      "goal": "IMPROVE FUNCTIONAL SKILLS 🎓",
       "options": [
-        "Start training in PATHWAY to build skills for release. Review progress in 3 months.",
+        "Start training in PATHWAY to build functional skills for release. Review progress in 3 months.",
         "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
-        "Gain skills in PATHWAY to improve education prospects on release. Review progress in 3 months.",
-        "Achieve progress in PATHWAY to enhance educational skills after release. Review in 3 months.",
-        "Secure training in PATHWAY to strengthen educational opportunities post-release. Review in 3 months.",
-        "Complete coursework in PATHWAY to boost functional skills for future learning. Review progress in 3 months."
+        "Gain skills in PATHWAY to improve job prospects on release. Review progress in 3 months.",
+        "Achieve progress in PATHWAY to enhance functional skills for release. Review in 3 months.",
+        "Secure training in PATHWAY to strengthen work opportunities post-release. Review in 3 months.",
+        "Complete coursework in PATHWAY to boost functional skills for future work. Review progress in 3 months."
       ]
     },
     {
@@ -570,12 +600,19 @@
   ],
   "Long": [
     {
-      "goal": "Long Goals",
+      "goal": "PURCHASE/RENT OWN PROPERTY 🏠",
       "options": [
-        "Long Goal examples",
-        "Long Goal examples",
-        "Long Goal examples",
-        "Long Goal examples"
+        "Begin saving monthly to afford a deposit for rent/purchase in 2 years. Review quarterly.",
+        "Contact housing agency within 3 months of release to explore options. Review monthly.",
+        "Set a budget for renting/buying property within 1 month of release. Monthly review.",
+        "Secure necessary ID and paperwork within 2 months for housing application. Monthly review.",
+        "Apply for housing assistance within 3 months to support renting. Monthly review.",
+        "Find a guarantor within 6 months if needed for rental property. Quarterly review.",
+        "Save 10% of income monthly toward a mortgage deposit. Aim for 2 years. Quarterly review.",
+        "Research mortgage options within 3 months post-release for long-term plans. Review monthly.",
+        "Complete financial literacy course on budgeting and saving for rent/mortgage. Review quarterly.",
+        "Set a 1-year savings goal for rent deposit and housing costs. Quarterly review.",
+        "Create a 6-month action plan for viewing and assessing rental properties. Monthly review."
       ]
     },
     {
@@ -916,7 +953,23 @@
 
   "LongTermGoals": [
     {
-      "goal": "RELEASE ACCOMMODATION",
+      "goal": "PURCHASE/RENT OWN PROPERTY 🏠",
+      "options": [
+        "Begin saving monthly to afford a deposit for rent/purchase in 2 years. Review quarterly.",
+        "Contact housing agency within 3 months of release to explore options. Review monthly.",
+        "Set a budget for renting/buying property within 1 month of release. Monthly review.",
+        "Secure necessary ID and paperwork within 2 months for housing application. Monthly review.",
+        "Apply for housing assistance within 3 months to support renting. Monthly review.",
+        "Find a guarantor within 6 months if needed for rental property. Quarterly review.",
+        "Save 10% of income monthly toward a mortgage deposit. Aim for 2 years. Quarterly review.",
+        "Research mortgage options within 3 months post-release for long-term plans. Review monthly.",
+        "Complete financial literacy course on budgeting and saving for rent/mortgage. Review quarterly.",
+        "Set a 1-year savings goal for rent deposit and housing costs. Quarterly review.",
+        "Create a 6-month action plan for viewing and assessing rental properties. Monthly review."
+      ]
+    },
+    {
+      "goal": "RELEASE ACCOMMODATION 🏠",
       "options": [
         "Work with services to secure accommodation before release. Review in 3 months.",
         "Confirm housing with support services before my release. Review in 3 months.",
@@ -931,7 +984,7 @@
       ]
     },
     {
-      "goal": "DEBT/FINANCE HELP",
+      "goal": "DEBT/FINANCE HELP 🐖",
       "options": [
         "Access support to manage debts inside and outside prison. Review in 3 months.",
         "Seek advice on managing finances to tackle debts during and after my sentence. Review in 3 months.",
@@ -944,7 +997,7 @@
       ]
     },
     {
-      "goal": "EDUCATION/TRAINING",
+      "goal": "EDUCATION/TRAINING 🏫",
       "options": [
         "Learn skills through education and training for post-release employment. Review in 3 months.",
         "Enroll in courses to enhance qualifications and job opportunities. Review in 3 months.",
@@ -959,7 +1012,7 @@
       ]
     },
     {
-      "goal": "SENTENCE PLAN",
+      "goal": "SENTENCE PLAN 📜",
       "options": [
         "Collaborate with my POM/OMU to complete my sentence plan in 6-9 months. Review in 3 months.",
         "Ensure all steps of my sentence plan are fulfilled with support from POM/OMU. Review in 3 months.",
@@ -974,7 +1027,7 @@
       ]
     },
     {
-      "goal": "CAT D",
+      "goal": "CAT D 📊",
       "options": [
         "Complete all actions needed for CAT D status before release. Review in 3 months.",
         "Work towards CAT D classification by meeting requirements on time. Review in 3 months.",
@@ -989,7 +1042,7 @@
       ]
     },
     {
-      "goal": "PAROLE",
+      "goal": "PAROLE 😇",
       "options": [
         "Work with staff to achieve parole through good behaviour. Review in 3 months.",
         "Demonstrate good behaviour to increase chances of parole. Review in 3 months.",
@@ -1001,36 +1054,6 @@
         "Track my progress and adhere to conditions for parole eligibility. Review in 3 months.",
         "Engage with staff to enhance my parole prospects. Review in 3 months.",
         "Prepare for parole hearings by documenting my behaviour and achievements. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "OPEN UNIVERSITY",
-      "options": [
-        "Apply for Open University courses within 3 months. Review in 3 months.",
-        "Enroll in Open University courses to further my education. Review in 3 months.",
-        "Begin studying Open University courses to enhance qualifications. Review in 3 months.",
-        "Work towards completing Open University courses within a year. Review in 3 months.",
-        "Participate in Open University programmes to develop skills. Review in 3 months.",
-        "Focus on completing Open University courses aligned with my goals. Review in 3 months.",
-        "Seek guidance on course selection for my career objectives. Review in 3 months.",
-        "Engage actively in Open University studies to maximise learning. Review in 3 months.",
-        "Document my progress in Open University courses. Review in 3 months.",
-        "Utilise Open University resources to enhance career opportunities. Review in 3 months."
-      ]
-    },
-    {
-      "goal": "PET COURSES",
-      "options": [
-        "Apply for a post release job-relevant PET course before release. Review progress in 3 months.",
-        "Complete enrolment in a PET course to build skills before release. Review in 3 months.",
-        "Start PET course study to gain qualifications before release. Review progress in 3 months.",
-        "Commit to finishing PET courses before release for my career goals. Review in 3 months.",
-        "Begin a PET course to build specific career skills. Track progress monthly.",
-        "Finish a PET course focused on my career plan before release. Review in 3 months.",
-        "Get career-specific advice and choose a PET course before release. Review in 3 months.",
-        "Complete all set PET course tasks to improve knowledge before release. Review in 3 months.",
-        "Record and reflect on PET course achievements weekly. Review in 3 months.",
-        "Use PET course resources to expand career options before release. Review in 3 months."
       ]
     },
     {
@@ -1112,19 +1135,6 @@
       ]
     },
     {
-      "goal": "HEALTH & WELLBEING",
-      "options": [
-        "Join at least 1 programme in 3 months to enhance my physical & mental health.",
-        "Engage in 3 activities promoting personal wellness over 3 months.",
-        "Utilise resources to address 3 health concerns post-release in the first month.",
-        "Focus on improving mental health through 3 support service sessions in 3 months.",
-        "Establish a self-care routine with 3 specific practices after release.",
-        "Document my health goals & progress weekly for accountability over 3 months.",
-        "Explore 3 mindfulness practices to support my mental health over 3 months.",
-        "Create a plan for maintaining health & wellbeing consistently after release."
-      ]
-    },
-    {
       "goal": "NEW SKILLS",
       "options": [
         "Identify & learn 3 new skills that align with my career interests in 3 months.",
@@ -1150,46 +1160,6 @@
         "Participate in 3 activities fostering teamwork & collaboration skills over 3 months.",
         "Document my personal development journey weekly for reflection over 3 months.",
         "Explore 3 mindfulness practices to enhance overall wellbeing & self-care over 3 months."
-      ]
-    },
-    {
-      "goal": "SUPPORT NETWORK BUILDING",
-      "options": [
-        "Identify & connect with 3 individuals/services who can support me during my transition in 3 months.",
-        "Maintain daily/regular family/friend contact to build a support network over 3 months.",
-        "Develop a list of 5 potential mentors or supporters to reach out to post-release."
-      ]
-    },
-    {
-      "goal": "LIFE SKILLS TRAINING",
-      "options": [
-        "Attend at least 1 workshop on essential life skills like cooking & budgeting in 3 months.",
-        "Participate in at least 1 session teaching practical skills for daily living over 3 months.",
-        "Work on developing time management & organisational skills with 3 exercises in 3 months."
-      ]
-    },
-    {
-      "goal": "HOBBY DEVELOPMENT",
-      "options": [
-        "Identify & pursue 3 hobbies that provide positive outlets & enhance wellbeing in 3 months.",
-        "Engage in 3 creative activities to explore interests & relieve stress over 3 months.",
-        "Participate in 3 group activities or clubs focused on shared interests in 3 months."
-      ]
-    },
-    {
-      "goal": "DIGITAL LITERACY",
-      "options": [
-        "Take at least 1 course to improve computer skills, including software & internet usage over 3 months.",
-        "Learn online job search techniques & digital tools in at least 1 workshop over 3 months.",
-        "Engage in at least 1 workshop to enhance understanding of social media & professional applications."
-      ]
-    },
-    {
-      "goal": "MINDFULNESS PRACTICES",
-      "options": [
-        "Participate in least 3 mindfulness activities to develop stress reduction techniques in 3 months.",
-        "Incorporate daily mindfulness exercises to improve mental well-being over the next 3 months.",
-        "Explore 3 meditation & relaxation techniques to support emotional health over 3 months."
       ]
     }
   ]
