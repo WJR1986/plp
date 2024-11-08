@@ -301,12 +301,8 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
 fetch("goals.json")
   .then((response) => response.json())
   .then((data) => {
-    populateEmploymentGoals(data.EmploymentGoals2);
-    populateGoals(
-      data.ShortTermGoals,
-      "short-term-goals-container",
-      "Short-Term Goals"
-    );
+    populateEmploymentGoals(data.Reviews);
+
     populateGoals(
       data.PersonalGoals,
       "personal-goals-container",
@@ -323,8 +319,7 @@ fetch("goals.json")
       "employment-goals-container",
       "EMP Goals"
     );
-    populateGoals(data.Short, "short-goals-container", "Short Goals"); // New Short Goals
-    populateGoals(data.Long, "long-goals-container", "Long Goals"); // New Long Goals
+    populateGoals(data.Short, "short-goals-container", "Short Term Goals"); // New Short Goals
   })
   .catch((error) => console.error("Error loading JSON:", error));
 
@@ -333,32 +328,32 @@ function populateEmploymentGoals(goals) {
   const unsureCareerContainer = document.getElementById(
     "unsure-career-direction"
   );
-  const sickContainer = document.getElementById("sick-goals");
-  const retiredContainer = document.getElementById("retired-goals");
+  const sickContainer = document.getElementById("ShortGoalsRev-goals");
+  const retiredContainer = document.getElementById("LongGoalsRev");
 
   populateSubCategoryGoals(
-    goals.WithJobWaiting || [],
+    goals.EmpGoalsReview || [],
     withJobContainer,
     "Employment Goals",
-    "With Job Waiting"
+    "Employment Goals Review"
   );
   populateSubCategoryGoals(
-    goals.UnsureCareerDirection || [],
+    goals.PersonalGoalsRev || [],
     unsureCareerContainer,
     "Employment Goals",
-    "Unsure Career Direction"
+    "Personal Goals Review"
   );
   populateSubCategoryGoals(
-    goals.Sick || [],
+    goals.ShortGoalsRev || [],
     sickContainer,
     "Employment Goals",
-    "Sick"
+    "ShortGoalsRev"
   );
   populateSubCategoryGoals(
-    goals.Retired || [],
+    goals.LongGoalsRev || [],
     retiredContainer,
     "Employment Goals",
-    "Retired"
+    "LongGoalsRev"
   );
 }
 
@@ -380,22 +375,22 @@ function isElementInViewport(el) {
 }
 
 // Show or hide the floating button based on scroll position
-// function toggleScrollButton() {
-//   const resultsDiv = document.getElementById("results");
-//   const scrollToResultsButton = document.getElementById("scrollToResults");
+function toggleScrollButton() {
+  const resultsDiv = document.getElementById("results");
+  const scrollToResultsButton = document.getElementById("scrollToResults");
 
-//   scrollToResultsButton.style.display = isElementInViewport(resultsDiv)
-//     ? "none"
-//     : "block";
-// }
+  scrollToResultsButton.style.display = isElementInViewport(resultsDiv)
+    ? "none"
+    : "block";
+}
 
 // Attach the scroll event listener
-// window.addEventListener("scroll", toggleScrollButton);
+window.addEventListener("scroll", toggleScrollButton);
 
 // Smooth scroll to results section
-// document.getElementById("scrollToResults").addEventListener("click", () => {
-//   document.getElementById("results").scrollIntoView({ behavior: "smooth" });
-// });
+document.getElementById("scrollToResults").addEventListener("click", () => {
+  document.getElementById("results").scrollIntoView({ behavior: "smooth" });
+});
 
 // Initialize the UI
 updateGoalSelectionUI();
