@@ -333,25 +333,25 @@ function populateEmploymentGoals(goals) {
   populateSubCategoryGoals(
     goals.EmpGoalsReview || [],
     withJobContainer,
-    "Employment Goals PLP",
+    "Employment Goals Review",
     "Employment Goals Review"
   );
   populateSubCategoryGoals(
     goals.PersonalGoalsRev || [],
     unsureCareerContainer,
-    "Employment Goals PLP",
+    "Employment Goals Review",
     "Personal Goals Review"
   );
   populateSubCategoryGoals(
     goals.ShortGoalsRev || [],
     sickContainer,
-    "Employment Goals PLP",
+    "Employment Goals Review",
     "ShortGoalsRev"
   );
   populateSubCategoryGoals(
     goals.LongGoalsRev || [],
     retiredContainer,
-    "Employment Goals PLP",
+    "Employment Goals Review",
     "LongGoalsRev"
   );
 }
@@ -446,7 +446,7 @@ function populatePLPGoals(goals) {
       populateSubCategoryGoals(
         plpStart[subCategory],
         container,
-        "PLPStart",
+        "PLP Creation",
         subCategory
       );
     } else {
