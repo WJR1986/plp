@@ -2,6 +2,7 @@
   "PLPStart": {
     "Employment Goals PLP": [
       {
+        "id": "goal1",
         "goal": "PLP CREATED STAMP 🔨",
         "options": [
           "This Personal Learning Plan was created at HMP Northumberland on [DATE].",
@@ -22,6 +23,7 @@
         ]
       },
       {
+        "id": "goal1",
         "goal": "PREFERRED ROLE ON RELEASE 👷",
         "options": [
           "Secure JOBROLE work within 3 months post-release for stable income. Review quarterly.",
@@ -806,6 +808,7 @@
     ],
     "Sick Goals PLP": [
       {
+        "id": "PIP or UC",
         "goal": "ASSESS PIP/UC ELIGIBILITY 🏥",
         "options": [
           "Meet support worker to assess PIP/UC eligibility; review outcome in 3 months.",
@@ -815,6 +818,7 @@
         ]
       },
       {
+        "id": "PIP or UC",
         "goal": "APPLY FOR BENEFITS 🏥",
         "options": [
           "Complete PIP/UC application with support this month; review in 3 months.",
@@ -824,6 +828,7 @@
         ]
       },
       {
+        "id": "PIP or UC",
         "goal": "UNDERSTAND BENEFIT RULES 🏥",
         "options": [
           "Attend benefits workshop; document key points, review in 3 months.",
@@ -833,6 +838,7 @@
         ]
       },
       {
+        "id": "Plan & Research",
         "goal": "PLAN FOR INCOME CHANGES 🏥",
         "options": [
           "Develop post-release budget with PIP/UC; review progress in 3 months.",
@@ -892,20 +898,6 @@
         ]
       },
       {
-        "goal": "Reinforce Time Management 🕰️",
-        "options": [
-          "Complete 3 tasks daily; review efficiency and productivity with IAG in 3 months.",
-          "Manage 3 tasks daily; assess readiness for job responsibilities with IAG in 3 months.",
-          "Complete daily tasks by schedule; review task success rate monthly for 3 months.",
-          "Achieve 80% daily task completion; review performance and gains with IAG in 3 months.",
-          "Set daily goals; assess impact on time management skills with IAG in 3 months.",
-          "Set and complete 2 daily goals; adjust strategies monthly and review with IAG in 3 months.",
-          "Organise weekly tasks; evaluate time use effectiveness with IAG in 3 months.",
-          "Prioritise daily tasks; review prioritisation skill growth with IAG in 3 months.",
-          "Review time management weekly with supervisor; adjust and assess in 3 months."
-        ]
-      },
-      {
         "goal": "IMPROVE FUNCTIONAL SKILLS 🎓",
         "options": [
           "Start training in PATHWAY to build functional skills for release. Review progress in 3 months.",
@@ -925,38 +917,6 @@
           "Maintaining commitment to PATHWAY to strengthen functional abilities for release. Quarterly review.",
           "Staying engaged in PATHWAY to support employability and skill building. Review in 3 months.",
           "Advancing through PATHWAY to improve functional skills for future career options. Quarterly review."
-        ]
-      },
-      {
-        "goal": "Mock Interviews 👨‍🔬",
-        "options": [
-          "Complete 1 mock interview; rate confidence and progress with IAG in 3 months.",
-          "Do 2 mock interviews; assess performance monthly with IAG, review in 3 months.",
-          "Complete 1 mock before job search; assess comfort and readiness in 3 months.",
-          "Prepare with 1 mock interview; evaluate readiness for real interviews in 3 months.",
-          "Get feedback from 1 mock; create and follow improvement plan in 3 months.",
-          "Schedule 2 mocks; assess confidence gains with IAG monthly, review in 3 months.",
-          "Attend workshop, practice 3 scenarios; review techniques with IAG in 3 months.",
-          "Engage in peer mock interviews; track communication skills monthly, review in 3 months.",
-          "Use mock interview feedback to update CV; assess CV readiness in 3 months."
-        ]
-      },
-      {
-        "goal": "Gain Work Experience 👷",
-        "options": [
-          "Volunteer for a prison role; assess skills gained monthly with IAG.",
-          "Join prison industries; assess skills and readiness for release in 3 months.",
-          "Complete 2 tasks in prison; review feedback with IAG in 2 months.",
-          "Shadow a peer for a week; document learnings and apply insights."
-        ]
-      },
-      {
-        "goal": "Develop Interpersonal Skills 📈",
-        "options": [
-          "Converse daily with peers; track and review confidence gains in 3 months.",
-          "Join peer support group; evaluate active listening growth with IAG in 3 months.",
-          "Work on a shared project; assess teamwork growth with IAG in 3 months.",
-          "Practice conflict resolution in role-plays; review outcomes monthly with IAG."
         ]
       }
     ],
@@ -1374,6 +1334,20 @@
           "Review achievements & challenges weekly to foster growth. Review in 3 months.",
           "Use prompts to guide self-reflection weekly for deeper insights. Review in 3 months.",
           "Create a vision board based on self-reflection to clarify personal goals. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Reinforce Time Management 🕰️",
+        "options": [
+          "Complete 3 tasks daily; review efficiency and productivity with IAG in 3 months.",
+          "Manage 3 tasks daily; assess readiness for job responsibilities with IAG in 3 months.",
+          "Complete daily tasks by schedule; review task success rate monthly for 3 months.",
+          "Achieve 80% daily task completion; review performance and gains with IAG in 3 months.",
+          "Set daily goals; assess impact on time management skills with IAG in 3 months.",
+          "Set and complete 2 daily goals; adjust strategies monthly and review with IAG in 3 months.",
+          "Organise weekly tasks; evaluate time use effectiveness with IAG in 3 months.",
+          "Prioritise daily tasks; review prioritisation skill growth with IAG in 3 months.",
+          "Review time management weekly with supervisor; adjust and assess in 3 months."
         ]
       }
     ],
