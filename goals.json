@@ -1,14 +1,13 @@
 {
   "PLPStart": {
     "Employment Goals PLP": [
-      {
-        "id": "goal1",
+      {        
         "goal": "PLP CREATED STAMP 🔨",
         "options": [
-          "This Personal Learning Plan was created at HMP Northumberland on [DATE].",
-          "This Personal Learning Plan was successfully completed at HMP Northumberland on [DATE].",
-          "At HMP Northumberland, this Personal Learning Plan was finalised on [DATE].",
-          "On [DATE], this Personal Learning Plan was created at HMP Northumberland."
+          "This Personal Learning Plan was created at HMP Northumberland on DATE.",
+          "This Personal Learning Plan was successfully completed at HMP Northumberland on DATE.",
+          "At HMP Northumberland, this Personal Learning Plan was finalised on DATE.",
+          "On DATE, this Personal Learning Plan was created at HMP Northumberland."
         ]
       },      
       {
@@ -22,12 +21,11 @@
           "Secure work in PATHWAY to boost employability upon release. Review progress in 3 months."
         ]
       },
-      {
-        "id": "goal1",
+      {        
         "goal": "PREFERRED ROLE ON RELEASE 👷",
         "options": [
           "Secure JOBROLE work within 3 months post-release for stable income. Review quarterly.",
-          "Gain JOBROLE position within 6 months of release for financial security. Review in 6 months.",
+          "Gain JOBROLE position within 6 months of release for financial security. Quarterly reassessment.",
           "Find employment in JOBROLE within 3 months to build financial independence. Ongoing review.",
           "Enter JOBROLE post-release within 3 months for income stability. Review progress monthly.",
           "Achieve a role in JOBROLE within 6 months of release to support goals. Quarterly review.",
@@ -35,19 +33,37 @@
         ]
       },
       {
-        "goal": "RETURN TO PREVIOUS EMPLOYER 🏢",
+        "goal": "RETURN TO PREVIOUS EMPLOYER (ROLE GUARANTEED) ✅🏢",
         "options": [
-          "Contact previous employer within 1 month of release to discuss job availability. Review quarterly.",
-          "Secure interview with former employer within 3 months post-release. Quarterly review.",
-          "Update CV within 1 month of release to present to previous employer. Quarterly review.",
-          "Obtain references within 3 months to support return to former employer. Review quarterly.",
-          "Confirm job offer with former employer within 6 months post-release. Quarterly review.",
-          "Complete training required by employer within 3 months to ensure readiness. Review quarterly."
+          "Monthly contact with previous employer to confirm guaranteed role. Review quarterly.", 
+          "Update previous employer every 2 months to secure guaranteed role. Review quarterly.",
+          "Confirm guaranteed role with previous employer every 3 months. Review quarterly.",
+          "Discuss guaranteed role with previous employer in months 1, 3, and 6. Review quarterly.",
+          "Share rehabilitation progress with previous employer every 3 months. Review quarterly." 
         ]
       },
-
       {
-        "goal": "DART SUPPORT (ADDICTION HINDERS WORK)💊",
+        "goal": "RETURN TO PREVIOUS EMPLOYER (ROLE NOT GUARANTEED) ❌🏢",
+        "options": [
+          "Contact previous employer monthly to discuss potential roles. Review quarterly.",
+          "Update previous employer every 2 months on skills and progress. Review quarterly.",
+          "Enquire about job openings with previous employer every 3 months. Review quarterly.",
+          "Request a meeting with previous employer to discuss opportunities in month 3. Review quarterly.",
+          "Share updated CV/progress with previous employer every 3 months. Review quarterly."
+        ]
+      },
+      {
+        "goal": "MEDICALLY UNFIT FOR PRISON ROLE🏥❌",
+        "options": [
+          "Medically unfit for work, will return to PIP/UC on release. Review in 3 months.",
+          "Due to medical unfitness, plan is to claim PIP/UC post-release. Quarterly reassessment.",
+          "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
+          "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
+          "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "DART SUPPORT (ADDICTION HINDERS WORK)💊❌",
         "options": [
           "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
           "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
@@ -62,7 +78,7 @@
         ]
       },
       {
-        "goal": "MENTAL HEALTH SUPPORT (MH HINDERS WORK)🧠",
+        "goal": "MENTAL HEALTH SUPPORT (MH HINDERS WORK)🧠❌",
         "options": [
           "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
           "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
@@ -79,7 +95,7 @@
     ],
     "Personal Goals PLP": [
       {
-        "goal": "JOIN GYM",
+        "goal": "JOIN GYM 💪",
         "options": [
           "Apply via kiosk, attend induction, workout weekly for 3 months. Review in 3 months.",
           "Complete induction, exercise weekly for 3 months to meet fitness goals. Review in 3 months.",
@@ -94,7 +110,7 @@
         ]
       },
       {
-        "goal": "ATTEND GYM",
+        "goal": "ATTEND GYM 💪",
         "options": [
           "Attend gym weekly for 3 months to boost fitness & reach weight goals. Review in 3 months.",
           "Exercise at the gym weekly for 3 months to improve health & fitness. Review in 3 months.",
@@ -109,7 +125,7 @@
         ]
       },
       {
-        "goal": "REDUCE VAPING",
+        "goal": "REDUCE VAPING 🚭✅",
         "options": [
           "Cut back vaping to every other day in 3 months for better health. Review in 3 months.",
           "Reduce vaping by 50% in 3 months to save money & improve health. Review in 3 months.",
@@ -123,7 +139,7 @@
         ]
       },
       {
-        "goal": "DECLINED VAPING ADVICE (REDUCE)",
+        "goal": "DECLINED VAPING ADVICE (REDUCE) 🚭❌",
         "options": [
           "Advised vaping reduction over 3 months for improved health, declined. Review in 3 months.",
           "Advised to reduce vaping over 3 months to enhance health, declined. Review in 3 months.",
@@ -138,7 +154,7 @@
         ]
       },
       {
-        "goal": "STOP VAPING",
+        "goal": "STOP VAPING 🚭✅",
         "options": [
           "Quit vaping completely in 3 months for improved health & save money. Review in 3 months.",
           "Stop vaping entirely by 3 months to enhance my health. Review in 3 months.",
@@ -153,7 +169,7 @@
         ]
       },
       {
-        "goal": "DECLINED VAPING ADVICE (QUIT)",
+        "goal": "DECLINED VAPING ADVICE (QUIT) 🚭❌",
         "options": [
           "Advised to quit vaping completely in 3 months for improved health, declined. Review in 3 months.",
           "Advised to stop vaping in 3 months to enhance health, declined. Review in 3 months.",
@@ -168,7 +184,7 @@
         ]
       },
       {
-        "goal": "FAMILY/FRIEND VISITS",
+        "goal": "FAMILY/FRIEND VISITS 👪",
         "options": [
           "Arrange 1 family visit per month for 6 months to maintain connections. Review in 3 months.",
           "Set up monthly visits for 3 months to stay in touch with family. Review in 3 months.",
@@ -183,17 +199,17 @@
         ]
       },
       {
-        "goal": "FAMILY/FRIEND PHONE CALLS",
+        "goal": "FAMILY/FRIEND PHONE CALLS 📞",
         "options": [
           "Arrange daily family calls for 6 months to maintain connections. Quarterly Review.",
           "Set up family daily calls for 3 months to stay in touch with family. Review in 3 months.",
-          "Schedule daily family calls to strengthen relationships. Quarterly Review.",
+          "Schedule daily family calls to strengthen relationships. Quarterly reassessment.",
           "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months.",
-          "Organise daily family calls to maintain emotional support. Quarterly Review.",
+          "Organise daily family calls to maintain emotional support. Quarterly reassessment.",
           "Ensure at least 3 family calls occurs monthly for 6 months. Review in 3 months.",
           "Plan daily family calls for 6 months to nurture relationships. Quarterly Review.",
           "Stay connected through family visits once per month for 4 months. Review in 3 months.",
-          "Maintain monthly family visits for 6 months to support emotional well-being. Quarterly Review.",
+          "Maintain monthly family visits for 6 months to support emotional well-being. Quarterly reassessment.",
           "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
         ]
       },
@@ -202,18 +218,18 @@
         "options": [
           "Attend the social group each month for 6 months to maintain connections. Review in 3 months.",
           "Participate in bi-weekly social group sessions to build friendships. Review in 3 months.",
-          "Volunteer to help at a social group within 6 months for group cohesion. Quarterly review.",
+          "Volunteer to help at a social group within 6 months for group cohesion. Quarterly reassessment.",
           "Attend social groups monthly for 3 months to improve social skills. Review quarterly.",
           "Set a goal to engage with 1 new group members monthly for stronger support. Quarterly review.",
-          "Attend 4 social groups & contribute to group discussions to reduce isolation. Quarterly review.",
+          "Attend 4 social groups & contribute to group discussions to reduce isolation. Quarterly reassessment.",
           "Share personal experiences monthly in group for social confidence. Review in 3 months.",
           "Offer to lead a social group session within 6 months to build leadership skills. Quarterly review.",
-          "Aim to join each social group session over the next 6 months to help wellbeing. Quarterly review.",
+          "Aim to join each social group session over the next 6 months to help wellbeing. Quarterly reassessment.",
           "Commit to 6 months of social group attendance to boost mental health. Quarterly review."
         ]
       },
       {
-        "goal": "MENTORSHIP",
+        "goal": "MENTORSHIP 🧑‍🎓",
         "options": [
           "Become a mentor with Shannon Trust within 1 month to support others in literacy. Review in 3 months.",
           "Join Shannon Trust mentoring program next month to assist fellow prisoners. Review in 3 months.",
@@ -228,7 +244,7 @@
         ]
       },
       {
-        "goal": "TRANSFER TO OTHER PRISON",
+        "goal": "TRANSFER TO OTHER PRISON 🚛",
         "options": [
           "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
           "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
@@ -286,7 +302,7 @@
         ]
       },
       {
-        "goal": "MINDFULNESS",
+        "goal": "MINDFULNESS 🧠",
         "options": [
           "Practice mindfulness for 10 mins daily for 4 weeks to lower stress. Review in 3 months.",
           "Engage in mindfulness exercises daily for 6 weeks to improve clarity. Review in 3 months.",
@@ -301,7 +317,7 @@
         ]
       },
       {
-        "goal": "IMPROVE SLEEP",
+        "goal": "IMPROVE SLEEP 💤",
         "options": [
           "Aim for 7 hours of sleep nightly by establishing a routine this month. Review in 3 months.",
           "Establish a sleep routine for 7 hours of quality rest nightly for 6 weeks. Review in 3 months.",
@@ -316,7 +332,7 @@
         ]
       },
       {
-        "goal": "EXPLORE NEW HOBBIES",
+        "goal": "EXPLORE NEW HOBBIES 🎮",
         "options": [
           "Try a new hobby this month to enhance personal growth. Review in 3 months.",
           "Engage in a creative activity weekly for 6 weeks to discover interests. Review in 3 months.",
@@ -331,7 +347,7 @@
         ]
       },
       {
-        "goal": "DEVELOP A DAILY ROUTINE",
+        "goal": "DEVELOP A DAILY ROUTINE 📑",
         "options": [
           "Establish a daily routine for better structure over the month. Review in 3 months.",
           "Create a balanced daily schedule for work, hobbies, and health for 4 weeks. Review in 3 months.",
@@ -346,7 +362,7 @@
         ]
       },
       {
-        "goal": "PRACTICE SELF-REFLECTION",
+        "goal": "PRACTICE SELF-REFLECTION 🪞",
         "options": [
           "Dedicate 10 minutes daily to self-reflection for personal growth over the month. Review in 3 months.",
           "Keep a journal to document thoughts weekly for 3 months. Review in 3 months.",
@@ -415,72 +431,43 @@
         ]
       },
       {
-        "goal": "IMPROVE FUNCTIONAL SKILLS 🎓",
+        "goal": "Raise FS Levels via PET 📝",
         "options": [
-          "Start training in PATHWAY to build functional skills for release. Review progress in 3 months.",
-          "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
-          "Gain skills in PATHWAY to improve job prospects on release. Review progress in 3 months.",
-          "Achieve progress in PATHWAY to enhance functional skills for release. Review in 3 months.",
-          "Secure training in PATHWAY to strengthen work opportunities post-release. Review in 3 months.",
-          "Complete coursework in PATHWAY to boost functional skills for future work. Review progress in 3 months."
+          "Advised to request PET prospectus to boost job prospects. Accepted. Request via kiosk within 1 week.",
+          "Suggested to research a PET course to improve job skills. Accepted. Enquire via kiosk this week.",
+          "Recommended registering for PET exam to enhance employability. Accepted. Register by [date].", 
+          "Offered support with PET for career progression. Accepted. Create plan & discuss w/ IAG in 3 months.", 
+          "Informed about PET workshops to increase job options. Accepted. Check kiosk for availability." 
         ]
-      },
+      },      
       {
-        "goal": "GAIN ENHANCED 📛",
+        "goal": "Raise FS Levels via OU 🎓",
         "options": [
-          "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
-          "Secure IEP Enhanced status in 6 months through positive engagement. Review in 3 months.",
-          "Achieve IEP Enhanced status for 3 months via consistent positive actions. Review in 3 months.",
-          "Qualify for IEP Enhanced status in 3 months by demonstrating good conduct. Review in 3 months.",
-          "Aim for IEP Enhanced status in 6 months with responsibility and good behaviour. Review in 3 months.",
-          "Secure IEP Enhanced status for 3 months by engaging with support services. Review in 3 months.",
-          "Achieve IEP Enhanced status for 3 months through self-reflection. Review in 3 months.",
-          "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
+          "Advised to request OU prospectus for career development. Accepted. Request via kiosk within 1 week.",
+          "Suggested enquiring about OU funding to support career goals. Accepted. Enquire via kiosk this week.", 
+          "Recommended completing OU application to boost job prospects. Accepted. Use kiosk; submit by [date].", 
+          "Offered support with gathering OU docs for career advancement. Accepted. Request help via kiosk.", 
+          "Informed about pre-release OU coursework to enhance job skills. Accepted. Access materials via kiosk." 
         ]
-      },
+      },      
       {
-        "goal": "HEALTH CHECK UPS (NOT ABLE TO WORK) 🧑‍⚕️",
+        "goal": "Raise FS Levels via PET 📝",
         "options": [
-          "Attend health check-ups to manage physical health concerns over 6 months. Review in 3 months.",
-          "Schedule appointments with the health clinic to monitor my well-being. Review in 3 months.",
-          "Participate in health screenings to address medical needs and stay informed. Review in 3 months.",
-          "Engage with health services by attending check-ups for ongoing management. Review in 3 months.",
-          "Utilise prison health services to monitor health and ensure preventive care. Review in 3 months.",
-          "Commit to regular visits with healthcare professionals for specific concerns. Review in 3 months.",
-          "Stay proactive in health management by tracking appointments and outcomes. Review in 3 months.",
-          "Work with healthcare providers to establish a health plan for improvement. Review in 3 months.",
-          "Use available health resources to enhance my physical and mental well-being. Review in 3 months.",
-          "Maintain awareness of health by attending check-ups and wellness activities. Review in 3 months."
+          "Advised to request PET prospectus to boost job prospects. Declined. Review in 3 months.", 
+          "Suggested enquiring about PET materials to improve job skills. Declined. Quarterly reassessment.",
+          "Recommended registering for PET exam to enhance employability. Declined. Review in 3 months",
+          "Offered support with PET study plan for career progression. Declined. Quarterly review.", 
+          "Informed about PET workshops to increase job options. Declined. Review in 3 months" 
         ]
-      },
+      },      
       {
-        "goal": "DART SUPPORT 💊",
+        "goal": "Raise FS Levels via OU 🎓",
         "options": [
-          "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
-          "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
-          "Engage with DART to address addiction issues for 3 months of support. Review in 3 months.",
-          "Connect with DART for help with substance use and commit to recovery. Review in 3 months.",
-          "Utilise DART resources for substance issues and attend meetings for 6 months. Review in 3 months.",
-          "Reach out to DART for addiction management over the next 3 months. Review in 3 months.",
-          "Participate in DART sessions to manage substance use for lasting change. Review in 3 months.",
-          "Join DART support to tackle addiction issues and develop a recovery plan. Review in 3 months.",
-          "Engage with DART for ongoing assistance with substance dependence for 6 months. Review in 3 months.",
-          "Contact DART for help with addiction management and participate for 3 months. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "MENTAL HEALTH SUPPORT 💊",
-        "options": [
-          "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
-          "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
-          "Participate in mental health support sessions to develop coping strategies for 6 months. Review in 3 months.",
-          "Collaborate with Mental Health Team to tackle challenges and improve well-being. Review in 3 months.",
-          "Seek ongoing support from mental health professionals for my conditions for 3 months. Review in 3 months.",
-          "Access mental health services to address ADHD, ASD, and related concerns. Review in 3 months.",
-          "Utilise Mental Health Team resources to enhance coping skills for 6 months. Review in 3 months.",
-          "Join mental health workshops to improve overall well-being and resilience. Review in 3 months.",
-          "Connect with mental health professionals for strategies to manage challenges. Review in 3 months.",
-          "Work with mental health experts to develop effective support strategies. Review in 3 months."
+          "Advised to request OU prospectus for career development. Declined. Review in 3 months.",
+          "Suggested enquiring about OU funding to support career goals. Declined. Quarterly review.",
+          "Recommended completing OU application to boost job prospects. Declined. Review in 3 months",
+          "Offered support with gathering OU docs for career advancement. Declined. Quarterly reassessment.",
+          "Informed about pre-release OU coursework to enhance job skills. Declined. Review in 3 months" 
         ]
       }
     ],
@@ -490,132 +477,154 @@
         "options": [
           "Begin saving monthly to afford a deposit for rent/purchase in 2 years. Review quarterly.",
           "Contact housing agency within 3 months of release to explore options. Review monthly.",
-          "Set a budget for renting/buying property within 1 month of release. Monthly review.",
-          "Secure necessary ID and paperwork within 2 months for housing application. Monthly review.",
-          "Apply for housing assistance within 3 months to support renting. Monthly review.",
+          "Set a budget for renting/buying property within 1 month of release. Quarterly reassessment.",
+          "Secure necessary ID and paperwork within 2 months for housing application. Quarterly reassessment.",
+          "Apply for housing assistance within 3 months to support renting. Quarterly reassessment.",
           "Find a guarantor within 6 months if needed for rental property. Quarterly review.",
-          "Save 10% of income monthly toward a mortgage deposit. Aim for 2 years. Quarterly review.",
+          "Save 10% of income monthly toward a mortgage deposit. Aim for 2 years. Quarterly reassessment.",
           "Research mortgage options within 3 months post-release for long-term plans. Review monthly.",
           "Complete financial literacy course on budgeting and saving for rent/mortgage. Review quarterly.",
           "Set a 1-year savings goal for rent deposit and housing costs. Quarterly review.",
-          "Create a 6-month action plan for viewing and assessing rental properties. Monthly review."
+          "Create a 6-month action plan for viewing and assessing rental properties. Quarterly reassessment."
         ]
       },
       {
         "goal": "RELEASE ACCOMMODATION 🏠",
         "options": [
-          "Work with services to secure accommodation before release. Review in 3 months.",
+          "Work with services to secure accommodation before release. Quarterly reassessment.",
           "Confirm housing with support services before my release. Review in 3 months.",
-          "Coordinate with housing support to secure housing pre-release. Review in 3 months.",
-          "Collaborate with housing support to secure a place before release. Review in 3 months.",
-          "Partner with services to confirm stable housing before release. Review in 3 months.",
-          "Engage with housing housing support to line up accommodation for release. Review in 3 months.",
+          "Coordinate with housing support to secure housing pre-release. Quarterly reassessment.",
+          "Collaborate with housing support to secure a place before release. Quarterly reassessment.",
+          "Partner with services to confirm stable housing before release. Quarterly reassessment.",
+          "Engage with housing housing support to line up accommodation for release. Quarterly reassessment.",
           "Seek help from housing support to confirm living conditions post-release. Review in 3 months.",
           "Use resources to finalise housing arrangements before release. Review in 3 months.",
           "Work with housing services to secure a stable environment after release. Review in 3 months.",
-          "Consult with housing support to ensure housing is arranged before leaving. Review in 3 months."
+          "Consult with housing support to ensure housing is arranged before leaving. Quarterly reassessment."
         ]
       },
       {
-        "goal": "GAIN DRIVING LICENCE 🚗",
+        "goal": "Pass UK Driving Theory Test to Enhance Employability 🚗",
         "options": [
-          "Study driving theory weekly for 3 months post-release to pass theory test. Review quarterly.",
-          "Pass driving theory test within 3 months as first step toward licence. Review quarterly.",
-          "Complete theory practice tests weekly to achieve pass in 3 months. Quarterly review.",
-          "Attend theory workshops monthly to prepare for pass within 6 months. Quarterly review.",
-          "Book driving lessons within 1 month of release to achieve licence in 1 year. Quarterly review.",
-          "Take driving lessons weekly to pass test within 6 months post-release. Quarterly review.",
-          "Book practical test within 6 months of release to obtain licence. Review quarterly.",
-          "Practice driving skills weekly to pass practical test within 6 months. Quarterly review.",
-          "Secure funds for driving lesson/test fees within 3 months for licence goal. Review quarterly.",
-          "Save funds monthly to cover costs of lessons/test within 1 year. Quarterly review."
+          "Request Highway Code from prison library. Study 1 hour daily. Review weekly.",
+          "Obtain practice theory tests from education staff. Complete 2 per week. Review scores.",
+          "Enquire about theory test app access. Use 30 mins daily if available. Monitor progress.", 
+          "Attend any available theory workshops offered by prison. Review learning.",
+          "Revise theory independently 1 hour, 5 days a week. Track progress.",
+          "Request theory learning materials from support staff. Review materials regularly." 
+        ]
+      },      
+      {
+        "goal": "Pass UK Driving Practical Test to Enhance Employability 🚗",
+        "options": [
+          "Seek guidance on booking driving lessons upon release. Plan lesson schedule.",
+          "Enquire about potential driving practice with family/friends post-release.",
+          "Research mock test options in release area. Plan for monthly mock tests.",
+          "Request information on driving instructors near planned release address.",
+          "Save for lessons/test fees through prison canteen work. Track savings.",
+          "Plan potential driving practice routes near release address. Review routes regularly.",
+          "Explore options for pre-test lessons near release location. Plan lesson if possible."
+        ]
+      },
+      {
+        "goal": "Volunteering on Release 😊", 
+        "options": [
+          "Will volunteer at a local library post-release to develop communication and organisational skills.",
+          "Aims to join a food bank post-release, assisting weekly to build teamwork and logistics skills.",
+          "Plans post-release to volunteer at a youth centre, supporting mentorship skills twice per week.",
+          "Will volunteer with an environmental group post-release, gaining skills in project coordination.",
+          "Post-release, aims to volunteer at [organisation] within 3 months to build work-ready skills.",
+          "Post-release, will volunteer at a charity shop weekly to build customer service skills.",
+          "Plans post-release to volunteer at a garden 2 days p/w for 3 months to gain horticulture skills.",
+          "Will volunteer at an animal shelter post-release, developing teamwork through weekly sessions.",
+          "Seeks post-release volunteering with disability support to gain hands-on caregiving skills."
         ]
       },
       {
         "goal": "DEBT/FINANCE HELP 🐖",
         "options": [
           "Access support to manage debts inside and outside prison. Review in 3 months.",
-          "Seek advice on managing finances to tackle debts during and after my sentence. Review in 3 months.",
+          "Seek advice on managing finances to tackle debts during and after my sentence. Quarterly review.",
           "Collaborate with debt services for solutions to financial challenges. Review in 3 months.",
-          "Use resources to improve my finances and tackle debts. Review in 3 months.",
-          "Participate in financial education to enhance debt management skills. Review in 3 months.",
+          "Use resources to improve my finances and tackle debts. Quarterly reassessment.",
+          "Participate in financial education to enhance debt management skills. Quarterly reassessment.",
           "Use resources to improve financial literacy and tackle debt issues. Review in 3 months.",
-          "Consult finance support for help in managing my debts. Review in 3 months.",
+          "Consult finance support for help in managing my debts. Quarterly reassessment.",
           "Research strategies for better financial management while in prison. Review in 3 months."
         ]
       },
       {
         "goal": "EDUCATION/TRAINING 🏫",
         "options": [
-          "Learn skills through education and training for post-release employment. Review in 3 months.",
+          "Learn skills through education and training for post-release employment. Quarterly reassessment.",
           "Enroll in courses to enhance qualifications and job opportunities. Review in 3 months.",
-          "Participate in vocational training to prepare for work after prison. Review in 3 months.",
+          "Participate in vocational training to prepare for work after prison. Quarterly reassessment.",
           "Focus on skill development through courses before my release. Review in 3 months.",
-          "Attend workshops to build essential skills for life after release. Review in 3 months.",
+          "Attend workshops to build essential skills for life after release. Quarterly reassessment.",
           "Complete training aimed at improving job readiness and prospects. Review in 3 months.",
-          "Engage in educational opportunities to boost my chances of employment. Review in 3 months.",
+          "Engage in educational opportunities to boost my chances of employment. Quarterly reassessment.",
           "Work on obtaining relevant certifications to enhance employability. Review in 3 months.",
-          "Seek courses that align with career interests to improve job prospects. Review in 3 months.",
+          "Seek courses that align with career interests to improve job prospects. Quarterly reassessment.",
           "Participate in skill-building training for job market qualifications. Review in 3 months."
         ]
       },
       {
         "goal": "SENTENCE PLAN 📜",
         "options": [
-          "Collaborate with my POM/OMU to complete my sentence plan in 6-9 months. Review in 3 months.",
+          "Collaborate with my POM/OMU to complete my sentence plan in 6-9 months. Quarterly reassessment.",
           "Ensure all steps of my sentence plan are fulfilled with support from POM/OMU. Review in 3 months.",
-          "Follow through with required actions in my sentence plan over the months. Review in 3 months.",
+          "Follow through with required actions in my sentence plan over the months. Quarterly reassessment.",
           "Consult with my POM/OMU regularly to track progress and address challenges. Review in 3 months.",
-          "Complete actions with my POM/OMU while staying on schedule. Review in 3 months.",
+          "Complete actions with my POM/OMU while staying on schedule. Quarterly reassessment.",
           "Participate actively in sessions to achieve objectives in the plan. Review in 3 months.",
-          "Document progress and adjust plans with my POM/OMU for better outcomes. Review in 3 months.",
+          "Document progress and adjust plans with my POM/OMU for better outcomes. Quarterly reassessment.",
           "Engage in my sentence plan to ensure timely completion and adherence. Review in 3 months.",
-          "Work closely with my case manager to finish my sentence plan before release. Review in 3 months.",
+          "Work closely with my case manager to finish my sentence plan before release. Quarterly reassessment.",
           "Understand all requirements of my sentence plan and seek support when needed. Review in 3 months."
         ]
       },
       {
         "goal": "CAT D 📊",
         "options": [
-          "Complete all actions needed for CAT D status before release. Review in 3 months.",
+          "Complete all actions needed for CAT D status before release. Quarterly reassessment.",
           "Work towards CAT D classification by meeting requirements on time. Review in 3 months.",
-          "Ensure all actions for CAT D eligibility are completed on schedule. Review in 3 months.",
+          "Ensure all actions for CAT D eligibility are completed on schedule. Quarterly reassessment.",
           "Focus on fulfilling criteria for CAT D status before release. Review in 3 months.",
-          "Consult staff to clarify steps for CAT D classification. Review in 3 months.",
+          "Consult staff to clarify steps for CAT D classification. Quarterly reassessment.",
           "Participate in programmes supporting progression to CAT D status. Review in 3 months.",
-          "Complete tasks for CAT D eligibility as soon as possible. Review in 3 months.",
+          "Complete tasks for CAT D eligibility as soon as possible. Quarterly reassessment.",
           "Stay informed about requirements for CAT D status. Review in 3 months.",
-          "Collaborate with my support team to meet expectations for CAT D. Review in 3 months.",
+          "Collaborate with my support team to meet expectations for CAT D. Quarterly reassessment.",
           "Document my progress and address gaps in meeting CAT D criteria. Review in 3 months."
         ]
       },
       {
         "goal": "PAROLE 😇",
         "options": [
-          "Work with staff to achieve parole through good behaviour. Review in 3 months.",
+          "Work with staff to achieve parole through good behaviour. Quarterly reassessment.",
           "Demonstrate good behaviour to increase chances of parole. Review in 3 months.",
-          "Engage with staff to meet all parole requirements for success. Review in 3 months.",
+          "Engage with staff to meet all parole requirements for success. Quarterly reassessment.",
           "Follow guidelines to prepare for a successful parole application. Review in 3 months.",
-          "Maintain a positive attitude and behaviour to qualify for parole. Review in 3 months.",
+          "Maintain a positive attitude and behaviour to qualify for parole. Quarterly reassessment.",
           "Work with my parole officer to ensure compliance with conditions. Review in 3 months.",
-          "Participate in programmes that support my application for parole. Review in 3 months.",
+          "Participate in programmes that support my application for parole. Quarterly reassessment.",
           "Track my progress and adhere to conditions for parole eligibility. Review in 3 months.",
-          "Engage with staff to enhance my parole prospects. Review in 3 months.",
+          "Engage with staff to enhance my parole prospects. Quarterly reassessment.",
           "Prepare for parole hearings by documenting my behaviour and achievements. Review in 3 months."
         ]
       },
       {
         "goal": "FULL-TIME EMPLOYMENT 🛠️",
         "options": [
-          "Secure full-time work post-release through relevant qualifications. Review in 3 months.",
+          "Secure full-time work post-release through relevant qualifications. Quarterly reassessment.",
           "Focus on obtaining full-time employment by enhancing my skills. Review in 3 months.",
-          "Network with employers to explore full-time job opportunities. Review in 3 months.",
+          "Network with employers to explore full-time job opportunities. Quarterly reassessment.",
           "Work towards gaining qualifications for full-time roles. Review in 3 months.",
-          "Utilise job search resources to identify suitable full-time positions. Review in 3 months.",
+          "Utilise job search resources to identify suitable full-time positions. Quarterly reassessment.",
           "Attend job fairs to connect with employers seeking talent. Review in 3 months.",
-          "Develop a strategy for securing a full-time job after release. Review in 3 months.",
+          "Develop a strategy for securing a full-time job after release. Quarterly reassessment.",
           "Complete vocational training aligned with job market demands. Review in 3 months.",
-          "Engage with DWP to check for full-time employment post-release. Review in 3 months.",
+          "Engage with DWP to check for full-time employment post-release. Quarterly reassessment.",
           "Prepare a targeted job search plan to secure employment. Review in 3 months."
         ]
       },
@@ -713,6 +722,30 @@
     ],
     "Retired Goals PLP": [
       {
+        "goal": "No Long-Term Employment Goal Due to Retirement 🕰️",
+        "options": [
+          "Reached retirement age, no long-term employment goal. Release on pension.",
+          "Retired, no long-term employment goal. Release on pension.",
+          "Reached retirement age, intend to be on pension post-release. No long-term employment goal",
+          "Retired, plan to be on pension post-release. No long-term employment goal",
+          "Retired, no long-term employment goal. Will be on pension on release."
+        ]
+      },
+      {
+        "goal": "Volunteering on Release 😊", 
+        "options": [
+          "Will volunteer at a local library post-release to develop communication and organisational skills.",
+          "Aims to join a food bank post-release, assisting weekly to build teamwork and logistics skills.",
+          "Plans post-release to volunteer at a youth centre, supporting mentorship skills twice per week.",
+          "Will volunteer with an environmental group post-release, gaining skills in project coordination.",
+          "Post-release, aims to volunteer at [organisation] within 3 months to build work-ready skills.",
+          "Post-release, will volunteer at a charity shop weekly to build customer service skills.",
+          "Plans post-release to volunteer at a garden 2 days p/w for 3 months to gain horticulture skills.",
+          "Will volunteer at an animal shelter post-release, developing teamwork through weekly sessions.",
+          "Seeks post-release volunteering with disability support to gain hands-on caregiving skills."
+        ]
+      },
+      {
         "goal": "Plan Post-Release Activities",
         "options": [
           "Explore 3 local volunteer roles this month for engagement in retirement. Review in 3 months.",
@@ -808,7 +841,20 @@
     ],
     "Sick Goals PLP": [
       {
-        "id": "PIP or UC",
+        "goal": "Volunteering on Release 😊", 
+        "options": [
+          "Will volunteer at a local library post-release to develop communication and organisational skills.",
+          "Aims to join a food bank post-release, assisting weekly to build teamwork and logistics skills.",
+          "Plans post-release to volunteer at a youth centre, supporting mentorship skills twice per week.",
+          "Will volunteer with an environmental group post-release, gaining skills in project coordination.",
+          "Post-release, aims to volunteer at [organisation] within 3 months to build work-ready skills.",
+          "Post-release, will volunteer at a charity shop weekly to build customer service skills.",
+          "Plans post-release to volunteer at a garden 2 days p/w for 3 months to gain horticulture skills.",
+          "Will volunteer at an animal shelter post-release, developing teamwork through weekly sessions.",
+          "Seeks post-release volunteering with disability support to gain hands-on caregiving skills."
+        ]
+      },
+      {
         "goal": "ASSESS PIP/UC ELIGIBILITY 🏥",
         "options": [
           "Meet support worker to assess PIP/UC eligibility; review outcome in 3 months.",
@@ -818,7 +864,6 @@
         ]
       },
       {
-        "id": "PIP or UC",
         "goal": "APPLY FOR BENEFITS 🏥",
         "options": [
           "Complete PIP/UC application with support this month; review in 3 months.",
@@ -828,7 +873,6 @@
         ]
       },
       {
-        "id": "PIP or UC",
         "goal": "UNDERSTAND BENEFIT RULES 🏥",
         "options": [
           "Attend benefits workshop; document key points, review in 3 months.",
@@ -838,12 +882,21 @@
         ]
       },
       {
-        "id": "Plan & Research",
         "goal": "PLAN FOR INCOME CHANGES 🏥",
         "options": [
           "Develop post-release budget with PIP/UC; review progress in 3 months.",
           "Create savings plan for costs outside PIP/UC; review feasibility in 3 months.",
           "Identify support programs to supplement PIP/UC; evaluate plan in 3 months."
+        ]
+      },
+      {
+        "goal": "MEDICALLY UNFIT FOR PRISON ROLE 🏥❌",
+        "options": [
+          "Medically unfit for work, will return to PIP/UC on release. Review in 3 months.",
+          "Due to medical unfitness, plan is to claim PIP/UC post-release. Quarterly reassessment.",
+          "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
+          "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
+          "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
         ]
       }
     ]
@@ -898,298 +951,28 @@
         ]
       },
       {
-        "goal": "IMPROVE FUNCTIONAL SKILLS 🎓",
+        "goal": "RETURN TO PREVIOUS EMPLOYER 🏢",
         "options": [
-          "Start training in PATHWAY to build functional skills for release. Review progress in 3 months.",
-          "Obtain qualifications in PATHWAY to enhance readiness for further education. Review in 3 months.",
-          "Gain skills in PATHWAY to improve job prospects on release. Review progress in 3 months.",
-          "Achieve progress in PATHWAY to enhance functional skills for release. Review in 3 months.",
-          "Secure training in PATHWAY to strengthen work opportunities post-release. Review in 3 months.",
-          "Complete coursework in PATHWAY to boost functional skills for future work. Review in 3 months."
+          "Contact previous employer within 1 month of release to discuss job availability. Review quarterly.",
+          "Secure interview with former employer within 3 months post-release. Quarterly review.",
+          "Update CV within 1 month of release to present to previous employer. Quarterly review.",
+          "Obtain references within 3 months to support return to former employer. Review quarterly.",
+          "Confirm job offer with former employer within 6 months post-release. Quarterly review.",
+          "Complete training required by employer within 3 months to ensure readiness. Review quarterly."
         ]
       },
       {
-        "goal": "CONTINUE IMPROVING FUNCTIONAL SKILLS 🎓",
+        "goal": "MEDICALLY UNFIT FOR PRISON ROLE 🏥❌",
         "options": [
-          "Continuing training in PATHWAY to build functional skills for work readiness. Review in 3 months.",
-          "Sustaining coursework in PATHWAY to support functional skill improvement. Quarterly review.",
-          "Ongoing progress in PATHWAY training to prepare for job opportunities. Review in 3 months.",
-          "Maintaining commitment to PATHWAY to strengthen functional abilities for release. Quarterly review.",
-          "Staying engaged in PATHWAY to support employability and skill building. Review in 3 months.",
-          "Advancing through PATHWAY to improve functional skills for future career options. Quarterly review."
-        ]
-      }
-    ],
-    "PersonalGoalsRev": [
-      {
-        "goal": "JOIN GYM 🏋️",
-        "options": [
-          "Apply via kiosk, attend induction, workout weekly for 3 months. Review in 3 months.",
-          "Complete induction, exercise weekly for 3 months to meet fitness goals. Review in 3 months.",
-          "Join gym, workout weekly for 2 months to improve fitness. Review in 3 months.",
-          "Attend gym weekly for 8 weeks to achieve specific weight target. Review in 3 months.",
-          "Participate in gym sessions weekly for 6 weeks post-induction. Review in 3 months.",
-          "Maintain weekly gym visits for 3 months to enhance well-being. Review in 3 months.",
-          "Engage in workouts weekly for 4 weeks to meet fitness goals. Review in 3 months.",
-          "Attend the gym every week for 12 weeks to improve health. Review in 3 months.",
-          "Commit to weekly visits for 2 months to support weight loss. Review in 3 months.",
-          "Work out weekly for 6 weeks post-induction to enhance fitness. Review in 3 months."
+          "Medically unfit for work, will return to PIP/UC on release. Review in 3 months.",
+          "Due to medical unfitness, plan is to claim PIP/UC post-release. Quarterly reassessment.",
+          "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
+          "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
+          "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
         ]
       },
       {
-        "goal": "CONTINUE GYM ATTENDANCE 🏋️",
-        "options": [
-          "Continuing weekly gym sessions to stay on track with fitness goals. Review in 3 months.",
-          "Keeping up with twice-weekly gym workouts for strength building. Review in 3 months.",
-          "Maintaining gym visits for ongoing weight management. Quarterly review.",
-          "Progressing with twice-weekly gym sessions to reach muscle goals. Review in 3 months.",
-          "Staying consistent with cardio sessions to boost endurance. Review in 3 months.",
-          "Increasing gym activity to three times weekly to maintain stamina. Review in 3 months.",
-          "Continuing gym commitment to enhance fitness stability. Quarterly review.",
-          "Sticking with regular gym routine to support mental well-being. Review in 3 months.",
-          "Sustaining workout frequency to achieve long-term health goals. Quarterly review.",
-          "Keeping up weekly gym attendance for ongoing physical fitness. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "REDUCE VAPING 🚭",
-        "options": [
-          "Cut back vaping to every other day in 3 months for better health. Review in 3 months.",
-          "Reduce vaping by 50% in 3 months to save money & improve health. Review in 3 months.",
-          "Lower vaping to once a day in 3 months to enhance well-being. Review in 3 months.",
-          "Gradually reduce vaping to weekends only in 3 months for health. Review in 3 months.",
-          "Limit vaping to every other day for 2 months to support health. Review in 3 months.",
-          "Reduce daily vaping to every other day in 3 months for health. Review in 3 months.",
-          "Cut down vaping to 5 sessions a week in 3 months for better health. Review in 3 months.",
-          "Aim to reduce vaping by 50% in 2 months for better health. Review in 3 months.",
-          "Limit vaping to every other day for 3 months to save money. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "DECLINED REDUCING VAPING ADVICE 🚭",
-        "options": [
-          "Advised vaping reduction over 3 months for improved health, declined. Review in 3 months.",
-          "Advised to reduce vaping over 3 months to enhance health, declined. Review in 3 months.",
-          "Encouraged to reduce vaping over 3 months for health benefits, declined. Review in 3 months.",
-          "Encouraged to reduce vaping over 3 months to boost overall health, declined. Review in 3 months.",
-          "Advised vaping reduction over 3 months for better health, declined. Review in 3 months.",
-          "Advised to reduce vaping over 3 months to improve health & well-being, declined. Review in 3 months.",
-          "Advised vaping reduction over 3 months for health gains, declined. Review in 3 months.",
-          "Encouraged to reduce vaping over 3 months for health improvements, declined. Review in 3 months.",
-          "Encouraged to reduce using vapes over 3 months to enhance health, declined. Review in 3 months.",
-          "Advised to reduce vaping over 3 months for better health, declined. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CONTINUE REDUCING VAPING 🚭",
-        "options": [
-          "Keeping to vaping reduction plan of every 3 days. Review in 3 months.",
-          "Maintaining 50% cutback on vaping to support health goals. Quarterly review.",
-          "Progressing with reduced frequency of vaping on weekends only. Review in 3 months.",
-          "Sustaining daily reduction in vaping for health improvements. Quarterly review.",
-          "Continuing to limit vaping to twice a week. Review in 3 months.",
-          "Following the plan to vape every other day for cost savings. Quarterly review.",
-          "Keeping reduction to weekend-only vaping to boost health. Review in 3 months.",
-          "Sticking to reduced vaping schedule for lung health improvement. Quarterly review.",
-          "Maintaining current vaping limit to support ongoing wellness. Review in 3 months.",
-          "Continuing cutbacks to reach long-term reduction goals. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "STOP VAPING 🚭",
-        "options": [
-          "Quit vaping completely in 3 months for improved health & save money. Review in 3 months.",
-          "Stop vaping entirely by 3 months to enhance my health. Review in 3 months.",
-          "Eliminate vaping completely in 3 months for health benefits. Review in 3 months.",
-          "Completely quit vaping in 3 months to boost overall health. Review in 3 months.",
-          "End all vaping in 3 months for better health & to save money. Review in 3 months.",
-          "Stop all vaping in 3 months to improve health & well-being. Review in 3 months.",
-          "Achieve total cessation of vaping in 3 months for health gains. Review in 3 months.",
-          "Quit vaping by the end of 3 months for health improvements. Review in 3 months.",
-          "Stop using vapes entirely in 3 months to enhance health. Review in 3 months.",
-          "Stop vaping completely in 3 months for better health outcomes. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "DECLINED QUITTING VAPING ADVICE 🚭",
-        "options": [
-          "Advised to quit vaping completely in 3 months for improved health, declined. Review in 3 months.",
-          "Advised to stop vaping in 3 months to enhance health, declined. Review in 3 months.",
-          "Encouraged to stop vaping completely in 3 months for health benefits, declined. Review in 3 months.",
-          "Encouraged to quit vaping in 3 months to boost overall health, declined. Review in 3 months.",
-          "Advised to end all vaping by 3 months for better health, declined. Review in 3 months.",
-          "Advised to stop all vaping in 3 months to improve health & well-being, declined. Review in 3 months.",
-          "Advised total cessation of vaping in 3 months for health gains, declined. Review in 3 months.",
-          "Encouraged to quit vaping in 3 months for health improvements, declined. Review in 3 months.",
-          "Encouraged to stop using vapes in 3 months to enhance health, declined. Review in 3 months.",
-          "Advised to stop vaping completely in 3 months for better health, declined. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CONTINUE QUITTING VAPING 🚭",
-        "options": [
-          "Keeping to vaping cessation plan for three months. Review in 3 months.",
-          "Maintaining 50% cutback & aiming for stopping vaping to support health goals. Quarterly review.",
-          "Sustaining daily reduction in vaping, aiming to quit, for health improvements. Quarterly review.",
-          "Continuing to limit vaping to twice a week to quit before release, for health. Review in 3 months.",
-          "Following the plan to quit vaping before release for cost savings. Quarterly review.",
-          "Stick to reduced vaping schedule for health improvement, quitting pre-release. Quarterly review.",
-          "Maintaining current vaping cessation plan to support ongoing wellness. Review in 3 months.",
-          "Continuing cutbacks to reach long-term cessation goals for health. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "BEGIN FAMILY/FRIEND VISITS 👨‍👩‍👧‍👦",
-        "options": [
-          "Arrange 1 family visit per month for 6 months to maintain connections. Review in 3 months.",
-          "Set up monthly visits for 3 months to stay in touch with family. Review in 3 months.",
-          "Schedule 1 family visit per month for 4 months to strengthen relationships. Review in 3 months.",
-          "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months.",
-          "Organise monthly family visits to maintain emotional support. Review in 3 months.",
-          "Ensure at least 1 family visit occurs monthly for 6 months. Review in 3 months.",
-          "Plan monthly visits with family for 6 months to nurture relationships. Review in 3 months.",
-          "Stay connected through family visits once per month for 4 months. Review in 3 months.",
-          "Maintain monthly family visits for 6 months to support emotional well-being. Review in 3 months.",
-          "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CONTINUE FAMILY/FRIEND VISITS👨‍👩‍👧‍👦",
-        "options": [
-          "Maintaining monthly visits to strengthen family ties. Review in 3 months.",
-          "Keeping up with regular family visits for consistent bonding. Quarterly review.",
-          "Continuing with planned visits to maintain family connections. Review in 3 months.",
-          "Scheduling monthly visits to support emotional well-being. Review in 3 months.",
-          "Ongoing visits to family to reinforce support system. Review in 3 months.",
-          "Maintaining bi-monthly visits to foster relationships. Quarterly review.",
-          "Staying consistent with family visits to aid mental health. Review in 3 months.",
-          "Keeping regular contact through family visits for stability. Quarterly review.",
-          "Sustaining monthly family meetups for continued connection. Review in 3 months.",
-          "Continuing family visits to ensure emotional support. Quarterly review."
-        ]
-      },
-      {
-        "goal": "BEGIN FAMILY/FRIEND PHONE CALLS📞",
-        "options": [
-          "Arrange daily family calls for 6 months to maintain connections. Quarterly Review.",
-          "Set up family daily calls for 3 months to stay in touch with family. Review in 3 months.",
-          "Schedule daily family calls to strengthen relationships. Quarterly Review.",
-          "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months.",
-          "Organise daily family calls to maintain emotional support. Quarterly Review.",
-          "Ensure at least 3 family calls occurs monthly for 6 months. Review in 3 months.",
-          "Plan daily family calls for 6 months to nurture relationships. Quarterly Review.",
-          "Stay connected through family visits once per month for 4 months. Review in 3 months.",
-          "Maintain monthly family visits for 6 months to support emotional well-being. Quarterly Review.",
-          "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CONTINUE FAMILY/FRIEND PHONE CALLS 📞",
-        "options": [
-          "Continuing daily calls with family to maintain connection & support network. Review in 3 months.",
-          "Sustaining daily calls with family to strengthen support network. Quarterly review.",
-          "Keeping up with daily family calls for emotional stability & support network. Review in 3 months.",
-          "Sticking with daily calls to maintain close family & support network. Quarterly review.",
-          "Ongoing daily contact with family to improve mental health & support network. Review in 3 months.",
-          "Maintaining daily calls to family to reduce isolation & aid support network. Quarterly review.",
-          "Staying connected with family daily for well-being & support network. Review in 3 months.",
-          "Keeping up daily calls to boost family relationships & support network. Quarterly review.",
-          "Continuing regular family calls to strengthen ties & support network. Review in 3 months.",
-          "Sustaining daily family calls to enhance family bonds & support network. Quarterly review."
-        ]
-      },
-      {
-        "goal": "JOIN SOCIAL GROUP (GROUP FOR THOSE WITH NO FAMILY VISITS) 🤝",
-        "options": [
-          "Attend the social group each month for 6 months to maintain connections. Review in 3 months.",
-          "Participate in bi-weekly social group sessions to build friendships. Review in 3 months.",
-          "Volunteer to help at a social group within 6 months for group cohesion. Quarterly review.",
-          "Attend social groups monthly for 3 months to improve social skills. Review quarterly.",
-          "Set a goal to engage with 1 new group members monthly for stronger support. Quarterly review.",
-          "Attend 4 social groups & contribute to group discussions to reduce isolation. Quarterly review.",
-          "Share personal experiences monthly in group for social confidence. Review in 3 months.",
-          "Offer to lead a social group session within 6 months to build leadership skills. Quarterly review.",
-          "Aim to join each social group session over the next 6 months to help wellbeing. Quarterly review.",
-          "Commit to 6 months of social group attendance to boost mental health. Quarterly review."
-        ]
-      },
-      {
-        "goal": "CONTINUE SOCIAL GROUP INVOLVEMENT 🤝",
-        "options": [
-          "Attending monthly social group sessions to stay connected socially. Review in 3 months.",
-          "Continuing social group involvement to strengthen friendships. Quarterly review.",
-          "Participating in social group sessions to maintain social confidence. Review in 3 months.",
-          "Engaging monthly social group sessions to keep connections active. Quarterly review.",
-          "Staying consistent with social group to reduce isolation. Review in 3 months.",
-          "Maintaining social group activity to support social health. Quarterly review.",
-          "Keeping up regular social group visits for community support. Review in 3 months.",
-          "Sticking with social group sessions to boost well-being. Quarterly review.",
-          "Staying active in social group meetings for stability. Review in 3 months.",
-          "Continuing social group involvement to foster mental health. Quarterly review."
-        ]
-      },
-      {
-        "goal": "BEGIN MENTORSHIP📚",
-        "options": [
-          "Become a mentor with Shannon Trust within 1 month to support others in literacy. Review in 3 months.",
-          "Join Shannon Trust mentoring program next month to assist fellow prisoners. Review in 3 months.",
-          "Act as a mentor for Shannon Trust to help others in Eng. & Maths for 6 months. Review in 3 months.",
-          "Support fellow prisoners by becoming a mentor within 2 months. Review in 3 months.",
-          "Get involved in Shannon Trust to aid others for the next 6 months. Review in 3 months.",
-          "Help inmates by mentoring for skill improvement within 2 months. Review in 3 months.",
-          "Participate in Shannon Trust mentorship programme over the next 3 months. Review in 3 months.",
-          "Become a mentor with Shannon Trust to guide peers in literacy for the next year. Review in 3 months.",
-          "Engage in Shannon Trust to provide English & Maths support within 1 month. Review in 3 months.",
-          "Assist others by mentoring (Shannon Trust) for personal growth for 6 months. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CONTINUE MENTORSHIP SUPPORT 📚",
-        "options": [
-          "Sustaining weekly mentoring sessions to aid literacy. Review in 3 months.",
-          "Continuing Shannon Trust mentoring for skill support. Quarterly review.",
-          "Engaging regularly to provide peer guidance. Review in 3 months.",
-          "Maintaining mentorship to support peer development. Quarterly review.",
-          "Consistent mentoring for literacy and skill growth. Review in 3 months.",
-          "Ongoing mentoring to build confidence among peers. Quarterly review.",
-          "Supporting peers through weekly mentorship sessions. Review in 3 months.",
-          "Providing continued mentoring to enhance literacy skills. Quarterly review.",
-          "Staying committed to mentoring role for peer aid. Review in 3 months.",
-          "Consistent engagement in mentoring for stability. Quarterly review."
-        ]
-      },
-      {
-        "goal": "TRANSFER TO OTHER PRISON 📍",
-        "options": [
-          "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
-          "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
-          "Discuss transfer options with OMU for suitable prison placement. Review in 3 months.",
-          "Seek transfer to another prison via OMU within 6 months for better support. Review in 3 months.",
-          "Apply for transfer to a suitable prison through OMU in 4 months. Review in 3 months.",
-          "Collaborate with OMU for potential transfer within 6 months. Review in 3 months.",
-          "Start transfer process with OMU to improve rehabilitation chances. Review in 3 months.",
-          "Engage with OMU for transfer discussions within the next 3 months. Review in 3 months.",
-          "Aim for a transfer to another prison for better support in 6 months. Review in 3 months.",
-          "Request assistance from OMU for a transfer to another prison. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "PURSUE PRISON TRANSFER 📍",
-        "options": [
-          "Ongoing discussions with OMU to arrange a transfer before release. Review in 3 months.",
-          "Continuing process with OMU to achieve a suitable transfer before release. Quarterly review.",
-          "Progressing through OMU for potential relocation before release. Review in 3 months.",
-          "Maintaining OMU engagement to secure a new placement before release. Quarterly review.",
-          "Pursuing transfer options for improved support before release. Review in 3 months.",
-          "Working with OMU to facilitate a timely transfer before release. Quarterly review.",
-          "Sustaining contact with OMU for possible relocation before release. Review in 3 months.",
-          "Following up with OMU on potential transfer plans before release. Quarterly review.",
-          "Continuing OMU interactions for a better placement before release. Review in 3 months.",
-          "Ongoing OMU support to explore transfer needs before release. Quarterly review."
-        ]
-      },
-      {
-        "goal": "DART SUPPORT 💊",
+        "goal": "DART SUPPORT (ADDICTION HINDERS WORK)💊❌",
         "options": [
           "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
           "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
@@ -1204,7 +987,306 @@
         ]
       },
       {
-        "goal": "CONTINUE DART SUPPORT 💊",
+        "goal": "MENTAL HEALTH SUPPORT (MH HINDERS WORK)🧠❌",
+        "options": [
+          "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
+          "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
+          "Participate in mental health support sessions to develop coping strategies for 6 months. Review in 3 months.",
+          "Collaborate with Mental Health Team to tackle challenges and improve well-being. Review in 3 months.",
+          "Seek ongoing support from mental health professionals for my conditions for 3 months. Review in 3 months.",
+          "Access mental health services to address ADHD, ASD, and related concerns. Review in 3 months.",
+          "Utilise Mental Health Team resources to enhance coping skills for 6 months. Review in 3 months.",
+          "Join mental health workshops to improve overall well-being and resilience. Review in 3 months.",
+          "Connect with mental health professionals for strategies to manage challenges. Review in 3 months.",
+          "Work with mental health experts to develop effective support strategies. Review in 3 months."
+        ]
+      }
+    ],
+    "PersonalGoalsRev": [
+      {
+        "goal": "JOIN GYM 🏋️✅",
+        "options": [
+          "Apply via kiosk, attend induction, workout weekly for 3 months. Review in 3 months.",
+          "Complete induction, exercise weekly for 3 months to meet fitness goals. Review in 3 months.",
+          "Join gym, workout weekly for 2 months to improve fitness. Review in 3 months.",
+          "Attend gym weekly for 8 weeks to achieve specific weight target. Review in 3 months.",
+          "Participate in gym sessions weekly for 6 weeks post-induction. Review in 3 months.",
+          "Maintain weekly gym visits for 3 months to enhance well-being. Review in 3 months.",
+          "Engage in workouts weekly for 4 weeks to meet fitness goals. Review in 3 months.",
+          "Attend the gym every week for 12 weeks to improve health. Review in 3 months.",
+          "Commit to weekly visits for 2 months to support weight loss. Review in 3 months.",
+          "Work out weekly for 6 weeks post-induction to enhance fitness. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE GYM ATTENDANCE 🏋️✅",
+        "options": [
+          "Continuing weekly gym sessions to stay on track with fitness goals. Review in 3 months.",
+          "Keeping up with twice-weekly gym workouts for strength building. Review in 3 months.",
+          "Maintaining gym visits for ongoing weight management. Quarterly review.",
+          "Progressing with twice-weekly gym sessions to reach muscle goals. Review in 3 months.",
+          "Staying consistent with cardio sessions to boost endurance. Review in 3 months.",
+          "Increasing gym activity to three times weekly to maintain stamina. Review in 3 months.",
+          "Continuing gym commitment to enhance fitness stability. Quarterly review.",
+          "Sticking with regular gym routine to support mental well-being. Review in 3 months.",
+          "Sustaining workout frequency to achieve long-term health goals. Quarterly review.",
+          "Keeping up weekly gym attendance for ongoing physical fitness. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "REDUCE VAPING 🚭✅",
+        "options": [
+          "Cut back vaping to every other day in 3 months for better health. Review in 3 months.",
+          "Reduce vaping by 50% in 3 months to save money & improve health. Review in 3 months.",
+          "Lower vaping to once a day in 3 months to enhance well-being. Review in 3 months.",
+          "Gradually reduce vaping to weekends only in 3 months for health. Review in 3 months.",
+          "Limit vaping to every other day for 2 months to support health. Review in 3 months.",
+          "Reduce daily vaping to every other day in 3 months for health. Review in 3 months.",
+          "Cut down vaping to 5 sessions a week in 3 months for better health. Review in 3 months.",
+          "Aim to reduce vaping by 50% in 2 months for better health. Review in 3 months.",
+          "Limit vaping to every other day for 3 months to save money. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "DECLINED REDUCING VAPING ADVICE 🚭❌",
+        "options": [
+          "Advised vaping reduction over 3 months for improved health, declined. Review in 3 months.",
+          "Advised to reduce vaping over 3 months to enhance health, declined. Review in 3 months.",
+          "Encouraged to reduce vaping over 3 months for health benefits, declined. Review in 3 months.",
+          "Encouraged to reduce vaping over 3 months to boost overall health, declined. Review in 3 months.",
+          "Advised vaping reduction over 3 months for better health, declined. Review in 3 months.",
+          "Advised to reduce vaping over 3 months to improve health & well-being, declined. Review in 3 months.",
+          "Advised vaping reduction over 3 months for health gains, declined. Review in 3 months.",
+          "Encouraged to reduce vaping over 3 months for health improvements, declined. Review in 3 months.",
+          "Encouraged to reduce using vapes over 3 months to enhance health, declined. Review in 3 months.",
+          "Advised to reduce vaping over 3 months for better health, declined. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE REDUCING VAPING 🚭✅",
+        "options": [
+          "Keeping to vaping reduction plan of every 3 days. Review in 3 months.",
+          "Maintaining 50% cutback on vaping to support health goals. Quarterly review.",
+          "Progressing with reduced frequency of vaping on weekends only. Review in 3 months.",
+          "Sustaining daily reduction in vaping for health improvements. Quarterly review.",
+          "Continuing to limit vaping to twice a week. Review in 3 months.",
+          "Following the plan to vape every other day for cost savings. Quarterly review.",
+          "Keeping reduction to weekend-only vaping to boost health. Review in 3 months.",
+          "Sticking to reduced vaping schedule for lung health improvement. Quarterly review.",
+          "Maintaining current vaping limit to support ongoing wellness. Review in 3 months.",
+          "Continuing cutbacks to reach long-term reduction goals. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "STOP VAPING 🚭✅",
+        "options": [
+          "Quit vaping completely in 3 months for improved health & save money. Review in 3 months.",
+          "Stop vaping entirely by 3 months to enhance my health. Review in 3 months.",
+          "Eliminate vaping completely in 3 months for health benefits. Review in 3 months.",
+          "Completely quit vaping in 3 months to boost overall health. Review in 3 months.",
+          "End all vaping in 3 months for better health & to save money. Review in 3 months.",
+          "Stop all vaping in 3 months to improve health & well-being. Review in 3 months.",
+          "Achieve total cessation of vaping in 3 months for health gains. Review in 3 months.",
+          "Quit vaping by the end of 3 months for health improvements. Review in 3 months.",
+          "Stop using vapes entirely in 3 months to enhance health. Review in 3 months.",
+          "Stop vaping completely in 3 months for better health outcomes. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "DECLINED QUITTING VAPING ADVICE 🚭❌",
+        "options": [
+          "Advised to quit vaping completely in 3 months for improved health, declined. Review in 3 months.",
+          "Advised to stop vaping in 3 months to enhance health, declined. Review in 3 months.",
+          "Encouraged to stop vaping completely in 3 months for health benefits, declined. Review in 3 months.",
+          "Encouraged to quit vaping in 3 months to boost overall health, declined. Review in 3 months.",
+          "Advised to end all vaping by 3 months for better health, declined. Review in 3 months.",
+          "Advised to stop all vaping in 3 months to improve health & well-being, declined. Review in 3 months.",
+          "Advised total cessation of vaping in 3 months for health gains, declined. Review in 3 months.",
+          "Encouraged to quit vaping in 3 months for health improvements, declined. Review in 3 months.",
+          "Encouraged to stop using vapes in 3 months to enhance health, declined. Review in 3 months.",
+          "Advised to stop vaping completely in 3 months for better health, declined. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE QUITTING VAPING 🚭✅",
+        "options": [
+          "Keeping to vaping cessation plan for three months. Review in 3 months.",
+          "Maintaining 50% cutback & aiming for stopping vaping to support health goals. Quarterly review.",
+          "Sustaining daily reduction in vaping, aiming to quit, for health improvements. Quarterly review.",
+          "Continuing to limit vaping to twice a week to quit before release, for health. Review in 3 months.",
+          "Following the plan to quit vaping before release for cost savings. Quarterly review.",
+          "Stick to reduced vaping schedule for health improvement, quitting pre-release. Quarterly review.",
+          "Maintaining current vaping cessation plan to support ongoing wellness. Review in 3 months.",
+          "Continuing cutbacks to reach long-term cessation goals for health. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "BEGIN FAMILY/FRIEND VISITS 👨‍👩‍👧‍👦✅",
+        "options": [
+          "Arrange 1 family visit per month for 6 months to maintain connections. Review in 3 months.",
+          "Set up monthly visits for 3 months to stay in touch with family. Review in 3 months.",
+          "Schedule 1 family visit per month for 4 months to strengthen relationships. Review in 3 months.",
+          "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months.",
+          "Organise monthly family visits to maintain emotional support. Review in 3 months.",
+          "Ensure at least 1 family visit occurs monthly for 6 months. Review in 3 months.",
+          "Plan monthly visits with family for 6 months to nurture relationships. Review in 3 months.",
+          "Stay connected through family visits once per month for 4 months. Review in 3 months.",
+          "Maintain monthly family visits for 6 months to support emotional well-being. Review in 3 months.",
+          "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE FAMILY/FRIEND VISITS👨‍👩‍👧‍👦✅",
+        "options": [
+          "Maintaining monthly visits to strengthen family ties. Review in 3 months.",
+          "Keeping up with regular family visits for consistent bonding. Quarterly review.",
+          "Continuing with planned visits to maintain family connections. Review in 3 months.",
+          "Scheduling monthly visits to support emotional well-being. Review in 3 months.",
+          "Ongoing visits to family to reinforce support system. Review in 3 months.",
+          "Maintaining bi-monthly visits to foster relationships. Quarterly review.",
+          "Staying consistent with family visits to aid mental health. Review in 3 months.",
+          "Keeping regular contact through family visits for stability. Quarterly review.",
+          "Sustaining monthly family meetups for continued connection. Review in 3 months.",
+          "Continuing family visits to ensure emotional support. Quarterly review."
+        ]
+      },
+      {
+        "goal": "BEGIN FAMILY/FRIEND PHONE CALLS📞✅",
+        "options": [
+          "Arrange daily family calls for 6 months to maintain connections. Quarterly Review.",
+          "Set up family daily calls for 3 months to stay in touch with family. Review in 3 months.",
+          "Schedule daily family calls to strengthen relationships. Quarterly Review.",
+          "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months.",
+          "Organise daily family calls to maintain emotional support. Quarterly Review.",
+          "Ensure at least 3 family calls occurs monthly for 6 months. Review in 3 months.",
+          "Plan daily family calls for 6 months to nurture relationships. Quarterly Review.",
+          "Stay connected through family visits once per month for 4 months. Review in 3 months.",
+          "Maintain monthly family visits for 6 months to support emotional well-being. Quarterly Review.",
+          "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE FAMILY/FRIEND PHONE CALLS 📞✅",
+        "options": [
+          "Continuing daily calls with family to maintain connection & support network. Review in 3 months.",
+          "Sustaining daily calls with family to strengthen support network. Quarterly review.",
+          "Keeping up with daily family calls for emotional stability & support network. Review in 3 months.",
+          "Sticking with daily calls to maintain close family & support network. Quarterly review.",
+          "Ongoing daily contact with family to improve mental health & support network. Review in 3 months.",
+          "Maintaining daily calls to family to reduce isolation & aid support network. Quarterly review.",
+          "Staying connected with family daily for well-being & support network. Review in 3 months.",
+          "Keeping up daily calls to boost family relationships & support network. Quarterly review.",
+          "Continuing regular family calls to strengthen ties & support network. Review in 3 months.",
+          "Sustaining daily family calls to enhance family bonds & support network. Quarterly review."
+        ]
+      },
+      {
+        "goal": "JOIN SOCIAL GROUP (GROUP FOR THOSE WITH NO FAMILY VISITS) 🤝✅",
+        "options": [
+          "Attend the social group each month for 6 months to maintain connections. Review in 3 months.",
+          "Participate in bi-weekly social group sessions to build friendships. Review in 3 months.",
+          "Volunteer to help at a social group within 6 months for group cohesion. Quarterly review.",
+          "Attend social groups monthly for 3 months to improve social skills. Review quarterly.",
+          "Set a goal to engage with 1 new group members monthly for stronger support. Quarterly review.",
+          "Attend 4 social groups & contribute to group discussions to reduce isolation. Quarterly review.",
+          "Share personal experiences monthly in group for social confidence. Review in 3 months.",
+          "Offer to lead a social group session within 6 months to build leadership skills. Quarterly review.",
+          "Aim to join each social group session over the next 6 months to help wellbeing. Quarterly review.",
+          "Commit to 6 months of social group attendance to boost mental health. Quarterly review."
+        ]
+      },
+      {
+        "goal": "CONTINUE SOCIAL GROUP INVOLVEMENT 🤝✅",
+        "options": [
+          "Attending monthly social group sessions to stay connected socially. Review in 3 months.",
+          "Continuing social group involvement to strengthen friendships. Quarterly review.",
+          "Participating in social group sessions to maintain social confidence. Review in 3 months.",
+          "Engaging monthly social group sessions to keep connections active. Quarterly review.",
+          "Staying consistent with social group to reduce isolation. Review in 3 months.",
+          "Maintaining social group activity to support social health. Quarterly review.",
+          "Keeping up regular social group visits for community support. Review in 3 months.",
+          "Sticking with social group sessions to boost well-being. Quarterly review.",
+          "Staying active in social group meetings for stability. Review in 3 months.",
+          "Continuing social group involvement to foster mental health. Quarterly review."
+        ]
+      },
+      {
+        "goal": "BEGIN MENTORSHIP📚✅",
+        "options": [
+          "Become a mentor with Shannon Trust within 1 month to support others in literacy. Review in 3 months.",
+          "Join Shannon Trust mentoring program next month to assist fellow prisoners. Review in 3 months.",
+          "Act as a mentor for Shannon Trust to help others in Eng. & Maths for 6 months. Review in 3 months.",
+          "Support fellow prisoners by becoming a mentor within 2 months. Review in 3 months.",
+          "Get involved in Shannon Trust to aid others for the next 6 months. Review in 3 months.",
+          "Help inmates by mentoring for skill improvement within 2 months. Review in 3 months.",
+          "Participate in Shannon Trust mentorship programme over the next 3 months. Review in 3 months.",
+          "Become a mentor with Shannon Trust to guide peers in literacy for the next year. Review in 3 months.",
+          "Engage in Shannon Trust to provide English & Maths support within 1 month. Review in 3 months.",
+          "Assist others by mentoring (Shannon Trust) for personal growth for 6 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE MENTORSHIP SUPPORT 📚✅",
+        "options": [
+          "Sustaining weekly mentoring sessions to aid literacy. Review in 3 months.",
+          "Continuing Shannon Trust mentoring for skill support. Quarterly review.",
+          "Engaging regularly to provide peer guidance. Review in 3 months.",
+          "Maintaining mentorship to support peer development. Quarterly review.",
+          "Consistent mentoring for literacy and skill growth. Review in 3 months.",
+          "Ongoing mentoring to build confidence among peers. Quarterly review.",
+          "Supporting peers through weekly mentorship sessions. Review in 3 months.",
+          "Providing continued mentoring to enhance literacy skills. Quarterly review.",
+          "Staying committed to mentoring role for peer aid. Review in 3 months.",
+          "Consistent engagement in mentoring for stability. Quarterly review."
+        ]
+      },
+      {
+        "goal": "TRANSFER TO OTHER PRISON 📍✅",
+        "options": [
+          "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
+          "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
+          "Discuss transfer options with OMU for suitable prison placement. Review in 3 months.",
+          "Seek transfer to another prison via OMU within 6 months for better support. Review in 3 months.",
+          "Apply for transfer to a suitable prison through OMU in 4 months. Review in 3 months.",
+          "Collaborate with OMU for potential transfer within 6 months. Review in 3 months.",
+          "Start transfer process with OMU to improve rehabilitation chances. Review in 3 months.",
+          "Engage with OMU for transfer discussions within the next 3 months. Review in 3 months.",
+          "Aim for a transfer to another prison for better support in 6 months. Review in 3 months.",
+          "Request assistance from OMU for a transfer to another prison. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "PURSUE PRISON TRANSFER 📍✅",
+        "options": [
+          "Ongoing discussions with OMU to arrange a transfer before release. Review in 3 months.",
+          "Continuing process with OMU to achieve a suitable transfer before release. Quarterly review.",
+          "Progressing through OMU for potential relocation before release. Review in 3 months.",
+          "Maintaining OMU engagement to secure a new placement before release. Quarterly review.",
+          "Pursuing transfer options for improved support before release. Review in 3 months.",
+          "Working with OMU to facilitate a timely transfer before release. Quarterly review.",
+          "Sustaining contact with OMU for possible relocation before release. Review in 3 months.",
+          "Following up with OMU on potential transfer plans before release. Quarterly review.",
+          "Continuing OMU interactions for a better placement before release. Review in 3 months.",
+          "Ongoing OMU support to explore transfer needs before release. Quarterly review."
+        ]
+      },
+      {
+        "goal": "DART SUPPORT 💊✅",
+        "options": [
+          "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
+          "Seek DART assistance for recovery from substance challenges within 6 months. Review in 3 months.",
+          "Engage with DART to address addiction issues for 3 months of support. Review in 3 months.",
+          "Connect with DART for help with substance use and commit to recovery. Review in 3 months.",
+          "Utilise DART resources for substance issues and attend meetings for 6 months. Review in 3 months.",
+          "Reach out to DART for addiction management over the next 3 months. Review in 3 months.",
+          "Participate in DART sessions to manage substance use for lasting change. Review in 3 months.",
+          "Join DART support to tackle addiction issues and develop a recovery plan. Review in 3 months.",
+          "Engage with DART for ongoing assistance with substance dependence for 6 months. Review in 3 months.",
+          "Contact DART for help with addiction management and participate for 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE DART SUPPORT 💊✅",
         "options": [
           "Keeping up weekly DART sessions to maintain recovery. Review in 3 months.",
           "Continuing bi-weekly DART meetings to support progress & lasting change. Quarterly review.",
@@ -1219,7 +1301,7 @@
         ]
       },
       {
-        "goal": "MENTAL HEALTH SUPPORT 🧠",
+        "goal": "MENTAL HEALTH SUPPORT 🧠✅",
         "options": [
           "Work with Mental Health Team to manage ADHD, ASD, or similar issues for 3 months. Review in 3 months.",
           "Engage with Mental Health Team for regular sessions to address needs. Review in 3 months.",
@@ -1234,7 +1316,7 @@
         ]
       },
       {
-        "goal": "CONTINUE MENTAL HEALTH SUPPORT 🧠",
+        "goal": "CONTINUE MENTAL HEALTH SUPPORT 🧠✅",
         "options": [
           "Engaging regularly with Mental Health Team for stability. Review in 3 months.",
           "Continuing sessions to support mental well-being. Quarterly review.",
@@ -1262,7 +1344,7 @@
         ]
       },
       {
-        "goal": "MINDFULNESS",
+        "goal": "MINDFULNESS🧠",
         "options": [
           "Practice mindfulness for 10 mins daily for 4 weeks to lower stress. Review in 3 months.",
           "Engage in mindfulness exercises daily for 6 weeks to improve clarity. Review in 3 months.",
@@ -1277,7 +1359,7 @@
         ]
       },
       {
-        "goal": "IMPROVE SLEEP",
+        "goal": "IMPROVE SLEEP 💤",
         "options": [
           "Aim for 7 hours of sleep nightly by establishing a routine this month. Review in 3 months.",
           "Establish a sleep routine for 7 hours of quality rest nightly for 6 weeks. Review in 3 months.",
@@ -1292,7 +1374,7 @@
         ]
       },
       {
-        "goal": "EXPLORE NEW HOBBIES",
+        "goal": "EXPLORE NEW HOBBIES 🎮",
         "options": [
           "Try a new hobby this month to enhance personal growth. Review in 3 months.",
           "Engage in a creative activity weekly for 6 weeks to discover interests. Review in 3 months.",
@@ -1307,7 +1389,7 @@
         ]
       },
       {
-        "goal": "DEVELOP A DAILY ROUTINE",
+        "goal": "DEVELOP A DAILY ROUTINE📝",
         "options": [
           "Establish a daily routine for better structure over the month. Review in 3 months.",
           "Create a balanced daily schedule for work, hobbies, and health for 4 weeks. Review in 3 months.",
@@ -1322,7 +1404,7 @@
         ]
       },
       {
-        "goal": "PRACTICE SELF-REFLECTION",
+        "goal": "PRACTICE SELF-REFLECTION 📝",
         "options": [
           "Dedicate 10 minutes daily to self-reflection for personal growth over the month. Review in 3 months.",
           "Keep a journal to document thoughts weekly for 3 months. Review in 3 months.",
@@ -1375,7 +1457,7 @@
         ]
       },
       {
-        "goal": "DECLINED RAISE ENGLISH & MATHS LEVELS 📚",
+        "goal": "DECLINED RAISE ENGLISH & MATHS LEVELS 📚❌",
         "options": [
           "Advised to raise Eng LVL & Math LVL levels to Eng LVL & Math LVL, declined. Review 3months.",
           "Opted against increasing Eng LVL & Math LVL to Eng LVL & Math LVL. Review after 3 months.",
@@ -1513,15 +1595,15 @@
         "options": [
           "Begin saving monthly to afford a deposit for rent/purchase in 2 years. Review quarterly.",
           "Contact housing agency within 3 months of release to explore options. Review monthly.",
-          "Set a budget for renting/buying property within 1 month of release. Monthly review.",
-          "Secure necessary ID and paperwork within 2 months for housing application. Monthly review.",
-          "Apply for housing assistance within 3 months to support renting. Monthly review.",
+          "Set a budget for renting/buying property within 1 month of release. Quarterly reassessment.",
+          "Secure necessary ID and paperwork within 2 months for housing application. Quarterly reassessment.",
+          "Apply for housing assistance within 3 months to support renting. Quarterly reassessment.",
           "Find a guarantor within 6 months if needed for rental property. Quarterly review.",
           "Save 10% of income monthly toward a mortgage deposit. Aim for 2 years. Quarterly review.",
           "Research mortgage options within 3 months post-release for long-term plans. Review monthly.",
           "Complete financial literacy course on budgeting and saving for rent/mortgage. Review quarterly.",
           "Set a 1-year savings goal for rent deposit and housing costs. Quarterly review.",
-          "Create a 6-month action plan for viewing and assessing rental properties. Monthly review."
+          "Create a 6-month action plan for viewing and assessing rental properties. Quarterly reassessment."
         ]
       },
       {
@@ -1540,18 +1622,26 @@
         ]
       },
       {
-        "goal": "GAIN DRIVING LICENCE 🚗",
+        "goal": "Pass UK Driving Theory Test to Enhance Employability 🚗",
         "options": [
-          "Study driving theory weekly for 3 months post-release to pass theory test. Review quarterly.",
-          "Pass driving theory test within 3 months as first step toward licence. Review quarterly.",
-          "Complete theory practice tests weekly to achieve pass in 3 months. Quarterly review.",
-          "Attend theory workshops monthly to prepare for pass within 6 months. Quarterly review.",
-          "Book driving lessons within 1 month of release to achieve licence in 1 year. Quarterly review.",
-          "Take driving lessons weekly to pass test within 6 months post-release. Quarterly review.",
-          "Book practical test within 6 months of release to obtain licence. Review quarterly.",
-          "Practice driving skills weekly to pass practical test within 6 months. Quarterly review.",
-          "Secure funds for driving lesson/test fees within 3 months for licence goal. Review quarterly.",
-          "Save funds monthly to cover costs of lessons/test within 1 year. Quarterly review."
+          "Request Highway Code from prison library. Study 1 hour daily. Review weekly.",
+          "Obtain practice theory tests from education staff. Complete 2 per week. Review scores.",
+          "Enquire about theory test app access. Use 30 mins daily if available. Monitor progress.", 
+          "Attend any available theory workshops offered by prison. Review learning.",
+          "Revise theory independently 1 hour, 5 days a week. Track progress.",
+          "Request theory learning materials from support staff. Review materials regularly." 
+        ]
+      },      
+      {
+        "goal": "Pass UK Driving Practical Test to Enhance Employability 🚗",
+        "options": [
+          "Seek guidance on booking driving lessons upon release. Plan lesson schedule.",
+          "Enquire about potential driving practice with family/friends post-release.",
+          "Research mock test options in release area. Plan for monthly mock tests.",
+          "Request information on driving instructors near planned release address.",
+          "Save for lessons/test fees through prison canteen work. Track savings.",
+          "Plan potential driving practice routes near release address. Review routes regularly.",
+          "Explore options for pre-test lessons near release location. Plan lesson if possible."
         ]
       },
       {
