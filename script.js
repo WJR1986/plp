@@ -1,12 +1,14 @@
 let selectedGoals = {
-  "Employment Goals": [],
+  "Employment Goals PLP": [],
+  "Retired PLP": [],
+  "Sick PLP": [],
+  Sick: [],
+  Retired: [],
   "Short-Term Goals": [],
   "Personal Goals": [],
   "Long-Term Goals": [],
-  "IAG Stamp": [],
   "EMP Goals": [],
   "Short Goals": [], // New category
-  "Long Goals": [], // New category
 };
 
 let employmentCategorySelected = null;
@@ -27,6 +29,7 @@ function updateGoalSelectionUI() {
       // Create a container for the category
       const categoryContainer = document.createElement("div");
       categoryContainer.className = "goal-category"; // Custom class for styling
+      categoryContainer.style.backgroundColor = "#495057";
       categoryContainer.style.border = "1px solid white"; // Set white border for the category
       categoryContainer.style.padding = "10px"; // Add padding
       categoryContainer.style.marginBottom = "15px"; // Spacing between categories
@@ -44,12 +47,7 @@ function updateGoalSelectionUI() {
 
         // Create formatted text for the goal
         const goalText = document.createElement("span");
-
-        if (category === "IAG Stamp") {
-          goalText.innerHTML = `<strong>${goal.title}</strong><br>Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
-        } else {
-          goalText.innerHTML = `<strong>${goal.title}</strong><br>${goal.description}`; // Format with a line break
-        }
+        goalText.innerHTML = `<strong>${goal.title}</strong><br>${goal.description}`;
 
         goalItem.appendChild(goalText);
 
@@ -69,13 +67,6 @@ function updateGoalSelectionUI() {
         // Add event listener to copy the goal description
         copyButton.addEventListener("click", () => {
           let textToCopy;
-
-          if (category === "IAG Stamp") {
-            // Format the text to include both title and date
-            textToCopy = `${goal.title}: Personal Learning Plan created at HMP Northumberland on ${goal.date}.`;
-          } else {
-            textToCopy = goal.description; // Just the description for other categories
-          }
 
           navigator.clipboard
             .writeText(textToCopy)
@@ -147,11 +138,20 @@ function populateSubCategoryGoals(
       "border-light"
     );
 
-    goalData.options.forEach((option) => {
+    // Check if 'options' exists and has values
+    if (goalData.options && goalData.options.length > 0) {
+      goalData.options.forEach((option) => {
+        const optionElement = document.createElement("option");
+        optionElement.textContent = option;
+        select.appendChild(optionElement);
+      });
+    } else {
+      // If options is empty, add a default message or option
       const optionElement = document.createElement("option");
-      optionElement.textContent = option;
+      optionElement.textContent = "No options available";
       select.appendChild(optionElement);
-    });
+    }
+
     formGroup.appendChild(select);
 
     const actionButton = document.createElement("button");
@@ -168,9 +168,13 @@ function populateSubCategoryGoals(
     actionButton.dataset.isGoalSelected = false;
 
     actionButton.addEventListener("click", () => {
+      if (!selectedGoals[category]) {
+        selectedGoals[category] = []; // Initialize if undefined
+      }
+
       if (actionButton.dataset.isGoalSelected === "false") {
         // Handle adding goals
-        if (category === "Employment Goals") {
+        if (category === "Employment Goals PLP") {
           if (
             employmentCategorySelected &&
             employmentCategorySelected !== subCategory
@@ -197,18 +201,6 @@ function populateSubCategoryGoals(
               `You can only select up to ${maxEmploymentGoals} goals in ${category}.`
             );
           }
-        } else if (category === "IAG Stamp") {
-          const currentDate = new Date().toLocaleDateString("en-GB"); // Get the current date
-          selectedGoals[category].push({
-            title: goalData.goal,
-            description: select.value,
-            date: currentDate, // Include the date here
-          });
-          actionButton.dataset.isGoalSelected = "true";
-          actionButton.textContent = "Remove";
-          label.classList.add("active-goal");
-          randomButton.disabled = true;
-          updateGoalSelectionUI();
         } else if (selectedGoals[category].length < maxOtherGoals) {
           selectedGoals[category].push({
             title: goalData.goal,
@@ -231,7 +223,7 @@ function populateSubCategoryGoals(
         );
         if (index !== -1) {
           selectedGoals[category].splice(index, 1);
-          if (category === "Employment Goals") {
+          if (category === "Employment Goals PLP") {
             employmentGoalCount--;
             if (employmentGoalCount === 0) {
               employmentCategorySelected = null;
@@ -247,10 +239,13 @@ function populateSubCategoryGoals(
     });
 
     randomButton.addEventListener("click", () => {
-      const options = Array.from(select.options);
-      const randomIndex = Math.floor(Math.random() * options.length);
-      select.value = options[randomIndex].textContent;
-      actionButton.click();
+      // Only allow random selection if there are valid options
+      if (select.options.length > 1) {
+        const options = Array.from(select.options);
+        const randomIndex = Math.floor(Math.random() * options.length);
+        select.value = options[randomIndex].textContent;
+        actionButton.click();
+      }
     });
 
     container.appendChild(formGroup);
@@ -261,12 +256,15 @@ function populateSubCategoryGoals(
 document.getElementById("confirmRemoval").addEventListener("click", () => {
   // Reset the selected goals and counters
   selectedGoals = {
-    "Employment Goals": [],
+    "Employment Goals PLP": [],
+    "Retired PLP": [],
+    "Sick PLP": [],
     "Short-Term Goals": [],
     "Personal Goals": [],
     "Long-Term Goals": [],
-    "IAG Stamp": [],
     "EMP Goals": [],
+    Retired: [],
+    Sick: [],
     "Short Goals": [],
     "Long Goals": [],
   };
@@ -313,12 +311,13 @@ fetch("goals.json")
       "long-term-goals-container",
       "Long-Term Goals"
     );
-    populateGoals(data.IAGGoals, "IAG-goals-container", "IAG Stamp");
     populateGoals(
       data.EmploymentGoals,
       "employment-goals-container",
       "EMP Goals"
     );
+    populateGoals(data.Retired, "retired-goals-container", "Retired");
+    populateGoals(data.Sick, "sick-goals-container", "Sick");
     populateGoals(data.Short, "short-goals-container", "Short Term Goals"); // New Short Goals
   })
   .catch((error) => console.error("Error loading JSON:", error));
@@ -334,33 +333,136 @@ function populateEmploymentGoals(goals) {
   populateSubCategoryGoals(
     goals.EmpGoalsReview || [],
     withJobContainer,
-    "Employment Goals",
+    "Employment Goals PLP",
     "Employment Goals Review"
   );
   populateSubCategoryGoals(
     goals.PersonalGoalsRev || [],
     unsureCareerContainer,
-    "Employment Goals",
+    "Employment Goals PLP",
     "Personal Goals Review"
   );
   populateSubCategoryGoals(
     goals.ShortGoalsRev || [],
     sickContainer,
-    "Employment Goals",
+    "Employment Goals PLP",
     "ShortGoalsRev"
   );
   populateSubCategoryGoals(
     goals.LongGoalsRev || [],
     retiredContainer,
-    "Employment Goals",
+    "Employment Goals PLP",
     "LongGoalsRev"
   );
 }
 
 function populateGoals(goals, containerId, category) {
   const container = document.getElementById(containerId);
-  populateSubCategoryGoals(goals, container, category);
+
+  if (category === "IAG Goals") {
+    // Loop through each goal in the IAG Goals array
+    goals.forEach((goalItem) => {
+      const goalContainer = document.createElement("div");
+      goalContainer.style.color = "white";
+      goalContainer.style.marginBottom = "10px";
+
+      // Create and format the goal text (goal title and description)
+      const goalText = document.createElement("span");
+      goalText.innerHTML = `<strong>${goalItem.goal}</strong><br>`;
+
+      // Add description for each goal
+      goalText.innerHTML += goalItem.description
+        ? goalItem.description
+        : "No description available.";
+
+      // Add the goal text to the goal container
+      goalContainer.appendChild(goalText);
+
+      // Create the Add button for interaction
+      const addButton = document.createElement("button");
+      addButton.classList.add("btn", "btn-light", "mt-2", "ml-0");
+      addButton.textContent = "Add";
+
+      addButton.addEventListener("click", () => {
+        if (selectedGoals[category].length < maxOtherGoals) {
+          selectedGoals[category].push({
+            title: goalItem.goal,
+            description: goalItem.description,
+          });
+          updateGoalSelectionUI();
+        } else {
+          alert(
+            `You can only select up to ${maxOtherGoals} goals in ${category}.`
+          );
+        }
+      });
+
+      goalContainer.appendChild(addButton); // Append Add button to goal container
+
+      // Append the goal container to the main container
+      container.appendChild(goalContainer);
+    });
+  }
+  // You can add other categories here if needed
 }
+
+// Helper function to get current date in the desired format
+function getCurrentDate() {
+  const today = new Date();
+  const dd = String(today.getDate()).padStart(2, "0");
+  const mm = String(today.getMonth() + 1).padStart(2, "0"); // January is 0
+  const yyyy = today.getFullYear();
+
+  return `${mm}/${dd}/${yyyy}`;
+}
+
+// Function for populating PLP Created goals
+function populatePLPGoals(goals) {
+  const plpStart = goals.PLPStart || {}; // Use empty object if PLPStart is missing
+
+  const subCategoryContainers = {
+    "Employment Goals PLP": document.getElementById(
+      "employment-goals-plp-container"
+    ),
+    "Personal Goals PLP": document.getElementById(
+      "personal-goals-plp-container"
+    ),
+    "Short-Term Goals PLP": document.getElementById(
+      "short-term-goals-plp-container"
+    ),
+    "Long-Term Goals PLP": document.getElementById(
+      "long-term-goals-plp-container"
+    ),
+    "Retired Goals PLP": document.getElementById("retired-goals-plp-container"),
+    "Sick Goals PLP": document.getElementById("sick-goals-plp-container"),
+  };
+
+  // Iterate over each subcategory in PLPStart
+  Object.keys(plpStart).forEach((subCategory) => {
+    const container = subCategoryContainers[subCategory];
+
+    // Only populate if container exists in the HTML
+    if (container) {
+      populateSubCategoryGoals(
+        plpStart[subCategory],
+        container,
+        "PLPStart",
+        subCategory
+      );
+    } else {
+      console.warn(`Container for ${subCategory} does not exist in the HTML.`);
+    }
+  });
+}
+
+// Fetch and populate PLP Created goals
+fetch("goals.json")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log(data); // Add this line to verify the structure
+    populatePLPGoals(data);
+  })
+  .catch((error) => console.error("Error loading JSON:", error));
 
 // Function to check if the results div is in the viewport
 function isElementInViewport(el) {
@@ -378,8 +480,12 @@ function isElementInViewport(el) {
 function toggleScrollButton() {
   const resultsDiv = document.getElementById("results");
   const scrollToResultsButton = document.getElementById("scrollToResults");
+  const CollapseAllButton = document.getElementById("collapseAll");
 
   scrollToResultsButton.style.display = isElementInViewport(resultsDiv)
+    ? "none"
+    : "block";
+  CollapseAllButton.style.display = isElementInViewport(resultsDiv)
     ? "none"
     : "block";
 }
@@ -403,12 +509,7 @@ function downloadSelectedGoals() {
     if (selectedGoals[category].length > 0) {
       textContent += `${category}:\n`;
       selectedGoals[category].forEach((goal) => {
-        if (category === "IAG Stamp") {
-          // Ensure the date is formatted correctly as DD/MM/YYYY
-          textContent += `${goal.title}: Personal Learning Plan created at HMP Northumberland on ${goal.date}.\n`;
-        } else {
-          textContent += `${goal.title}:\n${goal.description}\n`; // Ensure description is on a new line
-        }
+        textContent += `${goal.title}:\n${goal.description}\n`; // Ensure description is on a new line
       });
       textContent += "\n"; // Add an extra line for separation
     }
@@ -437,3 +538,11 @@ function downloadSelectedGoals() {
 document
   .getElementById("downloadButton")
   .addEventListener("click", downloadSelectedGoals);
+
+// Event listener for Collapse All button:
+// Add event listener for the "Collapse All" button
+document.getElementById("collapseAll").addEventListener("click", function () {
+  // Collapse all open accordion sections in both accordions
+  $("#accordion .collapse.show").collapse("hide");
+  $("#employment-accordion .collapse.show").collapse("hide");
+});

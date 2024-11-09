@@ -26,187 +26,244 @@
         <h1 class="text-left open-sans-heading border-bottom p-2" id="main-title">Personal Learning Plan (PLP) Goals
         </h1>
         <h5 class="text-left open-sans-heading  pb-2 pl-2" id="main-title">By Will</h5>
-
+        <!-- Collapse All Button -->
+        <!-- <button id="collapseAll" class="btn btn-danger mb-3">Collapse All</button> -->
         <div id="accordion" class="pt-2">
+            <!-- PLP Created Section -->
+            <div class="card mt-3">
+                <div class="card-header" id="headingPLP">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapsePLP" aria-expanded="false" aria-controls="collapsePLP">
+                            PLP Creation
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapsePLP" class="collapse" aria-labelledby="headingPLP" data-parent="#accordion">
+                    <div class="card-body">
+                        <div id="plp-accordion">
 
-            <!-- Employment Goals Goals -->
-            <div class="card mt-3">
-                <div class="card-header" id="headingEMPGoals">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseEMPGoals" aria-expanded="false" aria-controls="collapseEMPGoals">
-                            Employment Goals
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseEMPGoals" class="collapse" aria-labelledby="headingEMPGoals" data-parent="#accordion">
-                    <div class="card-body" id="employment-goals-container">
-                        <!-- Content for EMP Goals will be appended here -->
-                    </div>
-                </div>
-            </div>
-            <!-- Personal Goals -->
-            <div class="card mt-3">
-                <div class="card-header" id="headingPersonal">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapsePersonal" aria-expanded="false" aria-controls="collapsePersonal">
-                            Personal Goals
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapsePersonal" class="collapse" aria-labelledby="headingPersonal" data-parent="#accordion">
-                    <div class="card-body" id="personal-goals-container">
-                        <!-- Content for Personal Goals will be appended here -->
-                    </div>
-                </div>
-            </div>
-            <!-- Long-Term Goals -->
-            <div class="card mt-3">
-                <div class="card-header" id="headingLongTerm">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseLongTerm" aria-expanded="false" aria-controls="collapseLongTerm">
-                            Long-Term Goals
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseLongTerm" class="collapse" aria-labelledby="headingLongTerm" data-parent="#accordion">
-                    <div class="card-body" id="long-term-goals-container">
-                        <!-- Content for Long-Term Goals will be appended here -->
+                            <!-- Employment Goals Review Subcategory for PLP -->
+                            <div class="card">
+                                <div class="card-header" id="headingWithJobPLP">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseWithJobPLP" aria-expanded="false"
+                                            aria-controls="collapseWithJobPLP">
+                                            Employment Goals
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseWithJobPLP" class="collapse" aria-labelledby="headingWithJobPLP"
+                                    data-parent="#plp-accordion">
+                                    <div class="card-body" id="employment-goals-plp-container">
+                                        <!-- Content for 'Employment Goals Review' under PLP will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Personal Goals Review Subcategory for PLP -->
+                            <div class="card">
+                                <div class="card-header" id="headingPersonalGoalsPLP">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapsePersonalGoalsPLP" aria-expanded="false"
+                                            aria-controls="collapsePersonalGoalsPLP">
+                                            Personal Goals
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapsePersonalGoalsPLP" class="collapse"
+                                    aria-labelledby="headingPersonalGoalsPLP" data-parent="#plp-accordion">
+                                    <div class="card-body" id="personal-goals-plp-container">
+                                        <!-- Content for 'Personal Goals Review' under PLP will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Short-Term Goals Review Subcategory for PLP -->
+                            <div class="card">
+                                <div class="card-header" id="headingShortTermGoalsPLP">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseShortTermGoalsPLP" aria-expanded="false"
+                                            aria-controls="collapseShortTermGoalsPLP">
+                                            Short-Term Goals
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseShortTermGoalsPLP" class="collapse"
+                                    aria-labelledby="headingShortTermGoalsPLP" data-parent="#plp-accordion">
+                                    <div class="card-body" id="short-term-goals-plp-container">
+                                        <!-- Content for 'Short-Term Goals Review' under PLP will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Long-Term Goals Review Subcategory for PLP -->
+                            <div class="card">
+                                <div class="card-header" id="headingLongTermGoalsPLP">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseLongTermGoalsPLP" aria-expanded="false"
+                                            aria-controls="collapseLongTermGoalsPLP">
+                                            Long-Term Goals
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseLongTermGoalsPLP" class="collapse"
+                                    aria-labelledby="headingLongTermGoalsPLP" data-parent="#plp-accordion">
+                                    <div class="card-body" id="long-term-goals-plp-container">
+                                        <!-- Content for 'Long-Term Goals Review' under PLP will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Retired Goals Review Subcategory for PLP -->
+                            <div class="card">
+                                <div class="card-header" id="headingRetiredGoalsPLP">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseRetiredGoalsPLP" aria-expanded="false"
+                                            aria-controls="collapseRetiredGoalsPLP">
+                                            Retired Goals
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseRetiredGoalsPLP" class="collapse"
+                                    aria-labelledby="headingRetiredGoalsPLP" data-parent="#plp-accordion">
+                                    <div class="card-body" id="retired-goals-plp-container">
+                                        <!-- Content for 'Retired Goals Review' under PLP will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Sick Goals Review Subcategory for PLP -->
+                            <div class="card">
+                                <div class="card-header" id="headingSickGoalsPLP">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSickGoalsPLP" aria-expanded="false"
+                                            aria-controls="collapseSickGoalsPLP">
+                                            Sick Goals
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseSickGoalsPLP" class="collapse" aria-labelledby="headingSickGoalsPLP"
+                                    data-parent="#plp-accordion">
+                                    <div class="card-body" id="sick-goals-plp-container">
+                                        <!-- Content for 'Sick Goals Review' under PLP will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <!-- Short Goals -->
+            <!-- Reviews -->
             <div class="card mt-3">
-                <div class="card-header" id="headingShortGoals">
+                <div class="card-header" id="headingEmployment">
                     <h5 class="mb-0">
                         <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseShortGoals" aria-expanded="false" aria-controls="collapseShortGoals">
-                            Short Term Goals
+                            data-target="#collapseEmployment" aria-expanded="false" aria-controls="collapseEmployment">
+                            Reviews
                         </button>
                     </h5>
                 </div>
-                <div id="collapseShortGoals" class="collapse" aria-labelledby="headingShortGoals"
+                <div id="collapseEmployment" class="collapse" aria-labelledby="headingEmployment"
                     data-parent="#accordion">
-                    <div class="card-body" id="short-goals-container">
-                        <!-- Content for Short Goals will be appended here -->
-                    </div>
-                </div>
-            </div>
 
-            <!-- IAG Goals -->
-            <div class="card mt-3">
-                <div class="card-header" id="headingIAGGoals">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseIAGGoals" aria-expanded="false" aria-controls="collapseIAGGoals">
-                            IAG Stamp
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapseIAGGoals" class="collapse" aria-labelledby="headingIAGGoals" data-parent="#accordion">
-                    <div class="card-body" id="IAG-goals-container">
-                        <!-- Content for IAG Goals will be appended here -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <hr style="background-color: blanchedalmond;">
-        <!-- EmploymentGoals2 -->
-        <div class="card mt-3">
-            <div class="card-header" id="headingEmployment">
-                <h5 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                        data-target="#collapseEmployment" aria-expanded="false" aria-controls="collapseEmployment">
-                        Reviews
-                    </button>
-                </h5>
-            </div>
-            <div id="collapseEmployment" class="collapse" aria-labelledby="headingEmployment" data-parent="#accordion">
-                <div class="card-body">
-                    <div id="employment-accordion">
-                        <div class="card">
-                            <div class="card-header" id="headingWithJob">
-                                <h6 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseWithJob" aria-expanded="false"
-                                        aria-controls="collapseWithJob">
-                                        Employment Goals Review
-                                    </button>
-                                </h6>
+
+                    <div class="card-body">
+
+
+                        <div id="employment-accordion">
+
+                            <!-- Employment Goals Review Subcategory -->
+                            <div class="card">
+                                <div class="card-header" id="headingWithJob">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseWithJob" aria-expanded="false"
+                                            aria-controls="collapseWithJob">
+                                            Employment Goals Review
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseWithJob" class="collapse" aria-labelledby="headingWithJob"
+                                    data-parent="#employment-accordion">
+                                    <div class="card-body" id="with-job-waiting">
+                                        <!-- Content for 'Employment Goals Review' will be appended here -->
+                                    </div>
+                                </div>
                             </div>
-                            <div id="collapseWithJob" class="collapse" aria-labelledby="headingWithJob"
-                                data-parent="#employment-accordion">
-                                <div class="card-body" id="with-job-waiting">
-                                    <!-- Content for 'Employment Goals Review' will be appended here -->
+                            <!-- Personal Goals Review Subcategory -->
+                            <div class="card">
+                                <div class="card-header" id="headingUnsureCareer">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseUnsureCareer" aria-expanded="false"
+                                            aria-controls="collapseUnsureCareer">
+                                            Personal Goals Review
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseUnsureCareer" class="collapse" aria-labelledby="headingUnsureCareer"
+                                    data-parent="#employment-accordion">
+                                    <div class="card-body" id="unsure-career-direction">
+                                        <!-- Content for 'Personal Goals Review' will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Long Term Goals Review Subcategory -->
+                            <div class="card">
+                                <div class="card-header" id="headingRetired">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseRetired" aria-expanded="false"
+                                            aria-controls="collapseRetired">
+                                            Long Term Goals Review
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseRetired" class="collapse" aria-labelledby="headingRetired"
+                                    data-parent="#employment-accordion">
+                                    <div class="card-body" id="LongGoalsRev">
+                                        <!-- Content for 'Retired' will be appended here -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Short Term Goals Review Subcategory -->
+                            <div class="card">
+                                <div class="card-header" id="headingSick">
+                                    <h6 class="mb-0">
+                                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                                            data-target="#collapseSick" aria-expanded="false"
+                                            aria-controls="collapseSick">
+                                            Short Term Goals Review
+                                        </button>
+                                    </h6>
+                                </div>
+                                <div id="collapseSick" class="collapse" aria-labelledby="headingSick"
+                                    data-parent="#employment-accordion">
+                                    <div class="card-body" id="ShortGoalsRev-goals">
+                                        <!-- Content for 'ShortGoalsRev' will be appended here -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <div class="card-header" id="headingUnsureCareer">
-                                <h6 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseUnsureCareer" aria-expanded="false"
-                                        aria-controls="collapseUnsureCareer">
-                                        Personal Goals Review
-                                    </button>
-                                </h6>
-                            </div>
-                            <div id="collapseUnsureCareer" class="collapse" aria-labelledby="headingUnsureCareer"
-                                data-parent="#employment-accordion">
-                                <div class="card-body" id="unsure-career-direction">
-                                    <!-- Content for 'Personal Goals Review' will be appended here -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- New ShortGoalsRev Subcategory -->
-                        <div class="card">
-                            <div class="card-header" id="headingSick">
-                                <h6 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseSick" aria-expanded="false" aria-controls="collapseSick">
-                                        Short Term Goals Review
-                                    </button>
-                                </h6>
-                            </div>
-                            <div id="collapseSick" class="collapse" aria-labelledby="headingSick"
-                                data-parent="#employment-accordion">
-                                <div class="card-body" id="ShortGoalsRev-goals">
-                                    <!-- Content for 'ShortGoalsRev' will be appended here -->
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- New Retired Subcategory -->
-                        <div class="card">
-                            <div class="card-header" id="headingRetired">
-                                <h6 class="mb-0">
-                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
-                                        data-target="#collapseRetired" aria-expanded="false"
-                                        aria-controls="collapseRetired">
-                                        Long Term Goals Review
-                                    </button>
-                                </h6>
-                            </div>
-                            <div id="collapseRetired" class="collapse" aria-labelledby="headingRetired"
-                                data-parent="#employment-accordion">
-                                <div class="card-body" id="LongGoalsRev">
-                                    <!-- Content for 'Retired' will be appended here -->
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>
         </div>
+        <hr style="background-color: lightgray;">
+
+
+
+
 
         <!-- Results Header -->
-        <div id="results" class="mt-5 text-left">
+        <div id="results" class="mt-3 text-left">
             <h4 class="text-white">Results:</h4>
         </div>
 
@@ -214,7 +271,7 @@
         <div class="mt-3">
             <ul id="selected-goals-list"></ul>
         </div>
-        <div class="mt-5 text-left mb-3">
+        <div class="mt-3 text-left mb-3">
             <button id="downloadButton" class="btn btn-primary" onclick="downloadSelectedGoals()" disabled>
                 Download Selected Goals
             </button>
@@ -225,66 +282,15 @@
                 data-target="#confirmationModal">Remove All Goals</button>
         </div>
 
-
-        <!-- Extra Buttons -->
-        <!-- <div class="mt-1 text-left mb-3">
-            <div id="results" class="mt-5 text-left">
-                <h4 class="text-white">Extras:</h4>
-            </div>
-            <button class="btn btn-warning" id="jokeButton" data-toggle="modal" data-target="#jokeModal">
-                Random Joke
-            </button>
-        </div>
-
-        <div class="mt-1 text-left mb-5">
-            <button class="btn btn-warning" id="motivationButton">Motivational Quote</button>
-        </div> -->
-
     </div>
-    <!-- Floating Button -->
+    <!-- Go to Results Buttons -->
     <a href=" #go-to-results" id="scrollToResults" class="btn btn-warning"
         style="position: fixed; bottom: 20px; right: 20px; display: none;">Go to Results</a>
+    <!-- Collapse All Button -->
+    <a href=" #go-to-results" id="collapseAll" class="btn btn-danger mb-3"
+        style="position: fixed; bottom: 60px; right: 20px; display: none;">Collapse All</a>
 
-    <!-- Motivation Modal -->
-    <div class="modal fade" id="motivationModal" tabindex="-1" role="dialog" aria-labelledby="motivationModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="motivationModalLabel">Motivational Quote</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" id="motivationQuote">
-                    <!-- Quote will be displayed here -->
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Random Joke Modal -->
-    <div class="modal fade" id="jokeModal" tabindex="-1" aria-labelledby="jokeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="jokeModalLabel">Random Joke</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span>&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body" id="jokeText">
-                    <!-- Joke will be displayed here -->
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- Confirmation Modal -->
     <div class="modal fade" id="confirmationModal" tabindex="-1" role="dialog" aria-labelledby="confirmationModalLabel"
@@ -335,7 +341,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
-    <script src="modal.js"></script>
+    <script>
+
+    </script>
 </body>
 
 
