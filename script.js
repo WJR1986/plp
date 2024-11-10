@@ -15,8 +15,8 @@ let employmentCategorySelected = null;
 let employmentGoalCount = 0;
 
 // Max limits for selections
-const maxEmploymentGoals = 2;
-const maxOtherGoals = 3;
+const maxEmploymentGoals = 10;
+const maxOtherGoals = 10;
 
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
@@ -301,21 +301,6 @@ fetch("goals.json")
   .then((data) => {
     populateEmploymentGoals(data.Reviews);
 
-    populateGoals(
-      data.PersonalGoals,
-      "personal-goals-container",
-      "Personal Goals"
-    );
-    populateGoals(
-      data.LongTermGoals,
-      "long-term-goals-container",
-      "Long-Term Goals"
-    );
-    populateGoals(
-      data.EmploymentGoals,
-      "employment-goals-container",
-      "EMP Goals"
-    );
     populateGoals(data.Retired, "retired-goals-container", "Retired");
     populateGoals(data.Sick, "sick-goals-container", "Sick");
     populateGoals(data.Short, "short-goals-container", "Short Term Goals"); // New Short Goals
@@ -358,62 +343,6 @@ function populateEmploymentGoals(goals) {
 
 function populateGoals(goals, containerId, category) {
   const container = document.getElementById(containerId);
-
-  if (category === "IAG Goals") {
-    // Loop through each goal in the IAG Goals array
-    goals.forEach((goalItem) => {
-      const goalContainer = document.createElement("div");
-      goalContainer.style.color = "white";
-      goalContainer.style.marginBottom = "10px";
-
-      // Create and format the goal text (goal title and description)
-      const goalText = document.createElement("span");
-      goalText.innerHTML = `<strong>${goalItem.goal}</strong><br>`;
-
-      // Add description for each goal
-      goalText.innerHTML += goalItem.description
-        ? goalItem.description
-        : "No description available.";
-
-      // Add the goal text to the goal container
-      goalContainer.appendChild(goalText);
-
-      // Create the Add button for interaction
-      const addButton = document.createElement("button");
-      addButton.classList.add("btn", "btn-light", "mt-2", "ml-0");
-      addButton.textContent = "Add";
-
-      addButton.addEventListener("click", () => {
-        if (selectedGoals[category].length < maxOtherGoals) {
-          selectedGoals[category].push({
-            title: goalItem.goal,
-            description: goalItem.description,
-          });
-          updateGoalSelectionUI();
-        } else {
-          alert(
-            `You can only select up to ${maxOtherGoals} goals in ${category}.`
-          );
-        }
-      });
-
-      goalContainer.appendChild(addButton); // Append Add button to goal container
-
-      // Append the goal container to the main container
-      container.appendChild(goalContainer);
-    });
-  }
-  // You can add other categories here if needed
-}
-
-// Helper function to get current date in the desired format
-function getCurrentDate() {
-  const today = new Date();
-  const dd = String(today.getDate()).padStart(2, "0");
-  const mm = String(today.getMonth() + 1).padStart(2, "0"); // January is 0
-  const yyyy = today.getFullYear();
-
-  return `${mm}/${dd}/${yyyy}`;
 }
 
 // Function for populating PLP Created goals

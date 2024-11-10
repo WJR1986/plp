@@ -1,7 +1,7 @@
 {
   "PLPStart": {
     "Employment Goals PLP": [
-      {        
+      {
         "goal": "PLP CREATED STAMP 🔨",
         "options": [
           "This Personal Learning Plan was created at HMP Northumberland on DATE.",
@@ -9,7 +9,7 @@
           "At HMP Northumberland, this Personal Learning Plan was finalised on DATE.",
           "On DATE, this Personal Learning Plan was created at HMP Northumberland."
         ]
-      },      
+      },
       {
         "goal": "GAIN PRISON EMPLOYMENT 🏢",
         "options": [
@@ -21,7 +21,7 @@
           "Secure work in PATHWAY to boost employability upon release. Review progress in 3 months."
         ]
       },
-      {        
+      {
         "goal": "PREFERRED ROLE ON RELEASE 👷",
         "options": [
           "Secure JOBROLE work within 3 months post-release for stable income. Review quarterly.",
@@ -35,11 +35,11 @@
       {
         "goal": "RETURN TO PREVIOUS EMPLOYER (ROLE GUARANTEED) ✅🏢",
         "options": [
-          "Monthly contact with previous employer to confirm guaranteed role. Review quarterly.", 
+          "Monthly contact with previous employer to confirm guaranteed role. Review quarterly.",
           "Update previous employer every 2 months to secure guaranteed role. Review quarterly.",
           "Confirm guaranteed role with previous employer every 3 months. Review quarterly.",
           "Discuss guaranteed role with previous employer in months 1, 3, and 6. Review quarterly.",
-          "Share rehabilitation progress with previous employer every 3 months. Review quarterly." 
+          "Share rehabilitation progress with previous employer every 3 months. Review quarterly."
         ]
       },
       {
@@ -60,6 +60,16 @@
           "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
           "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
           "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "No Long-Term Employment Goal Due to Retirement 🕰️",
+        "options": [
+          "Reached retirement age, no long-term employment goal. Release on pension.",
+          "Retired, no long-term employment goal. Release on pension.",
+          "Reached retirement age, intend to be on pension post-release. No long-term employment goal",
+          "Retired, plan to be on pension post-release. No long-term employment goal",
+          "Retired, no long-term employment goal. Will be on pension on release."
         ]
       },
       {
@@ -244,21 +254,6 @@
         ]
       },
       {
-        "goal": "TRANSFER TO OTHER PRISON 🚛",
-        "options": [
-          "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
-          "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
-          "Discuss transfer options with OMU for suitable prison placement. Review in 3 months.",
-          "Seek transfer to another prison via OMU within 6 months for better support. Review in 3 months.",
-          "Apply for transfer to a suitable prison through OMU in 4 months. Review in 3 months.",
-          "Collaborate with OMU for potential transfer within 6 months. Review in 3 months.",
-          "Start transfer process with OMU to improve rehabilitation chances. Review in 3 months.",
-          "Engage with OMU for transfer discussions within the next 3 months. Review in 3 months.",
-          "Aim for a transfer to another prison for better support in 6 months. Review in 3 months.",
-          "Request assistance from OMU for a transfer to another prison. Review in 3 months."
-        ]
-      },
-      {
         "goal": "DART SUPPORT 💊",
         "options": [
           "Access DART services for substance issues and maintain support for 3 months. Review in 3 months.",
@@ -299,21 +294,6 @@
           "Implement nutritious eating decisions over 1 month for health. Review in 3 months.",
           "Adopt healthy eating decisions for 3 months to improve health. Review in 3 months.",
           "Prioritise healthy eating for 6 weeks for a better lifestyle. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "MINDFULNESS 🧠",
-        "options": [
-          "Practice mindfulness for 10 mins daily for 4 weeks to lower stress. Review in 3 months.",
-          "Engage in mindfulness exercises daily for 6 weeks to improve clarity. Review in 3 months.",
-          "Incorporate mindfulness into daily routine for 3 weeks to reduce stress. Review in 3 months.",
-          "Commit to mindfulness activities daily for 5 weeks for relaxation. Review in 3 months.",
-          "Practice mindfulness daily for 2 months to boost awareness. Review in 3 months.",
-          "Dedicate 10 mins each day to mindfulness for better mental health. Review in 3 months.",
-          "Engage in mindfulness sessions daily for 4 weeks to manage stress. Review in 3 months.",
-          "Incorporate mindfulness practices regularly for 5 weeks for focus. Review in 3 months.",
-          "Aim for daily mindfulness for 30 mins per week to improve well-being. Review in 3 months.",
-          "Use mindfulness exercises regularly for 4 weeks to promote clarity. Review in 3 months."
         ]
       },
       {
@@ -375,103 +355,113 @@
           "Use prompts to guide self-reflection weekly for deeper insights. Review in 3 months.",
           "Create a vision board based on self-reflection to clarify personal goals. Review in 3 months."
         ]
-      }
-    ],
-    "Short-Term Goals PLP": [
+      },
       {
-        "goal": "AGREED RAISE ENGLISH & MATHS LEVELS 📚",
+        "goal": "IMPROVE SELF-DISCIPLINE 💡",
         "options": [
-          "Raise Eng LVL & Math LVL to Eng LVL & Math LVL to boost employability upon release. Ongoing",
-          "Raise Eng LVL & Math LVL to Eng LVL & Math LVL for better employability on release. Ongoing.",
-          "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to aid job prospects after release. Ongoing.",
-          "Improve Eng LVL & Math LVL to Eng LVL & Math LVL to support employment chances. Ongoing.",
-          "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to enhance employability post-release. Ongoing.",
-          "Increase Eng LVL & Math LVL to Eng LVL & Math LVL to strengthen employability. Ongoing."
+          "Set daily routine, track completion for 2 weeks, review progress after 3 months.",
+          "Wake up and sleep at consistent times for 1 month, track & review after 3 months.",
+          "Pick one habit to improve, track daily for 30 days, review progress after 3 months.",
+          "Follow daily exercise routine for 3 weeks, assess & review after 3 months.",
+          "Commit to 10-min daily reading for 1 month, track & review after 3 months.",
+          "Track completion of a daily checklist for 2 weeks, assess & review after 3 months.",
+          "Limit distractions for 30 mins daily, track results, review after 3 months.",
+          "Choose one challenging goal, work daily, track & review after 3 months.",
+          "Complete daily journal for 2 weeks, track discipline progress, review after 3 months.",
+          "Track daily tasks for consistency, review after 3 months for self-discipline growth."
         ]
       },
       {
-        "goal": "DECLINED RAISE ENGLISH & MATHS LEVELS 📚",
+        "goal": "PRACTICE MINDFULNESS 🌿",
         "options": [
-          "Advised to raise Eng LVL & Math LVL levels to Eng LVL & Math LVL, declined. Review 3months.",
-          "Opted against increasing Eng LVL & Math LVL to Eng LVL & Math LVL. Review after 3 months.",
-          "Suggested raising Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months.",
-          "Declined advice to raise Eng LVL & Math LVL to Eng LVL & Math LVL. Revisit in 3 months.",
-          "Recommendation to improve Eng LVL & Math LVL to Eng LVL & Math LVL declined. Review 3months.",
-          "Advised to increase Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months."
+          "Practice 5-min deep breathing daily for 2 weeks, track stress & review after 3 months.",
+          "Spend 10 mins each morning in quiet reflection, increase by 1 min weekly, review after 3 months.",
+          "Practice mindful eating once a day for 3 weeks, track mindfulness & review after 3 months.",
+          "List 3 positive moments daily for 2 weeks, review mindfulness & gratitude after 3 months.",
+          "Spend 5 mins noticing surroundings daily, track & review progress after 3 months.",
+          "Commit to 10-min daily meditation for 3 weeks, track progress & review after 3 months.",
+          "Practice daily mindfulness for 10 mins, track & review progress after 3 months.",
+          "Write daily positive moments, review mindfulness & emotional growth after 3 months.",
+          "Practice 10-min focused breathing daily for 2 weeks, increase duration, review after 3 months.",
+          "Engage in daily gratitude, review emotional state after 3 months."
         ]
       },
       {
-        "goal": "JOIN LIBRARY 📚",
+        "goal": "ENHANCE COMMUNICATION SKILLS 🗣️",
         "options": [
-          "Join the library & read 1 book per month for 6 months to improve reading skills. Review in 3 months.",
-          "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
-          "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
-          "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
-          "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
-          "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
-          "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
-          "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
-          "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
-          "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
+          "Practice speaking clearly in daily conversations for 3 weeks, track & review after 3 months.",
+          "Engage in active listening for 10 mins daily for 2 weeks, track & review after 3 months.",
+          "Record daily conversations, track clarity, review communication after 3 months.",
+          "Write weekly letters or journal entries to improve clarity, review after 3 months.",
+          "Express daily gratitude to at least one person, track & review after 3 months.",
+          "Track active listening skills by summarising daily conversations, review after 3 months.",
+          "Ask open-ended questions daily, track frequency & engagement, review after 3 months.",
+          "Summarise one conversation each day, track communication & review after 3 months.",
+          "Hold weekly discussions to improve articulation, review clarity & communication after 3 months."
         ]
       },
       {
-        "goal": "VISIT LIBRARY 📚",
+        "goal": "INCREASE PHYSICAL FITNESS 🏃",
         "options": [
-          "Visit the library & read 1 book p/m for 6 months to improve reading skills. Review in 3 months.",
-          "Become a library member & read 1 book monthly for the next 4 months. Review in 3 months.",
-          "Use the library to read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
-          "Join the library & aim to read 1 book monthly for literacy improvement. Review in 3 months.",
-          "Start reading 1 book monthly from the library for the next 6 months. Review in 3 months.",
-          "Sign up for library membership & read 1 book monthly for personal growth. Review in 3 months.",
-          "Read a new book monthly from the library for 4 months to improve literacy. Review in 3 months.",
-          "Engage with the library to commit to reading 1 book monthly for 6 months. Review in 3 months.",
-          "Utilise library resources to read regularly, aiming for 1 book monthly. Review in 3 months.",
-          "Join the library & set a goal to read 1 book monthly for 3 months. Review in 3 months."
+          "Stretch daily for 10 mins, track flexibility, review progress after 3 months.",
+          "Walk or exercise for 20 mins daily for 2 weeks, track daily steps, review after 3 months.",
+          "Aim for 30 mins physical activity 4 days a week for 1 month, review after 3 months.",
+          "Perform bodyweight exercises 3 times per week for 1 month, review strength after 3 months.",
+          "Increase daily movement to 30 mins for 1 month, track & review progress after 3 months.",
+          "Track daily flexibility exercises, increase intensity, review after 3 months.",
+          "Complete daily core-strengthening exercises for 20 mins, review after 3 months.",
+          "Do bodyweight workouts 3 times a week, review progress after 3 months.",
+          "Commit to 10-min daily walk for 3 weeks, review after 3 months.",
+          "Aim for 10,000 steps daily for 30 days, track & review progress after 3 months."
         ]
       },
       {
-        "goal": "Raise FS Levels via PET 📝",
+        "goal": "DEVELOP EMOTIONAL RESILIENCE 💪",
         "options": [
-          "Advised to request PET prospectus to boost job prospects. Accepted. Request via kiosk within 1 week.",
-          "Suggested to research a PET course to improve job skills. Accepted. Enquire via kiosk this week.",
-          "Recommended registering for PET exam to enhance employability. Accepted. Register by [date].", 
-          "Offered support with PET for career progression. Accepted. Create plan & discuss w/ IAG in 3 months.", 
-          "Informed about PET workshops to increase job options. Accepted. Check kiosk for availability." 
-        ]
-      },      
-      {
-        "goal": "Raise FS Levels via OU 🎓",
-        "options": [
-          "Advised to request OU prospectus for career development. Accepted. Request via kiosk within 1 week.",
-          "Suggested enquiring about OU funding to support career goals. Accepted. Enquire via kiosk this week.", 
-          "Recommended completing OU application to boost job prospects. Accepted. Use kiosk; submit by [date].", 
-          "Offered support with gathering OU docs for career advancement. Accepted. Request help via kiosk.", 
-          "Informed about pre-release OU coursework to enhance job skills. Accepted. Access materials via kiosk." 
-        ]
-      },      
-      {
-        "goal": "Raise FS Levels via PET 📝",
-        "options": [
-          "Advised to request PET prospectus to boost job prospects. Declined. Review in 3 months.", 
-          "Suggested enquiring about PET materials to improve job skills. Declined. Quarterly reassessment.",
-          "Recommended registering for PET exam to enhance employability. Declined. Review in 3 months",
-          "Offered support with PET study plan for career progression. Declined. Quarterly review.", 
-          "Informed about PET workshops to increase job options. Declined. Review in 3 months" 
-        ]
-      },      
-      {
-        "goal": "Raise FS Levels via OU 🎓",
-        "options": [
-          "Advised to request OU prospectus for career development. Declined. Review in 3 months.",
-          "Suggested enquiring about OU funding to support career goals. Declined. Quarterly review.",
-          "Recommended completing OU application to boost job prospects. Declined. Review in 3 months",
-          "Offered support with gathering OU docs for career advancement. Declined. Quarterly reassessment.",
-          "Informed about pre-release OU coursework to enhance job skills. Declined. Review in 3 months" 
+          "Practice identifying emotions daily for 3 weeks, assess & review after 3 months.",
+          "Track daily stressors and responses for 2 weeks, review progress after 3 months.",
+          "Journal daily on emotional triggers & responses, track growth, review after 3 months.",
+          "Practice a positive coping strategy daily for 2 weeks, assess & review after 3 months.",
+          "Reflect for 5 mins daily on emotional growth, track progress & review after 3 months.",
+          "Write 3 things you're grateful for daily, track & review after 3 months.",
+          "Track emotional responses & coping methods for 2 weeks, review after 3 months.",
+          "Respond calmly to daily stress, assess emotional growth & review after 3 months.",
+          "Write daily coping methods, track stress management & review after 3 months.",
+          "Reflect on emotional responses and practice compassion, track & review after 3 months."
         ]
       }
     ],
     "Long-Term Goals PLP": [
+      {
+        "goal": "SENTENCE PLAN 📜",
+        "options": [
+          "Collaborate with my POM/OMU to complete my sentence plan in 6-9 months. Quarterly reassessment.",
+          "Ensure all steps of my sentence plan are fulfilled with support from POM/OMU. Review in 3 months.",
+          "Follow through with required actions in my sentence plan over the months. Quarterly reassessment.",
+          "Consult with my POM/OMU regularly to track progress and address challenges. Review in 3 months.",
+          "Complete actions with my POM/OMU while staying on schedule. Quarterly reassessment.",
+          "Participate actively in sessions to achieve objectives in the plan. Review in 3 months.",
+          "Document progress and adjust plans with my POM/OMU for better outcomes. Quarterly reassessment.",
+          "Engage in my sentence plan to ensure timely completion and adherence. Review in 3 months.",
+          "Work closely with my case manager to finish my sentence plan before release. Quarterly reassessment.",
+          "Understand all requirements of my sentence plan and seek support when needed. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CAT D 📊",
+        "options": [
+          "Complete all actions needed for CAT D status before release. Quarterly reassessment.",
+          "Work towards CAT D classification by meeting requirements on time. Review in 3 months.",
+          "Ensure all actions for CAT D eligibility are completed on schedule. Quarterly reassessment.",
+          "Focus on fulfilling criteria for CAT D status before release. Review in 3 months.",
+          "Consult staff to clarify steps for CAT D classification. Quarterly reassessment.",
+          "Participate in programmes supporting progression to CAT D status. Review in 3 months.",
+          "Complete tasks for CAT D eligibility as soon as possible. Quarterly reassessment.",
+          "Stay informed about requirements for CAT D status. Review in 3 months.",
+          "Collaborate with my support team to meet expectations for CAT D. Quarterly reassessment.",
+          "Document my progress and address gaps in meeting CAT D criteria. Review in 3 months."
+        ]
+      },
       {
         "goal": "PURCHASE/RENT OWN PROPERTY 🏠",
         "options": [
@@ -508,12 +498,12 @@
         "options": [
           "Request Highway Code from prison library. Study 1 hour daily. Review weekly.",
           "Obtain practice theory tests from education staff. Complete 2 per week. Review scores.",
-          "Enquire about theory test app access. Use 30 mins daily if available. Monitor progress.", 
+          "Enquire about theory test app access. Use 30 mins daily if available. Monitor progress.",
           "Attend any available theory workshops offered by prison. Review learning.",
           "Revise theory independently 1 hour, 5 days a week. Track progress.",
-          "Request theory learning materials from support staff. Review materials regularly." 
+          "Request theory learning materials from support staff. Review materials regularly."
         ]
-      },      
+      },
       {
         "goal": "Pass UK Driving Practical Test to Enhance Employability 🚗",
         "options": [
@@ -527,7 +517,7 @@
         ]
       },
       {
-        "goal": "Volunteering on Release 😊", 
+        "goal": "Volunteering on Release 😊",
         "options": [
           "Will volunteer at a local library post-release to develop communication and organisational skills.",
           "Aims to join a food bank post-release, assisting weekly to build teamwork and logistics skills.",
@@ -569,33 +559,12 @@
         ]
       },
       {
-        "goal": "SENTENCE PLAN 📜",
+        "goal": "Pursue higher education 📚",
         "options": [
-          "Collaborate with my POM/OMU to complete my sentence plan in 6-9 months. Quarterly reassessment.",
-          "Ensure all steps of my sentence plan are fulfilled with support from POM/OMU. Review in 3 months.",
-          "Follow through with required actions in my sentence plan over the months. Quarterly reassessment.",
-          "Consult with my POM/OMU regularly to track progress and address challenges. Review in 3 months.",
-          "Complete actions with my POM/OMU while staying on schedule. Quarterly reassessment.",
-          "Participate actively in sessions to achieve objectives in the plan. Review in 3 months.",
-          "Document progress and adjust plans with my POM/OMU for better outcomes. Quarterly reassessment.",
-          "Engage in my sentence plan to ensure timely completion and adherence. Review in 3 months.",
-          "Work closely with my case manager to finish my sentence plan before release. Quarterly reassessment.",
-          "Understand all requirements of my sentence plan and seek support when needed. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CAT D 📊",
-        "options": [
-          "Complete all actions needed for CAT D status before release. Quarterly reassessment.",
-          "Work towards CAT D classification by meeting requirements on time. Review in 3 months.",
-          "Ensure all actions for CAT D eligibility are completed on schedule. Quarterly reassessment.",
-          "Focus on fulfilling criteria for CAT D status before release. Review in 3 months.",
-          "Consult staff to clarify steps for CAT D classification. Quarterly reassessment.",
-          "Participate in programmes supporting progression to CAT D status. Review in 3 months.",
-          "Complete tasks for CAT D eligibility as soon as possible. Quarterly reassessment.",
-          "Stay informed about requirements for CAT D status. Review in 3 months.",
-          "Collaborate with my support team to meet expectations for CAT D. Quarterly reassessment.",
-          "Document my progress and address gaps in meeting CAT D criteria. Review in 3 months."
+          "Research educational opportunities available post-release. Aim for course enrolment within 6 months.",
+          "Apply to 3 higher education courses post-release, aiming for enrolment within 12 months.",
+          "Attend a free course or webinar monthly post-release to improve qualifications for 6 months.",
+          "Commit to studying for 1 qualification post-release. Apply for 3 courses within 6 months."
         ]
       },
       {
@@ -631,42 +600,56 @@
       {
         "goal": "BUSINESS STARTUP 💴",
         "options": [
-          "Research and plan a viable business startup to pursue after release. Review in 3 months.",
+          "Research and plan a viable business startup to pursue after release. Review quarterly.",
           "Explore business opportunities and resources for my venture. Review in 3 months.",
-          "Develop a business plan outlining steps to launch my business. Review in 3 months.",
-          "Participate in Business Startup workshops to enhance my skills. Review in 3 months.",
+          "Develop a business plan outlining steps to launch my business. Review quarterly.",
+          "Participate in Business Startup workshops to enhance my skills. Review quarterly.",
           "Consult with business mentors for guidance on starting my venture. Review in 3 months.",
           "Seek resources and support for launching my business. Review in 3 months.",
-          "Utilise financial planning tools to prepare for startup costs. Review in 3 months.",
+          "Utilise financial planning tools to prepare for startup costs. Review quarterly.",
           "Document ideas and plans for business development. Review in 3 months."
         ]
       },
       {
         "goal": "VOLUNTEERING POST-RELEASE 💁",
         "options": [
-          "Identify 3 local charities for volunteering after release. Apply to each in 3 months.",
-          "Research 3 volunteer roles that match my skills for post-release. Check progress in 3 months.",
+          "Identify 3 local charities for volunteering after release. Review quarterly.",
+          "Research 3 volunteer roles that match my skills for post-release. Review quarterly.",
           "Create a list of 5 skills I can offer to local charities for volunteering. Review in 3 months.",
-          "Plan 3 ways to engage with the community through volunteering post-release. Review in 3 months.",
+          "Plan 3 ways to engage with the community through volunteering post-release. Review quarterly.",
           "Set a goal to volunteer weekly for 3 months after release. Document experiences and impact.",
-          "Seek mentorship from 1 volunteer coordinator to prepare for post-release roles. Review in 3 months.",
+          "Seek mentorship from 1 volunteer coordinator to prepare for post-release roles. Review quarterly.",
           "Discuss with peers 3 potential volunteer projects to join after release. Review in 3 months.",
-          "Commit to applying for 3 volunteer roles that inspire me before release of release."
+          "Commit to applying for 3 volunteer roles that inspire me before release. Review quarterly."
         ]
       },
       {
         "goal": "FAMILY REINTEGRATION 👪",
         "options": [
-          "Rebuild family relationships through weekly communication over 3 months.",
-          "Engage in family therapy bi-weekly to improve family ties in 3 months.",
+          "Rebuild family relationships through daily/weekly communication over 3 months. Ongoing.",
           "Schedule 3 family visits over 3 months to maintain connections during my sentence.",
-          "Utilise resources to improve family relationships with 3 steps post-release.",
-          "Establish a communication plan with family, connecting bi-weekly during my sentence.",
-          "Complete 3 personal development exercises to enhance family interactions.",
-          "Seek guidance from a mentor on family dynamics post-release before release.",
-          "Rebuild trust with family through 5 positive actions over the next 3 months.",
-          "Create opportunities for bonding during 3 family visits in 3 months.",
-          "Document efforts to improve family connections and track progress weekly."
+          "Establish a communication plan with family, connecting bi-weekly/daily during my sentence. Ongoing.",
+          "Rebuild trust with family through 3 positive actions over the next 3 months. Ongoing.",
+          "Document efforts to improve family connections and track progress weekly. Ongoing.",
+          "Reconnect with family through weekly phone calls. Review progress every 3 months.",
+          "Work on improving ties with family by writing weekly letters over the next 3 months. Ongoing.",
+          "Attend family therapy or counselling to rebuild relationships. Set a plan for 3 months. Ongoing.",
+          "Plan monthly family visits & daily communication to strengthen bonds over next 3 months. Ongoing."
+        ]
+      },
+      {
+        "goal": "TRANSFER TO OTHER PRISON 🚛",
+        "options": [
+          "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
+          "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
+          "Discuss transfer options with OMU for suitable prison placement. Review in 3 months.",
+          "Seek transfer to another prison via OMU within 6 months for better support. Review in 3 months.",
+          "Apply for transfer to a suitable prison through OMU in 4 months. Review in 3 months.",
+          "Collaborate with OMU for potential transfer within 6 months. Review in 3 months.",
+          "Start transfer process with OMU to improve rehabilitation chances. Review in 3 months.",
+          "Engage with OMU for transfer discussions within the next 3 months. Review in 3 months.",
+          "Aim for a transfer to another prison for better support in 6 months. Review in 3 months.",
+          "Request assistance from OMU for a transfer to another prison. Review in 3 months."
         ]
       },
       {
@@ -720,6 +703,122 @@
         ]
       }
     ],
+    "Short-Term Goals PLP": [
+      {
+        "goal": "AGREED RAISE ENGLISH & MATHS LEVELS 📚",
+        "options": [
+          "Raise Eng LVL & Math LVL to Eng LVL & Math LVL to boost employability upon release. Ongoing",
+          "Raise Eng LVL & Math LVL to Eng LVL & Math LVL for better employability on release. Ongoing.",
+          "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to aid job prospects after release. Ongoing.",
+          "Improve Eng LVL & Math LVL to Eng LVL & Math LVL to support employment chances. Ongoing.",
+          "Boost Eng LVL & Math LVL to Eng LVL & Math LVL to enhance employability post-release. Ongoing.",
+          "Increase Eng LVL & Math LVL to Eng LVL & Math LVL to strengthen employability. Ongoing."
+        ]
+      },
+      {
+        "goal": "DECLINED RAISE ENGLISH & MATHS LEVELS 📚",
+        "options": [
+          "Advised to raise Eng LVL & Math LVL levels to Eng LVL & Math LVL, declined. Review 3months.",
+          "Opted against increasing Eng LVL & Math LVL to Eng LVL & Math LVL. Review after 3 months.",
+          "Suggested raising Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months.",
+          "Declined advice to raise Eng LVL & Math LVL to Eng LVL & Math LVL. Revisit in 3 months.",
+          "Recommendation to improve Eng LVL & Math LVL to Eng LVL & Math LVL declined. Review 3months.",
+          "Advised to increase Eng LVL & Math LVL to Eng LVL & Math LVL, declined. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "JOIN LIBRARY 📚",
+        "options": [
+          "Join the library & read 3 books p/m for 6 months to improve reading skills. Review in 3 months.",
+          "Become a library member & read 3 books monthly for the next 4 months. Review in 3 months.",
+          "Join the library & read a new book p/m for 6 months to enhance reading ability. Review in 3 months.",
+          "Join the library & aim to read 3 books monthly for literacy improvement. Review in 3 months.",
+          "Sign up for library membership & read 3 books monthly for personal growth. Review in 3 months.",
+          "Engage with the library to commit to reading 3 books monthly for 6 months. Review in 3 months.",
+          "Visit the library to read regularly, aiming for 3 books monthly. Review in 3 months.",
+          "Join the library & set a goal to read 3 books monthly for 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "VISIT LIBRARY 📚",
+        "options": [
+          "Visit the library & read 3 books p/m for 6 months to improve reading skills. Review in 3 months.",
+          "Use the library to read a new book p/w for 6 months to enhance reading ability. Review in 3 months.",
+          "Visit the library & aim to read 3 books p/m for literacy improvement. Review in 3 months.",
+          "Start reading 3 books p/m from the library for the next 6 months. Review in 3 months.",
+          "Read a new book weekly from the library for 4 months to improve literacy. Review in 3 months.",
+          "Engage with the library to commit to reading 3 books p/m for 6 months. Review in 3 months.",
+          "Utilise library resources to read regularly, aiming for 3 books p/m. Review in 3 months.",
+          "Visit the library & set a goal to read 3 books p/m for 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "START READING NEWSPAPER 🗞️",
+        "options": [
+          "Read 3 newspaper articles weekly for 3 months to boost awareness. Review progress quarterly.",
+          "Commit to reading a daily newspaper for 3 months to improve knowledge. Review quarterly.",
+          "Read a newspaper weekly for current events. Review reading consistency quarterly.",
+          "Start reading 3 news articles weekly for 3 months to stay informed. Review quarterly.",
+          "Read a newspaper daily for 3 months to build reading habit. Track quarterly progress.",
+          "Set goal to read the newspaper every day for 3 months. Review reading progress quarterly.",
+          "Read one news article daily for 3 months to build habit. Review reading consistency quarterly.",
+          "Commit to daily newspaper reading for 3 weeks for current awareness. Review quarterly."
+        ]
+      },
+      {
+        "goal": "CONTINUE READING NEWSPAPER 🗞️",
+        "options": [
+          "Read a newspaper daily for 3 months to stay informed. Review every 3 months.",
+          "Continue reading 3 newspaper articles weekly to improve awareness. Review quarterly.",
+          "Aim to read the newspaper every day for the next 3 months. Track progress quarterly.",
+          "Continue reading a newspaper daily for 3 months. Check reading consistency quarterly.",
+          "Read one news article each day for 3 months for habit building. Review every 3 months.",
+          "Set goal to continue daily news reading for 6 months. Track progress every 3 months.",
+          "Maintain habit of reading the newspaper daily for 3 months. Review reading progress quarterly.",
+          "Continue reading the newspaper each day for 3 months. Track improvement monthly."
+        ]
+      },
+      {
+        "goal": "Raise FS Levels via PET 📝",
+        "options": [
+          "Advised to request PET prospectus to boost job prospects. Accepted. Request via kiosk within 1 week.",
+          "Suggested to research a PET course to improve job skills. Accepted. Enquire via kiosk this week.",
+          "Recommended registering for PET exam to enhance employability. Accepted. Register by [date].",
+          "Offered support with PET for career progression. Accepted. Create plan & discuss w/ IAG in 3 months.",
+          "Informed about PET workshops to increase job options. Accepted. Check kiosk for availability."
+        ]
+      },
+      {
+        "goal": "Raise FS Levels via OU 🎓",
+        "options": [
+          "Advised to request OU prospectus for career development. Accepted. Request via kiosk within 1 week.",
+          "Suggested enquiring about OU funding to support career goals. Accepted. Enquire via kiosk this week.",
+          "Recommended completing OU application to boost job prospects. Accepted. Use kiosk; submit by [date].",
+          "Offered support with gathering OU docs for career advancement. Accepted. Request help via kiosk.",
+          "Informed about pre-release OU coursework to enhance job skills. Accepted. Access materials via kiosk."
+        ]
+      },
+      {
+        "goal": "Raise FS Levels via PET 📝",
+        "options": [
+          "Advised to request PET prospectus to boost job prospects. Declined. Review in 3 months.",
+          "Suggested enquiring about PET materials to improve job skills. Declined. Quarterly reassessment.",
+          "Recommended registering for PET exam to enhance employability. Declined. Review in 3 months",
+          "Offered support with PET study plan for career progression. Declined. Quarterly review.",
+          "Informed about PET workshops to increase job options. Declined. Review in 3 months"
+        ]
+      },
+      {
+        "goal": "Raise FS Levels via OU 🎓",
+        "options": [
+          "Advised to request OU prospectus for career development. Declined. Review in 3 months.",
+          "Suggested enquiring about OU funding to support career goals. Declined. Quarterly review.",
+          "Recommended completing OU application to boost job prospects. Declined. Review in 3 months",
+          "Offered support with gathering OU docs for career advancement. Declined. Quarterly reassessment.",
+          "Informed about pre-release OU coursework to enhance job skills. Declined. Review in 3 months"
+        ]
+      }
+    ],
     "Retired Goals PLP": [
       {
         "goal": "No Long-Term Employment Goal Due to Retirement 🕰️",
@@ -732,7 +831,7 @@
         ]
       },
       {
-        "goal": "Volunteering on Release 😊", 
+        "goal": "Volunteering on Release 😊",
         "options": [
           "Will volunteer at a local library post-release to develop communication and organisational skills.",
           "Aims to join a food bank post-release, assisting weekly to build teamwork and logistics skills.",
@@ -841,7 +940,17 @@
     ],
     "Sick Goals PLP": [
       {
-        "goal": "Volunteering on Release 😊", 
+        "goal": "MEDICALLY UNFIT FOR PRISON ROLE 🏥❌",
+        "options": [
+          "Medically unfit for work, will return to PIP/UC on release. Review in 3 months.",
+          "Due to medical unfitness, plan is to claim PIP/UC post-release. Quarterly reassessment.",
+          "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
+          "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
+          "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Volunteering on Release 😊",
         "options": [
           "Will volunteer at a local library post-release to develop communication and organisational skills.",
           "Aims to join a food bank post-release, assisting weekly to build teamwork and logistics skills.",
@@ -888,21 +997,10 @@
           "Create savings plan for costs outside PIP/UC; review feasibility in 3 months.",
           "Identify support programs to supplement PIP/UC; evaluate plan in 3 months."
         ]
-      },
-      {
-        "goal": "MEDICALLY UNFIT FOR PRISON ROLE 🏥❌",
-        "options": [
-          "Medically unfit for work, will return to PIP/UC on release. Review in 3 months.",
-          "Due to medical unfitness, plan is to claim PIP/UC post-release. Quarterly reassessment.",
-          "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
-          "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
-          "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
-        ]
       }
     ]
   },
   "Reviews": {
-    
     "EmpGoalsReview": [
       {
         "goal": "PLP REVIEW STAMP 🔨",
@@ -912,7 +1010,7 @@
           "At HMP Northumberland, this Personal Learning Plan review was finalised on [DATE].",
           "On [DATE], this Personal Learning Plan review was undertaken at HMP Northumberland."
         ]
-      },  
+      },
       {
         "goal": "GAIN PRISON EMPLOYMENT 🏢",
         "options": [
@@ -1241,21 +1339,6 @@
         ]
       },
       {
-        "goal": "TRANSFER TO OTHER PRISON 📍✅",
-        "options": [
-          "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
-          "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
-          "Discuss transfer options with OMU for suitable prison placement. Review in 3 months.",
-          "Seek transfer to another prison via OMU within 6 months for better support. Review in 3 months.",
-          "Apply for transfer to a suitable prison through OMU in 4 months. Review in 3 months.",
-          "Collaborate with OMU for potential transfer within 6 months. Review in 3 months.",
-          "Start transfer process with OMU to improve rehabilitation chances. Review in 3 months.",
-          "Engage with OMU for transfer discussions within the next 3 months. Review in 3 months.",
-          "Aim for a transfer to another prison for better support in 6 months. Review in 3 months.",
-          "Request assistance from OMU for a transfer to another prison. Review in 3 months."
-        ]
-      },
-      {
         "goal": "PURSUE PRISON TRANSFER 📍✅",
         "options": [
           "Ongoing discussions with OMU to arrange a transfer before release. Review in 3 months.",
@@ -1498,6 +1581,32 @@
         ]
       },
       {
+        "goal": "START READING NEWSPAPER 🗞️",
+        "options": [
+          "Read 3 newspaper articles weekly for 3 months to boost awareness. Review progress quarterly.",
+          "Commit to reading a daily newspaper for 3 months to improve knowledge. Review quarterly.",
+          "Read a newspaper weekly for current events. Review reading consistency quarterly.",
+          "Start reading 3 news articles weekly for 3 months to stay informed. Review quarterly.",
+          "Read a newspaper daily for 3 months to build reading habit. Track quarterly progress.",
+          "Set goal to read the newspaper every day for 3 months. Review reading progress quarterly.",
+          "Read one news article daily for 3 months to build habit. Review reading consistency quarterly.",
+          "Commit to daily newspaper reading for 3 weeks for current awareness. Review quarterly."
+        ]
+      },
+      {
+        "goal": "CONTINUE READING NEWSPAPER 🗞️",
+        "options": [
+          "Read a newspaper daily for 3 months to stay informed. Review every 3 months.",
+          "Continue reading 3 newspaper articles weekly to improve awareness. Review quarterly.",
+          "Aim to read the newspaper every day for the next 3 months. Track progress quarterly.",
+          "Continue reading a newspaper daily for 3 months. Check reading consistency quarterly.",
+          "Read one news article each day for 3 months for habit building. Review every 3 months.",
+          "Set goal to continue daily news reading for 6 months. Track progress every 3 months.",
+          "Maintain habit of reading the newspaper daily for 3 months. Review reading progress quarterly.",
+          "Continue reading the newspaper each day for 3 months. Track improvement monthly."
+        ]
+      },
+      {
         "goal": "GAIN ENHANCED 📛",
         "options": [
           "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
@@ -1626,12 +1735,12 @@
         "options": [
           "Request Highway Code from prison library. Study 1 hour daily. Review weekly.",
           "Obtain practice theory tests from education staff. Complete 2 per week. Review scores.",
-          "Enquire about theory test app access. Use 30 mins daily if available. Monitor progress.", 
+          "Enquire about theory test app access. Use 30 mins daily if available. Monitor progress.",
           "Attend any available theory workshops offered by prison. Review learning.",
           "Revise theory independently 1 hour, 5 days a week. Track progress.",
-          "Request theory learning materials from support staff. Review materials regularly." 
+          "Request theory learning materials from support staff. Review materials regularly."
         ]
-      },      
+      },
       {
         "goal": "Pass UK Driving Practical Test to Enhance Employability 🚗",
         "options": [
@@ -1748,14 +1857,14 @@
       {
         "goal": "VOLUNTEERING POST-RELEASE 💁‍♂️",
         "options": [
-          "Identify 3 local charities for volunteering after release. Apply to each in 3 months.",
-          "Research 3 volunteer roles that match my skills for post-release. Check progress in 3 months.",
+          "Identify 3 local charities for volunteering after release. Quarterly review.",
+          "Research 3 volunteer roles that match my skills for post-release. Quarterly review.",
           "Create a list of 5 skills I can offer to local charities for volunteering. Review in 3 months.",
-          "Plan 3 ways to engage with the community through volunteering post-release. Review in 3 months.",
+          "Plan 3 ways to engage with the community through volunteering post-release. Quarterly review.",
           "Set a goal to volunteer weekly for 3 months after release. Document experiences and impact.",
           "Seek mentorship from 1 volunteer coordinator to prepare for post-release roles. Review in 3 months.",
           "Discuss with peers 3 potential volunteer projects to join after release. Review in 3 months.",
-          "Commit to applying for 3 volunteer roles that inspire me before release of release."
+          "Commit to applying for 3 volunteer roles that inspire me before release. Quarterly review."
         ]
       },
       {
@@ -1771,6 +1880,21 @@
           "Rebuild trust with family through 5 positive actions over the next 3 months.",
           "Create opportunities for bonding during 3 family visits in 3 months.",
           "Document efforts to improve family connections and track progress weekly."
+        ]
+      },
+      {
+        "goal": "TRANSFER TO OTHER PRISON 📍✅",
+        "options": [
+          "Work with OMU to transfer to a suitable prison within 6 months. Review in 3 months.",
+          "Initiate transfer process with OMU to suitable prison in 3 months. Review in 3 months.",
+          "Discuss transfer options with OMU for suitable prison placement. Review in 3 months.",
+          "Seek transfer to another prison via OMU within 6 months for better support. Review in 3 months.",
+          "Apply for transfer to a suitable prison through OMU in 4 months. Review in 3 months.",
+          "Collaborate with OMU for potential transfer within 6 months. Review in 3 months.",
+          "Start transfer process with OMU to improve rehabilitation chances. Review in 3 months.",
+          "Engage with OMU for transfer discussions within the next 3 months. Review in 3 months.",
+          "Aim for a transfer to another prison for better support in 6 months. Review in 3 months.",
+          "Request assistance from OMU for a transfer to another prison. Review in 3 months."
         ]
       },
       {
@@ -1821,6 +1945,26 @@
           "Participate in 3 activities fostering teamwork & collaboration skills over 3 months.",
           "Document my personal development journey weekly for reflection over 3 months.",
           "Explore 3 mindfulness practices to enhance overall wellbeing & self-care over 3 months."
+        ]
+      },
+      {
+        "goal": "MEDICALLY UNFIT FOR PRISON ROLE 🏥❌",
+        "options": [
+          "Medically unfit for work, will return to PIP/UC on release. Review in 3 months.",
+          "Due to medical unfitness, plan is to claim PIP/UC post-release. Quarterly reassessment.",
+          "Unfit for employment, intend to claim PIP/UC upon release. Review in 3 months.",
+          "Healthcare needs prevent work. Aiming for PIP/UC post-release. Quarterly reassessment.",
+          "Cannot sustain employment due to health. Will rely on PIP/UC. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "No Long-Term Employment Goal Due to Retirement 🕰️",
+        "options": [
+          "Reached retirement age, no long-term employment goal. Release on pension.",
+          "Retired, no long-term employment goal. Release on pension.",
+          "Reached retirement age, intend to be on pension post-release. No long-term employment goal",
+          "Retired, plan to be on pension post-release. No long-term employment goal",
+          "Retired, no long-term employment goal. Will be on pension on release."
         ]
       }
     ]
