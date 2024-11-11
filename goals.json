@@ -1132,16 +1132,15 @@
       {
         "goal": "CONTINUE GYM ATTENDANCE 🏋️✅",
         "options": [
-          "Continuing weekly gym sessions to stay on track with fitness goals. Review in 3 months.",
-          "Keeping up with twice-weekly gym workouts for strength building. Review in 3 months.",
-          "Maintaining gym visits for ongoing weight management. Quarterly review.",
-          "Progressing with twice-weekly gym sessions to reach muscle goals. Review in 3 months.",
-          "Staying consistent with cardio sessions to boost endurance. Review in 3 months.",
-          "Increasing gym activity to three times weekly to maintain stamina. Review in 3 months.",
-          "Continuing gym commitment to enhance fitness stability. Quarterly review.",
-          "Sticking with regular gym routine to support mental well-being. Review in 3 months.",
-          "Sustaining workout frequency to achieve long-term health goals. Quarterly review.",
-          "Keeping up weekly gym attendance for ongoing physical fitness. Review in 3 months."
+          "Continuing visiting gym 3x p/w to stay on track with fitness goals. Review in 3 months.",
+          "Keeping up with visiting gym 3x p/w for overall health. Review in 3 months.",
+          "Maintaining gym visits 3x p/w for ongoing weight management & overall health. Quarterly review.",
+          "Progressing with gym visits 3x p/w to reach health goals. Review in 3 months.",
+          "Staying consistent with gym visits 3x p/w to boost health. Review in 3 months.",
+          "Continuing visiting gym 3x p/w to enhance fitness stability. Quarterly review.",
+          "Sticking with regular gym routine to support mental well-being & overall health. Review in 3 months.",
+          "Sustaining gym visits 3x p/w to achieve long-term health goals. Quarterly review.",
+          "Keeping up gym visits 3x p/w for ongoing physical fitness & wellbeing. Review in 3 months."
         ]
       },
       {
@@ -1235,14 +1234,13 @@
         "goal": "BEGIN FAMILY/FRIEND VISITS 👨‍👩‍👧‍👦✅",
         "options": [
           "Arrange 1 family visit per month for 6 months to maintain connections. Review in 3 months.",
-          "Set up monthly visits for 3 months to stay in touch with family. Review in 3 months.",
+          "Set up monthly visits for 3 months to stay in touch with family. Review quarterly.",
           "Schedule 1 family visit per month for 4 months to strengthen relationships. Review in 3 months.",
-          "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months.",
-          "Organise monthly family visits to maintain emotional support. Review in 3 months.",
-          "Ensure at least 1 family visit occurs monthly for 6 months. Review in 3 months.",
-          "Plan monthly visits with family for 6 months to nurture relationships. Review in 3 months.",
+          "Organise monthly family visits to maintain emotional support. Review quarterly.",
+          "Ensure at least 1 family visit occurs monthly for 6 months for support network. Review in 3 months.",
+          "Plan monthly visits with family for 6 months to nurture relationships. Review quarterly.",
           "Stay connected through family visits once per month for 4 months. Review in 3 months.",
-          "Maintain monthly family visits for 6 months to support emotional well-being. Review in 3 months.",
+          "Maintain monthly family visits for 6 months to support emotional well-being. Review quarterly.",
           "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
         ]
       },
@@ -1250,14 +1248,14 @@
         "goal": "CONTINUE FAMILY/FRIEND VISITS👨‍👩‍👧‍👦✅",
         "options": [
           "Maintaining monthly visits to strengthen family ties. Review in 3 months.",
-          "Keeping up with regular family visits for consistent bonding. Quarterly review.",
-          "Continuing with planned visits to maintain family connections. Review in 3 months.",
+          "Keeping up with monthly family visits for consistent bonding. Quarterly review.",
+          "Continuing with planned monthly visits to maintain family connections. Review in 3 months.",
           "Scheduling monthly visits to support emotional well-being. Review in 3 months.",
-          "Ongoing visits to family to reinforce support system. Review in 3 months.",
-          "Maintaining bi-monthly visits to foster relationships. Quarterly review.",
-          "Staying consistent with family visits to aid mental health. Review in 3 months.",
+          "Ongoing monthly visits to family to reinforce support system. Review in 3 months.",
+          "Maintaining monthly visits to foster relationships. Quarterly review.",
+          "Staying consistent with monthly family visits to aid mental health. Review in 3 months.",
           "Keeping regular contact through family visits for stability. Quarterly review.",
-          "Sustaining monthly family meetups for continued connection. Review in 3 months.",
+          "Sustaining monthly family visits for continued connection. Review in 3 months.",
           "Continuing family visits to ensure emotional support. Quarterly review."
         ]
       },
@@ -1273,7 +1271,8 @@
           "Plan daily family calls for 6 months to nurture relationships. Quarterly Review.",
           "Stay connected through family visits once per month for 4 months. Review in 3 months.",
           "Maintain monthly family visits for 6 months to support emotional well-being. Quarterly Review.",
-          "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months."
+          "Arrange family visits monthly for 3 months to reinforce connections. Review in 3 months.",
+          "Speak with family on phone once per day for 6 months to keep strong family ties. Review in 3 months."
         ]
       },
       {
