@@ -433,6 +433,19 @@
     ],
     "Long-Term Goals PLP": [
       {
+        "goal": "GAIN ENHANCED 📛",
+        "options": [
+          "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
+          "Secure IEP Enhanced status in 6 months through positive engagement. Review in 3 months.",
+          "Achieve IEP Enhanced status for 3 months via consistent positive actions. Review in 3 months.",
+          "Qualify for IEP Enhanced status in 3 months by demonstrating good conduct. Review in 3 months.",
+          "Aim for IEP Enhanced status in 6 months with responsibility and good behaviour. Review in 3 months.",
+          "Secure IEP Enhanced status for 3 months by engaging with support services. Review in 3 months.",
+          "Achieve IEP Enhanced status for 3 months through self-reflection. Review in 3 months.",
+          "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
+        ]
+      },
+      {
         "goal": "SENTENCE PLAN 📜",
         "options": [
           "Collaborate with my POM/OMU to complete my sentence plan in 6-9 months. Quarterly reassessment.",
@@ -1607,52 +1620,6 @@
         ]
       },
       {
-        "goal": "GAIN ENHANCED 📛",
-        "options": [
-          "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
-          "Secure IEP Enhanced status in 6 months through positive engagement. Review in 3 months.",
-          "Achieve IEP Enhanced status for 3 months via consistent positive actions. Review in 3 months.",
-          "Qualify for IEP Enhanced status in 3 months by demonstrating good conduct. Review in 3 months.",
-          "Aim for IEP Enhanced status in 6 months with responsibility and good behaviour. Review in 3 months.",
-          "Secure IEP Enhanced status for 3 months by engaging with support services. Review in 3 months.",
-          "Achieve IEP Enhanced status for 3 months through self-reflection. Review in 3 months.",
-          "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "CONTINUE TO WORK TOWARDS ENHANCED 📛",
-        "options": [
-          "Continuing positive actions to work towards IEP Enhanced status. Review in 3 months.",
-          "Maintaining engagement in good conduct to achieve IEP Enhanced status. Quarterly review.",
-          "Progressing towards IEP Enhanced through consistent positive behaviour. Review in 3 months.",
-          "Working on positive contributions to secure IEP Enhanced status. Quarterly review.",
-          "Demonstrating responsibility to sustain IEP Enhanced eligibility. Review in 3 months.",
-          "Engaging with support services to qualify for IEP Enhanced status. Quarterly review.",
-          "Practising self-reflection to support IEP Enhanced status goal. Review in 3 months.",
-          "Maintaining helpful actions toward peers to work towards IEP Enhanced. Review in 3 months."
-        ]
-      },
-      {
-        "goal": "MAINTAIN ENHANCED 📛",
-        "options": [
-          "Continue positive behaviour daily to sustain Enhanced status. Review progress every 3 months.",
-          "Set an example by consistently avoiding negative incidents. Review in 3 months.",
-          "Engage in positive actions weekly to maintain Enhanced status. Quarterly review.",
-          "Avoid disciplinary actions for the next 3 months to keep Enhanced status. Review quarterly.",
-          "Show respect to staff and peers daily to support Enhanced status. Review in 3 months.",
-          "Contribute to a positive environment weekly by avoiding conflicts. Review in 3 months.",
-          "Complete daily tasks responsibly to reinforce good behaviour. Quarterly review.",
-          "Focus on positive behaviour and self-discipline daily to keep Enhanced status. Review in 3 months.",
-          "Uphold respectful interactions with staff and peers over the next 6 months. Quarterly review.",
-          "Sustain a positive attitude toward staff and others daily to maintain status. Review every 3 months.",
-          "Act as a role model for others daily by avoiding misconduct. Quarterly review.",
-          "Consistently meet behavioural expectations to support Enhanced status. Review in 3 months.",
-          "Work on self-discipline daily to avoid any warnings or sanctions. Quarterly review.",
-          "Engage in constructive activities weekly to support good behaviour goals. Review in 3 months.",
-          "Commit to maintaining a clean record with no infractions over 6 months. Review in 3 months."
-        ]
-      },
-      {
         "goal": "HEALTH CHECK UPS (NOT ABLE TO WORK) 🤒",
         "options": [
           "Attend health check-ups to manage physical health concerns over 6 months. Review in 3 months.",
@@ -1699,6 +1666,52 @@
       }
     ],
     "LongGoalsRev": [
+      {
+        "goal": "GAIN ENHANCED 📛",
+        "options": [
+          "Achieve IEP Enhanced status in 3 months by maintaining good behaviour. Review in 3 months.",
+          "Secure IEP Enhanced status in 6 months through positive engagement. Review in 3 months.",
+          "Achieve IEP Enhanced status for 3 months via consistent positive actions. Review in 3 months.",
+          "Qualify for IEP Enhanced status in 3 months by demonstrating good conduct. Review in 3 months.",
+          "Aim for IEP Enhanced status in 6 months with responsibility and good behaviour. Review in 3 months.",
+          "Secure IEP Enhanced status for 3 months by engaging with support services. Review in 3 months.",
+          "Achieve IEP Enhanced status for 3 months through self-reflection. Review in 3 months.",
+          "Maintain IEP Enhanced status in 6 months by helping others positively. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "CONTINUE TO WORK TOWARDS ENHANCED 📛",
+        "options": [
+          "Continuing positive actions to work towards IEP Enhanced status. Review in 3 months.",
+          "Maintaining engagement in good conduct to achieve IEP Enhanced status. Quarterly review.",
+          "Progressing towards IEP Enhanced through consistent positive behaviour. Review in 3 months.",
+          "Working on positive contributions to secure IEP Enhanced status. Quarterly review.",
+          "Demonstrating responsibility to sustain IEP Enhanced eligibility. Review in 3 months.",
+          "Engaging with support services to qualify for IEP Enhanced status. Quarterly review.",
+          "Practising self-reflection to support IEP Enhanced status goal. Review in 3 months.",
+          "Maintaining helpful actions toward peers to work towards IEP Enhanced. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "MAINTAIN ENHANCED 📛",
+        "options": [
+          "Continue positive behaviour daily to sustain Enhanced status. Review progress every 3 months.",
+          "Set an example by consistently avoiding negative incidents. Review in 3 months.",
+          "Engage in positive actions weekly to maintain Enhanced status. Quarterly review.",
+          "Avoid disciplinary actions for the next 3 months to keep Enhanced status. Review quarterly.",
+          "Show respect to staff and peers daily to support Enhanced status. Review in 3 months.",
+          "Contribute to a positive environment weekly by avoiding conflicts. Review in 3 months.",
+          "Complete daily tasks responsibly to reinforce good behaviour. Quarterly review.",
+          "Focus on positive behaviour and self-discipline daily to keep Enhanced status. Review in 3 months.",
+          "Uphold respectful interactions with staff and peers over the next 6 months. Quarterly review.",
+          "Sustain a positive attitude toward staff and others daily to maintain status. Review every 3 months.",
+          "Act as a role model for others daily by avoiding misconduct. Quarterly review.",
+          "Consistently meet behavioural expectations to support Enhanced status. Review in 3 months.",
+          "Work on self-discipline daily to avoid any warnings or sanctions. Quarterly review.",
+          "Engage in constructive activities weekly to support good behaviour goals. Review in 3 months.",
+          "Commit to maintaining a clean record with no infractions over 6 months. Review in 3 months."
+        ]
+      },
       {
         "goal": "PURCHASE/RENT OWN PROPERTY 🏠",
         "options": [

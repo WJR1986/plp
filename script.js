@@ -66,7 +66,7 @@ function updateGoalSelectionUI() {
 
         // Add event listener to copy the goal description
         copyButton.addEventListener("click", () => {
-          let textToCopy;
+          let textToCopy = goal.description; // Copy only the goal description
 
           navigator.clipboard
             .writeText(textToCopy)
