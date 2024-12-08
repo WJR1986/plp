@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disclosure Tool</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .question,
+        .result {
+            margin-top: 20px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        .tooltip {
+            cursor: pointer;
+            color: blue;
+            text-decoration: underline;
+        }
+
+        .tooltip-content {
+            display: none;
+            font-size: 14px;
+            color: grey;
+            background-color: #f9f9f9;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 300px;
+        }
+
+        .tooltip:hover+.tooltip-content {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Do I Need to Disclose My Criminal Record?</h1>
+    <div id="tool">
+        <!-- Question 1: Serious Offence -->
+        <div class="question" id="question-1">
+            <p>1. Was your conviction for a serious offence? (e.g., violent crime, sexual offence)</p>
+            <button onclick="handleAnswer(1, 'yes')">Yes</button>
+            <button onclick="handleAnswer(1, 'no')">No</button>
+        </div>
+
+        <!-- Question 2: Spent Conviction -->
+        <div class="question" id="question-2" style="display: none;">
+            <p>2. Has the conviction been spent under the Rehabilitation of Offenders Act?</p>
+            <button onclick="handleAnswer(2, 'yes')">Yes</button>
+            <button onclick="handleAnswer(2, 'no')">No</button>
+        </div>
+
+        <!-- Question 3: Elapsed Time Since Conviction -->
+        <div class="question" id="question-3" style="display: none;">
+            <p>3. How long has it been since your conviction was completed?</p>
+            <button onclick="handleAnswer(3, 'less-than-5')">Less than 5 years</button>
+            <button onclick="handleAnswer(3, 'more-than-5')">More than 5 years</button>
+        </div>
+
+        <!-- Question 4: DBS Check -->
+        <div class="question" id="question-4" style="display: none;">
+            <p>4. Are you applying for a job that requires a DBS check?</p>
+            <button onclick="handleAnswer(4, 'yes')">Yes</button>
+            <button onclick="handleAnswer(4, 'no')">No</button>
+        </div>
+
+        <!-- Question 5: DBS Type -->
+        <div class="question" id="question-5" style="display: none;">
+            <p>5. Does the job require a Standard or Enhanced DBS check?</p>
+            <button onclick="handleAnswer(5, 'standard')">Standard</button>
+            <button onclick="handleAnswer(5, 'enhanced')">Enhanced</button>
+        </div>
+
+        <!-- Question 6: Vulnerable Groups -->
+        <div class="question" id="question-6" style="display: none;">
+            <p>6. Does the job involve working with vulnerable groups (children or adults in care)? <span
+                    class="tooltip">What are vulnerable groups?</span></p>
+            <div class="tooltip-content">
+                Vulnerable groups include children, the elderly, and people with disabilities who may need extra
+                protection or care.
+            </div>
+            <button onclick="handleAnswer(6, 'yes')">Yes</button>
+            <button onclick="handleAnswer(6, 'no')">No</button>
+        </div>
+
+        <!-- Result Display -->
+        <div class="result" id="result" style="display: none;">
+            <p id="result-text"></p>
+        </div>
+    </div>
+
+    <script src="dbsscript.js"></script>
+</body>
+
+</html>

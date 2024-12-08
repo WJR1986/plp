@@ -252,6 +252,11 @@ function populateSubCategoryGoals(
   });
 }
 
+function populateGoals(goals, containerId, category) {
+  const container = document.getElementById(containerId);
+  populateSubCategoryGoals(goals, container, category);
+}
+
 // Event listener for the "Remove All" button in the modal
 document.getElementById("confirmRemoval").addEventListener("click", () => {
   // Reset the selected goals and counters
@@ -341,10 +346,6 @@ function populateEmploymentGoals(goals) {
   );
 }
 
-function populateGoals(goals, containerId, category) {
-  const container = document.getElementById(containerId);
-}
-
 // Function for populating PLP Created goals
 function populatePLPGoals(goals) {
   const plpStart = goals.PLPStart || {}; // Use empty object if PLPStart is missing
@@ -426,6 +427,46 @@ window.addEventListener("scroll", toggleScrollButton);
 document.getElementById("scrollToResults").addEventListener("click", () => {
   document.getElementById("results").scrollIntoView({ behavior: "smooth" });
 });
+
+// Function to add a goal to the list with a copy button
+function addGoalToList(goalText) {
+  const goalItem = document.createElement("li");
+  goalItem.className = "goal-item";
+
+  // Create the goal text span
+  const goalTextSpan = document.createElement("span");
+  goalTextSpan.textContent = goalText;
+  goalTextSpan.className = "goal-text";
+
+  // Create the copy button
+  const copyButton = document.createElement("button");
+  copyButton.className = "btn btn-outline-primary btn-sm ml-2";
+  copyButton.innerHTML = '<i class="fas fa-copy"></i>'; // Font Awesome icon
+  copyButton.onclick = () => copyGoalToClipboard(goalText);
+
+  // Append elements to the list item
+  goalItem.appendChild(goalTextSpan);
+  goalItem.appendChild(copyButton);
+
+  // Append the goal item to the selected goals list
+  document.getElementById("selected-goals-list").appendChild(goalItem);
+}
+
+// Function to copy text to clipboard
+function copyGoalToClipboard(text) {
+  navigator.clipboard
+    .writeText(text)
+    .then(() => {
+      alert("Goal copied to clipboard!");
+    })
+    .catch((err) => {
+      console.error("Could not copy text: ", err);
+    });
+}
+
+// Example usage of adding a goal with a copy button
+addGoalToList("Learn JavaScript");
+addGoalToList("Improve Time Management");
 
 // Initialize the UI
 updateGoalSelectionUI();
