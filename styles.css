@@ -224,17 +224,17 @@ footer p::after {
   height: 2px; /* Thickness of the underline */
   width: 50%; /* Full width of the text */
   background: #aef7ae; /* Color of the underline */
-  transform: translate(-350%, 0) translateX(-100%); /* Initially hide it off-screen to the left */
+  transform: translate(-350%, 0) translateX(-120%); /* Initially hide it off-screen to the left */
   transition: transform 0.9s ease; /* Transition for sliding effect */
 }
 
 footer p:hover {
-  font-weight: 500; /* Make the text bold on hover */
+  /* Make the text bold on hover */
   color: #aef7ae; /* Change text color on hover */
 }
 
 footer p:hover::after {
-  transform: translate(-50%, 0) translateX(0); /* Slide in the underline to its position */
+  transform: translate(-100%, 0) translateX(0); /* Slide in the underline to its position */
 }
 
 .goal-item {
