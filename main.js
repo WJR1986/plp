@@ -1,21 +1,17 @@
-// Fetch JSON from external file and populate goals
-fetch("goals.json")
-  .then((response) => response.json())
-  .then((data) => {
-    populateEmploymentGoals(data.Reviews);
-
-    populateGoals(data.Retired, "retired-goals-container", "Retired");
-    populateGoals(data.Sick, "sick-goals-container", "Sick");
-    populateGoals(data.Short, "short-goals-container", "Short Term Goals"); // New Short Goals
-  })
-  .catch((error) => console.error("Error loading JSON:", error));
-
-// Fetch and populate PLP Created goals
-fetch("goals.json")
-  .then((response) => response.json())
-  .then((data) => {
-    console.log(data); // Add this line to verify the structure
-    populatePLPGoals(data);
+// Fetch JSON from external files and populate goals
+Promise.all([
+  fetch("plpStart.json").then((response) => response.json()),
+  fetch("reviews.json").then((response) => response.json()),
+  fetch("plpExits.json").then((response) => response.json()), // Add this line
+])
+  .then(([plpStartData, reviewsData, plpExitsData]) => {
+    // Add plpExitsData
+    console.log("PLP Start Data:", plpStartData);
+    console.log("Reviews Data:", reviewsData);
+    console.log("PLP Exits Data:", plpExitsData); // Add this line
+    populatePLPGoals(plpStartData);
+    populateEmploymentGoals(reviewsData);
+    populatePLPExits(plpExitsData); // Add this line
   })
   .catch((error) => console.error("Error loading JSON:", error));
 

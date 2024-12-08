@@ -9,9 +9,20 @@ body {
 .card {
   background-color: #495057; /* Dark card background */
   border: none; /* Remove border for a cleaner look */
+  border-radius: 0.25rem; /* Ensure all corners are rounded */
+}
+
+.card.custom-card {
+  background-color: #495057; /* Dark card background */
+  border: none; /* Remove border for a cleaner look */
 }
 
 .card-header {
+  background-color: #6c757d; /* Darker header background for contrast */
+  border-radius: 0.25rem 0.25rem 0 0; /* Round the top corners */
+}
+
+.card-header.custom-header {
   background-color: #6c757d; /* Darker header background for contrast */
 }
 
@@ -19,21 +30,54 @@ body {
   color: white; /* White text for the button */
 }
 
+.card-header .btn-link.custom-btn-link {
+  color: white; /* White text for the button */
+}
+
 .card-header .btn-link.collapsed {
+  color: #fff; /* Light grey for collapsed state */
+}
+
+.card-header .btn-link.custom-btn-link.collapsed {
   color: #fff; /* Light grey for collapsed state */
 }
 
 .card-body {
   background-color: #495057; /* Match card body to header */
   color: white; /* Ensure text is visible */
+  border-radius: 0 0 0.25rem 0.25rem; /* Round the bottom corners */
 }
 
+.card-body.custom-body {
+  background-color: #495057; /* Match card body to header */
+  color: white; /* Ensure text is visible */
+}
+
+/* Ensure the bottom corners of the card-header and the top corners of the card-body are rounded */
+.card-header {
+  border-radius: 0.25rem 0.25rem 0 0; /* Round the top corners */
+}
+
+.card-body {
+  border-radius: 0 0 0.25rem 0.25rem; /* Round the bottom corners */
+}
+
+/* Additional styles for buttons and other elements */
 .btn-primary {
   background-color: #007bff; /* Customize primary button color */
   border-color: #007bff; /* Button border color */
 }
 
+.btn-primary.custom-btn-primary {
+  background-color: #007bff; /* Customize primary button color */
+  border-color: #007bff; /* Button border color */
+}
+
 .btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-primary.custom-btn-primary:hover {
   background-color: #0056b3; /* Darker shade on hover */
 }
 
@@ -45,13 +89,32 @@ body {
   cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
 }
 
+.btn-primary.custom-btn-primary:disabled {
+  background-color: #007bff; /* Keep the original background color */
+  border-color: #007bff; /* Keep the original border color */
+  opacity: 0.65; /* Optional: Make the button appear more muted */
+  cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+}
+
 .btn-primary:disabled:hover {
+  background-color: #007bff; /* Prevent hover effect */
+  border-color: #007bff; /* Prevent hover effect */
+}
+
+.btn-primary.custom-btn-primary:disabled:hover {
   background-color: #007bff; /* Prevent hover effect */
   border-color: #007bff; /* Prevent hover effect */
 }
 
 /* Disable hover effect for disabled buttons */
 .btn-danger:disabled {
+  background-color: #dc3545; /* Keep the original danger background color */
+  border-color: #dc3545; /* Keep the original danger border color */
+  opacity: 0.65; /* Optional: Make the button appear more muted */
+  cursor: not-allowed; /* Change cursor to indicate the button is not clickable */
+}
+
+.btn-danger.custom-btn-danger:disabled {
   background-color: #dc3545; /* Keep the original danger background color */
   border-color: #dc3545; /* Keep the original danger border color */
   opacity: 0.65; /* Optional: Make the button appear more muted */
@@ -74,9 +137,18 @@ body {
   color: #fff;
 }
 
+.card-header.custom-header.btn-link {
+  color: #fff;
+}
+
 /* Ensure hover and focus styles are visible */
 .btn-link:hover,
 .btn-link:focus {
+  text-decoration: underline; /* Underline on hover for better UX */
+}
+
+.btn-link.custom-btn-link:hover,
+.btn-link.custom-btn-link:focus {
   text-decoration: underline; /* Underline on hover for better UX */
 }
 
@@ -178,4 +250,65 @@ footer p:hover::after {
 .btn-outline-primary {
   font-size: 0.8em;
   margin-left: 8px;
+}
+
+.btn-outline-primary.custom-btn-outline-primary {
+  font-size: 0.8em;
+  margin-left: 8px;
+}
+
+/* Ensure the accordion content is full width on mobile */
+.accordion .card-body {
+  padding: 1rem;
+}
+
+.accordion .card-body.custom-body {
+  padding: 1rem;
+}
+
+/* Adjust the form group padding for better spacing */
+.form-group {
+  padding: 1rem;
+}
+
+.form-group.custom-form-group {
+  padding: 1rem;
+}
+
+/* Ensure buttons have enough space between them */
+.btn + .btn {
+  margin-left: 0.5rem;
+}
+
+/* Adjust the accordion header for better spacing */
+.accordion .card-header {
+  padding: 0.75rem 1.25rem;
+}
+
+.accordion .card-header.custom-header {
+  padding: 0.75rem 1.25rem;
+}
+
+/* Ensure the accordion header text is not too large on mobile */
+.accordion .card-header h5,
+.accordion .card-header h6 {
+  font-size: 1rem;
+}
+
+/* Adjust the accordion button for better spacing */
+.accordion .btn-link {
+  padding: 0.5rem 1rem;
+}
+
+.accordion .btn-link.custom-btn-link {
+  padding: 0.5rem 1rem;
+}
+
+/* Ensure the accordion button text is not too large on mobile */
+.accordion .btn-link {
+  font-size: 1rem;
+}
+
+.accordion .btn-link.custom-btn-link {
+  font-size: 1rem;
 }

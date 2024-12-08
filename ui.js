@@ -1,3 +1,27 @@
+function showCopySuccessMessage(button) {
+  // Check if a success message already exists
+  let existingMessage = button.parentElement.querySelector(".copy-success");
+  if (existingMessage) {
+    button.parentElement.removeChild(existingMessage);
+  }
+
+  const copySuccessMessage = document.createElement("span");
+  copySuccessMessage.className = "copy-success"; // Class for styling
+  copySuccessMessage.style.color = "#aef7ae"; // Set the color to green
+  copySuccessMessage.style.marginLeft = "10px"; // Space between button and message
+  copySuccessMessage.style.display = "inline"; // Initially hidden
+  copySuccessMessage.innerHTML = `Copied! ✅`; // Success message
+
+  button.parentElement.appendChild(copySuccessMessage);
+
+  setTimeout(() => {
+    if (copySuccessMessage.parentElement) {
+      copySuccessMessage.style.display = "none"; // Hide after 2 seconds
+      copySuccessMessage.parentElement.removeChild(copySuccessMessage); // Remove the element from the DOM
+    }
+  }, 2000); // Adjust the time as necessary
+}
+
 function updateGoalSelectionUI() {
   const selectedGoalsList = document.getElementById("selected-goals-list");
   selectedGoalsList.innerHTML = ""; // Clear previous entries
@@ -33,7 +57,7 @@ function updateGoalSelectionUI() {
 
         // Create a copy button
         const copyButton = document.createElement("button");
-        copyButton.className = "btn btn-light btn-sm ml-2"; // Styling for the button
+        copyButton.className = "btn btn-light btn-sm ml-2 ms-2"; // Styling for the button
         copyButton.textContent = "Copy";
 
         // Create a span for the success message
@@ -54,7 +78,12 @@ function updateGoalSelectionUI() {
               // Show success message
               copySuccessMessage.style.display = "inline"; // Show the message
               setTimeout(() => {
-                copySuccessMessage.style.display = "none"; // Hide after 2 seconds
+                if (copySuccessMessage.parentElement) {
+                  copySuccessMessage.style.display = "none"; // Hide after 2 seconds
+                  copySuccessMessage.parentElement.removeChild(
+                    copySuccessMessage
+                  ); // Remove the element from the DOM
+                }
               }, 2000); // Adjust the time as necessary
             })
             .catch((err) => {
@@ -183,3 +212,28 @@ function downloadSelectedGoals() {
   // Clean up
   URL.revokeObjectURL(url); // Clean up the URL object
 }
+
+// Function to remove all goals
+function removeAllGoals() {
+  // Clear the selectedGoals object
+  for (let category in selectedGoals) {
+    if (selectedGoals.hasOwnProperty(category)) {
+      selectedGoals[category] = [];
+    }
+  }
+
+  // Update the UI to reflect the removal of all goals
+  updateGoalSelectionUI();
+
+  // Close the modal
+  const confirmationModalElement = document.getElementById("confirmationModal");
+  const confirmationModal = bootstrap.Modal.getInstance(
+    confirmationModalElement
+  );
+  confirmationModal.hide();
+}
+
+// Add event listener for the "Remove All Goals" button
+document
+  .getElementById("confirmRemoval")
+  .addEventListener("click", removeAllGoals);

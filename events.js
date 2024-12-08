@@ -6,8 +6,8 @@ document.getElementById("scrollToResults").addEventListener("click", () => {
   document.getElementById("results").scrollIntoView({ behavior: "smooth" });
 });
 
-// Event listener for the "Remove All" button in the modal
-document.getElementById("confirmRemoval").addEventListener("click", () => {
+// Event listener for the "Remove All" button
+document.getElementById("remove-all-goals").addEventListener("click", () => {
   // Reset the selected goals and counters
   selectedGoals = {
     "Employment Goals PLP": [],
@@ -44,9 +44,6 @@ document.getElementById("confirmRemoval").addEventListener("click", () => {
 
   // Update the goal selection UI after reset
   updateGoalSelectionUI();
-
-  // Close modal
-  $("#confirmationModal").modal("hide");
 });
 
 // Add event listener for the download button
@@ -56,7 +53,17 @@ document
 
 // Add event listener for the "Collapse All" button
 document.getElementById("collapseAll").addEventListener("click", function () {
-  // Collapse all open accordion sections in both accordions
-  $("#accordion .collapse.show").collapse("hide");
-  $("#employment-accordion .collapse.show").collapse("hide");
+  // Collapse all open accordion sections in both accordions using Bootstrap 5 API
+  document.querySelectorAll("#accordion .collapse.show").forEach((collapse) => {
+    new bootstrap.Collapse(collapse, {
+      toggle: false,
+    }).hide();
+  });
+  document
+    .querySelectorAll("#employment-accordion .collapse.show")
+    .forEach((collapse) => {
+      new bootstrap.Collapse(collapse, {
+        toggle: false,
+      }).hide();
+    });
 });
