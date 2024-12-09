@@ -41,6 +41,34 @@ document.getElementById("downloadButton").addEventListener("click", () => {
   URL.revokeObjectURL(url);
 });
 
+document.getElementById("extractGoalsButton").addEventListener("click", () => {
+  const fileInput = document.getElementById("jsonFileInput");
+  const outputTextArea = document.getElementById("outputTextArea");
+  const downloadButton = document.getElementById("downloadButton");
+
+  if (fileInput.files.length === 0) {
+    alert("Please select a JSON file to extract goals.");
+    return;
+  }
+
+  const file = fileInput.files[0];
+  const reader = new FileReader();
+
+  reader.onload = (event) => {
+    try {
+      const jsonData = JSON.parse(event.target.result);
+      const goalsText = extractGoalsFromJson(jsonData);
+      outputTextArea.value = goalsText;
+      downloadButton.style.display = "block";
+    } catch (error) {
+      alert("Error parsing JSON file. Please ensure it is a valid JSON file.");
+      console.error("Error parsing JSON:", error);
+    }
+  };
+
+  reader.readAsText(file);
+});
+
 function convertJsonToPlainText(jsonData) {
   let plainText = "";
 
@@ -67,4 +95,27 @@ function convertJsonToPlainText(jsonData) {
 
   processObject(jsonData);
   return plainText;
+}
+
+function extractGoalsFromJson(jsonData) {
+  let goalsText = "";
+
+  function processObject(obj, indent = "") {
+    for (const key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        if (Array.isArray(obj[key])) {
+          goalsText += `${indent}${key}:\n`;
+          obj[key].forEach((item, index) => {
+            goalsText += `${indent}  ${index + 1}. ${item.goal}\n`;
+          });
+        } else if (typeof obj[key] === "object") {
+          goalsText += `${indent}${key}:\n`;
+          processObject(obj[key], indent + "  ");
+        }
+      }
+    }
+  }
+
+  processObject(jsonData);
+  return goalsText;
 }

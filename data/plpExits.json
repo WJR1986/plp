@@ -1,0 +1,775 @@
+{
+  "PLPExits": {
+    "EmpGoalsExit": [
+      {
+        "goal": "Create a CV and Cover Letter",
+        "options": [
+          "Draft CV and cover letter within 2 weeks of release; review and update every 3 months.",
+          "Complete CV with references and submit to IAG for review within 2 weeks of release.",
+          "Work with IAG to finalise CV/cover letter template in 2 weeks post-release; review quarterly.",
+          "Tailor CV and cover letter for 3 job applications in the first month of release; review progress.",
+          "Compile achievements into a professional CV template within 2 weeks post-release; update quarterly."
+        ]
+      },    
+      {
+        "goal": "Register with Employment Support Services",
+        "options": [
+          "Register with Jobcentre and set up profile within 1 week post-release; reassess every 3 months.",
+          "Join a local employment support program within 1 month of release; review progress quarterly.",
+          "Sign up for mentoring program within 1 month post-release; review benefits quarterly.",
+          "Meet careers advisor within 2 weeks of release and set job search goals for review in 3 months.",
+          "Complete employment skills assessment within 2 weeks post-release; review findings quarterly."
+        ]
+      },        
+      {
+        "goal": "Secure Employment",
+        "options": [
+          "Apply for 3 jobs within the first month of release. Review in 3 months.",
+          "Attend a job fair within the first month of release. Review in 3 months.",
+          "Apply to 5 relevant job postings within 1 month of release. Review in 3 months.",
+          "Enroll in a job placement program within the first month of release. Review in 3 months.",
+          "Complete 2 interviews within 2 months of release. Review in 3 months.",
+          "Register with 3 job agencies in the first 2 weeks post-release. Review quarterly.",
+          "Secure a full-time job within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Explore Self-Employment Opportunities",
+        "options": [
+          "Attend self-employment workshop in the first month post-release; assess feasibility quarterly.",
+          "Research and list 3 self-employment ideas within 4 weeks of release; review every 3 months.",
+          "Work with IAG to develop business idea within 2 months of release; evaluate progress quarterly.",
+          "Complete checklist for self-employment start-up within 2 months post-release; reassess quarterly.",
+          "Contact local business advisor within 1 month post-release to explore self-employment support."
+        ]
+      },      
+      {
+        "goal": "Enhance Job Skills",
+        "options": [
+          "Enroll in a vocational training course within 2 months of release. Review in 3 months.",
+          "Complete a job skills workshop within the first month of release. Review in 3 months.",
+          "Complete an online skills course within 2 months of release. Review in 3 months.",
+          "Sign up for an apprenticeship scheme within 2 months of release. Review quarterly.",
+          "Complete a Level 2 certification course within 3 months of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Build a Professional Network",
+        "options": [
+          "Join a local networking group within 2 months post-release. Review in 3 months.",
+          "Attend a professional networking event within the first month of release. Review in 3 months.",
+          "Connect with 5 professionals on LinkedIn within the first month of release. Review in 3 months.",
+          "Participate in a career fair within the first month of release. Review in 3 months.",
+          "Join a professional association within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Obtain Job References",
+        "options": [
+          "Request references from 2 previous employers within 1 month post-release. Review quarterly.",
+          "Ask for a reference letter from a mentor within the first month of release. Review in 3 months.",
+          "Request a reference from a volunteer supervisor within first month of release. Review in 3 months.",
+          "Seek a reference from a teacher or instructor within the first month of release. Review in 3 months.",
+          "Ask for a reference from a community leader within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Gain Work Experience",
+        "options": [
+          "Secure a work experience placement within 2 months post-release. Review in 3 months.",
+          "Contact 3 employers offering work experience within the first month of release. Review in 3 months.",
+          "Participate in a short-term internship within the first 3 months post-release. Review quarterly.",
+          "Volunteer in a relevant field for 4 weeks within 2 months of release. Review progress quarterly.",
+          "Complete a shadowing opportunity with a professional within the first month of release. Review in 3 months."
+        ]
+      },      
+      {
+        "goal": "Improve Interview Skills",
+        "options": [
+          "Attend 2 mock interview sessions within 1 month of release. Review in 3 months.",
+          "Participate in an interview skills workshop within the first month of release. Review in 3 months.",
+          "Practice interview questions with a mentor within the first month of release. Review in 3 months.",
+          "Prepare a portfolio of work samples within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Overcome Barriers to Employment",
+        "options": [
+          "Attend workshop on disclosure of convictions within 1 month of release; review skills quarterly.",
+          "Work with IAG to practice explaining convictions positively within 1 month of release.",
+          "Identify 3 employment challenges and create solutions with IAG within 1 month post-release.",
+          "Attend a workplace rights workshop within 2 months of release; review understanding quarterly.",
+          "Complete confidence-building workshop within 2 months post-release; reassess progress quarterly."
+        ]
+      }
+    ],
+    "PersonalGoalsExit": [
+      {
+        "goal": "Rebuild Family Relationships",
+        "options": [
+          "Schedule weekly family visits or calls for the first 3 months. Review in 3 months.",
+          "Attend family therapy sessions within the first 2 months of release. Review in 3 months.",
+          "Arrange fortnightly family meet-ups for 3 months post-release. Review in 3 months.",
+          "Reconnect with family by sending weekly updates for 3 months. Review quarterly.",
+          "Consider and act upon family feedback within the first month of release. Review in 3 months.",
+          "Plan a family outing within the first month of release. Review in 3 months.",
+          "Attend a family support group within the first month of release. Review in 3 months.",
+          "Participate in family counselling within the first month of release. Review in 3 months.",
+          "Write letters to family members weekly for 3 months post-release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Secure Stable Housing",
+        "options": [
+          "Apply for council housing within 1 week post-release; reassess every 3 months.",
+          "Meet with housing officer within the first week of release; review monthly progress.",
+          "Submit applications for 3 housing options within 2 weeks post-release; review quarterly.",
+          "Research local housing support programs within the first month of release; reassess quarterly.",
+          "Attend a housing advice session within 1 month post-release; review progress quarterly."
+        ]
+      },
+      {
+        "goal": "Improve Mental Wellbeing",
+        "options": [
+          "Attend a mental health assessment within 1 month post-release; review support quarterly.",
+          "Begin weekly journaling to track emotions for 3 months; reassess progress quarterly.",
+          "Sign up for a peer support group within 2 weeks post-release; review monthly.",
+          "Schedule monthly sessions with a counsellor for 3 months post-release; reassess quarterly.",
+          "Practice daily mindfulness exercises for 15 mins starting within 1 week of release."
+        ]
+      },   
+      {
+        "goal": "Improve Physical Health",
+        "options": [
+          "Join a local gym within the first month of release. Review in 3 months.",
+          "Attend a health check-up within the first month of release. Review in 3 months.",
+          "Begin a home fitness plan for 20 mins daily within 2 weeks. Review in 3 months.",
+          "Enroll in a sports club within the first month of release. Review in 3 months.",
+          "Sign up for a fitness class within the first month of release. Review in 3 months.",
+          "Start a daily walking routine for 30 mins within the first week of release. Review in 3 months.",
+          "Consult a nutritionist within the first month of release. Review in 3 months.",
+          "Join a local running group within the first month of release. Review in 3 months.",
+          "Participate in a charity walk/run within the first month of release. Review in 3 months.",
+          "Attend a local yoga or fitness class within 2 months of release. Review in 3 months.",
+          "Sign up for a dance class within the first month of release. Review in 3 months.",
+          "Start a daily stretching routine within the first week of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop Stress Management Skills",
+        "options": [
+          "Attend a stress management workshop within 2 months post-release. Review quarterly.",
+          "Practice mindfulness meditation daily for 10 mins within the first week. Review in 3 months.",
+          "Join a yoga or tai chi class within the first month of release. Review in 3 months.",
+          "Participate in a relaxation therapy session within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Build Financial Stability",
+        "options": [
+          "Open a basic bank account within the first month of release; reassess finances quarterly.",
+          "Meet with a financial advisor within the first month post-release; review budget quarterly.",
+          "Create a 3-month budget within 2 weeks post-release; monitor progress monthly.",
+          "Apply for 2 financial support schemes within the first month of release; reassess quarterly.",
+          "Set up monthly savings plan within 1 month of release; review progress quarterly."
+        ]
+      },
+      {
+        "goal": "Improve Reading and Writing Skills",
+        "options": [
+          "Join a local literacy support group within 2 weeks post-release; review skills quarterly.",
+          "Read 1 book each month starting within 1 week of release; review progress quarterly.",
+          "Practice writing weekly letters or journal entries for 3 months post-release.",
+          "Attend a community writing workshop within 1 month of release; review skills quarterly.",
+          "Complete a literacy improvement course within 2 months of release; reassess progress."
+        ]
+      },
+      {
+        "goal": "Improve Digital Skills",
+        "options": [
+          "Complete an online IT basics course within 2 months of release. Review in 3 months.",
+          "Enroll in a digital skills training program within the first month of release. Review in 3 months.",
+          "Attend a computer skills workshop within the first month of release. Review in 3 months.",
+          "Sign up for a coding class within the first month of release. Review in 3 months.",
+          "Join a digital literacy program within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop a Healthy Routine",
+        "options": [
+          "Establish a daily schedule with regular sleep and meals within 1 week post-release.",
+          "Prepare balanced meals 5 days per week starting within the first week of release.",
+          "Set a daily water intake goal of 2 litres within the first week post-release.",
+          "Commit to 30 mins of outdoor activity 3 days per week within the first month of release.",
+          "Track sleep patterns weekly for 3 months post-release; review improvements quarterly."
+        ]
+      },
+      {
+        "goal": "Improve Communication Skills",
+        "options": [
+          "Join a public speaking club within the first month of release. Review in 3 months.",
+          "Attend a communication skills workshop within the first month of release. Review in 3 months.",
+          "Practice active listening with a mentor within the first month of release. Review in 3 months.",
+          "Participate in a debate club within the first month of release. Review in 3 months.",
+          "Join a storytelling group within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop Time Management Skills",
+        "options": [
+          "Create a daily to-do list within the first week of release. Review in 3 months.",
+          "Use a time management app to track tasks daily for 3 months post-release.",
+          "Set weekly goals and review progress every Sunday starting within the first week of release.",
+          "Attend a time management workshop within the first month of release. Review in 3 months.",
+          "Join a productivity group within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Improve Relationship Skills",
+        "options": [
+          "Attend a relationship skills workshop within the first month of release. Review in 3 months.",
+          "Practice active listening with a friend or family member within the first month of release.",
+          "Join a relationship support group within the first month of release. Review in 3 months.",
+          "Participate in a conflict resolution workshop within the first month of release. Review in 3 months.",
+          "Join a social skills group within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop Problem-Solving Skills",
+        "options": [
+          "Attend a problem-solving workshop within the first month of release. Review in 3 months.",
+          "Practice creative problem-solving techniques weekly for 3 months post-release.",
+          "Join a problem-solving group within the first month of release. Review in 3 months.",
+          "Participate in a decision-making workshop within the first month of release. Review in 3 months.",
+          "Join a critical thinking group within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Improve Emotional Intelligence",
+        "options": [
+          "Attend an emotional intelligence workshop within the first month of release. Review in 3 months.",
+          "Practice self-awareness exercises daily for 3 months post-release.",
+          "Join an emotional intelligence group within the first month of release. Review in 3 months.",
+          "Participate in an empathy-building workshop within the first month of release. Review in 3 months.",
+          "Join a self-regulation group within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Develop Leadership Skills",
+        "options": [
+          "Attend a leadership skills workshop within the first month of release. Review in 3 months.",
+          "Practice decision-making in a group setting within the first month of release. Review in 3 months.",
+          "Join a leadership development program within the first month of release. Review in 3 months.",
+          "Participate in a team-building workshop within the first month of release. Review in 3 months.",
+          "Join a leadership skills group within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Improve Conflict Resolution Skills",
+        "options": [
+          "Attend a conflict resolution workshop within the first month of release. Review in 3 months.",
+          "Practice active listening in a conflict situation within first month of release. Review in 3 months.",
+          "Join a conflict resolution group within the first month of release. Review in 3 months.",
+          "Participate in a negotiation workshop within the first month of release. Review in 3 months.",
+          "Join a mediation skills group within the first month of release. Review in 3 months."
+        ]
+      }  
+    ],
+    "ShortGoalsExit": [
+      {
+        "goal": "Secure Temporary Accommodation",
+        "options": [
+          "Contact housing services within the first week of release. Review in 3 months.",
+          "Apply for temporary housing within the first month of release. Review in 3 months.",
+          "Contact 3 housing support organisations in the first week. Review quarterly.",
+          "Attend a housing advice session within the first month of release. Review in 3 months.",
+          "Research temporary accommodation options within the first month of release. Review in 3 months.",
+          "Apply for emergency housing within the first month of release. Review in 3 months.",
+          "Contact local shelters within the first week of release. Review in 3 months.",
+          "Seek advice from a housing advisor within the first month of release. Review in 3 months.",
+          "Apply to council housing within 1 month post-release. Review in 3 months.",
+          "Meet a housing officer within the first 2 weeks of release. Review in 3 months.",
+          "Arrange a housing benefit application within 2 weeks post-release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Secure Permanent Accommodation",
+        "options": [
+          "Apply for council housing within 1 month of securing temporary housing. Review quarterly.",
+          "Contact local housing associations within the first month of release. Review in 3 months.",
+          "Research private rental options within the first month of release. Review in 3 months.",
+          "Apply for social housing within the first month of release. Review in 3 months.",
+          "Contact local estate agents within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Secure Immediate Employment",
+        "options": [
+          "Apply for 5 temporary jobs within 2 weeks post-release. Review in 3 months.",
+          "Register with a temp agency within the first week of release. Review quarterly.",
+          "Attend a local job fair within 1 month of release. Review in 3 months.",
+          "Complete 3 job applications within the first week post-release. Review in 3 months.",
+          "Meet a careers advisor within 2 weeks of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Access Healthcare Services",
+        "options": [
+          "Register with a GP within the first 2 weeks of release. Review in 3 months.",
+          "Schedule a health check-up within 1 month of release. Review in 3 months.",
+          "Apply for an NHS health card within the first week of release. Review in 3 months.",
+          "Contact a mental health provider within 2 weeks post-release. Review quarterly.",
+          "Arrange dental care within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Manage Finances",
+        "options": [
+          "Create a budget plan within the first month of release. Review in 3 months.",
+          "Meet with a financial advisor within the first 2 months of release. Review in 3 months.",
+          "Open a bank account within the first 2 weeks post-release. Review in 3 months.",
+          "Apply for financial assistance within the first month of release. Review in 3 months.",
+          "Download a budgeting app and track expenses weekly. Review quarterly.",
+          "Save 10% of income each month for 3 months post-release. Review quarterly.",
+          "Attend a budgeting workshop within 1 month of release. Review in 3 months.",
+          "Set up direct debits for bills within the first month of release. Review in 3 months.",
+          "Apply for financial aid within the first month of release. Review in 3 months.",
+          "Research financial management resources within the first month of release. Review in 3 months.",
+          "Create a savings plan within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Reconnect with Support Networks",
+        "options": [
+          "Meet with a support worker or mentor within 2 weeks post-release. Review quarterly.",
+          "Attend a support group meeting within the first month of release. Review in 3 months.",
+          "Contact a helpline for advice within the first week of release. Review in 3 months.",
+          "Join a peer support group within the first month of release. Review in 3 months.",
+          "Reconnect with a mentor or coach within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Build Social Connections",
+        "options": [
+          "Attend a local community event within 1 month of release. Review in 3 months.",
+          "Reconnect with a friend weekly for the first month post-release. Review in 3 months.",
+          "Join a community group or club within 2 weeks post-release. Review in 3 months.",
+          "Sign up for a volunteering opportunity within 1 month of release. Review in 3 months.",
+          "Build a support network by meeting 3 new contacts in 1 month. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Obtain Necessary Identification",
+        "options": [
+          "Apply for a passport or driving licence within 1 month of release. Review in 3 months.",
+          "Obtain a birth certificate copy within 2 weeks post-release. Review in 3 months.",
+          "Contact support services for ID help within the first week of release. Review quarterly.",
+          "Apply for a national insurance number within 2 weeks post-release. Review in 3 months.",
+          "Verify ID documents for job applications within 2 weeks. Review quarterly."
+        ]
+      },      
+      {
+        "goal": "Ensure Access to Transport",
+        "options": [
+          "Obtain a bus pass or bike within the first month of release. Review in 3 months.",
+          "Apply for a driving license within the first month of release. Review in 3 months.",
+          "Research local transport options within the first month of release. Review in 3 months.",
+          "Contact a local transport service within the first week of release. Review in 3 months.",
+          "Join a car-sharing scheme within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Arrange Basic Utilities",
+        "options": [
+          "Set up utility accounts within the first month of moving into permanent housing. Review quarterly.",
+          "Contact utility providers within the first week of release. Review in 3 months.",
+          "Research utility options within the first month of release. Review in 3 months.",
+          "Apply for utility assistance within the first month of release. Review in 3 months.",
+          "Arrange for utility connections within the first month of release. Review in 3 months."
+        ]
+      }
+    ],
+    "LongGoalsExit": [
+      {
+        "goal": "Pursue Higher Education",
+        "options": [
+          "Apply for a college course within the first 3 months of release. Review in 3 months.",
+          "Research university courses within the first month of release. Review in 3 months.",
+          "Register for Open University courses within 2 months. Review quarterly.",
+          "Enroll in an online degree program within the first month of release. Review in 3 months.",
+          "Attend a higher education fair within the first month of release. Review in 3 months.",
+          "Apply for student loans within the first month of release. Review in 3 months.",
+          "Meet with an academic advisor within the first month of release. Review in 3 months.",
+          "Research scholarship opportunities within the first month of release. Review in 3 months.",
+          "Sign up for a vocational course within the first month of release. Review in 3 months.",
+          "Apply for educational grants within the first month of release. Review in 3 months.",
+          "Apply for a bursary or funding within 3 months of release. Review in 3 months.",
+          "Meet with an education advisor to discuss options within 1 month. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Start a Business",
+        "options": [
+          "Develop a business plan within the first 3 months of release. Review in 3 months.",
+          "Complete a business plan template within 2 months post-release. Review quarterly.",
+          "Identify 3 viable business ideas within 1 month post-release. Review quarterly.",
+          "Research market opportunities within the first month of release. Review in 3 months.",
+          "Apply for business loans within the first month of release. Review in 3 months.",
+          "Research business grants within the first month of release. Review in 3 months.",
+          "Apply for start-up funding or grants within 3 months. Review in 3 months.",
+          "Meet with a business advisor within the first month of release. Review in 3 months.",
+          "Meet a business mentor to refine ideas within the first month. Review quarterly.",
+          "Register a business name within the first month of release. Review in 3 months.",
+          "Attend networking events within the first month of release. Review in 3 months.",
+          "Create a marketing plan within the first month of release. Review in 3 months.",
+          "Develop a business website within the first month of release. Review in 3 months.",
+          "Apply for business licenses within the first month of release. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Learn a New Language",
+        "options": [
+          "Begin an online language course within 2 months of release. Review in 3 months.",
+          "Enroll in a language class within the first month of release. Review in 3 months.",
+          "Participate in a language club within the first month of release. Review in 3 months.",
+          "Use language learning apps daily for 3 months post-release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Secure Long-Term Employment",
+        "options": [
+          "Find a permanent full-time role within 6 months post-release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Build a Savings Fund",
+        "options": [
+          "Save £100 per month for 6 months post-release. Review quarterly.",
+          "Set up an automatic savings account within 1 month of release. Review quarterly.",
+          "Create a 12-month savings plan within the first month of release. Review quarterly.",
+          "Track weekly spending to save 20% of income for 6 months. Review quarterly.",
+          "Open a high-interest savings account within 1 month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Achieve Career Advancement",
+        "options": [
+          "Complete a professional training course within 6 months. Review quarterly.",
+          "Apply for 3 higher-paying roles within 6 months post-release. Review quarterly.",
+          "Gain a new certification in your field within 3 months of release. Review quarterly.",
+          "Attend networking events quarterly to build professional contacts. Review yearly.",
+          "Create a 12-month career development plan within 1 month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Establish a Routine",
+        "options": [
+          "Develop a daily routine for work and leisure within 1 month of release. Review in 3 months.",
+          "Create a weekly schedule for activities within the first month of release. Review in 3 months.",
+          "Set goals and priorities for each day within the first week of release. Review in 3 months.",
+          "Plan a monthly calendar of events and tasks within the first month of release. Review in 3 months.",
+          "Develop a weekly schedule within 1 month of release. Review quarterly.",
+          "Commit to a consistent bedtime within 2 weeks post-release. Review in 3 months.",
+          "Plan weekly meals and activities for 3 months post-release. Review quarterly.",
+          "Maintain a daily work-life balance schedule for 6 months. Review quarterly.",
+          "Establish 3 healthy habits within 2 months post-release. Review quarterly."
+        ]
+      }
+      ,
+      {
+        "goal": "Develop Financial Independence",
+        "options": [
+          "Save 20% of monthly income for 6 months post-release. Review quarterly.",
+          "Create a long-term financial plan within the first month of release. Review in 3 months.",
+          "Invest in a retirement fund within the first month of release. Review in 3 months.",
+          "Research investment opportunities within the first month of release. Review in 3 months.",
+          "Meet with a financial advisor to discuss long-term goals within 1 month. Review quarterly.",
+          "Apply for financial aid or grants for further education within 3 months. Review in 3 months."
+        ]
+      },
+      {
+        "goal": "Pursue Creative Hobbies",
+        "options": [
+          "Join a local art or craft group within 2 months post-release. Review quarterly.",
+          "Set aside 1 hour weekly for a creative hobby for 3 months. Review quarterly.",
+          "Enroll in a music or art class within 1 month of release. Review quarterly.",
+          "Participate in a creative workshop within 3 months post-release. Review quarterly.",
+          "Start a creative project and track progress monthly for 6 months. Review quarterly."
+        ]
+      }
+    ],
+    "SickGoalsExit": [
+      {
+        "goal": "MEDICALLY UNFIT FOR WORK 🏥❌",
+        "options": [
+          "Unable to work due to health; returning to PIP/UC on release for financial stability. 3mos reviews.",
+          "Health prevents work; return to PIP/UC on release for financial independence. Review quarterly.",
+          "Medically unfit for employment; on PIP/UC on release for financial stability. Review quarterly.",
+          "Not fit for work; return to PIP/UC on release for financial independence. Review quarterly.",
+          "Health hinders employment; on PIP/UC on release for financial stability. Review quarterly."
+        ]
+      },
+      {
+        "goal": "ASSESS PIP/UC ELIGIBILITY 🏥",
+        "options": [
+          "Meet support worker to check PIP/UC eligibility within a week of release for financial stability.",
+          "Prepare documents to assess PIP/UC eligibility this month for financial stability; review regularly.",
+          "Complete PIP/UC eligibility check with advisor; review findings in 3 months.",
+          "Work on application forms to assess PIP/UC eligibility; reassess progress in 3 months.",
+          "Consult with DWP to determine PIP/UC eligibility this week; review progress in 3 months.",
+          "Apply for PIP/UC benefits within the first month of release; review quarterly.",
+          "Seek advice on PIP/UC eligibility within the first week of release; review progress in 3 months.",
+          "Complete PIP/UC application forms within the first month of release; review quarterly."
+        ]
+      },
+      {
+        "goal": "APPLY FOR BENEFITS 🏥",
+        "options": [
+          "Complete PIP/UC application with support this month; Review quarterly.",
+          "Submit PIP/UC application forms and track status; reassess in 3 months.",
+          "Work with IAG to finalise PIP/UC application this week; review progress in 3 months.",
+          "Ensure all documents are submitted for PIP/UC application; Review quarterly.",
+          "Apply for PIP/UC benefits within the first month of release; review progress in 3 months."
+        ]
+      },
+      {
+        "goal": "APPLY FOR HOUSING/COUNCIL TAX BENEFIT 🏠",
+        "options": [
+          "Seek advice on Housing Benefit application within the first week of release; review quarterly.",
+          "Complete Housing/Council Tax Benefit forms with support; reassess progress in 3 months.",
+          "Ensure required documents for Housing Benefit are ready; apply within the first month of release.",
+          "Work with IAG to submit Housing/Council Tax Benefit applications promptly; review quarterly.",
+          "Track the status of Housing Benefit application post-release; reassess needs after 3 months."
+        ]
+      },      
+      {
+        "goal": "Access Healthcare Services",
+        "options": [
+          "Register with a GP within the first week of release. Review quarterly.",
+          "Schedule regular health check-ups within the first month of release. Review quarterly.",
+          "Arrange GP registration within 1 week of release. Review quarterly.",
+          "Attend a health screening within the first month of release. Review quarterly.",
+          "Consult a healthcare professional within the first month of release. Review quarterly.",
+          "Seek advice from a pharmacist within the first month of release. Review quarterly.",
+          "Enroll in a health management program within the first month of release. Review quarterly.",
+          "Book a dentist and optician appointment within 1 month. Review quarterly.",
+          "Join a support group for health conditions within the first month of release. Review quarterly.",
+          "Enroll in a smoking cessation program within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Address Mental Health Needs",
+        "options": [
+          "Schedule counselling sessions within 2 weeks post-release. Review quarterly.",
+          "Consult a mental health professional within the first month of release. Review quarterly.",
+          "Join a mental health support group within the first month of release. Review quarterly.",
+          "Enroll in a mental health program within the first month of release. Review quarterly.",
+          "Research local mental health resources within 2 weeks post-release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Access Disability Support",
+        "options": [
+          "Register with a local disability support organisation within 1 month. Review quarterly.",
+          "Apply for disability benefits within the first month of release. Review quarterly.",
+          "Consult a disability advisor within the first month of release. Review quarterly.",
+          "Join a disability support group within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Manage Chronic Conditions",
+        "options": [
+          "Create a healthcare plan with a GP within the first month of release. Review quarterly.",
+          "Attend specialist appointments as needed within the first 3 months of release. Review quarterly.",
+          "Meet with a GP for a care plan within 1 month post-release. Review quarterly.",
+          "Consult a specialist for condition management within the first month of release. Review quarterly.",
+          "Enroll in a chronic disease management program within the first month of release. Review quarterly",
+          "Join a support group for chronic conditions within the first month of release. Review quarterly.",
+          "Research local resources for chronic conditions within 2 weeks post-release. Review quarterly.",
+          "Consult a dietitian for condition management within the first month of release. Review quarterly.",
+          "Participate in a physical therapy program within the first month of release. Review quarterly.",
+          "Enroll in a pain management program within the first month of release. Review quarterly.",
+          "Consult a mental health professional for condition management on release. Review quarterly.",
+          "Join an exercise program for condition management on release. Review quarterly.",
+          "Ensure medication supplies are sorted within 1 week post-release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Create a Medication Plan",
+        "options": [
+          "Develop a medication schedule with GP within 1 month post-release. Review quarterly.",
+          "Organise medication supplies within the first week of release. Review quarterly.",
+          "Consult a pharmacist for medication management within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Improve Nutritional Habits",
+        "options": [
+          "Join a healthy eating course within 2 months of release. Review quarterly.",
+          "Consult a dietitian for nutritional advice within the first month of release. Review quarterly.",
+          "Enroll in a health group for healthy living within the first month of release. Review quarterly.",
+          "Research local resources for healthy eating within 2 weeks post-release. Review quarterly."
+        ]
+      }
+    ],
+    "RetiredGoalsExit": [
+      {
+        "goal": "Plan Retirement Activities",
+        "options": [
+          "Join a local community group within the first month of release. Review quarterly.",
+          "Explore volunteer opportunities within the first 2 months of release. Review quarterly.",
+          "Research local retirement groups within 2 weeks post-release. Review quarterly.",
+          "Participate in a hobby club within the first month of release. Review quarterly.",
+          "Attend a retirement planning seminar within the first month of release. Review quarterly.",
+          "Join a social club within the first month of release. Review quarterly.",
+          "Sign up for a leisure class within the first month of release. Review quarterly.",
+          "Volunteer at a local charity within the first month of release. Review quarterly.",
+          "Participate in a community event within the first month of release. Review quarterly.",
+          "Attend a local seniors group within the first month of release. Review quarterly.",
+          "Join a book club within the first month of release. Review quarterly.",
+          "Participate in a local walking group within the first month of release. Review quarterly.",
+          "Attend a cultural event within the first month of release. Review quarterly.",
+          "Join a gardening club within the first month of release. Review quarterly.",
+          "Participate in a local sports group within the first month of release. Review quarterly.",
+          "Attend a music or arts event within the first month of release. Review quarterly.",
+          "Join a travel club within the first month of release. Review quarterly.",
+          "Participate in a local history group within the first month of release. Review quarterly.",
+          "Attend a cooking class within the first month of release. Review quarterly.",
+          "Join a photography club within the first month of release. Review quarterly.",
+          "Explore 3 hobbies for retirement within 2 months of release. Review quarterly.",
+          "Participate in a local theatre group within the first month of release. Review quarterly.",
+          "Attend a film club within the first month of release. Review quarterly.",
+          "Join a writing group within the first month of release. Review quarterly.",
+          "Participate in a local dance group within the first month of release. Review quarterly.",
+          "Attend a language class within the first month of release. Review quarterly.",
+          "Join a local choir within the first month of release. Review quarterly.",
+          "Participate in a local crafts group within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Explore New Interests",
+        "options": [
+          "Try out 2 new hobbies within the first 2 months of release. Review quarterly.",
+          "Attend a local taster session for a hobby within the first month of release. Review quarterly.",
+          "Experiment with creative writing or storytelling within 2 months of release. Review quarterly.",
+          "Research unique activities like birdwatching or stargazing within the first month of release. Review quarterly.",
+          "Take up journaling or blogging to explore interests within 1 month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Reconnect with Family and Friends",
+        "options": [
+          "Plan a family reunion or gathering within 3 months of release. Review quarterly.",
+          "Set up a weekly phone or video call schedule with family. Review quarterly.",
+          "Reconnect with old friends via letters or social media within the first month of release. Review quarterly.",
+          "Organise a monthly meal or outing with close friends or family. Review quarterly.",
+          "Attend a family support group meeting within 2 months of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Improve Digital Skills",
+        "options": [
+          "Enroll in a basic computer skills class within 2 months of release. Review quarterly.",
+          "Learn how to use smartphones for staying connected within the first month of release. Review quarterly.",
+          "Set up and learn to use email and online accounts within 2 weeks of release. Review quarterly.",
+          "Attend a workshop on digital literacy within the first 2 months of release. Review quarterly.",
+          "Practice online safety tips for seniors within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Maintain Mental Wellbeing",
+        "options": [
+          "Join a mindfulness or meditation group within the first 2 months of release. Review quarterly.",
+          "Schedule a monthly check-in with a mental health professional. Review quarterly.",
+          "Participate in a support group for retirees within the first month of release. Review quarterly.",
+          "Start a gratitude journal to track positive moments daily. Review quarterly.",
+          "Explore relaxation techniques like deep breathing or visualization within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Contribute Creatively",
+        "options": [
+          "Participate in a local art or craft project within the first month of release. Review quarterly.",
+          "Write a short story, poem, or memoir within 3 months of release. Review quarterly.",
+          "Contribute to a community mural or public art project within 2 months of release. Review quarterly.",
+          "Join a creative workshop or club within the first month of release. Review quarterly.",
+          "Create handmade gifts for a charity fundraiser within 3 months of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Manage Retirement Finances",
+        "options": [
+          "Apply for any eligible benefits within the first month of release. Review quarterly.",
+          "Meet with a financial advisor within 1 month post-release. Review quarterly.",
+          "Identify 2 retirement benefit options within 2 weeks post-release. Review quarterly.",
+          "Research pension options within the first month of release. Review quarterly.",
+          "Apply for pension benefits within the first month of release. Review quarterly.",
+          "Consult a retirement planner within the first month of release. Review quarterly.",
+          "Set up a retirement savings account within the first month of release. Review quarterly.",
+          "Review and update wills and estate plans within 1 month post-release. Review quarterly.",
+          "Research investment opportunities within the first month of release. Review quarterly.",
+          "Apply for retirement grants or funding within 3 months. Review quarterly.",
+          "Meet with a financial advisor to discuss investment options within 1 month. Review quarterly.",
+          "Create a 6-month retirement budget plan within 1 month of release. Review quarterly."
+        ]
+      }
+      ,
+      {
+        "goal": "Stay Active",
+        "options": [
+          "Join a walking group within 1 month of release. Review quarterly.",
+          "Participate in a local sports club within the first month of release. Review quarterly.",
+          "Attend a fitness class within the first month of release. Review quarterly.",
+          "Join a dance group within the first month of release. Review quarterly.",
+          "Participate in a yoga class within the first month of release. Review quarterly.",
+          "Join a swimming group within the first month of release. Review quarterly.",
+          "Attend a cycling club within the first month of release. Review quarterly.",
+          "Join a local gym within the first month of release. Review quarterly."
+        ]
+      }
+      ,
+      {
+        "goal": "Engage in Lifelong Learning",
+        "options": [
+          "Enroll in a free online course within 2 months post-release. Review quarterly.",
+          "Join a local book club within the first month of release. Review quarterly.",
+          "Attend a history lecture within the first month of release. Review quarterly.",
+          "Join a writing group within the first month of release. Review quarterly.",
+          "Participate in a language class within the first month of release. Review quarterly.",
+          "Attend a music or arts event within the first month of release. Review quarterly.",
+          "Join a local theatre group within the first month of release. Review quarterly.",
+          "Participate in a local crafts group within the first month of release. Review quarterly.",
+          "Attend a cooking class within the first month of release. Review quarterly.",
+          "Join a photography club within the first month of release. Review quarterly.",
+          "Participate in a local dance group within the first month of release. Review quarterly.",
+          "Attend a film club within the first month of release. Review quarterly.",
+          "Join a local choir within the first month of release. Review quarterly.",
+          "Participate in a local history group within the first month of release. Review quarterly.",
+          "Attend a cultural event within the first month of release. Review quarterly."
+        ]
+      }
+      ,
+      {
+        "goal": "Support Local Causes",
+        "options": [
+          "Volunteer for a local charity project within 3 months of release. Review quarterly.",
+          "Join a community group within the first month of release. Review quarterly.",
+          "Participate in a local clean-up event within the first month of release. Review quarterly.",
+          "Attend a charity fundraiser within the first month of release. Review quarterly.",
+          "Join a local environmental group within the first month of release. Review quarterly.",
+          "Participate in a community garden project within the first month of release. Review quarterly.",
+          "Attend a local charity event within the first month of release. Review quarterly."
+        ]
+      },
+      {
+        "goal": "Create a Social Calendar",
+        "options": [
+          "Schedule 3 monthly social activities with friends or groups. Review quarterly.",
+          "Join a local social club within the first month of release. Review quarterly.",
+          "Attend a social event within the first month of release. Review quarterly.",
+          "Participate in a local hobby group within the first month of release. Review quarterly."
+        ]
+      }
+    ]
+  }
+}

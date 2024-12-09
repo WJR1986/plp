@@ -1,8 +1,8 @@
 // Fetch JSON from external files and populate goals
 Promise.all([
-  fetch("plpStart.json").then((response) => response.json()),
-  fetch("reviews.json").then((response) => response.json()),
-  fetch("plpExits.json").then((response) => response.json()), // Add this line
+  fetch("data/plpStart.json").then((response) => response.json()),
+  fetch("data/reviews.json").then((response) => response.json()),
+  fetch("data/plpExits.json").then((response) => response.json()), // Update this line
 ])
   .then(([plpStartData, reviewsData, plpExitsData]) => {
     // Add plpExitsData
